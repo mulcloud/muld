@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "target": "esnext",
+        "module": "commonjs",
+        "jsx": "react",
+        "outDir": "lib",
+        "moduleResolution": "node",
+        "strict": true,
+        "noEmit": true,
+        "noImplicitThis": true,
+        "esModuleInterop": true
+    },
+    "include": ["components/**/*", "pages/**/*", "scripts/**/*"],
+    "exclude": ["node_modules", "lib"]
+}

@@ -1,0 +1,5 @@
+/es/**
+/lib/**
+/dist/**
+*.json
+.eslintrc.js
