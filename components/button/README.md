@@ -3,7 +3,7 @@
 ### Install
 
 ```js
-import { Button } from 'muld';
+import { Button } from '@trillion/muld';
 ```
 
 ## Usage
@@ -59,9 +59,7 @@ import { Button } from 'muld';
 ```html
 <Button icon="star-o" type="primary" />
 <Button icon="star-o" type="primary">Button</Button>
-<Button icon="" type="info"
-  >Button</Button
->
+<Button icon="" type="info">Button</Button>
 ```
 
 ### Size
@@ -83,7 +81,7 @@ import { Button } from 'muld';
 
 ```html
 <Button type="primary" url="/mul/mobile.html">URL</Button>
-<Button type="primary" to="index">Vue Router</Button>
+<Button type="primary" to="index">React Router</Button>
 ```
 
 ### Custom Color
@@ -91,9 +89,7 @@ import { Button } from 'muld';
 ```html
 <Button color="#7232dd">Pure</Button>
 <Button color="#7232dd" plain>Pure</Button>
-<Button color="linear-gradient(to right, #4bb0ff, #6149f6)"
-  >Gradient</Button
->
+<Button color="linear-gradient(to right, #4bb0ff, #6149f6)">Gradient</Button>
 ```
 
 ## API
@@ -120,7 +116,7 @@ import { Button } from 'muld';
 | loading-type | Loading type, can be set to `spinner` | _string_ | `circular` |
 | loading-size | Loading icon size | _string_ | `20px` |
 | url | Link URL | _string_ | - |
-| to | Target route of the link, same as to of vue-router | _string \| object_ | - |
+| to | Target route of the link, same as to of react-router | _string \| object_ | - |
 | replace | If true, the navigation will not leave a history record | _boolean_ | `false` |
 
 ### Events

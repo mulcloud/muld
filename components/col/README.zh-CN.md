@@ -7,7 +7,7 @@ Layout 提供了`Row`和`Col`两个组件来进行行列布局
 ### 引入
 
 ```js
-import { Col, Row } from 'muld';
+import { Col, Row } from '@trillion/muld';
 ```
 
 ## 代码演示

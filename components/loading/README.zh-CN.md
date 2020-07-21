@@ -3,7 +3,7 @@
 ### 引入
 
 ```js
-import { Loading } from 'muld';
+import { Loading } from '@trillion/muld';
 ```
 
 ## 代码演示

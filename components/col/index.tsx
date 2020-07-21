@@ -10,6 +10,7 @@ interface Props {
     tag?: string;
     className?: string;
 }
+
 const defaultProps = {
     tag: 'div',
 };

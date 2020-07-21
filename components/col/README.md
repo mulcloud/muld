@@ -7,7 +7,7 @@ Quickly and easily create layouts with `Row` and `Col`
 ### Install
 
 ```js
-import { Col, Row } from 'muld';
+import { Col, Row } from '@trillion/muld';
 ```
 
 ## Usage

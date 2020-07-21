@@ -6,7 +6,7 @@ import { render, cleanup } from '@testing-library/react';
 import Col from '..';
 import Row from '../../row';
 
-describe('Loading', () => {
+describe('Layout', () => {
     afterEach(cleanup);
     it('gutter & tag prop', () => {
         const { container, getByText } = render(

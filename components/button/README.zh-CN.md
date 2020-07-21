@@ -3,7 +3,7 @@
 ### 引入
 
 ```js
-import { Button } from 'muld';
+import { Button } from '@trillion/muld';
 ```
 
 ## 代码演示
@@ -73,9 +73,7 @@ import { Button } from 'muld';
 ```html
 <Button icon="star-o" type="primary" />
 <Button icon="star-o" type="primary">按钮</Button>
-<Button icon="" type="info"
-  >按钮</Button
->
+<Button icon="" type="info">按钮</Button>
 ```
 
 ### 按钮尺寸
@@ -113,9 +111,7 @@ import { Button } from 'muld';
 ```html
 <Button color="#7232dd">单色按钮</Button>
 <Button color="#7232dd" plain>单色按钮</Button>
-<Button color="linear-gradient(to right, #4bb0ff, #6149f6)"
-  >渐变色按钮</Button
->
+<Button color="linear-gradient(to right, #4bb0ff, #6149f6)">渐变色按钮</Button>
 ```
 
 ## API
@@ -143,7 +139,7 @@ import { Button } from 'muld';
 | loading-type | [加载图标类型](#/zh-CN/loading)，可选值为`spinner` | _string_ | `circular` |
 | loading-size | 加载图标大小 | _string_ | `20px` |
 | url | 点击后跳转的链接地址 | _string_ | - |
-| to | 点击后跳转的目标路由对象，同 vue-router 的 [to 属性](https://router.vuejs.org/zh/api/#to) | _string \| object_ | - |
+| to | 点击后跳转的目标路由对象，同 react-router 的 to 属性 | _string \| object_ | - |
 | replace | 是否在跳转时替换当前页面历史 | _boolean_ | `false` |
 
 ### Events

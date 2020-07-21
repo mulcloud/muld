@@ -1,4 +1,3 @@
-/* eslint-disable no-param-reassign */
 /**
  * bem helper
  * b() // 'button'

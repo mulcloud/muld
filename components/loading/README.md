@@ -3,7 +3,7 @@
 ### Install
 
 ```js
-import { Loading } from 'muld';
+import { Loading } from '@trillion/muld';
 ```
 
 ## Usage

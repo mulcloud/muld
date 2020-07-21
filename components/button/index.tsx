@@ -42,6 +42,7 @@ export type ButtonProps = Props & typeof defaultProps;
 
 const Button: React.FC<React.PropsWithChildren<ButtonProps>> = (props: ButtonProps) => {
     const {
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
         icon,
         type,
         color,
