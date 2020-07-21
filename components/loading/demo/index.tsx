@@ -42,7 +42,7 @@ const View = styled(DemoSection)`
     &.demo-loading {
         background: ${style.$white};
 
-        .Loading {
+        .mul-loading {
             display: inline-block;
             margin: 5px 0 5px 20px;
 

@@ -79,15 +79,15 @@ const View = styled(DemoSection)`
     &.demo-col {
         background: ${style.$white};
 
-        .van-doc-demo-block {
+        .mul-doc-demo-block {
             padding: 0 ${style.$padding_md};
         }
 
-        .van-doc-demo-block__title {
+        .mul-doc-demo-block__title {
             padding-left: 0;
         }
 
-        .van-col {
+        .mul-col {
             margin-bottom: 10px;
             color: ${style.$white};
             font-size: 13px;

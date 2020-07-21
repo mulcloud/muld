@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "muld-tools dev",
     "build": "muld-tools build",
-    "clean": "rm -rf ./lib ./dist",
+    "clean": "muld-tools clean",
     "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
     "test": "jest --no-cache",
     "test-update": "jest --no-cache --update-snapshot"
