@@ -1,5 +1,8 @@
 import React from 'react';
 import { View, ViewProps } from './View';
+import { createNS } from '../utils';
+
+const [bem] = createNS('text');
 
 enum FontWeight {
     regular = 400,
@@ -29,7 +32,7 @@ export const Text: React.FC<React.PropsWithChildren<TextProps>> = (props) => {
     }
 
     return (
-        <View tag={tag} style={style} {...remainProps}>
+        <View className={bem()} tag={tag} style={style} {...remainProps}>
             {props.children}
         </View>
     );

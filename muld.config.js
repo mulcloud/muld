@@ -76,8 +76,8 @@ module.exports = {
                                 title: 'Layout 布局',
                             },
                             {
-                                path: 'container',
-                                title: 'Container 布局',
+                                path: 'stack-layout',
+                                title: 'Stack 布局',
                             },
                             // {
                             //     path: 'popup',

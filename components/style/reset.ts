@@ -58,7 +58,7 @@ export const reset = `
     }
 
     * {
-        box-sizing: content-box;
+        box-sizing: border-box;
     }
 
     body {

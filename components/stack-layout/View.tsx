@@ -1,11 +1,12 @@
 import * as React from 'react';
-import { $padding_md } from '../style/var';
+import { $padding_md, $padding_base } from '../style/var';
 
 export type AlignX = 'left' | 'center' | 'right';
 export type AlignY = 'top' | 'center' | 'bottom';
 export interface ViewProps {
     frame?: { width?: number; height?: number };
     padding?: true | number;
+    spacing?: true | number;
     border?: { color: string; width: number; cornerRadius?: number };
     shadow?: { color: string; radius: number; x: number; y: number };
     style?: React.CSSProperties;
@@ -16,10 +17,9 @@ export interface ViewProps {
 
 export const View: React.FC<React.PropsWithChildren<ViewProps>> = (props) => {
     const style: React.CSSProperties = {
-        textAlign: 'center',
         ...props.style,
     };
-    const { frame, padding, border, shadow, tag = 'div', children } = props;
+    const { frame, padding, border, shadow, tag = 'div', children, className } = props;
 
     if (frame) {
         const { width, height } = frame;
@@ -49,6 +49,7 @@ export const View: React.FC<React.PropsWithChildren<ViewProps>> = (props) => {
     return React.createElement(
         tag,
         {
+            className,
             style,
         },
         children,
@@ -65,4 +66,14 @@ export const horizontal = {
     left: 'flex-start',
     center: 'center',
     right: 'flex-end',
+};
+
+export const getSpacing = (spacing?: true | number) => {
+    if (spacing) {
+        if (spacing === true) {
+            return $padding_base;
+        }
+        return `${spacing}px`;
+    }
+    return undefined;
 };
