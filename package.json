@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "muld-tools dev",
     "build": "muld-tools build",
+    "release:site": "sh scripts/site/release.sh",
     "clean": "muld-tools clean",
     "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
     "test": "jest --no-cache",
