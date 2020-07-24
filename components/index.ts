@@ -1,3 +1,8 @@
+export { Group } from './stack-layout/Group';
+export { HStack } from './stack-layout/HStack';
+export { Spacer } from './stack-layout/Spacer';
+export { Text } from './stack-layout/Text';
+export { VStack } from './stack-layout/VStack';
 export { default as Col } from './col';
 export { default as Row } from './row';
 export { default as Loading } from './loading';
