@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "baseUrl": "../",
+        "outDir": "../lib",
+        "jsx": "react",
+        "moduleResolution": "node",
+        "emitDeclarationOnly": true,
+        "declaration": true,
+        "strict": true,
+        "noImplicitThis": true,
+        "esModuleInterop": true,
+        "noUnusedParameters": false,
+        "noUnusedLocals": false,
+        "skipLibCheck": true,
+    },
+    "files": ["../components/index.ts"],
+    "exclude": ["node_modules", "lib", "es"]
+}

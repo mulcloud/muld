@@ -3,9 +3,11 @@
   "version": "0.0.1",
   "description": "mobile UI components built on react",
   "main": "lib/index.js",
+  "module": "es/index.js",
+  "typings": "lib/index.d.ts",
   "scripts": {
     "dev": "muld-tools dev",
-    "build": "muld-tools build",
+    "build": "muld-tools build && tsc -p ./scripts",
     "release:site": "sh scripts/site/release.sh",
     "clean": "muld-tools clean",
     "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
@@ -23,6 +25,10 @@
       "git add ."
     ]
   },
+  "files": [
+    "es",
+    "lib"
+  ],
   "dependencies": {
     "classnames": "^2.2.6",
     "react": "^16.13.1",
