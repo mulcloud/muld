@@ -35,6 +35,12 @@
     "react-dom": "^16.13.1",
     "styled-components": "^5.1.1"
   },
+  "peerDependencies": {
+    "classnames": ">=2.2.6",
+    "react": ">=16.13.1",
+    "react-dom": ">=16.13.1",
+    "styled-components": ">=5.1.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.10.5",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
