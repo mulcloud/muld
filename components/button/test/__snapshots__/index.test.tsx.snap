@@ -3,7 +3,7 @@
 exports[`Button icon-prefix prop 1`] = `
 <DocumentFragment>
   <button
-    class="sc-AxirZ bOPsFr mul-button mul-button--default mul-button--normal"
+    class="sc-AxirZ ecGYsk mul-button mul-button--default mul-button--normal"
   >
     <div
       class="mul-button__content"
