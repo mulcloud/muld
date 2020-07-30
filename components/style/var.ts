@@ -242,6 +242,18 @@ export const $notify: CSSProperties = {
     warning_background_color: `${$orange}`,
 };
 
+// Popup
+export const $popup = {
+    popup_background_color: `${$white}`,
+    popup_transition: `transform ${$animation_duration_base}`,
+    popup_round_border_radius: '20px',
+    popup_close_icon_size: '22px',
+    popup_close_icon_color: `${$gray5}`,
+    popup_close_icon_active_color: `${$gray6}`,
+    popup_close_icon_margin: '16px',
+    popup_close_icon_z_index: '1',
+};
+
 // Stepper
 export const $stepper: CSSProperties = {
     stepper_active_color: '#e8e8e8',

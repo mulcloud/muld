@@ -61,12 +61,12 @@ const [show, setState] = React.useState(false);
 | zIndex | z-index 层级 | _number \| string_ | `1` |
 | duration | 动画时长，单位毫秒 | _number \| string_ | `300` |
 | className | 自定义类名 | _string_ | - |
-| customStyle `v2.2.5` | 自定义样式 | _object_ | - |
-| lockScroll `v2.6.2` | 是否锁定背景滚动，锁定时蒙层里的内容也将无法滚动 | _boolean_ | `true` |
+| customStyle | 自定义样式 | _object_ | - |
+| lockScroll | 是否锁定背景滚动，锁定时蒙层里的内容也将无法滚动 | _boolean_ | `true` |
 
 ### Events
 
 | 事件名 | 说明       | 回调参数       |
 | ------ | ---------- | -------------- |
-| click  | 点击时触发 | _event: Event_ |
+| onClick  | 点击时触发 | _event: Event_ |
 

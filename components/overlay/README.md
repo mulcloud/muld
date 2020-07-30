@@ -54,12 +54,12 @@ const [show, setState] = React.useState(false);
 | zIndex | z-index | _number \| string_ | `1` |
 | duration | Animation duration | _number \| string_ | `300` |
 | className | ClassName | _string_ | - |
-| customStyle `v2.2.5` | Custom style | _object_ | - |
-| lockScroll `v2.6.2` | Whether to lock background scroll | _boolean_ | `true` |
+| customStyle | Custom style | _object_ | - |
+| lockScroll | Whether to lock background scroll | _boolean_ | `true` |
 
 ### Events
 
 | Event | Description            | Arguments      |
 | ----- | ---------------------- | -------------- |
-| click | Triggered when clicked | _event: Event_ |
+| onClick | Triggered when clicked | _event: Event_ |
 
