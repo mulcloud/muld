@@ -1,5 +1,9 @@
 import { createGlobalStyle } from 'styled-components';
-import { hairline as _hairline } from './mixins/hairline';
+import {
+    hairline as _hairline,
+    hairlineBottom as _hairlineBottom,
+    hairlineTop as _hairlineTop,
+} from './mixins/hairline';
 import { $border_width_base } from './var';
 
 export const hairline = `
@@ -50,3 +54,7 @@ export const hairline = `
 `;
 
 export const Hairline = createGlobalStyle`${hairline}`;
+
+export const hairlineBottom = _hairlineBottom;
+
+export const hairlineTop = _hairlineTop;

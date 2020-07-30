@@ -1,7 +1,7 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle, css } from 'styled-components';
 import { ellipsis as _ellipsis } from './mixins/ellipsis';
 
-export const ellipsis = `
+export const ellipsis = css`
     .mul-ellipsis {
         ${_ellipsis()};
     }
