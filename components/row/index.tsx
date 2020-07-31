@@ -1,14 +1,15 @@
 import * as React from 'react';
+import classnames from 'classnames';
 import { RowContext } from '../provider';
 import { createNS, withDefaultProps } from '../utils';
 
-const [bem] = createNS('row');
 interface Props extends React.HTMLAttributes<any> {
     type?: string;
     align?: string;
     justify?: string;
     tag?: string;
     gutter?: number | string;
+    className?: string;
 }
 const defaultProps = {
     tag: 'div',
@@ -19,8 +20,9 @@ type NativeAttrs = Omit<React.HTMLAttributes<any>, keyof Props>;
 
 export type RowProps = Props & typeof defaultProps & NativeAttrs;
 
+const [bem] = createNS('row');
 const Row: React.FC<React.PropsWithChildren<RowProps>> = (props: RowProps) => {
-    const { type, align, justify, tag, gutter, children } = props;
+    const { type, align, justify, tag, gutter, className, children } = props;
     const flex = type === 'flex';
     const style: { marginLeft: string; marginRight: string } = {} as any;
     if (gutter) {
@@ -33,11 +35,14 @@ const Row: React.FC<React.PropsWithChildren<RowProps>> = (props: RowProps) => {
             children={React.createElement(
                 tag,
                 {
-                    className: bem({
-                        flex,
-                        [`align-${align}`]: flex && align,
-                        [`justify-${justify}`]: flex && justify,
-                    }),
+                    className: classnames(
+                        bem({
+                            flex,
+                            [`align-${align}`]: flex && align,
+                            [`justify-${justify}`]: flex && justify,
+                        }),
+                        className,
+                    ),
                     style,
                 },
                 children,

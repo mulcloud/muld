@@ -79,6 +79,10 @@ module.exports = {
                                 path: 'stack-layout',
                                 title: 'Stack 布局',
                             },
+                            {
+                                path: 'common-layout',
+                                title: '常用布局',
+                            },
                             // {
                             //     path: 'popup',
                             //     title: 'Popup 弹出层',
