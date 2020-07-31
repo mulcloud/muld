@@ -59,18 +59,18 @@ module.exports = {
                                 path: 'button',
                                 title: 'Button 按钮',
                             },
-                            // {
-                            //     path: 'cell',
-                            //     title: 'Cell 单元格',
-                            // },
+                            {
+                                path: 'cell',
+                                title: 'Cell 单元格',
+                            },
                             // {
                             //     path: 'icon',
                             //     title: 'Icon 图标',
                             // },
-                            // {
-                            //     path: 'image',
-                            //     title: 'Image 图片',
-                            // },
+                            {
+                                path: 'image',
+                                title: 'Image 图片',
+                            },
                             {
                                 path: 'col',
                                 title: 'Layout 布局',
@@ -199,71 +199,71 @@ module.exports = {
                             // },
                         ],
                     },
-                    // {
-                    //     title: '展示组件',
-                    //     items: [
-                    //         {
-                    //             path: 'circle',
-                    //             title: 'Circle 环形进度条',
-                    //         },
-                    //         {
-                    //             path: 'collapse',
-                    //             title: 'Collapse 折叠面板',
-                    //         },
-                    //         {
-                    //             path: 'count-down',
-                    //             title: 'CountDown 倒计时',
-                    //         },
-                    //         {
-                    //             path: 'divider',
-                    //             title: 'Divider 分割线',
-                    //         },
-                    //         {
-                    //             path: 'empty',
-                    //             title: 'Empty 空状态',
-                    //         },
-                    //         {
-                    //             path: 'image-preview',
-                    //             title: 'ImagePreview 图片预览',
-                    //         },
-                    //         {
-                    //             path: 'lazyload',
-                    //             title: 'Lazyload 懒加载',
-                    //         },
-                    //         {
-                    //             path: 'list',
-                    //             title: 'List 列表',
-                    //         },
-                    //         {
-                    //             path: 'notice-bar',
-                    //             title: 'NoticeBar 通知栏',
-                    //         },
-                    //         {
-                    //             path: 'progress',
-                    //             title: 'Progress 进度条',
-                    //         },
-                    //         {
-                    //             path: 'skeleton',
-                    //             title: 'Skeleton 骨架屏',
-                    //         },
-                    //         {
-                    //             path: 'steps',
-                    //             title: 'Steps 步骤条',
-                    //         },
-                    //         {
-                    //             path: 'sticky',
-                    //             title: 'Sticky 粘性布局',
-                    //         },
-                    //         {
-                    //             path: 'swipe',
-                    //             title: 'Swipe 轮播',
-                    //         },
-                    //         {
-                    //             path: 'tag',
-                    //             title: 'Tag 标记',
-                    //         },
-                    //     ],
-                    // },
+                    {
+                        title: '展示组件',
+                        items: [
+                            // {
+                            //     path: 'circle',
+                            //     title: 'Circle 环形进度条',
+                            // },
+                            // {
+                            //     path: 'collapse',
+                            //     title: 'Collapse 折叠面板',
+                            // },
+                            // {
+                            //     path: 'count-down',
+                            //     title: 'CountDown 倒计时',
+                            // },
+                            // {
+                            //     path: 'divider',
+                            //     title: 'Divider 分割线',
+                            // },
+                            // {
+                            //     path: 'empty',
+                            //     title: 'Empty 空状态',
+                            // },
+                            // {
+                            //     path: 'image-preview',
+                            //     title: 'ImagePreview 图片预览',
+                            // },
+                            // {
+                            //     path: 'lazyload',
+                            //     title: 'Lazyload 懒加载',
+                            // },
+                            // {
+                            //     path: 'list',
+                            //     title: 'List 列表',
+                            // },
+                            {
+                                path: 'notice-bar',
+                                title: 'NoticeBar 通知栏',
+                            },
+                            // {
+                            //     path: 'progress',
+                            //     title: 'Progress 进度条',
+                            // },
+                            // {
+                            //     path: 'skeleton',
+                            //     title: 'Skeleton 骨架屏',
+                            // },
+                            // {
+                            //     path: 'steps',
+                            //     title: 'Steps 步骤条',
+                            // },
+                            // {
+                            //     path: 'sticky',
+                            //     title: 'Sticky 粘性布局',
+                            // },
+                            // {
+                            //     path: 'swipe',
+                            //     title: 'Swipe 轮播',
+                            // },
+                            {
+                                path: 'tag',
+                                title: 'Tag 标记',
+                            },
+                        ],
+                    },
                     // {
                     //     title: '导航组件',
                     //     items: [
@@ -301,378 +301,50 @@ module.exports = {
                     //         },
                     //     ],
                     // },
-                    // {
-                    //     title: '业务组件',
-                    //     items: [
-                    //         {
-                    //             path: 'address-edit',
-                    //             title: 'AddressEdit 地址编辑',
-                    //         },
-                    //         {
-                    //             path: 'address-list',
-                    //             title: 'AddressList 地址列表',
-                    //         },
-                    //         {
-                    //             path: 'area',
-                    //             title: 'Area 省市区选择',
-                    //         },
-                    //         {
-                    //             path: 'card',
-                    //             title: 'Card 商品卡片',
-                    //         },
-                    //         {
-                    //             path: 'contact-card',
-                    //             title: 'Contact 联系人',
-                    //         },
-                    //         {
-                    //             path: 'coupon-list',
-                    //             title: 'Coupon 优惠券',
-                    //         },
-                    //         {
-                    //             path: 'goods-action',
-                    //             title: 'GoodsAction 商品导航',
-                    //         },
-                    //         {
-                    //             path: 'submit-bar',
-                    //             title: 'SubmitBar 提交订单栏',
-                    //         },
-                    //         {
-                    //             path: 'sku',
-                    //             title: 'Sku 商品规格',
-                    //         },
-                    //     ],
-                    // },
-                ],
-            },
-            'en-US': {
-                title: 'Muld',
-                description: 'Mobile UI Components built on React',
-                logo: 'https://chengfayun.com/static/icon/logo-1.svg',
-                langLabel: 'En',
-                links: [
                     {
-                        logo: 'https://chengfayun.com/static/icon/logo-cn.svg',
-                        url: 'https://github.com/mulcloud/muld',
+                        title: '业务组件',
+                        items: [
+                            // {
+                            //     path: 'address-edit',
+                            //     title: 'AddressEdit 地址编辑',
+                            // },
+                            // {
+                            //     path: 'address-list',
+                            //     title: 'AddressList 地址列表',
+                            // },
+                            // {
+                            //     path: 'area',
+                            //     title: 'Area 省市区选择',
+                            // },
+                            {
+                                path: 'card',
+                                title: 'Card 商品卡片',
+                            },
+                            // {
+                            //     path: 'contact-card',
+                            //     title: 'Contact 联系人',
+                            // },
+                            // {
+                            //     path: 'coupon-list',
+                            //     title: 'Coupon 优惠券',
+                            // },
+                            // {
+                            //     path: 'goods-action',
+                            //     title: 'GoodsAction 商品导航',
+                            // },
+                            // {
+                            //     path: 'submit-bar',
+                            //     title: 'SubmitBar 提交订单栏',
+                            // },
+                            // {
+                            //     path: 'sku',
+                            //     title: 'Sku 商品规格',
+                            // },
+                        ],
                     },
                 ],
-                nav: [
-                    // {
-                    //     title: 'Essentials',
-                    //     items: [
-                    //         {
-                    //             path: 'home',
-                    //             title: 'Introduction',
-                    //         },
-                    //         {
-                    //             path: 'quickstart',
-                    //             title: 'Quickstart',
-                    //         },
-                    //         {
-                    //             path: 'changelog',
-                    //             title: 'Changelog',
-                    //         },
-                    //         {
-                    //             path: 'theme',
-                    //             title: 'Custom Theme',
-                    //         },
-                    //         {
-                    //             path: 'locale',
-                    //             title: 'Internationalization',
-                    //         },
-                    //     ],
-                    // },
-                    // {
-                    //     title: 'Basic Components',
-                    //     items: [
-                    //         {
-                    //             path: 'button',
-                    //             title: 'Button',
-                    //         },
-                    //         {
-                    //             path: 'cell',
-                    //             title: 'Cell',
-                    //         },
-                    //         {
-                    //             path: 'icon',
-                    //             title: 'Icon',
-                    //         },
-                    //         {
-                    //             path: 'image',
-                    //             title: 'Image',
-                    //         },
-                    //         {
-                    //             path: 'col',
-                    //             title: 'Layout',
-                    //         },
-                    //         {
-                    //             path: 'popup',
-                    //             title: 'Popup',
-                    //         },
-                    //         {
-                    //             path: 'style',
-                    //             title: 'Built-in style',
-                    //         },
-                    //         {
-                    //             path: 'toast',
-                    //             title: 'Toast',
-                    //         },
-                    //     ],
-                    // },
-                    // {
-                    //     title: 'Form Components',
-                    //     items: [
-                    //         {
-                    //             path: 'calendar',
-                    //             title: 'Calendar',
-                    //         },
-                    //         {
-                    //             path: 'checkbox',
-                    //             title: 'Checkbox',
-                    //         },
-                    //         {
-                    //             path: 'datetime-picker',
-                    //             title: 'DatetimePicker',
-                    //         },
-                    //         {
-                    //             path: 'field',
-                    //             title: 'Field',
-                    //         },
-                    //         {
-                    //             path: 'form',
-                    //             title: 'Form',
-                    //         },
-                    //         {
-                    //             path: 'number-keyboard',
-                    //             title: 'NumberKeyboard',
-                    //         },
-                    //         {
-                    //             path: 'password-input',
-                    //             title: 'PasswordInput',
-                    //         },
-                    //         {
-                    //             path: 'picker',
-                    //             title: 'Picker',
-                    //         },
-                    //         {
-                    //             path: 'radio',
-                    //             title: 'Radio',
-                    //         },
-                    //         {
-                    //             path: 'rate',
-                    //             title: 'Rate',
-                    //         },
-                    //         {
-                    //             path: 'search',
-                    //             title: 'Search',
-                    //         },
-                    //         {
-                    //             path: 'slider',
-                    //             title: 'Slider',
-                    //         },
-                    //         {
-                    //             path: 'stepper',
-                    //             title: 'Stepper',
-                    //         },
-                    //         {
-                    //             path: 'switch',
-                    //             title: 'Switch',
-                    //         },
-                    //         {
-                    //             path: 'switch-cell',
-                    //             title: 'SwitchCell',
-                    //         },
-                    //         {
-                    //             path: 'uploader',
-                    //             title: 'Uploader',
-                    //         },
-                    //     ],
-                    // },
-                    // {
-                    //     title: 'Action Components',
-                    //     items: [
-                    //         {
-                    //             path: 'action-sheet',
-                    //             title: 'ActionSheet',
-                    //         },
-                    //         {
-                    //             path: 'dialog',
-                    //             title: 'Dialog',
-                    //         },
-                    //         {
-                    //             path: 'dropdown-menu',
-                    //             title: 'DropdownMenu',
-                    //         },
-                    //         {
-                    //             path: 'loading',
-                    //             title: 'Loading',
-                    //         },
-                    //         {
-                    //             path: 'notify',
-                    //             title: 'Notify',
-                    //         },
-                    //         {
-                    //             path: 'overlay',
-                    //             title: 'Overlay',
-                    //         },
-                    //         {
-                    //             path: 'pull-refresh',
-                    //             title: 'PullRefresh',
-                    //         },
-                    //         {
-                    //             path: 'share-sheet',
-                    //             title: 'ShareSheet',
-                    //         },
-                    //         {
-                    //             path: 'swipe-cell',
-                    //             title: 'SwipeCell',
-                    //         },
-                    //     ],
-                    // },
-                    // {
-                    //     title: 'Display Components',
-                    //     items: [
-                    //         {
-                    //             path: 'circle',
-                    //             title: 'Circle',
-                    //         },
-                    //         {
-                    //             path: 'collapse',
-                    //             title: 'Collapse',
-                    //         },
-                    //         {
-                    //             path: 'count-down',
-                    //             title: 'CountDown',
-                    //         },
-                    //         {
-                    //             path: 'divider',
-                    //             title: 'Divider',
-                    //         },
-                    //         {
-                    //             path: 'empty',
-                    //             title: 'Empty',
-                    //         },
-                    //         {
-                    //             path: 'image-preview',
-                    //             title: 'ImagePreview',
-                    //         },
-                    //         {
-                    //             path: 'lazyload',
-                    //             title: 'Lazyload',
-                    //         },
-                    //         {
-                    //             path: 'list',
-                    //             title: 'List',
-                    //         },
-                    //         {
-                    //             path: 'notice-bar',
-                    //             title: 'NoticeBar',
-                    //         },
-                    //         {
-                    //             path: 'progress',
-                    //             title: 'Progress',
-                    //         },
-                    //         {
-                    //             path: 'skeleton',
-                    //             title: 'Skeleton',
-                    //         },
-                    //         {
-                    //             path: 'steps',
-                    //             title: 'Steps',
-                    //         },
-                    //         {
-                    //             path: 'sticky',
-                    //             title: 'Sticky',
-                    //         },
-                    //         {
-                    //             path: 'swipe',
-                    //             title: 'Swipe',
-                    //         },
-                    //         {
-                    //             path: 'tag',
-                    //             title: 'Tag',
-                    //         },
-                    //     ],
-                    // },
-                    // {
-                    //     title: 'Navigation Components',
-                    //     items: [
-                    //         {
-                    //             path: 'grid',
-                    //             title: 'Grid',
-                    //         },
-                    //         {
-                    //             path: 'index-bar',
-                    //             title: 'IndexBar',
-                    //         },
-                    //         {
-                    //             path: 'nav-bar',
-                    //             title: 'NavBar',
-                    //         },
-                    //         {
-                    //             path: 'pagination',
-                    //             title: 'Pagination',
-                    //         },
-                    //         {
-                    //             path: 'sidebar',
-                    //             title: 'Sidebar',
-                    //         },
-                    //         {
-                    //             path: 'tab',
-                    //             title: 'Tab',
-                    //         },
-                    //         {
-                    //             path: 'tabbar',
-                    //             title: 'Tabbar',
-                    //         },
-                    //         {
-                    //             path: 'tree-select',
-                    //             title: 'TreeSelect',
-                    //         },
-                    //     ],
-                    // },
-                    // {
-                    //     title: 'Business Components',
-                    //     items: [
-                    //         {
-                    //             path: 'address-edit',
-                    //             title: 'AddressEdit',
-                    //         },
-                    //         {
-                    //             path: 'address-list',
-                    //             title: 'AddressList',
-                    //         },
-                    //         {
-                    //             path: 'area',
-                    //             title: 'Area',
-                    //         },
-                    //         {
-                    //             path: 'card',
-                    //             title: 'Card',
-                    //         },
-                    //         {
-                    //             path: 'contact-card',
-                    //             title: 'Contact',
-                    //         },
-                    //         {
-                    //             path: 'coupon-list',
-                    //             title: 'Coupon',
-                    //         },
-                    //         {
-                    //             path: 'goods-action',
-                    //             title: 'GoodsAction',
-                    //         },
-                    //         {
-                    //             path: 'submit-bar',
-                    //             title: 'SubmitBar',
-                    //         },
-                    //         {
-                    //             path: 'sku',
-                    //             title: 'Sku',
-                    //         },
-                    //     ],
-                    // },
-                ],
             },
+            'en-US': {},
         },
     },
 };

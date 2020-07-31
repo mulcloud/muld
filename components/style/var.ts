@@ -44,6 +44,10 @@ export const $font_size_sm = '12px';
 export const $font_size_md = '14px';
 export const $font_size_lg = '16px';
 export const $font_weight_bold = '500';
+export const $line_height_xs = '14px';
+export const $line_height_sm = '18px';
+export const $line_height_md = '20px';
+export const $line_height_lg = '22px';
 export const $base_font_family = `-apple-system, BlinkMacSystemFont, 'Helvetica Neue',
   Helvetica, Segoe UI, Arial, Roboto, 'PingFang SC', 'Hiragino Sans GB',
   'Microsoft Yahei', sans-serif`;
@@ -106,4 +110,134 @@ export const $button: CSSProperties = {
     button_round_border_radius: `${$border_radius_max}`,
     button_plain_background_color: `${$white}`,
     button_disabled_opacity: `${$disabled_opacity}`,
+};
+
+// Card
+export const $card = {
+    padding: `${$padding_xs} ${$padding_md}`,
+    font_size: `${$font_size_sm}`,
+    text_color: `${$text_color}`,
+    background_color: `${$background_color_light}`,
+    thumb_size: `88px`,
+    thumb_border_radius: `${$border_radius_lg}`,
+    title_line_height: `16px`,
+    desc_color: `${$gray7}`,
+    desc_line_height: `${$line_height_md}`,
+    price_color: `${$gray8}`,
+    origin_price_color: `${$gray6}`,
+    num_color: `${$gray6}`,
+    origin_price_font_size: `${$font_size_xs}`,
+    price_font_size: `${$font_size_sm}`,
+    price_integer_font_size: `${$font_size_lg}`,
+    price_font_family: `${$price_integer_font_family}`,
+};
+
+// Cell
+export const $cell = {
+    font_size: `${$font_size_md}`,
+    line_height: `24px`,
+    vertical_padding: `10px`,
+    horizontal_padding: `${$padding_md}`,
+    text_color: `${$text_color}`,
+    background_color: `${$white}`,
+    border_color: `${$border_color}`,
+    active_color: `${$active_color}`,
+    required_color: `${$red}`,
+    label_color: `${$gray6}`,
+    label_font_size: `${$font_size_sm}`,
+    label_line_height: `${$line_height_sm}`,
+    label_margin_top: `${$padding_base}`,
+    value_color: `${$gray6}`,
+    icon_size: `16px`,
+    right_icon_color: `${$gray6}`,
+    large_vertical_padding: `${$padding_sm}`,
+    large_title_font_size: `${$font_size_lg}`,
+    large_label_font_size: `${$font_size_md}`,
+};
+
+// CellGroup
+export const $cell_group = {
+    background_color: `${$white}`,
+    title_color: `${$gray6}`,
+    title_padding: `${$padding_md} ${$padding_md} ${$padding_xs}`,
+    title_font_size: `${$font_size_md}`,
+    title_line_height: `16px`,
+};
+
+// Checkbox
+export const $checkbox = {
+    size: `20px`,
+    border_color: `${$gray5}`,
+    transition_duration: `${$animation_duration_fast}`,
+    label_margin: `${$padding_xs}`,
+    label_color: `${$text_color}`,
+    checked_icon_color: `${$blue}`,
+    disabled_icon_color: `${$gray5}`,
+    disabled_label_color: `${$gray5}`,
+    disabled_background_color: `${$border_color}`,
+};
+
+export const $tag = {
+    // Tag
+    padding: `0 ${$padding_base}`,
+    text_color: `${$white}`,
+    font_size: `${$font_size_sm}`,
+    border_radius: `2px`,
+    line_height: `16px`,
+    medium_padding: `2px 6px`,
+    large_padding: `${$padding_base} ${$padding_xs}`,
+    large_border_radius: `${$border_radius_md}`,
+    large_font_size: `${$font_size_md}`,
+    round_border_radius: `${$border_radius_max}`,
+    danger_color: `${$red}`,
+    primary_color: `${$blue}`,
+    success_color: `${$green}`,
+    warning_color: `${$orange}`,
+    default_color: `${$gray6}`,
+    plain_background_color: `${$white}`,
+};
+
+export const $image = {
+    placeholder_text_color: `${$gray6}`,
+    placeholder_font_size: `${$font_size_md}`,
+    placeholder_background_color: `${$background_color}`,
+    loading_icon_size: `22px`,
+    error_icon_size: `22px`,
+};
+
+// NavBar
+export const $nav_bar = {
+    height: `46px`,
+    background_color: `${$white}`,
+    arrow_size: `16px`,
+    icon_color: `${$blue}`,
+    text_color: `${$blue}`,
+    title_font_size: `${$font_size_lg}`,
+    title_text_color: `${$text_color}`,
+    z_index: 1,
+};
+
+// NoticeBar
+export const $notice_bar = {
+    height: `40px`,
+    padding: `0 ${$padding_md}`,
+    wrapable_padding: `${$padding_xs} ${$padding_md}`,
+    text_color: `${$orange_dark}`,
+    font_size: `${$font_size_md}`,
+    line_height: `24px`,
+    background_color: `${$orange_light}`,
+    icon_size: `16px`,
+    icon_min_width: `24px`,
+};
+
+// Notify
+export const $notify = {
+    text_color: `${$white}`,
+    padding: `${$padding_xs} ${$padding_md}`,
+    font_size: `${$font_size_md}`,
+    line_height: `${$line_height_md}`,
+    primary_background_color: `${$blue}`,
+    success_background_color: `${$green}`,
+    danger_background_color: `${$red}`,
+    warning_background_color: `${$orange}`,
 };
