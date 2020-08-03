@@ -11,6 +11,6 @@
         "noImplicitThis": true,
         "esModuleInterop": true
     },
-    "include": ["components/**/*", "pages/**/*", "scripts/**/*"],
+    "include": ["components/**/*", "scripts/**/*"],
     "exclude": ["node_modules", "lib"]
 }

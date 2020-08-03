@@ -13,6 +13,6 @@
         "noUnusedLocals": false,
         "skipLibCheck": true,
     },
-    "files": ["../components/index.ts"],
+    "files": ["../components/index.ts", "../components/module.d.ts"],
     "exclude": ["node_modules", "lib", "es"]
 }
