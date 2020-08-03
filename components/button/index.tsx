@@ -4,45 +4,44 @@ import { createNS, withDefaultProps } from '../utils';
 import { BORDER_SURROUND, WHITE } from '../utils/constant';
 import Loading, { LoadingType } from '../loading';
 import { View } from './style';
-
-const [bem] = createNS('button');
+import Icon from '../icon';
 
 export type ButtonType = 'default' | 'primary' | 'info' | 'warning' | 'danger';
 export type ButtonSize = 'large' | 'normal' | 'small' | 'mini';
-
-interface Props extends Omit<React.ButtonHTMLAttributes<any>, 'type' | 'onClick'> {
+interface Props extends Omit<React.AnchorHTMLAttributes<any>, 'type' | 'onClick'> {
     type?: ButtonType;
     size?: ButtonSize;
     text?: string;
-    icon?: string;
     color?: string;
+    icon?: string;
+    iconPrefix?: string;
+    nativeType?: string;
     block?: boolean;
     plain?: boolean;
-    round?: boolean;
     square?: boolean;
-    loading?: boolean;
-    hairline?: boolean;
+    round?: boolean;
     disabled?: boolean;
-    nativeType?: string;
-    iconPrefix?: string;
+    hairline?: boolean;
+    loading?: boolean;
     loadingSize?: string;
     loadingType?: LoadingType;
     loadingText?: string;
-    onClick?: React.MouseEventHandler<HTMLButtonElement>;
-    children?: React.ReactNode;
 }
+type NativeButtonProps = {
+    onClick?: React.MouseEventHandler<HTMLElement>;
+    onTouchstart?: React.TouchEvent<HTMLButtonElement>;
+};
 const defaultProps = {
     tag: 'button',
     type: 'default' as ButtonType,
     size: 'normal' as ButtonSize,
     loadingSize: '20px',
 };
+export type ButtonProps = Partial<Props & NativeButtonProps & typeof defaultProps>;
 
-export type ButtonProps = Props & typeof defaultProps;
-
+const [bem] = createNS('button');
 const Button: React.FC<React.PropsWithChildren<ButtonProps>> = (props: ButtonProps) => {
     const {
-        // eslint-disable-next-line @typescript-eslint/no-unused-vars
         icon,
         type,
         color,
@@ -52,6 +51,7 @@ const Button: React.FC<React.PropsWithChildren<ButtonProps>> = (props: ButtonPro
         hairline,
         loadingText,
         onClick,
+        onTouchStart,
         children,
     } = props;
     const style: Record<string, string | number> = {};
@@ -72,9 +72,14 @@ const Button: React.FC<React.PropsWithChildren<ButtonProps>> = (props: ButtonPro
         }
     }
 
-    const handlerClick = (event: React.MouseEvent<HTMLButtonElement>): void => {
+    const handleClick = (event: React.MouseEvent<HTMLButtonElement>): void => {
         if (disabled || loading) return;
         onClick && onClick(event);
+    };
+
+    const handleTouchstart = (event: React.TouchEvent): void => {
+        if (disabled || loading) return;
+        onTouchStart && onTouchStart(event);
     };
 
     const Content = (): React.ReactNode => {
@@ -89,8 +94,16 @@ const Button: React.FC<React.PropsWithChildren<ButtonProps>> = (props: ButtonPro
                     color="currentColor"
                 />,
             );
+        } else if (icon) {
+            content.push(
+                <Icon
+                    key="icon"
+                    name={icon}
+                    className={bem('icon')}
+                    classPrefix={props.iconPrefix}
+                />,
+            );
         }
-        // TODO: else if(icon) content push Icon
 
         let text;
         if (loading) {
@@ -125,14 +138,14 @@ const Button: React.FC<React.PropsWithChildren<ButtonProps>> = (props: ButtonPro
         { [BORDER_SURROUND]: hairline },
     ];
 
-    // TODO: add onTouchstart event
     return (
         <View
             style={style}
             className={classnames(classes)}
             type={props.nativeType as any}
             disabled={disabled}
-            onClick={handlerClick}
+            onClick={handleClick}
+            onTouchStart={handleTouchstart}
         >
             <div className={bem('content')}>{Content()}</div>
         </View>
