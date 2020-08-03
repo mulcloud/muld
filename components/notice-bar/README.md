@@ -2,7 +2,7 @@
 
 ### Install
 
-```js;
+```js
 import { NoticeBar } from '@trillion/muld';
 ```
 
@@ -22,7 +22,7 @@ import { NoticeBar } from '@trillion/muld';
 
 <!-- Disable scroll when text is long -->
 <NoticeBar
-  scrollable="false"
+  scrollable
   text="Technology is the common soul of the people who developed it."
 />
 ```
@@ -30,7 +30,7 @@ import { NoticeBar } from '@trillion/muld';
 ### Wrapable
 
 ```html
-<NoticeBar wrapable scrollable="false">
+<NoticeBar wrapable scrollable={false}">
   Notice Content
 </NoticeBar>
 ```
@@ -50,11 +50,10 @@ import { NoticeBar } from '@trillion/muld';
 ### Custom Style
 
 ```html
-<NoticeBar color="#1989fa" background="#ecf9ff" left-icon="info-o">
+<NoticeBar color="#1989fa" background="#ecf9ff" leftIcon="info-o">
   Notice Content
 </NoticeBar>
 ```
-
 
 ## API
 
@@ -66,9 +65,9 @@ import { NoticeBar } from '@trillion/muld';
 | text | Notice text content | _string_ | `''` | - |
 | color | Text color | _string_ | `#f60` |
 | background | Background color | _string_ | `#fff7cc` |
-| left-icon | Left Icon | _string_ | - |
-| delay | Animation delay (s) | _number \| string_ | `1` |
-| speed | Scroll speed (px/s) | _number \| string_ | `50` |
+| leftIcon | Left Icon | _string_ | - |
+| delay | Animation delay (s) | _number_ | `1` |
+| speed | Scroll speed (px/s) | _number_ | `50` |
 | scrollable | Whether to scroll content | _boolean_ | - |
 | wrapable | Whether to enable text wrap | _boolean_ | `false` | - |
 
@@ -76,14 +75,6 @@ import { NoticeBar } from '@trillion/muld';
 
 | Event           | Description                    | Arguments      |
 | --------------- | ------------------------------ | -------------- |
-| click           | Triggered when click NoticeBar | _event: Event_ |
-| close           | Triggered when closed          | _event: Event_ |
-| replay `v2.6.2` | Triggered when replay          | -              |
-
-### Slots
-
-| Name       | Description         |
-| ---------- | ------------------- |
-| default    | Notice text content |
-| left-icon  | Custom left icon    |
-| right-icon | Custom right icon   |
+| onClick           | Triggered when click NoticeBar | _event: React.MouseEvent__ |
+| onClose           | Triggered when closed          | _event: React.MouseEvent__ |
+| onReplay     | Triggered when replay          | -              |

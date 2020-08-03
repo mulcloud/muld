@@ -219,15 +219,15 @@ export const $nav_bar = {
 
 // NoticeBar
 export const $notice_bar = {
-    height: `40px`,
+    height: '40px',
     padding: `0 ${$padding_md}`,
     wrapable_padding: `${$padding_xs} ${$padding_md}`,
     text_color: `${$orange_dark}`,
     font_size: `${$font_size_md}`,
-    line_height: `24px`,
+    line_height: '24px',
     background_color: `${$orange_light}`,
-    icon_size: `16px`,
-    icon_min_width: `24px`,
+    icon_size: '16px',
+    icon_min_width: '24px',
 };
 
 // Notify

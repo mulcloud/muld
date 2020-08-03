@@ -5,3 +5,4 @@
 *.bak
 /site
 yarn-error.log
+**/**/.DS_Store

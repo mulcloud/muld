@@ -1,30 +1,36 @@
 import styled from 'styled-components';
 import { $notice_bar } from '../style/var';
+import { ellipsis } from '../style/mixins/ellipsis';
 
-export const View = styled.div`
+type ViewProps = {
+    background?: string;
+    color?: string;
+};
+
+export const View = styled.div<ViewProps>`
     &.mul-notice-bar {
         position: relative;
         display: flex;
         align-items: center;
         height: ${$notice_bar.height};
         padding: ${$notice_bar.padding};
-        color: ${$notice_bar.text_color};
+        color: ${(props: ViewProps) => props.color || $notice_bar.text_color};
         font-size: ${$notice_bar.font_size};
         line-height: ${$notice_bar.line_height};
-        background-color: ${$notice_bar.background_color};
+        background-color: ${(props: ViewProps) => props.background || $notice_bar.background_color};
 
-        &__left-icon,
-        &__right-icon {
+        .mul-notice-bar__left-icon,
+        .mul-notice-bar__right-icon {
             min-width: ${$notice_bar.icon_min_width};
             font-size: ${$notice_bar.icon_size};
         }
 
-        &__right-icon {
+        .mul-notice-bar__right-icon {
             text-align: right;
             cursor: pointer;
         }
 
-        &__wrap {
+        .mul-notice-bar__wrap {
             position: relative;
             display: flex;
             flex: 1;
@@ -33,30 +39,28 @@ export const View = styled.div`
             overflow: hidden;
         }
 
-        &__content {
+        .mul-notice-bar__content {
             position: absolute;
             white-space: nowrap;
             transition-timing-function: linear;
 
             &.mul-ellipsis {
                 max-width: 100%;
+                ${ellipsis()}
             }
         }
 
         &--wrapable {
             height: auto;
             padding: ${$notice_bar.wrapable_padding};
+            .mul-notice-bar__wrap {
+                height: auto;
+            }
 
-            .mul-notice-bar {
-                &__wrap {
-                    height: auto;
-                }
-
-                &__content {
-                    position: relative;
-                    white-space: normal;
-                    word-wrap: break-word;
-                }
+            .mul-notice-bar__content {
+                position: relative;
+                white-space: normal;
+                word-wrap: break-word;
             }
         }
     }
