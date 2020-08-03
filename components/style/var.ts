@@ -241,3 +241,21 @@ export const $notify = {
     danger_background_color: `${$red}`,
     warning_background_color: `${$orange}`,
 };
+
+export const $stepper: CSSProperties = {
+    stepper_active_color: '#e8e8e8',
+    stepper_background_color: $active_color,
+    stepper_button_icon_color: $text_color,
+    stepper_button_disabled_color: $background_color,
+    stepper_button_disabled_icon_color: $gray5,
+    stepper_button_round_theme_color: $red,
+    stepper_button_round_color: $white,
+    stepper_input_width: '32px',
+    stepper_input_height: '28px',
+    stepper_input_font_size: $font_size_md,
+    stepper_input_line_height: 'normal',
+    stepper_input_text_color: $text_color,
+    stepper_input_disabled_text_color: $gray5,
+    stepper_input_disabled_background_color: $active_color,
+    stepper_border_radius: $border_radius_md,
+};
