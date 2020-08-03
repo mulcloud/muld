@@ -6,6 +6,7 @@ import { Hairline } from '../style/hairline';
 import { Normalize } from '../style/normalize';
 import { Reset } from '../style/reset';
 import { Grid } from '../style/grid';
+import { Icons } from '../style/icons';
 
 export default function GlobalStyle() {
     return (
@@ -17,6 +18,7 @@ export default function GlobalStyle() {
             <Ellipsis />
             <Clearfix />
             <Grid />
+            <Icons />
         </>
     );
 }
