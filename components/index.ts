@@ -16,3 +16,4 @@ export { default as Image } from './image';
 export { default as NoticeBar } from './notice-bar';
 export { default as Tag } from './tag';
 export { default as CommonLayout } from './common-layout';
+export { default as Overlay } from './overlay';
