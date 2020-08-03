@@ -154,25 +154,26 @@ export const View = styled.button`
 
         // align-items are ignored when flex container is a button in legacy safari
         // see: https://bugs.webkit.org/show_bug.cgi?id=169700
-        &__content {
+
+        .mul-button__content {
             display: flex;
             align-items: center;
             justify-content: center;
             height: 100%;
         }
 
-        &__icon {
+        .mul-button__icon {
             min-width: 1em;
             font-size: 1.2em;
             line-height: inherit;
         }
 
-        &__icon + &__text,
-        &__loading + &__text {
+        .mul-button__icon + .mul-button__text,
+        .mul-button__loading + .mul-button__text {
             margin-left: 5px;
         }
 
-        &--hairline {
+        .mul-button--hairline {
             border-width: 0;
 
             &::after {

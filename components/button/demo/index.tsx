@@ -5,7 +5,7 @@ import DemoBlock from '@trillion/muld-tools/site/mobile/layout/DemoBlock';
 import Button from '..';
 import { $padding_sm, $padding_md } from '../../style/var';
 
-export default function ButtonDemo() {
+export default function ButtonDemo(): React.ReactNode {
     return (
         <View className="demo-button">
             <DemoBlock title="按钮类型">
@@ -59,7 +59,7 @@ export default function ButtonDemo() {
                 <Button icon="star-o" type="primary">
                     按钮
                 </Button>
-                <Button icon="" type="info">
+                <Button icon="https://chengfayun.com/static/icon/logo-1.svg" type="info">
                     按钮
                 </Button>
             </DemoBlock>

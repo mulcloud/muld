@@ -11,9 +11,9 @@ import { Button } from '@trillion/muld';
 ### Type
 
 ```html
-<Button type="default">Default</Button>
 <Button type="primary">Primary</Button>
 <Button type="info">Info</Button>
+<Button type="default">Default</Button>
 <Button type="danger">Danger</Button>
 <Button type="warning">Warning</Button>
 ```
@@ -57,9 +57,8 @@ import { Button } from '@trillion/muld';
 ### Icon
 
 ```html
-<Button icon="star-o" type="primary" />
-<Button icon="star-o" type="primary">Button</Button>
-<Button icon="" type="info">Button</Button>
+<Button icon="plus" type="primary" />
+<Button icon="plus" type="primary">Button</Button>
 ```
 
 ### Size
@@ -77,19 +76,14 @@ import { Button } from '@trillion/muld';
 <Button type="primary" block>Block Element</Button>
 ```
 
-### Route
-
-```html
-<Button type="primary" url="/mul/mobile.html">URL</Button>
-<Button type="primary" to="index">React Router</Button>
-```
-
 ### Custom Color
 
 ```html
 <Button color="#7232dd">Pure</Button>
 <Button color="#7232dd" plain>Pure</Button>
-<Button color="linear-gradient(to right, #4bb0ff, #6149f6)">Gradient</Button>
+<Button color="linear-gradient(to right, #ff6034, #ee0a24)">
+  Gradient
+</Button>
 ```
 
 ## API
@@ -101,27 +95,24 @@ import { Button } from '@trillion/muld';
 | type | Can be set to `primary` `info` `warning` `danger` | _string_ | `default` |
 | size | Can be set to `large` `small` `mini` | _string_ | `normal` |
 | text | Text | _string_ | - |
-| color `v2.1.8` | Color, support linear-gradient | _string_ | - |
+| color| Color, support linear-gradient | _string_ | - |
 | icon | Left Icon | _string_ | - |
-| icon-prefix `v2.6.0` | Icon className prefix | _string_ | `mul-icon` |
+| icon-prefix | Icon className prefix | _string_ | `mul-icon` |
 | tag | HTML Tag | _string_ | `button` |
-| native-type | Native Type Attribute | _string_ | `''` |
+| nativeType | Native Type Attribute | _string_ | `''` |
 | plain | Whether to be plain button | _boolean_ | `false` |
 | block | Whether to set display block | _boolean_ | `false` |
 | round | Whether to be round button | _boolean_ | `false` |
 | square | Whether to be square button | _boolean_ | `false` |
 | disabled | Whether to disable button | _boolean_ | `false` |
 | loading | Whether show loading status | _boolean_ | `false` |
-| loading-text | Loading text | _string_ | - |
-| loading-type | Loading type, can be set to `spinner` | _string_ | `circular` |
-| loading-size | Loading icon size | _string_ | `20px` |
-| url | Link URL | _string_ | - |
-| to | Target route of the link, same as to of react-router | _string \| object_ | - |
-| replace | If true, the navigation will not leave a history record | _boolean_ | `false` |
+| loadingText | Loading text | _string_ | - |
+| loadingType | Loading type, can be set to `spinner` | _string_ | `circular` |
+| loadingSize | Loading icon size | _string_ | `20px` |
 
 ### Events
 
 | Event | Description | Arguments |
 | --- | --- | --- |
-| click | Triggered when click button and not disabled or loading | _event: Event_ |
-| touchstart | Triggered when touch start | _event: TouchEvent_ |
+| onClick | Triggered when click button and not disabled or loading | _event: Event_ |
+| onTouchStart | Triggered when touch start | _event: TouchEvent_ |
