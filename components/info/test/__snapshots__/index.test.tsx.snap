@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon prop 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm bkXGDZ mul-info"
+  >
+    40
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Icon prop 2`] = `<DocumentFragment />`;
+
+exports[`Icon prop 3`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm bkXGDZ mul-info mul-info--dot"
+  />
+</DocumentFragment>
+`;

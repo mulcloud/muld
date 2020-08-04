@@ -1,3 +1,8 @@
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const path = require('path');
+
+const fileMock = path.resolve(__dirname, './__mocks__/fileMock.js');
+
 module.exports = {
     transform: {
         '^.+\\.tsx?$': 'babel-jest',
@@ -13,4 +18,7 @@ module.exports = {
         '!components/index.ts',
         '!components/utils/*',
     ],
+    moduleNameMapper: {
+        '.(gif|png|jpe?g|svg|woff|woff2|eot|ttf|otf)$': fileMock,
+    },
 };

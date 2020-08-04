@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon prop badge 1`] = `
+<DocumentFragment>
+  <i
+    class="sc-fznyAO hSOnaR mul-icon mul-icon-chat-o"
+    content="F02D"
+    name="chat-o"
+    style="font-size: 20px;"
+  >
+    <div
+      class="sc-AxiKw dIpnrG mul-info"
+    >
+      99
+    </div>
+  </i>
+</DocumentFragment>
+`;
+
+exports[`Icon prop dot 1`] = `
+<DocumentFragment>
+  <i
+    class="sc-fznyAO hSOnaR mul-icon mul-icon-chat-o"
+    content="F02D"
+    name="chat-o"
+    style="font-size: 20px;"
+  >
+    <div
+      class="sc-AxiKw dIpnrG mul-info mul-info--dot"
+    />
+  </i>
+</DocumentFragment>
+`;
+
+exports[`Icon prop name url 1`] = `
+<DocumentFragment>
+  <i
+    class="sc-fznyAO bvDreh mul-icon"
+    name="https://avatar.chengfayun.com.cn/chengfayun-avatar/6ce849b003c18744b54d1a9913db75e9.png"
+    style="font-size: 20px;"
+  >
+    <img
+      class="mul-icon__image"
+      src="https://avatar.chengfayun.com.cn/chengfayun-avatar/6ce849b003c18744b54d1a9913db75e9.png"
+    />
+  </i>
+</DocumentFragment>
+`;
+
+exports[`Icon prop size 1`] = `
+<DocumentFragment>
+  <i
+    class="sc-fznyAO hSOnaR mul-icon mul-icon-chat-o"
+    content="F02D"
+    name="chat-o"
+    style="font-size: 30px;"
+  />
+</DocumentFragment>
+`;
