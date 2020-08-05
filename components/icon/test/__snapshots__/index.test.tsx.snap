@@ -3,7 +3,7 @@
 exports[`Icon prop badge 1`] = `
 <DocumentFragment>
   <i
-    class="sc-fznyAO hSOnaR mul-icon mul-icon-chat-o"
+    class="sc-fznKkj fUWUHY mul-icon mul-icon-chat-o"
     content="F02D"
     name="chat-o"
     style="font-size: 20px;"
@@ -20,7 +20,7 @@ exports[`Icon prop badge 1`] = `
 exports[`Icon prop dot 1`] = `
 <DocumentFragment>
   <i
-    class="sc-fznyAO hSOnaR mul-icon mul-icon-chat-o"
+    class="sc-fznKkj fUWUHY mul-icon mul-icon-chat-o"
     content="F02D"
     name="chat-o"
     style="font-size: 20px;"
@@ -35,7 +35,7 @@ exports[`Icon prop dot 1`] = `
 exports[`Icon prop name url 1`] = `
 <DocumentFragment>
   <i
-    class="sc-fznyAO bvDreh mul-icon"
+    class="sc-fznKkj hKxEhU mul-icon"
     name="https://avatar.chengfayun.com.cn/chengfayun-avatar/6ce849b003c18744b54d1a9913db75e9.png"
     style="font-size: 20px;"
   >
@@ -50,7 +50,7 @@ exports[`Icon prop name url 1`] = `
 exports[`Icon prop size 1`] = `
 <DocumentFragment>
   <i
-    class="sc-fznyAO hSOnaR mul-icon mul-icon-chat-o"
+    class="sc-fznKkj fUWUHY mul-icon mul-icon-chat-o"
     content="F02D"
     name="chat-o"
     style="font-size: 30px;"
