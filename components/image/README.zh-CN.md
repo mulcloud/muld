@@ -48,15 +48,19 @@ import { Image } from '@trillion/muld';
 
 ### 图片懒加载
 
-设置`lazy-load`属性来开启图片懒加载，需要搭配 [Lazyload](#/zh-CN/lazyload) 组件使用
+设置`lazyLoad`属性来开启图片懒加载，需要搭配 [Lazyload](#/zh-CN/lazyload) 组件使用
 
 ```html
 <Image
   width="100"
   height="100"
-  lazy-load
+  lazyLoad
   src="https://img.yzcdn.cn/vant/cat.jpeg"
 />
+```
+
+```js
+import { LazyLoad } from '@trillion/muld';
 ```
 
 ### 加载中提示
@@ -64,9 +68,9 @@ import { Image } from '@trillion/muld';
 `Image`组件提供了默认的加载中提示，支持通过`loading`插槽自定义内容
 
 ```html
-<Image src="https://img.yzcdn.cn/vant/cat.jpeg">
-    
-</Image>
+<Image src="https://img.yzcdn.cn/vant/cat.jpeg" Loading={
+  <Loading type="spinner" size="20" />
+} />
 ```
 
 ### 加载失败提示
@@ -74,9 +78,7 @@ import { Image } from '@trillion/muld';
 `Image`组件提供了默认的加载失败提示，支持通过`error`插槽自定义内容
 
 ```html
-<Image src="https://img.yzcdn.cn/vant/cat.jpeg">
-  
-</Image>
+<Image src="https://img.yzcdn.cn/vant/cat.jpeg" error="加载失败" />
 ```
 
 ## API
@@ -92,11 +94,14 @@ import { Image } from '@trillion/muld';
 | height | 高度，默认单位为`px` | _number \| string_ | - |
 | radius | 圆角大小，默认单位为`px` | _number \| string_ | `0` |
 | round | 是否显示为圆形 | _boolean_ | `false` |
-| lazy-load | 是否开启图片懒加载，须配合 [Lazyload](#/zh-CN/lazyload) 组件使用 | _boolean_ | `false` |
-| show-error  | 是否展示图片加载失败提示 | _boolean_ | `true` |
-| show-loading | 是否展示图片加载中提示 | _boolean_ | `true` |
-| error-icon  | 失败时提示的[图标名称](#/zh-CN/icon)或图片链接 | _string_ | `warning-o` |
-| loading-icon | 加载时提示的[图标名称](#/zh-CN/icon)或图片链接 | _string_ | `photo-o` |
+| lazyLoad | 是否开启图片懒加载，须配合 [Lazyload](#/zh-CN/lazyload) 组件使用 | _boolean_ | `false` |
+| showError | 是否展示图片加载失败提示 | _boolean_ | `true` |
+| showLoading | 是否展示图片加载中提示 | _boolean_ | `true` |
+| errorIcon | 失败时提示的[图标名称](#/zh-CN/icon)或图片链接 | _string_ | `photo-fail` |
+| loadingIcon | 加载时提示的[图标名称](#/zh-CN/icon)或图片链接 | _string_ | `photo` |
+| loading | 是否展示图片加载中提示 | _boolean_ | `true` |
+| loading | 自定义加载中的提示内容    | _React.ReactNode \| string_ | - |
+| error   | 自定义加载失败时的提示内容 | _React.ReactNode \| string_ | - |
 
 ### 图片填充模式 
 
@@ -112,6 +117,6 @@ import { Image } from '@trillion/muld';
 
 | 事件名 | 说明               | 回调参数       |
 | ------ | ------------------ | -------------- |
-| click  | 点击图片时触发     | _event: Event_ |
-| load   | 图片加载完毕时触发 | -              |
-| error  | 图片加载失败时触发 | -              |
+| onClick  | 点击图片时触发     | _event: Event_ |
+| onLoad   | 图片加载完毕时触发 | -              |
+| onError  | 图片加载失败时触发 | -              |

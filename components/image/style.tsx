@@ -15,16 +15,16 @@ export const View = styled.div`
             }
         }
 
-        &__img,
-        &__error,
-        &__loading {
+        .mul-image__img,
+        .mul-image__error,
+        .mul-image__loading {
             display: block;
             width: 100%;
             height: 100%;
         }
 
-        &__error,
-        &__loading {
+        .mul-image__error,
+        .mul-image__loading {
             position: absolute;
             top: 0;
             left: 0;
@@ -37,11 +37,11 @@ export const View = styled.div`
             background-color: ${$image.placeholder_background_color};
         }
 
-        &__loading-icon {
+        .mul-image__loading-icon {
             font-size: ${$image.loading_icon_size};
         }
 
-        &__error-icon {
+        .mul-image__error-icon {
             font-size: ${$image.error_icon_size};
         }
     }

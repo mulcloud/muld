@@ -4,6 +4,7 @@
 
 ```js
 import { Cell, CellGroup } from '@trillion/muld';
+
 ```
 
 ## 代码演示
@@ -54,15 +55,6 @@ import { Cell, CellGroup } from '@trillion/muld';
 <Cell title="单元格" is-link arrow-direction="down" value="内容" />
 ```
 
-### 页面导航
-
-可以通过 `url` 属性进行 URL 跳转，或通过 `to` 属性进行路由跳转。
-
-```html
-<Cell title="URL 跳转" is-link url="/muld/mobile.html" />
-<Cell title="路由跳转" is-link to="index" />
-```
-
 ### 分组标题
 
 通过 `CellGroup` 的 `title` 属性可以指定分组标题。
@@ -76,24 +68,19 @@ import { Cell, CellGroup } from '@trillion/muld';
 </CellGroup>
 ```
 
-### 使用插槽
-
-如以上用法不能满足你的需求，可以使用插槽来自定义内容。
+### 自定义内容
 
 ```html
-<Cell value="内容" is-link>
   <!-- 使用 title 插槽来自定义标题 -->
-  <template #title>
-    <span class="custom-title">单元格</span>
+<Cell value="内容" is-link title={
+  <React.Fragment>
+    <span className="custom-title">单元格</span>
     <Tag type="danger">标签</Tag>
-  </template>
+  </React.Fragment>}>
 </Cell>
 
-<Cell title="单元格" icon="shop-o">
   <!-- 使用 right-icon 插槽来自定义右侧图标 -->
-  <template #right-icon>
-    <Icon name="search" class="search=icon" />
-  </template>
+<Cell title="单元格" icon="shop-o" rightIcon={<Icon name="search" className="search-icon" />}>
 </Cell>
 
 <style>
@@ -135,26 +122,26 @@ import { Cell, CellGroup } from '@trillion/muld';
 | label | 标题下方的描述信息 | _string_ | - |
 | size | 单元格大小，可选值为 `large` | _string_ | - |
 | icon | 左侧[图标名称](#/zh-CN/icon)或图片链接 | _string_ | - |
-| icon-prefix `v2.5.3` | 图标类名前缀，同 Icon 组件的 [class-prefix 属性](#/zh-CN/icon#props) | _string_ | `mul-icon` |
-| url | 点击后跳转的链接地址 | _string_ | - |
-| to | 点击后跳转的目标路由对象，同 react-router 的 to 属性 | _string \| object_ | - |
+| iconPrefix | 图标类名前缀，同 Icon 组件的 [class-prefix 属性](#/zh-CN/icon#props) | _string_ | `mul-icon` |
 | border | 是否显示内边框 | _boolean_ | `true` |
 | replace | 是否在跳转时替换当前页面历史 | _boolean_ | `false` |
 | clickable | 是否开启点击反馈 | _boolean_ | `false` |
-| is-link | 是否展示右侧箭头并开启点击反馈 | _boolean_ | `false` |
+| isLink | 是否展示右侧箭头并开启点击反馈 | _boolean_ | `false` |
 | required | 是否显示表单必填星号 | _boolean_ | `false` |
 | center | 是否使内容垂直居中 | _boolean_ | `false` |
-| arrow-direction | 箭头方向，可选值为 `left` `up` `down` | _string_ | `right` |
-| title-style | 左侧标题额外样式 | _any_ | - |
-| title-class | 左侧标题额外类名 | _any_ | - |
-| value-class | 右侧内容额外类名 | _any_ | - |
-| label-class | 描述信息额外类名 | _any_ | - |
+| arrowDirection | 箭头方向，可选值为 `left` `up` `down` | _string_ | `right` |
+| titleStyle | 左侧标题额外样式 | _any_ | - |
+| titleClass | 左侧标题额外类名 | _any_ | - |
+| valueClass | 右侧内容额外类名 | _any_ | - |
+| labelClass | 描述信息额外类名 | _any_ | - |
+| rightIcon | 自定义右侧按钮，默认为`arrow` | _React.ReactNode_ | - |
+| extra      | 自定义单元格最右侧的额外内容  | _React.ReactNode_ | - |
 
 ### Cell Events
 
 | 事件名 | 说明             | 回调参数       |
 | ------ | ---------------- | -------------- |
-| click  | 点击单元格时触发 | _event: Event_ |
+| onClick  | 点击单元格时触发 | _event: Event_ |
 
 ### CellGroup Slots
 
@@ -162,14 +149,3 @@ import { Cell, CellGroup } from '@trillion/muld';
 | ------- | -------------- |
 | default | 默认插槽       |
 | title   | 自定义分组标题 |
-
-### Cell Slots
-
-| 名称       | 说明                          |
-| ---------- | ----------------------------- |
-| default    | 自定义右侧 value 的内容       |
-| title      | 自定义左侧 title 的内容       |
-| label      | 自定义标题下方 label 的内容   |
-| icon       | 自定义左侧图标                |
-| right-icon | 自定义右侧按钮，默认为`arrow` |
-| extra      | 自定义单元格最右侧的额外内容  |

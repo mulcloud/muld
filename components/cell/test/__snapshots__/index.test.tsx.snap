@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cell arrow direction 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm kVtctr mul-cell mul-cell--clickable"
+    role="button"
+    tabindex="0"
+  >
+    <div
+      class="mul-cell__value mul-cell__value--alone"
+    >
+      content
+    </div>
+    <i
+      class="sc-fznyAO beyZSq mul-icon mul-icon-arrow-down mul-cell__right-icon"
+      content="F007"
+      name="arrow-down"
+      style="font-size: 20px;"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Cell icon-prefix prop 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm kVtctr mul-cell"
+  >
+    <i
+      class="sc-fznyAO fSDXHL my-icon my-icon-success mul-cell__left-icon"
+      content="F0C8"
+      name="success"
+      style="font-size: 20px;"
+    />
+    <div
+      class="mul-cell__value mul-cell__value--alone"
+    >
+      content
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Cell render slot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm kVtctr mul-cell"
+  >
+    <i
+      class="sc-fznyAO bvDreh mul-icon mul-icon-custom icon mul-cell__left-icon"
+      name="custom icon"
+      style="font-size: 20px;"
+    />
+    <div
+      class="mul-cell__title"
+    >
+      <span>
+        custom title
+      </span>
+      <div
+        class="mul-cell__label"
+      >
+        custom label
+      </div>
+    </div>
+    <div
+      class="mul-cell__value"
+    >
+      content
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Cell title-style prop 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm kVtctr mul-cell"
+  >
+    <div
+      class="mul-cell__title"
+      style="color: red;"
+    >
+      <span>
+        custom title
+      </span>
+    </div>
+    <div
+      class="mul-cell__value"
+    >
+      content
+    </div>
+  </div>
+</DocumentFragment>
+`;

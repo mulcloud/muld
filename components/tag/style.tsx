@@ -93,7 +93,7 @@ export const View = styled(CSSTransition)`
             border-radius: ${$tag.round_border_radius};
         }
 
-        &__close {
+        .mul-tag__close {
             min-width: 1em;
             margin-left: 2px;
             cursor: pointer;

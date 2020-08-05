@@ -15,8 +15,8 @@ interface Props {
     size?: number | string;
     badge?: string | number;
     color?: string;
-    onClick?: (e: React.SyntheticEvent) => void;
-    onTouchStart?: (e: React.TouchEvent) => void;
+    onClick?: React.MouseEventHandler<HTMLElement>;
+    onTouchStart?: React.MouseEventHandler<HTMLElement>;
     classPrefix: string;
     children?: any;
     className?: string;
@@ -54,11 +54,11 @@ const Icon: React.FC<React.PropsWithChildren<IconProps>> = (props: IconProps) =>
 
     const imageIcon = isImage(name);
 
-    const handleClick = (e: React.SyntheticEvent): void => {
+    const handleClick = (e: React.MouseEvent<HTMLElement>): void => {
         onClick && onClick(e);
     };
 
-    const handleTouchStart = (e: React.TouchEvent): void => {
+    const handleTouchStart = (e: React.MouseEvent<HTMLElement>): void => {
         onTouchStart && onTouchStart(e);
     };
 

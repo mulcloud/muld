@@ -4,6 +4,7 @@
 
 ```js
 import { Tag } from '@trillion/muld';
+
 ```
 
 ## 代码演示
@@ -58,7 +59,7 @@ import { Tag } from '@trillion/muld';
 <Tag color="#f2826a">标签</Tag>
 <Tag color="#7232dd">标签</Tag>
 <Tag color="#7232dd" plain>标签</Tag>
-<Tag color="#ffe1e1" text-color="#ad0000">标签</Tag>
+<Tag color="#ffe1e1" textColor="#ad0000">标签</Tag>
 ```
 
 ### 标签大小
@@ -67,6 +68,29 @@ import { Tag } from '@trillion/muld';
 <Tag type="danger">标签</Tag>
 <Tag type="danger" size="medium">标签</Tag>
 <Tag type="danger" size="large">标签</Tag>
+```
+
+### 可关闭标签
+
+添加 `closeable` 属性表示标签是可关闭的，关闭标签时会触发 `close` 事件，在 `close` 事件中可以执行隐藏标签的逻辑。
+
+```html
+<Tag
+  closeable
+  size="medium"
+  type="primary"
+  onClose={(e) => {console.log('close:', e)}}
+>
+  标签
+</Tag>
+<Tag
+  closeable
+  size="medium"
+  type="success"
+  onClose={(e) => {console.log('close:', e)}}
+>
+  标签
+</Tag>
 ```
 
 ## API
@@ -81,18 +105,13 @@ import { Tag } from '@trillion/muld';
 | plain | 是否为空心样式 | _boolean_ | `false` |
 | round | 是否为圆角样式 | _boolean_ | `false` |
 | mark | 是否为标记样式 | _boolean_ | `false` |
-| text-color | 文本颜色，优先级高于`color`属性 | _string_ | `white` |
-| closeable `v2.2.9` | 是否为可关闭标签 | _boolean_ | `false` |
+| textColor | 文本颜色，优先级高于`color`属性 | _string_ | `white` |
+| closeable | 是否为可关闭标签 | _boolean_ | `false` |
 
-### Slots
-
-| 名称    | 说明         |
-| ------- | ------------ |
-| default | 标签显示内容 |
 
 ### Events
 
 | 事件名 | 说明           | 回调参数       |
 | ------ | -------------- | -------------- |
-| click  | 点击时触发     | _event: Event_ |
-| close  | 关闭标签时触发 | -              |
+| onClick  | 点击时触发     | _event: Event_ |
+| onClose  | 关闭标签时触发 | -              |

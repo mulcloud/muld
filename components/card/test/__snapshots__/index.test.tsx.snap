@@ -1,0 +1,227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card render bottom 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm hlOa-dQ mul-card"
+  >
+    <div
+      class="mul-card__header"
+    >
+      <div
+        class="mul-card__content"
+      >
+        <div />
+        <div
+          class="mul-card__bottom"
+        >
+          Custom Bottom
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Card render origin-price 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm hlOa-dQ mul-card"
+  >
+    <div
+      class="mul-card__header"
+    >
+      <div
+        class="mul-card__content"
+      >
+        <div />
+        <div
+          class="mul-card__bottom"
+        >
+          <div
+            class="mul-card__origin-price"
+          >
+            ¥ Custom Origin Price
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Card render price & num 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm hlOa-dQ mul-card"
+  >
+    <div
+      class="mul-card__header"
+    >
+      <div
+        class="mul-card__content"
+      >
+        <div />
+        <div
+          class="mul-card__bottom"
+        >
+          <div
+            class="mul-card__price"
+          >
+            <div>
+              <span
+                class="mul-card__price-currency"
+              >
+                ¥
+              </span>
+              <span
+                class="mul-card__price-integer"
+              >
+                Custom Price
+              </span>
+              .
+              <span
+                class="mul-card__price-decimal"
+              />
+            </div>
+          </div>
+          <div
+            class="mul-card__num"
+          >
+            xCustom Num
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Card render price & priceTop 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm hlOa-dQ mul-card"
+  >
+    <div
+      class="mul-card__header"
+    >
+      <div
+        class="mul-card__content"
+      >
+        <div />
+        <div
+          class="mul-card__bottom"
+        >
+          Custom Price-top
+          <div
+            class="mul-card__price"
+          >
+            <div>
+              <span
+                class="mul-card__price-currency"
+              >
+                ¥
+              </span>
+              <span
+                class="mul-card__price-integer"
+              >
+                Custom Price
+              </span>
+              .
+              <span
+                class="mul-card__price-decimal"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Card render thumb & tag 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm hlOa-dQ mul-card"
+  >
+    <div
+      class="mul-card__header"
+    >
+      <a
+        class="mul-card__thumb"
+      >
+        <div
+          class="sc-fzoLsD jZXprR mul-image"
+          style="width: 100%; height: 100%;"
+        >
+          <img
+            class="mul-image__img"
+            src="Custom Thumb"
+            style="object-fit: cover;"
+          />
+          <div
+            class="mul-image__loading"
+          >
+            <i
+              class="sc-fznyAO bGzndu mul-image__loading-icon mul-image__loading-icon-photo"
+              content="F09D"
+              name="photo"
+              style="font-size: 20px;"
+            />
+          </div>
+        </div>
+        <div
+          class="mul-card__tag"
+        >
+          <span
+            class="sc-AxirZ dGXMAt mul-tag mul-tag--mark mul-tag--danger"
+          >
+            Custom Tag
+          </span>
+        </div>
+      </a>
+      <div
+        class="mul-card__content"
+      >
+        <div />
+        <div
+          class="mul-card__bottom"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Card render title & desc 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm hlOa-dQ mul-card"
+  >
+    <div
+      class="mul-card__header"
+    >
+      <div
+        class="mul-card__content"
+      >
+        <div>
+          <div
+            class="mul-card__title mul-multi-ellipsis--l2"
+          >
+            Custom Title
+          </div>
+          <div
+            class="mul-card__desc mul-ellipsis"
+          >
+            Custom desc
+          </div>
+        </div>
+        <div
+          class="mul-card__bottom"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
