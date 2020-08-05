@@ -26,10 +26,10 @@ jobs:
       uses: bahmutov/npm-install@v1
     - name: Run test cases
       run: npm run test
-    - name: Upload coverage to Codecov  
-      uses: codecov/codecov-action@v1
-      with:
-        token: ${{ secrets.CODECOV_TOKEN }}
+    # - name: Upload coverage to Codecov  
+    #   uses: codecov/codecov-action@v1
+    #   with:
+    #     token: ${{ secrets.CODECOV_TOKEN }}
 
   build:
     runs-on: ubuntu-latest
