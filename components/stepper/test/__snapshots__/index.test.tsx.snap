@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stepper button-size prop 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm eAjWSi mul-stepper"
+  >
+    <button
+      class="mul-stepper__minus mul-stepper__minus--disabled"
+      style="width: 10rem; height: 10rem;"
+      type="button"
+    />
+    <input
+      aria-valuemax="Infinity"
+      aria-valuemin="1"
+      aria-valuenow="1"
+      class="mul-stepper__input"
+      inputmode="decimal"
+      style="width: 32px; height: 10rem;"
+      type="text"
+      value="1"
+    />
+    <button
+      class="mul-stepper__plus"
+      style="width: 10rem; height: 10rem;"
+      type="button"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Stepper disable stepper input 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm eAjWSi mul-stepper"
+  >
+    <button
+      class="mul-stepper__minus mul-stepper__minus--disabled"
+      style="width: 28px; height: 28px;"
+      type="button"
+    />
+    <input
+      aria-valuemax="Infinity"
+      aria-valuemin="1"
+      aria-valuenow="1"
+      class="mul-stepper__input"
+      inputmode="decimal"
+      readonly=""
+      style="width: 32px; height: 28px;"
+      type="text"
+      value="1"
+    />
+    <button
+      class="mul-stepper__plus"
+      style="width: 28px; height: 28px;"
+      type="button"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Stepper disabled stepper 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm eAjWSi mul-stepper"
+  >
+    <button
+      class="mul-stepper__minus mul-stepper__minus--disabled"
+      style="width: 28px; height: 28px;"
+      type="button"
+    />
+    <input
+      aria-valuemax="Infinity"
+      aria-valuemin="1"
+      aria-valuenow="1"
+      class="mul-stepper__input"
+      disabled=""
+      inputmode="decimal"
+      style="width: 32px; height: 28px;"
+      type="text"
+      value="1"
+    />
+    <button
+      class="mul-stepper__plus mul-stepper__plus--disabled"
+      style="width: 28px; height: 28px;"
+      type="button"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Stepper input-width prop 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm eAjWSi mul-stepper"
+  >
+    <button
+      class="mul-stepper__minus mul-stepper__minus--disabled"
+      style="width: 28px; height: 28px;"
+      type="button"
+    />
+    <input
+      aria-valuemax="Infinity"
+      aria-valuemin="1"
+      aria-valuenow="1"
+      class="mul-stepper__input"
+      inputmode="decimal"
+      style="width: 10rem; height: 28px;"
+      type="text"
+      value="1"
+    />
+    <button
+      class="mul-stepper__plus"
+      style="width: 28px; height: 28px;"
+      type="button"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Stepper placeholder prop 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm eAjWSi mul-stepper"
+  >
+    <button
+      class="mul-stepper__minus"
+      style="width: 28px; height: 28px;"
+      type="button"
+    />
+    <input
+      aria-valuemax="Infinity"
+      aria-valuemin="1"
+      aria-valuenow="1.33"
+      class="mul-stepper__input"
+      inputmode="decimal"
+      placeholder="stepper input"
+      style="width: 32px; height: 28px;"
+      type="text"
+      value="1.33"
+    />
+    <button
+      class="mul-stepper__plus"
+      style="width: 28px; height: 28px;"
+      type="button"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Stepper show-plus & show-minus props 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm eAjWSi mul-stepper"
+  >
+    <input
+      aria-valuemax="Infinity"
+      aria-valuemin="1"
+      aria-valuenow="1"
+      class="mul-stepper__input"
+      inputmode="decimal"
+      style="width: 32px; height: 28px;"
+      type="text"
+      value="1"
+    />
+  </div>
+</DocumentFragment>
+`;

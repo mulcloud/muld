@@ -7,6 +7,7 @@ export { default as Col } from './col';
 export { default as Row } from './row';
 export { default as Loading } from './loading';
 export { default as Button } from './button';
+export { default as Stepper } from './stepper';
 export { default as GlobalStyle } from './builtin';
 export { default as Card } from './card';
 export { default as Cell } from './cell';
