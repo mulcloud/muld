@@ -13,7 +13,7 @@ export { default as Stepper } from './stepper';
 export { default as GlobalStyle } from './builtin';
 export { default as Card } from './card';
 export { default as Cell } from './cell';
-export { default as CellGroup } from './cell-group';
+export { default as CellGroup } from './cell/CellGroup';
 export { default as Image } from './image';
 export { default as NoticeBar } from './notice-bar';
 export { default as Tag } from './tag';

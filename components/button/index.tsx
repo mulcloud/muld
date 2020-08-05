@@ -1,6 +1,6 @@
 import * as React from 'react';
 import classnames from 'classnames';
-import { createNS, withDefaultProps } from '../utils';
+import { createNS } from '../utils';
 import { BORDER_SURROUND, WHITE } from '../utils/constant';
 import Loading, { LoadingType } from '../loading';
 import { View } from './style';
@@ -8,7 +8,7 @@ import Icon from '../icon';
 
 export type ButtonType = 'default' | 'primary' | 'info' | 'warning' | 'danger';
 export type ButtonSize = 'large' | 'normal' | 'small' | 'mini';
-interface Props extends Omit<React.AnchorHTMLAttributes<any>, 'type' | 'onClick'> {
+interface Props {
     type?: ButtonType;
     size?: ButtonSize;
     text?: string;
@@ -26,18 +26,18 @@ interface Props extends Omit<React.AnchorHTMLAttributes<any>, 'type' | 'onClick'
     loadingSize?: string;
     loadingType?: LoadingType;
     loadingText?: string;
+    onClick?: React.MouseEventHandler<HTMLButtonElement>;
+    onTouchstart?: React.TouchEventHandler<HTMLButtonElement>;
+    className?: string;
 }
-type NativeButtonProps = {
-    onClick?: React.MouseEventHandler<HTMLElement>;
-    onTouchstart?: React.TouchEvent<HTMLButtonElement>;
-};
 const defaultProps = {
     tag: 'button',
     type: 'default' as ButtonType,
     size: 'normal' as ButtonSize,
     loadingSize: '20px',
 };
-export type ButtonProps = Partial<Props & NativeButtonProps & typeof defaultProps>;
+type NativeAttrs = Omit<React.ButtonHTMLAttributes<any>, keyof Props>;
+export type ButtonProps = Props & typeof defaultProps & NativeAttrs;
 
 const [bem] = createNS('button');
 const Button: React.FC<React.PropsWithChildren<ButtonProps>> = (props: ButtonProps) => {
@@ -53,6 +53,7 @@ const Button: React.FC<React.PropsWithChildren<ButtonProps>> = (props: ButtonPro
         onClick,
         onTouchStart,
         children,
+        className,
     } = props;
     const style: Record<string, string | number> = {};
 
@@ -141,7 +142,7 @@ const Button: React.FC<React.PropsWithChildren<ButtonProps>> = (props: ButtonPro
     return (
         <View
             style={style}
-            className={classnames(classes)}
+            className={classnames(className, classes)}
             type={props.nativeType as any}
             disabled={disabled}
             onClick={handleClick}
@@ -152,4 +153,9 @@ const Button: React.FC<React.PropsWithChildren<ButtonProps>> = (props: ButtonPro
     );
 };
 
-export default withDefaultProps(React.memo(Button), defaultProps);
+type ComponentProps = Partial<typeof defaultProps> &
+    Omit<Props, keyof typeof defaultProps> &
+    NativeAttrs;
+Button.defaultProps = defaultProps;
+
+export default React.memo(Button) as React.ComponentType<ComponentProps>;

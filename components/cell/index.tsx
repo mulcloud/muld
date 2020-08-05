@@ -1,12 +1,12 @@
 import * as React from 'react';
 import classnames from 'classnames';
-import { createNS, withDefaultProps, isDef } from '../utils';
+import { createNS, isDef } from '../utils';
 import { View } from './style';
-// import Icon from '../icon';
+import Icon from '../icon';
 import { Mods } from '../utils/createNS/bem';
 
 type ArrowDirectionType = 'up' | 'down' | 'left' | 'right';
-interface Props extends Omit<React.HTMLAttributes<HTMLDivElement>, 'title'> {
+interface Props {
     icon?: string | React.ReactNode;
     rightIcon?: string | React.ReactNode;
     size?: string;
@@ -25,9 +25,8 @@ interface Props extends Omit<React.HTMLAttributes<HTMLDivElement>, 'title'> {
     label?: string | number;
     arrowDirection?: ArrowDirectionType;
     className?: string;
-    onClick?: (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => void;
+    onClick?: React.MouseEventHandler;
 }
-
 const defaultProps = {
     border: true,
     clickable: false,
@@ -36,13 +35,14 @@ const defaultProps = {
     center: false,
     arrowDirection: 'right' as ArrowDirectionType,
 };
-export type CellProps = Props & typeof defaultProps;
+type NativeAttrs = Omit<React.HTMLAttributes<HTMLDivElement>, keyof Props>;
+export type CellProps = Props & typeof defaultProps & NativeAttrs;
 
 const [bem] = createNS('cell');
 const Cell: React.FC<React.PropsWithChildren<CellProps>> = (props: CellProps) => {
     const {
-        // icon,
-        // rightIcon,
+        icon,
+        rightIcon,
         size,
         title,
         label,
@@ -50,11 +50,11 @@ const Cell: React.FC<React.PropsWithChildren<CellProps>> = (props: CellProps) =>
         isLink,
         onClick,
         children,
-        // arrowDirection,
+        arrowDirection,
         labelClass,
         titleClass,
         valueClass,
-        // iconPrefix,
+        iconPrefix,
         center,
         required,
         border,
@@ -65,12 +65,14 @@ const Cell: React.FC<React.PropsWithChildren<CellProps>> = (props: CellProps) =>
     const Label = label ? (
         <div className={classnames([bem('label'), labelClass])}>{label}</div>
     ) : null;
+
     const Title = title ? (
         <div className={classnames([bem('title'), titleClass])} style={titleStyle}>
             {typeof title === 'string' ? <span>{title}</span> : title}
             {Label}
         </div>
     ) : null;
+
     const Value = () => {
         const showValue = children || isDef(value);
         return showValue ? (
@@ -80,37 +82,36 @@ const Cell: React.FC<React.PropsWithChildren<CellProps>> = (props: CellProps) =>
         ) : null;
     };
 
-    // TODO: use Icon
-    // const LeftIcon = () => {
-    //     if (typeof icon === 'string') {
-    //         return <Icon className={bem('left-icon')} name={icon} classPrefix={iconPrefix} />;
-    //     }
-    //     return icon;
-    // };
+    const LeftIcon = () => {
+        if (typeof icon === 'string') {
+            return <Icon className={bem('left-icon')} name={icon} classPrefix={iconPrefix} />;
+        }
+        return icon;
+    };
 
-    // const RightIcon = () => {
-    //     if (rightIcon) {
-    //         if (typeof rightIcon === 'string') {
-    //             return <Icon className={bem('right-icon')} name={rightIcon} />;
-    //         }
-    //         return rightIcon;
-    //     }
-    //     if (isLink) {
-    //         return (
-    //             <Icon
-    //                 className={bem('right-icon')}
-    //                 name={//  ? `arrow-${arrowDirection}` : 'arrow'}
-    //             />
-    //         );
-    //     }
-    // };
+    const RightIcon = () => {
+        if (rightIcon) {
+            if (typeof rightIcon === 'string') {
+                return <Icon className={bem('right-icon')} name={rightIcon} />;
+            }
+            return rightIcon;
+        }
+        if (isLink) {
+            return (
+                <Icon
+                    className={bem('right-icon')}
+                    name={arrowDirection ? `arrow-${arrowDirection}` : 'arrow'}
+                />
+            );
+        }
+        return null;
+    };
 
     const handleClick = (event: React.MouseEvent<HTMLDivElement>): void => {
         onClick && onClick(event);
     };
 
     const clickable = isLink || props.clickable;
-
     const classes: Mods = {
         clickable,
         center,
@@ -129,12 +130,17 @@ const Cell: React.FC<React.PropsWithChildren<CellProps>> = (props: CellProps) =>
             tabIndex={clickable ? 0 : undefined}
             onClick={handleClick}
         >
-            {/* {LeftIcon()} */}
+            {LeftIcon()}
             {Title}
             {Value()}
-            {/* {RightIcon()} */}
+            {RightIcon()}
         </View>
     );
 };
 
-export default withDefaultProps(React.memo(Cell), defaultProps);
+type ComponentProps = Partial<typeof defaultProps> &
+    Omit<Props, keyof typeof defaultProps> &
+    NativeAttrs;
+Cell.defaultProps = defaultProps;
+
+export default React.memo(Cell) as React.NamedExoticComponent<ComponentProps>;

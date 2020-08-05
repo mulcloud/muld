@@ -14,11 +14,11 @@ export const View = styled.div`
             margin-top: ${$padding_xs};
         }
 
-        &__header {
+        .mul-card__header {
             display: flex;
         }
 
-        &__thumb {
+        .mul-card__thumb {
             position: relative;
             flex: none;
             width: ${$card.thumb_size};
@@ -30,7 +30,7 @@ export const View = styled.div`
             }
         }
 
-        &__content {
+        .mul-card__content {
             position: relative;
             display: flex;
             flex: 1;
@@ -44,44 +44,44 @@ export const View = styled.div`
             }
         }
 
-        &__title,
-        &__desc {
+        .mul-card__title,
+        .mul-card__desc {
             word-wrap: break-word;
         }
 
-        &__title {
+        .mul-card__title {
             max-height: 32px;
             font-weight: $font_weight_bold;
             line-height: ${$card.title_line_height};
         }
 
-        &__desc {
+        .mul-card__desc {
             max-height: ${$card.desc_line_height};
             color: ${$card.desc_color};
             line-height: ${$card.desc_line_height};
         }
 
-        &__bottom {
+        .mul-card__bottom {
             line-height: $line_height_md;
         }
 
-        &__price {
+        .mul-card__price {
             display: inline-block;
             color: ${$card.price_color};
             font-weight: ${$font_weight_bold};
             font-size: ${$card.price_font_size};
         }
 
-        &__price-integer {
+        .mul-card__price-integer {
             font-size: ${$card.price_integer_font_size};
             font-family: ${$card.price_font_family};
         }
 
-        &__price-decimal {
+        .mul-card__price-decimal {
             font-family: ${$card.price_font_family};
         }
 
-        &__origin-price {
+        .mul-card__origin-price {
             display: inline-block;
             margin-left: 5px;
             color: ${$card.origin_price_color};
@@ -89,18 +89,18 @@ export const View = styled.div`
             text-decoration: line-through;
         }
 
-        &__num {
+        .mul-card__num {
             float: right;
             color: ${$card.num_color};
         }
 
-        &__tag {
+        .mul-card__tag {
             position: absolute;
             top: 2px;
             left: 0;
         }
 
-        &__footer {
+        .mul-card__footer {
             flex: none;
             text-align: right;
 

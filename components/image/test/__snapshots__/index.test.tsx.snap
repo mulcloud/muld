@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image loading-icon prop 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm IvyVS mul-image"
+  >
+    <img
+      class="mul-image__img"
+      style="object-fit: fill;"
+    />
+    <div
+      class="mul-image__loading"
+    >
+      <i
+        class="sc-fznyAO fSDXHL mul-image__loading-icon mul-image__loading-icon-success"
+        content="F0C8"
+        name="success"
+        style="font-size: 20px;"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Image radius prop 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm IvyVS mul-image"
+    style="overflow: hidden; border-radius: 3px;"
+  >
+    <img
+      class="mul-image__img"
+      src="https://img.yzcdn.cn/vant/cat.jpeg"
+      style="object-fit: fill;"
+    />
+    <div
+      class="mul-image__loading"
+    >
+      <i
+        class="sc-fznyAO bGzndu mul-image__loading-icon mul-image__loading-icon-photo"
+        content="F09D"
+        name="photo"
+        style="font-size: 20px;"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Image show-error prop 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm IvyVS mul-image"
+  />
+</DocumentFragment>
+`;
+
+exports[`Image show-loading prop 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm IvyVS mul-image"
+  >
+    <img
+      class="mul-image__img"
+      style="object-fit: fill;"
+    />
+  </div>
+</DocumentFragment>
+`;

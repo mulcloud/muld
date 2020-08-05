@@ -24,19 +24,19 @@ export const View = styled.div`
             ${hairlineBottom($cell.border_color, $padding_md, $padding_md)};
         }
 
-        &__label {
+        .mul-cell__label {
             margin-top: ${$cell.label_margin_top};
             color: ${$cell.label_color};
             font-size: ${$cell.label_font_size};
             line-height: ${$cell.label_line_height};
         }
 
-        &__title,
-        &__value {
+        .mul-cell__title,
+        .mul-cell__value {
             flex: 1;
         }
 
-        &__value {
+        .mul-cell__value {
             position: relative;
             overflow: hidden;
             color: ${$cell.value_color};
@@ -50,19 +50,19 @@ export const View = styled.div`
             }
         }
 
-        &__left-icon,
-        &__right-icon {
+        .mul-cell__left-icon,
+        .mul-cell__right-icon {
             min-width: 1em;
             height: ${$cell.line_height};
             font-size: ${$cell.icon_size};
             line-height: ${$cell.line_height};
         }
 
-        &__left-icon {
+        .mul-cell__left-icon {
             margin-right: ${$padding_base};
         }
 
-        &__right-icon {
+        .mul-cell__right-icon {
             margin-left: ${$padding_base};
             color: ${$cell.right_icon_color};
         }

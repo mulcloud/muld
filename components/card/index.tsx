@@ -1,12 +1,11 @@
-/* eslint-disable */
 import * as React from 'react';
 import classnames from 'classnames';
-import { createNS, withDefaultProps, isDef } from '../utils';
+import { createNS, isDef } from '../utils';
 import { View } from './style';
 import Tag from '../tag';
 import Image from '../image';
 
-interface Props extends React.HTMLAttributes<HTMLDivElement> {
+interface Props {
     tag?: string;
     tags?: React.ReactNode;
     num?: number | string;
@@ -21,15 +20,18 @@ interface Props extends React.HTMLAttributes<HTMLDivElement> {
     originPrice?: number | string;
     footer?: React.ReactNode;
     bottom?: React.ReactNode;
-    onClick?: (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => void;
-    onThumbClick?: (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => void;
+    priceTop?: React.ReactNode;
+    className?: string;
+    onClick?: React.MouseEventHandler<HTMLDivElement>;
+    onClickThumb?: React.MouseEventHandler<HTMLAnchorElement>;
 }
 const defaultProps = {
     centered: false,
     currency: '¥',
     lazyLoad: false,
 };
-export type CardProps = Props & typeof defaultProps;
+type NativeAttrs = Omit<React.HTMLAttributes<any>, keyof Props>;
+export type CardProps = Props & typeof defaultProps & NativeAttrs;
 
 const [bem] = createNS('card');
 const Card: React.FC<React.PropsWithChildren<CardProps>> = (props: CardProps) => {
@@ -47,8 +49,10 @@ const Card: React.FC<React.PropsWithChildren<CardProps>> = (props: CardProps) =>
         originPrice,
         footer,
         onClick,
+        priceTop,
+        className,
         bottom,
-        onThumbClick,
+        onClickThumb,
     } = props;
     const showNum = isDef(num);
     const showPrice = isDef(price);
@@ -64,7 +68,7 @@ const Card: React.FC<React.PropsWithChildren<CardProps>> = (props: CardProps) =>
     ) : null;
 
     const Thumb = thumb ? (
-        <a href={thumbLink} className={bem('thumb')} onClick={onThumbClick}>
+        <a href={thumbLink} className={bem('thumb')} onClick={onClickThumb}>
             <Image src={thumb} width="100%" height="100%" fit="cover" />
             {ThumbTag}
         </a>
@@ -78,15 +82,17 @@ const Card: React.FC<React.PropsWithChildren<CardProps>> = (props: CardProps) =>
         <div className={classnames([bem('desc'), 'mul-ellipsis'])}>{desc}</div>
     ) : null;
 
-    const priceArr = price!.toString().split('.');
-    const PriceContent = (
-        <div>
-            <span className={bem('price-currency')}>{currency}</span>
-            <span className={bem('price-integer')}>{priceArr[0]}</span>.
-            <span className={bem('price-decimal')}>{priceArr[1]}</span>
-        </div>
-    );
-    const Price = showPrice ? <div className={bem('price')}>{PriceContent}</div> : null;
+    const PriceContent = () => {
+        const priceArr = price!.toString().split('.');
+        return (
+            <div>
+                <span className={bem('price-currency')}>{currency}</span>
+                <span className={bem('price-integer')}>{priceArr[0]}</span>.
+                <span className={bem('price-decimal')}>{priceArr[1]}</span>
+            </div>
+        );
+    };
+    const Price = showPrice ? <div className={bem('price')}>{PriceContent()}</div> : null;
 
     const OriginPrice = showOriginPrice ? (
         <div className={bem('origin-price')}>{`${currency} ${originPrice}`}</div>
@@ -101,7 +107,7 @@ const Card: React.FC<React.PropsWithChildren<CardProps>> = (props: CardProps) =>
     };
 
     return (
-        <View className={bem()} onClick={handleClick}>
+        <View className={classnames(className, bem())} onClick={handleClick}>
             <div className={bem('header')}>
                 {Thumb}
                 <div className={classnames(bem('content', { centered }))}>
@@ -112,6 +118,7 @@ const Card: React.FC<React.PropsWithChildren<CardProps>> = (props: CardProps) =>
                     </div>
                     {showBottom && (
                         <div className="mul-card__bottom">
+                            {priceTop}
                             {Price}
                             {OriginPrice}
                             {Num}
@@ -125,4 +132,9 @@ const Card: React.FC<React.PropsWithChildren<CardProps>> = (props: CardProps) =>
     );
 };
 
-export default withDefaultProps(React.memo(Card), defaultProps);
+type ComponentProps = Partial<typeof defaultProps> &
+    Omit<Props, keyof typeof defaultProps> &
+    NativeAttrs;
+Card.defaultProps = defaultProps;
+
+export default React.memo(Card) as React.NamedExoticComponent<ComponentProps>;
