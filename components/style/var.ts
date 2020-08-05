@@ -242,7 +242,6 @@ export const $notify = {
     warning_background_color: `${$orange}`,
 };
 
-
 // Stepper
 export const $stepper: CSSProperties = {
     stepper_active_color: '#e8e8e8',
@@ -260,7 +259,7 @@ export const $stepper: CSSProperties = {
     stepper_input_disabled_text_color: $gray5,
     stepper_input_disabled_background_color: $active_color,
     stepper_border_radius: $border_radius_md,
-}
+};
 
 // Overlay
 export const $overlay = {

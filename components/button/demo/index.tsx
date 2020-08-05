@@ -55,11 +55,11 @@ export default function ButtonDemo(): React.ReactNode {
                 </Button>
             </DemoBlock>
             <DemoBlock title="图标按钮">
-                <Button icon="star-o" type="primary" />
-                <Button icon="star-o" type="primary">
+                <Button icon="plus" type="primary" />
+                <Button icon="plus" type="primary">
                     按钮
                 </Button>
-                <Button icon="https://chengfayun.com/static/icon/logo-1.svg" type="info">
+                <Button icon="friends-o" type="info">
                     按钮
                 </Button>
             </DemoBlock>
