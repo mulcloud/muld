@@ -1313,11 +1313,12 @@
     eslint-plugin-react-hooks "^4.0.8"
     prettier "^2.0.5"
 
-"@trillion/muld-tools@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.npmjs.org/@trillion/muld-tools/-/muld-tools-0.0.1.tgz#45708b5090dc1837e90f8f7e6e4666a604aecaf1"
-  integrity sha512-g95Jv0U6xuIblVS9+T9jfIPjTqRW5uf4VB4G3yvFxHeKjYzbXesbRSP04Botityj6lUe6wdVd82jLyAXVsytdQ==
+"@trillion/muld-tools@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.npmjs.org/@trillion/muld-tools/-/muld-tools-0.0.2.tgz#5da1039ed379ef25aee9a820e979e55b4356c8e3"
+  integrity sha512-78M8BHpir+LngIdEWbWa7QV3hFRxg2EaBAJo6duBn3BpNhZxquewzxRARb8Z6pd1wIMDuUrDrYUYtxSrT54SGA==
   dependencies:
+    "@babel/core" "^7.10.5"
     "@types/fs-extra" "^9.0.1"
     "@types/lodash" "^4.14.157"
     "@types/webpack-dev-server" "^3.11.0"
@@ -1346,6 +1347,7 @@
     react-router-dom "^6.0.0-beta.0"
     style-loader "^1.2.1"
     transliteration "^2.1.11"
+    typescript "^3.9.7"
     url-loader "^4.1.0"
     webpack "^5.0.0-beta.22"
     webpack-cli "^3.3.12"
