@@ -1,7 +1,7 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const path = require('path');
 
-const fileMock = path.resolve(__dirname, './__mocks__/fileMock.js');
+const fileMock = path.resolve(__dirname, './tests/fileMock.js');
 
 module.exports = {
     transform: {
