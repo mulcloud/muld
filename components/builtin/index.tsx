@@ -8,7 +8,7 @@ import { Reset } from '../style/reset';
 import { Grid } from '../style/grid';
 import { Icons } from '../style/icons';
 
-export default function GlobalStyle(): React.ReactNode {
+export default function GlobalStyle() {
     return (
         <>
             <Reset />
