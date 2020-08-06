@@ -1,6 +1,6 @@
 {
   "name": "@trillion/muld",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "mobile UI components built on react",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -29,12 +29,15 @@
     "es",
     "lib"
   ],
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "react-copy-to-clipboard": "^5.0.2",
+    "react-transition-group": "^4.4.1",
+    "styled-components": "^5.1.1"
+  },
   "peerDependencies": {
-    "classnames": ">=2.2.6",
     "react": ">=16.13.1",
-    "react-dom": ">=16.13.1",
-    "react-transition-group": ">=4.4.1",
-    "styled-components": ">=5.1.1"
+    "react-dom": ">=16.13.1"
   },
   "devDependencies": {
     "@babel/core": "^7.10.5",
@@ -56,15 +59,11 @@
     "@types/react-transition-group": "^4.4.0",
     "@types/styled-components": "^5.1.1",
     "babel-jest": "^26.1.0",
-    "classnames": "^2.2.6",
     "husky": "^4.2.5",
     "jest": "^26.1.0",
     "lint-staged": "^10.2.11",
     "react": "^16.13.1",
-    "react-copy-to-clipboard": "^5.0.2",
     "react-dom": "^16.13.1",
-    "react-transition-group": "^4.4.1",
-    "styled-components": "^5.1.1",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.7"
   }
