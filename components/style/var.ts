@@ -243,7 +243,7 @@ export const $notify = {
 };
 
 // Stepper
-export const $stepper: CSSProperties = {
+export const $stepper = {
     stepper_active_color: '#e8e8e8',
     stepper_background_color: $active_color,
     stepper_button_icon_color: $text_color,
@@ -265,4 +265,12 @@ export const $stepper: CSSProperties = {
 export const $overlay = {
     overlay_z_index: 1,
     overlay_background_color: 'rgba(0, 0, 0, 0.7)',
+};
+
+// List
+export const $list = {
+    $list_icon_margin_right: '5px',
+    $list_text_color: `${$gray6}`,
+    $list_text_font_size: `${$font_size_md}`,
+    $list_text_line_height: '50px',
 };

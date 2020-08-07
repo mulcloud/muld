@@ -3,7 +3,7 @@
 exports[`Stepper button-size prop 1`] = `
 <DocumentFragment>
   <div
-    class="sc-AxjAm eAjWSi mul-stepper"
+    class="sc-AxjAm kxFdPY mul-stepper"
   >
     <button
       class="mul-stepper__minus mul-stepper__minus--disabled"
@@ -32,7 +32,7 @@ exports[`Stepper button-size prop 1`] = `
 exports[`Stepper disable stepper input 1`] = `
 <DocumentFragment>
   <div
-    class="sc-AxjAm eAjWSi mul-stepper"
+    class="sc-AxjAm kxFdPY mul-stepper"
   >
     <button
       class="mul-stepper__minus mul-stepper__minus--disabled"
@@ -62,7 +62,7 @@ exports[`Stepper disable stepper input 1`] = `
 exports[`Stepper disabled stepper 1`] = `
 <DocumentFragment>
   <div
-    class="sc-AxjAm eAjWSi mul-stepper"
+    class="sc-AxjAm kxFdPY mul-stepper"
   >
     <button
       class="mul-stepper__minus mul-stepper__minus--disabled"
@@ -92,7 +92,7 @@ exports[`Stepper disabled stepper 1`] = `
 exports[`Stepper input-width prop 1`] = `
 <DocumentFragment>
   <div
-    class="sc-AxjAm eAjWSi mul-stepper"
+    class="sc-AxjAm kxFdPY mul-stepper"
   >
     <button
       class="mul-stepper__minus mul-stepper__minus--disabled"
@@ -121,7 +121,7 @@ exports[`Stepper input-width prop 1`] = `
 exports[`Stepper placeholder prop 1`] = `
 <DocumentFragment>
   <div
-    class="sc-AxjAm eAjWSi mul-stepper"
+    class="sc-AxjAm kxFdPY mul-stepper"
   >
     <button
       class="mul-stepper__minus"
@@ -151,7 +151,7 @@ exports[`Stepper placeholder prop 1`] = `
 exports[`Stepper show-plus & show-minus props 1`] = `
 <DocumentFragment>
   <div
-    class="sc-AxjAm eAjWSi mul-stepper"
+    class="sc-AxjAm kxFdPY mul-stepper"
   >
     <input
       aria-valuemax="Infinity"

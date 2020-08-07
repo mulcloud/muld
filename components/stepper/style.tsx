@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { $stepper } from '../style/var';
+import { $stepper, $active_opacity } from '../style/var';
 
 export const View = styled.div`
 	&.mul-stepper {
@@ -106,7 +106,7 @@ export const View = styled.div`
 				border-radius: 100%;
 
 				&:active {
-					opacity: ${$stepper.active_opacity};
+					opacity: ${$active_opacity};
 				}
 
 				&--disabled {

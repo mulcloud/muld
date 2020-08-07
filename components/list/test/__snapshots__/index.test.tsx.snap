@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List check the direction props 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxirZ jfMPHR mul-list"
+    role="feed"
+  >
+    <div
+      class="mul-list__placeholder"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`List check the direction props 2`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxirZ jfMPHR mul-list"
+    role="feed"
+  >
+    <div
+      class="mul-list__placeholder"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`List error children 1`] = `
+<DocumentFragment>
+  <div
+    aria-busy="false"
+    class="sc-AxirZ jfMPHR mul-list"
+    role="feed"
+  >
+    <div
+      class="mul-list__error-text"
+    >
+      <div>
+        Custom Error
+      </div>
+    </div>
+    <div
+      class="mul-list__placeholder"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`List finished children 1`] = `
+<DocumentFragment>
+  <div
+    aria-busy="false"
+    class="sc-AxirZ jfMPHR mul-list"
+    role="feed"
+  >
+    <div
+      class="mul-list__finished-text"
+    >
+      <div>
+        Custom Finished
+      </div>
+    </div>
+    <div
+      class="mul-list__placeholder"
+    />
+  </div>
+</DocumentFragment>
+`;

@@ -13,7 +13,7 @@ exports[`Cell arrow direction 1`] = `
       content
     </div>
     <i
-      class="sc-fznyAO beyZSq mul-icon mul-icon-arrow-down mul-cell__right-icon"
+      class="sc-fznKkj cQaHz mul-icon mul-icon-arrow-down mul-cell__right-icon"
       content="F007"
       name="arrow-down"
       style="font-size: 20px;"
@@ -28,7 +28,7 @@ exports[`Cell icon-prefix prop 1`] = `
     class="sc-AxjAm kVtctr mul-cell"
   >
     <i
-      class="sc-fznyAO fSDXHL my-icon my-icon-success mul-cell__left-icon"
+      class="sc-fznKkj blcCKK my-icon my-icon-success mul-cell__left-icon"
       content="F0C8"
       name="success"
       style="font-size: 20px;"
@@ -48,7 +48,7 @@ exports[`Cell render slot 1`] = `
     class="sc-AxjAm kVtctr mul-cell"
   >
     <i
-      class="sc-fznyAO bvDreh mul-icon mul-icon-custom icon mul-cell__left-icon"
+      class="sc-fznKkj hKxEhU mul-icon mul-icon-custom icon mul-cell__left-icon"
       name="custom icon"
       style="font-size: 20px;"
     />
