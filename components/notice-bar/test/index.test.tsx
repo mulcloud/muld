@@ -32,7 +32,7 @@ describe('NoticeBar', () => {
         const rightIcon = container.querySelector('.mul-notice-bar__right-icon');
 
         fireEvent.click(rightIcon!);
-        expect(container).toBeEmpty();
+        expect(container).toBeEmptyDOMElement();
     });
     it('replay event valid', () => {
         const { container } = render(<EventDemo />);

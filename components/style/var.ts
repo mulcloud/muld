@@ -274,3 +274,20 @@ export const $list = {
     $list_text_font_size: `${$font_size_md}`,
     $list_text_line_height: '50px',
 };
+
+// Picker
+export const $picker: CSSProperties = {
+    picker_background_color: `${$white}`,
+    picker_toolbar_height: '44px',
+    picker_title_font_size: `${$font_size_lg}`,
+    picker_title_line_height: '20px',
+    picker_action_padding: `${$padding_md}`,
+    picker_action_font_size: `${$font_size_md}`,
+    picker_confirm_action_color: `${$textLink_color}`,
+    picker_cancel_action_color: `${$gray6}`,
+    picker_option_font_size: `${$font_size_lg}`,
+    picker_option_text_color: `${$black}`,
+    picker_option_disabled_opacity: '0.3',
+    picker_loading_icon_color: `${$blue}`,
+    picker_loading_mask_color: 'rgba(255, 255, 255, 0.9)',
+};

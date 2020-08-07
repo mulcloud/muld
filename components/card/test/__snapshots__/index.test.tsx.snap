@@ -152,7 +152,7 @@ exports[`Card render thumb & tag 1`] = `
         class="mul-card__thumb"
       >
         <div
-          class="sc-fzoLsD jZXprR mul-image"
+          class="sc-fzpans edAHYF mul-image"
           style="width: 100%; height: 100%;"
         >
           <img
@@ -164,7 +164,7 @@ exports[`Card render thumb & tag 1`] = `
             class="mul-image__loading"
           >
             <i
-              class="sc-fznKkj vRuen mul-image__loading-icon mul-image__loading-icon-photo"
+              class="sc-fznZeY gWPLVv mul-image__loading-icon mul-image__loading-icon-photo"
               content="F09D"
               name="photo"
               style="font-size: 20px;"
