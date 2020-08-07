@@ -1,164 +1,136 @@
-/* eslint-disable */
 import * as React from 'react';
 import classnames from 'classnames';
-import { createNS, withDefaultProps, isDef } from '../utils';
-import { doubleRaf } from '../utils/dom/raf';
+import { createNS, withDefaultProps } from '../utils';
 import { View } from './style';
+import Icon from '../icon';
 
+const [bem] = createNS('notice-bar');
+const { useState, useEffect, useRef } = React;
 
-interface Props extends React.HTMLAttributes<HTMLDivElement> {
-    text: string;
+export interface NoticeBarProps {
+    text?: string;
     mode?: string;
+    scrollable?: boolean | void;
     color?: string;
-    leftIcon?: string | React.ReactNode;
-    rightIcon?: string | React.ReactNode;
-    wrapable?: boolean;
+    leftIcon?: string;
     background?: string;
-    scrollable?: boolean;
-    delay?: number | string;
-    speed?: number | string;
-    onClick?: (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => void;
-    onClose?: (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => void;
+    wrapable: boolean;
+    delay: number;
+    speed: number;
+    children?: React.ReactNode;
+    onClose?: (event?: React.MouseEvent) => void;
+    onClick?: (event?: React.MouseEvent) => void;
+    onReplay?: () => void;
 }
+
 const defaultProps = {
-    scrollable: false,
     delay: 1,
     speed: 50,
+    wrapable: false,
 };
-export type NoticeBarProps = Props & typeof defaultProps;
 
-const [bem] = createNS('card');
-const { useState, useRef } = React;
-const NoticeBar: React.FC<React.PropsWithChildren<NoticeBarProps>> = (props: NoticeBarProps) => {
+const NoticeBar: React.FC<NoticeBarProps> = (props) => {
     const {
         text,
-        mode,
-        color,
-        // leftIcon,
-        wrapable,
-        background,
+        children,
         scrollable,
-        speed,
+        wrapable,
+        mode,
         onClose,
+        onReplay,
         onClick,
-        // rightIcon,
+        leftIcon,
+        speed,
+        delay,
+        color,
+        background,
     } = props;
     const [show, setShow] = useState(true);
-    const [panel, setPanel] = useState({
-        offset: 0,
-        duration: 0,
-        wrapWidth: 0,
+    const contentRef = useRef<HTMLDivElement>(null);
+    const wrapperRef = useRef<HTMLDivElement>(null);
+    const rectInfo = useRef({
+        wrapperWidth: 0,
         contentWidth: 0,
-    });
-    const wrapRef = useRef(null);
-    const contentRef = useRef(null);
+    }).current;
 
-    // function onClickIcon(event: React.MouseEvent<HTMLDivElement, MouseEvent>) {
-    //     if (mode === 'closeable') {
-    //         setShow(false);
-    //         onClose && onClose(event);
-    //     }
-    // }
+    function setContentStyle(offset: number, duration: number) {
+        contentRef.current!.style.transform = `translateX(${offset}px)`;
+        contentRef.current!.style.transitionDuration = `${duration}s`;
+    }
 
-    // TODO:
-    // function onTransitionEnd() {}
+    useEffect(() => {
+        rectInfo.wrapperWidth = wrapperRef.current!.getBoundingClientRect().width;
+        rectInfo.contentWidth = contentRef.current!.getBoundingClientRect().width;
+        const wrapperWidth = rectInfo.wrapperWidth;
+        const contentWidth = rectInfo.contentWidth;
+        if (scrollable === false) {
+            return;
+        }
+        if (scrollable === undefined && contentWidth <= wrapperWidth) {
+            return;
+        }
+        setTimeout(() => {
+            setContentStyle(-contentWidth, contentWidth / speed);
+        }, delay * 1000);
+    }, []);
 
-    // function reset() {
-    //     setPanel({
-    //         offset: 0,
-    //         duration: 0,
-    //         wrapWidth: 0,
-    //         contentWidth: 0,
-    //     });
-    // }
+    const contentClasses = [bem('content'), { 'mul-ellipsis': scrollable === false && !wrapable }];
+    const wrapperClasses = [bem({ wrapable })];
 
-    // function start() {
-    //     const delay = isDef(props.delay) ? props.delay * 1000 : 0;
+    function onRightIconClick(e: React.MouseEvent) {
+        setShow(false);
+        onClose && onClose(e);
+    }
 
-    //     reset();
+    function RightIcon() {
+        if (mode === 'closeable') {
+            return (
+                <Icon
+                    name="cross"
+                    size={16}
+                    onClick={onRightIconClick}
+                    className={bem('right-icon')}
+                />
+            );
+        }
+        if (mode === 'link') {
+            return <Icon name="arrow" size={16} className={bem('right-icon')} />;
+        }
+        return null;
+    }
 
-    //     setTimeout(() => {
-    //         if (!wrapRef || !contentRef || scrollable === false) {
-    //             return;
-    //         }
+    function LeftIcon() {
+        return leftIcon ? <Icon name={leftIcon} size={16} className={bem('left-icon')} /> : null;
+    }
 
-    //         const wrapWidth = (wrapRef as any).current.getBoundingClientRect().width;
-    //         const contentWidth = (contentRef as any).current.getBoundingClientRect().width;
+    function onTransitionEnd() {
+        const { wrapperWidth, contentWidth } = rectInfo;
+        setContentStyle(wrapperWidth, 0);
+        contentRef.current!.offsetLeft; // 主动触发重排
+        setContentStyle(-contentWidth, (contentWidth + wrapperWidth) / speed);
+        onReplay && onReplay();
+    }
 
-    //         if (scrollable || contentWidth > wrapWidth) {
-    //             doubleRaf(() => {
-    //                 setPanel({
-    //                     offset: -contentWidth,
-    //                     duration: contentWidth / speed,
-    //                     wrapWidth,
-    //                     contentWidth,
-    //                 });
-    //             });
-    //         }
-    //     }, delay);
-    // }
-
-    const barStyle = {
-        color,
-        background,
-        display: show ? 'block' : 'none',
-    };
-
-    const contentStyle = {
-        transform: panel.offset ? `translateX(${panel.offset}px)` : '',
-        transitionDuration: `${panel.duration}s`,
-    };
-
-    // TODO: use icon
-    // function LeftIcon() {
-    //     if (typeof leftIcon === 'string') {
-    //         return <Icon class={bem('left-icon')} name={leftIcon} />;
-    //     }
-    //     return leftIcon;
-    // }
-
-    // TODO: use icon
-    // function RightIcon() {
-    //     if (typeof rightIcon === 'string') {
-    //         let iconName;
-    //         if (mode === 'closeable') {
-    //             iconName = 'cross';
-    //         } else if (mode === 'link') {
-    //             iconName = 'arrow';
-    //         }
-
-    //         if (iconName) {
-    //             return <Icon class={bem('right-icon')} name={iconName} onClick={onClickIcon} />;
-    //         }
-    //     }
-    //     return rightIcon;
-    // }
-
-    return (
+    return show ? (
         <View
-            role="alert"
-            className={bem({ wrapable })}
-            style={barStyle}
-            onClick={(event) => {
-                onClick && onClick(event);
-            }}
+            className={classnames(wrapperClasses)}
+            onClick={onClick}
+            color={color}
+            background={background}
         >
-            {/* {LeftIcon()} */}
-            <div ref={wrapRef} className={bem('wrap')} role="marquee">
+            <LeftIcon />
+            <div className={bem('wrap')} ref={wrapperRef}>
                 <div
                     ref={contentRef}
-                    className={classnames([
-                        bem('content'),
-                        { 'mul-ellipsis': scrollable === false && !wrapable },
-                    ])}
-                    style={contentStyle}
+                    onTransitionEnd={onTransitionEnd}
+                    className={classnames(contentClasses)}
                 >
-                    {props.children || text}
+                    {text || children}
                 </div>
             </div>
-            {/* {RightIcon()} */}
+            <RightIcon />
         </View>
-    );
+    ) : null;
 };
 
-export default withDefaultProps(React.memo(NoticeBar), defaultProps);
+export default withDefaultProps(NoticeBar, defaultProps);

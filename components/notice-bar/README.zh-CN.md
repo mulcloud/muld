@@ -1,3 +1,4 @@
+
 # NoticeBar 通知栏
 
 ### 引入
@@ -82,9 +83,9 @@ import { NoticeBar } from '@trillion/muld';
 | text | 通知文本内容 | _string_ | `''` |
 | color | 通知文本颜色 | _string_ | `#f60` |
 | background | 滚动条背景 | _string_ | `#fff7cc` |
-| left-icon | 左侧[图标名称](#/zh-CN/icon)或图片链接 | _string_ | - |
-| delay | 动画延迟时间 (s) | _number \| string_ | `1` |
-| speed | 滚动速率 (px/s) | _number \| string_ | `50` |
+| leftIcon | 左侧[图标名称](#/zh-CN/icon) | _string_ | - |
+| delay | 动画延迟时间 (s) | _number_  | `1` |
+| speed | 滚动速率 (px/s) | _number_ | `50` |
 | scrollable | 是否开启滚动播放，内容长度溢出时默认开启 | _boolean_ | - |
 | wrapable | 是否开启文本换行，只在禁用滚动时生效 | _boolean_ | `false` |
 
@@ -92,14 +93,7 @@ import { NoticeBar } from '@trillion/muld';
 
 | 事件名          | 说明                         | 回调参数       |
 | --------------- | ---------------------------- | -------------- |
-| click           | 点击通知栏时触发             | _event: Event_ |
-| close           | 关闭通知栏时触发             | _event: Event_ |
-| replay `v2.6.2` | 每当滚动栏重新开始滚动时触发 | -              |
+| onClick            | 点击通知栏时触发             | _event: React.MouseEvent_|
+| onClose           | 关闭通知栏时触发             | _event: React.MouseEvent_ |
+| onReplay          | 每当滚动栏重新开始滚动时触发 | -              |
 
-### Slots
-
-| 名称       | 内容           |
-| ---------- | -------------- |
-| default    | 通知文本内容   |
-| left-icon  | 自定义左侧图标 |
-| right-icon | 自定义右侧图标 |
