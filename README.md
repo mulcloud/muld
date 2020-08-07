@@ -1,94 +1,27 @@
-## About Dir
-- builtin: 同内置class name 相关的组件存放于此（```<div className="mul-hairline--top"></div>```）
-- style: css ui 规范
-- other dir: components dir
+## **muld**
 
-## Base Todo
-- [x] basic ui
-- [ ] pages preview
-- [x] pages dev 
-- [x] pages build
-- [ ] pages preview style
-- [ ] stylelint
-- [ ] with triones
-- [ ] i18n
-- [ ] zh & en docs
-- [ ] theme
-- [ ] unit test
-- [ ] SSR
+[![npm version](https://img.shields.io/npm/v/@trillion/muld.svg?style=flat-square)](https://img.shields.io/npm/v/@trillion/muld.svg?style=flat-square)
 
-## Basic Components
-- [x] Built-in style 例如：border、transition...
-- [x] Col
-- [x] Row
-- [x] Button
-- [ ] Image
-- [ ] Popup
-- [ ] Cell
-
-## Form Components
-- [ ] Calendar
-- [ ] Checkbox
-- [ ] DatetimePicker
-- [ ] Field
-- [ ] Form
-- [ ] NumberKeyBoard
-- [ ] PasswordInput
-- [ ] Picker
-- [ ] Radio
-- [ ] Rate
-- [ ] Search
-- [ ] Slider
-- [ ] Stepper
-- [ ] Switch
-- [ ] Upload
-
-## Action Components
-- [ ] ActionSheet
-- [ ] Dialog
-- [ ] DropdownMenu
-- [ ] Loading
-- [ ] Notify
-- [ ] Overlay
-- [ ] PullRefresh
-- [ ] ShareSheet
-- [ ] SwipeCell
-- [ ] Toast
-
-## Display Components
-- [ ] Circle
-- [ ] Collapse
-- [ ] CountDown
-- [ ] Divider
-- [ ] Empty
-- [ ] ImagePreview
-- [ ] Lazyload
-- [ ] List
-- [ ] NoticeBar
-- [ ] Progress
-- [ ] Skeleton
-- [ ] Steps
-- [ ] Sticky
-- [ ] Swipe
-- [ ] Tag
+Mobile UI Components built on Typescript and React
 
 
-## Navigation Components
-- [ ] IndexBar
-- [ ] NavBar
-- [ ] Pagination
-- [ ] Sidebar
-- [ ] Tab
-- [ ] Tabbar
-- [ ] TreeSelect
+## **Install**
 
-## Business Components
-- [ ] AddressEdit
-- [ ] AddressList
-- [ ] Area
-- [ ] Card
-- [ ] Contact
-- [ ] Coupon
-- [ ] GoodsAction
-- [ ] SubmitBar
-- [ ] Sku
+```
+yarn add @trillion/muld --save
+```
+
+## **Quickstart**
+
+```
+// Using tsx
+import { Button } from 'vant-react';
+
+// Using tm
+<import component="Button" from="@trillion/muld" />
+```
+
+## **Components completion status**
+
+[Component Dev](https://github.com/mulcloud/muld/projects/1)
+
