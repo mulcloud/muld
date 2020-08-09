@@ -21,7 +21,7 @@ export const View = styled.div`
         }
 
         &::after {
-            ${hairlineBottom($cell.border_color, $padding_md, $padding_md)};
+            ${hairlineBottom($cell.border_color as string, $padding_md, $padding_md)};
         }
 
         .mul-cell__label {
