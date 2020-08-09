@@ -68,7 +68,7 @@ export const $border_radius_md = '4px';
 export const $border_radius_lg = '8px';
 export const $border_radius_max = '999px';
 
-type CSSProperties = Record<string, string>;
+type CSSProperties = Record<string, string | number>;
 
 // Loading
 export const $loading: CSSProperties = {
@@ -113,7 +113,7 @@ export const $button: CSSProperties = {
 };
 
 // Card
-export const $card = {
+export const $card: CSSProperties = {
     padding: `${$padding_xs} ${$padding_md}`,
     font_size: `${$font_size_sm}`,
     text_color: `${$text_color}`,
@@ -133,7 +133,7 @@ export const $card = {
 };
 
 // Cell
-export const $cell = {
+export const $cell: CSSProperties = {
     font_size: `${$font_size_md}`,
     line_height: `24px`,
     vertical_padding: `10px`,
@@ -156,7 +156,7 @@ export const $cell = {
 };
 
 // CellGroup
-export const $cell_group = {
+export const $cell_group: CSSProperties = {
     background_color: `${$white}`,
     title_color: `${$gray6}`,
     title_padding: `${$padding_md} ${$padding_md} ${$padding_xs}`,
@@ -165,7 +165,7 @@ export const $cell_group = {
 };
 
 // Checkbox
-export const $checkbox = {
+export const $checkbox: CSSProperties = {
     size: `20px`,
     border_color: `${$gray5}`,
     transition_duration: `${$animation_duration_fast}`,
@@ -177,7 +177,7 @@ export const $checkbox = {
     disabled_background_color: `${$border_color}`,
 };
 
-export const $tag = {
+export const $tag: CSSProperties = {
     // Tag
     padding: `0 ${$padding_base}`,
     text_color: `${$white}`,
@@ -197,7 +197,7 @@ export const $tag = {
     plain_background_color: `${$white}`,
 };
 
-export const $image = {
+export const $image: CSSProperties = {
     placeholder_text_color: `${$gray6}`,
     placeholder_font_size: `${$font_size_md}`,
     placeholder_background_color: `${$background_color}`,
@@ -206,7 +206,7 @@ export const $image = {
 };
 
 // NavBar
-export const $nav_bar = {
+export const $nav_bar: CSSProperties = {
     height: `46px`,
     background_color: `${$white}`,
     arrow_size: `16px`,
@@ -218,7 +218,7 @@ export const $nav_bar = {
 };
 
 // NoticeBar
-export const $notice_bar = {
+export const $notice_bar: CSSProperties = {
     height: '40px',
     padding: `0 ${$padding_md}`,
     wrapable_padding: `${$padding_xs} ${$padding_md}`,
@@ -231,7 +231,7 @@ export const $notice_bar = {
 };
 
 // Notify
-export const $notify = {
+export const $notify: CSSProperties = {
     text_color: `${$white}`,
     padding: `${$padding_xs} ${$padding_md}`,
     font_size: `${$font_size_md}`,
@@ -243,7 +243,7 @@ export const $notify = {
 };
 
 // Stepper
-export const $stepper = {
+export const $stepper: CSSProperties = {
     stepper_active_color: '#e8e8e8',
     stepper_background_color: $active_color,
     stepper_button_icon_color: $text_color,
@@ -262,13 +262,13 @@ export const $stepper = {
 };
 
 // Overlay
-export const $overlay = {
+export const $overlay: CSSProperties = {
     overlay_z_index: 1,
     overlay_background_color: 'rgba(0, 0, 0, 0.7)',
 };
 
 // List
-export const $list = {
+export const $list: CSSProperties = {
     $list_icon_margin_right: '5px',
     $list_text_color: `${$gray6}`,
     $list_text_font_size: `${$font_size_md}`,
