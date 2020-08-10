@@ -24,7 +24,17 @@ jobs:
       - name: Run build
         run: npm run build
       - name: Run publish
-        run: npm publish --access public
+        run: |
+          tag=${GITHUB_REF:11}
+          echo "tag name: '$tag'"
+          regex='^([0-9]+\.){0,2}(\*|[0-9]+)$'
+          if [[ $tag =~ $regex ]]; then
+            echo "publish latest version: '$tag'"
+            npm publish --access public
+          else 
+            echo "publish beta version: '$tag'"
+            npm publish --tag beta --access public
+          fi
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
