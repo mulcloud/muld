@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`sidebar & sidebar-item disabled prop 1`] = `
+<DocumentFragment>
+  .c0.mul-sidebar {
+  width: 80px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.c1.mul-sidebar-item {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  padding: 20px 12px;
+  overflow: hidden;
+  color: #323233;
+  font-size: 14px;
+  line-height: 20px;
+  word-wrap: break-word;
+  background-color: #f7f8fa;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c1.mul-sidebar-item:active {
+  background-color: #f2f3f5;
+}
+
+.c1.mul-sidebar-item:not(:last-child)::after {
+  border-bottom-width: 1px;
+}
+
+.c1.mul-sidebar-item .mul-sidebar-item__text {
+  position: relative;
+  display: inline-block;
+}
+
+.c1.mul-sidebar-item--select {
+  color: #323233;
+  font-weight: 500;
+}
+
+.c1.mul-sidebar-item--select,
+.c1.mul-sidebar-item--select:active {
+  background-color: #fff;
+}
+
+.c1.mul-sidebar-item--select::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 4px;
+  height: 16px;
+  background-color: #fa220a;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  content: '';
+}
+
+.c1.mul-sidebar-item--disabled {
+  color: #c8c9cc;
+  cursor: not-allowed;
+}
+
+.c1.mul-sidebar-item--disabled:active {
+  background-color: #f7f8fa;
+}
+
+<div
+    class="c0 mul-sidebar"
+  >
+    <a
+      class="c1 mul-sidebar-item mul-sidebar-item--select"
+    >
+      <div
+        class="mul-sidebar-item__text"
+      />
+    </a>
+    <a
+      class="c1 mul-sidebar-item mul-sidebar-item--disabled"
+    >
+      <div
+        class="mul-sidebar-item__text"
+      />
+    </a>
+  </div>
+</DocumentFragment>
+`;

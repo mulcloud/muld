@@ -22,3 +22,5 @@ export { default as CommonLayout } from './common-layout';
 export { default as Overlay } from './overlay';
 export { default as List } from './list';
 export { default as Popup } from './popup';
+export { default as Sidebar } from './sidebar';
+export { default as SidebarItem } from './sidebar-item';
