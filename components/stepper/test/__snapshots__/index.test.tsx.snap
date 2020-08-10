@@ -2,8 +2,151 @@
 
 exports[`Stepper button-size prop 1`] = `
 <DocumentFragment>
-  <div
-    class="sc-AxjAm kxFdPY mul-stepper"
+  .c0.mul-stepper {
+  font-size: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0.mul-stepper .mul-stepper__plus,
+.c0.mul-stepper .mul-stepper__minus {
+  position: relative;
+  box-sizing: border-box;
+  width: 28px;
+  height: 28px;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  vertical-align: middle;
+  background-color: #f2f3f5;
+  border: 0;
+  cursor: pointer;
+}
+
+.c0.mul-stepper .mul-stepper__plus::before,
+.c0.mul-stepper .mul-stepper__minus::before {
+  width: 50%;
+  height: 1px;
+}
+
+.c0.mul-stepper .mul-stepper__plus::after,
+.c0.mul-stepper .mul-stepper__minus::after {
+  width: 1px;
+  height: 50%;
+}
+
+.c0.mul-stepper .mul-stepper__plus::before,
+.c0.mul-stepper .mul-stepper__minus::before,
+.c0.mul-stepper .mul-stepper__plus::after,
+.c0.mul-stepper .mul-stepper__minus::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: currentColor;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  content: '';
+}
+
+.c0.mul-stepper .mul-stepper__plus:active,
+.c0.mul-stepper .mul-stepper__minus:active {
+  background-color: #e8e8e8;
+}
+
+.c0.mul-stepper .mul-stepper__plus--disabled,
+.c0.mul-stepper .mul-stepper__minus--disabled {
+  color: #c8c9cc;
+  background-color: #f7f8fa;
+  cursor: not-allowed;
+}
+
+.c0.mul-stepper .mul-stepper__plus--disabled:active,
+.c0.mul-stepper .mul-stepper__minus--disabled:active {
+  background-color: #f7f8fa;
+}
+
+.c0.mul-stepper .mul-stepper__minus {
+  border-radius: 4px 0 0 4px;
+}
+
+.c0.mul-stepper .mul-stepper__minus::after {
+  display: none;
+}
+
+.c0.mul-stepper .mul-stepper__plus {
+  border-radius: 0 4px 4px 0;
+}
+
+.c0.mul-stepper .mul-stepper__input {
+  box-sizing: border-box;
+  width: 32px;
+  height: 28px;
+  margin: 0 2px;
+  padding: 0;
+  color: #323233;
+  font-size: 14px;
+  line-height: normal;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #f2f3f5;
+  border: 0;
+  border-width: 1px 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+.c0.mul-stepper .mul-stepper__input:disabled {
+  color: #c8c9cc;
+  background-color: #f2f3f5;
+  -webkit-text-fill-color: currentColor;
+  opacity: 1;
+}
+
+.c0.mul-stepper .mul-stepper__input:-moz-read-only {
+  cursor: default;
+}
+
+.c0.mul-stepper .mul-stepper__input:read-only {
+  cursor: default;
+}
+
+.c0.mul-stepper--round .mul-stepper__input {
+  background-color: transparent;
+}
+
+.c0.mul-stepper--round .mul-stepper__plus,
+.c0.mul-stepper--round .mul-stepper__minus {
+  border-radius: 100%;
+}
+
+.c0.mul-stepper--round .mul-stepper__plus:active,
+.c0.mul-stepper--round .mul-stepper__minus:active {
+  opacity: 0.7;
+}
+
+.c0.mul-stepper--round .mul-stepper__plus--disabled,
+.c0.mul-stepper--round .mul-stepper__minus--disabled,
+.c0.mul-stepper--round .mul-stepper__plus--disabled:active,
+.c0.mul-stepper--round .mul-stepper__minus--disabled:active {
+  opacity: 0.3;
+}
+
+.c0.mul-stepper--round .mul-stepper__plus {
+  color: #fff;
+  background-color: #fa220a;
+}
+
+.c0.mul-stepper--round .mul-stepper__minus {
+  color: #fa220a;
+  background-color: #fff;
+  border: 1px solid #fa220a;
+}
+
+<div
+    class="c0 mul-stepper"
   >
     <button
       class="mul-stepper__minus mul-stepper__minus--disabled"
@@ -31,8 +174,151 @@ exports[`Stepper button-size prop 1`] = `
 
 exports[`Stepper disable stepper input 1`] = `
 <DocumentFragment>
-  <div
-    class="sc-AxjAm kxFdPY mul-stepper"
+  .c0.mul-stepper {
+  font-size: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0.mul-stepper .mul-stepper__plus,
+.c0.mul-stepper .mul-stepper__minus {
+  position: relative;
+  box-sizing: border-box;
+  width: 28px;
+  height: 28px;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  vertical-align: middle;
+  background-color: #f2f3f5;
+  border: 0;
+  cursor: pointer;
+}
+
+.c0.mul-stepper .mul-stepper__plus::before,
+.c0.mul-stepper .mul-stepper__minus::before {
+  width: 50%;
+  height: 1px;
+}
+
+.c0.mul-stepper .mul-stepper__plus::after,
+.c0.mul-stepper .mul-stepper__minus::after {
+  width: 1px;
+  height: 50%;
+}
+
+.c0.mul-stepper .mul-stepper__plus::before,
+.c0.mul-stepper .mul-stepper__minus::before,
+.c0.mul-stepper .mul-stepper__plus::after,
+.c0.mul-stepper .mul-stepper__minus::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: currentColor;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  content: '';
+}
+
+.c0.mul-stepper .mul-stepper__plus:active,
+.c0.mul-stepper .mul-stepper__minus:active {
+  background-color: #e8e8e8;
+}
+
+.c0.mul-stepper .mul-stepper__plus--disabled,
+.c0.mul-stepper .mul-stepper__minus--disabled {
+  color: #c8c9cc;
+  background-color: #f7f8fa;
+  cursor: not-allowed;
+}
+
+.c0.mul-stepper .mul-stepper__plus--disabled:active,
+.c0.mul-stepper .mul-stepper__minus--disabled:active {
+  background-color: #f7f8fa;
+}
+
+.c0.mul-stepper .mul-stepper__minus {
+  border-radius: 4px 0 0 4px;
+}
+
+.c0.mul-stepper .mul-stepper__minus::after {
+  display: none;
+}
+
+.c0.mul-stepper .mul-stepper__plus {
+  border-radius: 0 4px 4px 0;
+}
+
+.c0.mul-stepper .mul-stepper__input {
+  box-sizing: border-box;
+  width: 32px;
+  height: 28px;
+  margin: 0 2px;
+  padding: 0;
+  color: #323233;
+  font-size: 14px;
+  line-height: normal;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #f2f3f5;
+  border: 0;
+  border-width: 1px 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+.c0.mul-stepper .mul-stepper__input:disabled {
+  color: #c8c9cc;
+  background-color: #f2f3f5;
+  -webkit-text-fill-color: currentColor;
+  opacity: 1;
+}
+
+.c0.mul-stepper .mul-stepper__input:-moz-read-only {
+  cursor: default;
+}
+
+.c0.mul-stepper .mul-stepper__input:read-only {
+  cursor: default;
+}
+
+.c0.mul-stepper--round .mul-stepper__input {
+  background-color: transparent;
+}
+
+.c0.mul-stepper--round .mul-stepper__plus,
+.c0.mul-stepper--round .mul-stepper__minus {
+  border-radius: 100%;
+}
+
+.c0.mul-stepper--round .mul-stepper__plus:active,
+.c0.mul-stepper--round .mul-stepper__minus:active {
+  opacity: 0.7;
+}
+
+.c0.mul-stepper--round .mul-stepper__plus--disabled,
+.c0.mul-stepper--round .mul-stepper__minus--disabled,
+.c0.mul-stepper--round .mul-stepper__plus--disabled:active,
+.c0.mul-stepper--round .mul-stepper__minus--disabled:active {
+  opacity: 0.3;
+}
+
+.c0.mul-stepper--round .mul-stepper__plus {
+  color: #fff;
+  background-color: #fa220a;
+}
+
+.c0.mul-stepper--round .mul-stepper__minus {
+  color: #fa220a;
+  background-color: #fff;
+  border: 1px solid #fa220a;
+}
+
+<div
+    class="c0 mul-stepper"
   >
     <button
       class="mul-stepper__minus mul-stepper__minus--disabled"
@@ -61,8 +347,151 @@ exports[`Stepper disable stepper input 1`] = `
 
 exports[`Stepper disabled stepper 1`] = `
 <DocumentFragment>
-  <div
-    class="sc-AxjAm kxFdPY mul-stepper"
+  .c0.mul-stepper {
+  font-size: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0.mul-stepper .mul-stepper__plus,
+.c0.mul-stepper .mul-stepper__minus {
+  position: relative;
+  box-sizing: border-box;
+  width: 28px;
+  height: 28px;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  vertical-align: middle;
+  background-color: #f2f3f5;
+  border: 0;
+  cursor: pointer;
+}
+
+.c0.mul-stepper .mul-stepper__plus::before,
+.c0.mul-stepper .mul-stepper__minus::before {
+  width: 50%;
+  height: 1px;
+}
+
+.c0.mul-stepper .mul-stepper__plus::after,
+.c0.mul-stepper .mul-stepper__minus::after {
+  width: 1px;
+  height: 50%;
+}
+
+.c0.mul-stepper .mul-stepper__plus::before,
+.c0.mul-stepper .mul-stepper__minus::before,
+.c0.mul-stepper .mul-stepper__plus::after,
+.c0.mul-stepper .mul-stepper__minus::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: currentColor;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  content: '';
+}
+
+.c0.mul-stepper .mul-stepper__plus:active,
+.c0.mul-stepper .mul-stepper__minus:active {
+  background-color: #e8e8e8;
+}
+
+.c0.mul-stepper .mul-stepper__plus--disabled,
+.c0.mul-stepper .mul-stepper__minus--disabled {
+  color: #c8c9cc;
+  background-color: #f7f8fa;
+  cursor: not-allowed;
+}
+
+.c0.mul-stepper .mul-stepper__plus--disabled:active,
+.c0.mul-stepper .mul-stepper__minus--disabled:active {
+  background-color: #f7f8fa;
+}
+
+.c0.mul-stepper .mul-stepper__minus {
+  border-radius: 4px 0 0 4px;
+}
+
+.c0.mul-stepper .mul-stepper__minus::after {
+  display: none;
+}
+
+.c0.mul-stepper .mul-stepper__plus {
+  border-radius: 0 4px 4px 0;
+}
+
+.c0.mul-stepper .mul-stepper__input {
+  box-sizing: border-box;
+  width: 32px;
+  height: 28px;
+  margin: 0 2px;
+  padding: 0;
+  color: #323233;
+  font-size: 14px;
+  line-height: normal;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #f2f3f5;
+  border: 0;
+  border-width: 1px 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+.c0.mul-stepper .mul-stepper__input:disabled {
+  color: #c8c9cc;
+  background-color: #f2f3f5;
+  -webkit-text-fill-color: currentColor;
+  opacity: 1;
+}
+
+.c0.mul-stepper .mul-stepper__input:-moz-read-only {
+  cursor: default;
+}
+
+.c0.mul-stepper .mul-stepper__input:read-only {
+  cursor: default;
+}
+
+.c0.mul-stepper--round .mul-stepper__input {
+  background-color: transparent;
+}
+
+.c0.mul-stepper--round .mul-stepper__plus,
+.c0.mul-stepper--round .mul-stepper__minus {
+  border-radius: 100%;
+}
+
+.c0.mul-stepper--round .mul-stepper__plus:active,
+.c0.mul-stepper--round .mul-stepper__minus:active {
+  opacity: 0.7;
+}
+
+.c0.mul-stepper--round .mul-stepper__plus--disabled,
+.c0.mul-stepper--round .mul-stepper__minus--disabled,
+.c0.mul-stepper--round .mul-stepper__plus--disabled:active,
+.c0.mul-stepper--round .mul-stepper__minus--disabled:active {
+  opacity: 0.3;
+}
+
+.c0.mul-stepper--round .mul-stepper__plus {
+  color: #fff;
+  background-color: #fa220a;
+}
+
+.c0.mul-stepper--round .mul-stepper__minus {
+  color: #fa220a;
+  background-color: #fff;
+  border: 1px solid #fa220a;
+}
+
+<div
+    class="c0 mul-stepper"
   >
     <button
       class="mul-stepper__minus mul-stepper__minus--disabled"
@@ -91,8 +520,151 @@ exports[`Stepper disabled stepper 1`] = `
 
 exports[`Stepper input-width prop 1`] = `
 <DocumentFragment>
-  <div
-    class="sc-AxjAm kxFdPY mul-stepper"
+  .c0.mul-stepper {
+  font-size: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0.mul-stepper .mul-stepper__plus,
+.c0.mul-stepper .mul-stepper__minus {
+  position: relative;
+  box-sizing: border-box;
+  width: 28px;
+  height: 28px;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  vertical-align: middle;
+  background-color: #f2f3f5;
+  border: 0;
+  cursor: pointer;
+}
+
+.c0.mul-stepper .mul-stepper__plus::before,
+.c0.mul-stepper .mul-stepper__minus::before {
+  width: 50%;
+  height: 1px;
+}
+
+.c0.mul-stepper .mul-stepper__plus::after,
+.c0.mul-stepper .mul-stepper__minus::after {
+  width: 1px;
+  height: 50%;
+}
+
+.c0.mul-stepper .mul-stepper__plus::before,
+.c0.mul-stepper .mul-stepper__minus::before,
+.c0.mul-stepper .mul-stepper__plus::after,
+.c0.mul-stepper .mul-stepper__minus::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: currentColor;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  content: '';
+}
+
+.c0.mul-stepper .mul-stepper__plus:active,
+.c0.mul-stepper .mul-stepper__minus:active {
+  background-color: #e8e8e8;
+}
+
+.c0.mul-stepper .mul-stepper__plus--disabled,
+.c0.mul-stepper .mul-stepper__minus--disabled {
+  color: #c8c9cc;
+  background-color: #f7f8fa;
+  cursor: not-allowed;
+}
+
+.c0.mul-stepper .mul-stepper__plus--disabled:active,
+.c0.mul-stepper .mul-stepper__minus--disabled:active {
+  background-color: #f7f8fa;
+}
+
+.c0.mul-stepper .mul-stepper__minus {
+  border-radius: 4px 0 0 4px;
+}
+
+.c0.mul-stepper .mul-stepper__minus::after {
+  display: none;
+}
+
+.c0.mul-stepper .mul-stepper__plus {
+  border-radius: 0 4px 4px 0;
+}
+
+.c0.mul-stepper .mul-stepper__input {
+  box-sizing: border-box;
+  width: 32px;
+  height: 28px;
+  margin: 0 2px;
+  padding: 0;
+  color: #323233;
+  font-size: 14px;
+  line-height: normal;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #f2f3f5;
+  border: 0;
+  border-width: 1px 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+.c0.mul-stepper .mul-stepper__input:disabled {
+  color: #c8c9cc;
+  background-color: #f2f3f5;
+  -webkit-text-fill-color: currentColor;
+  opacity: 1;
+}
+
+.c0.mul-stepper .mul-stepper__input:-moz-read-only {
+  cursor: default;
+}
+
+.c0.mul-stepper .mul-stepper__input:read-only {
+  cursor: default;
+}
+
+.c0.mul-stepper--round .mul-stepper__input {
+  background-color: transparent;
+}
+
+.c0.mul-stepper--round .mul-stepper__plus,
+.c0.mul-stepper--round .mul-stepper__minus {
+  border-radius: 100%;
+}
+
+.c0.mul-stepper--round .mul-stepper__plus:active,
+.c0.mul-stepper--round .mul-stepper__minus:active {
+  opacity: 0.7;
+}
+
+.c0.mul-stepper--round .mul-stepper__plus--disabled,
+.c0.mul-stepper--round .mul-stepper__minus--disabled,
+.c0.mul-stepper--round .mul-stepper__plus--disabled:active,
+.c0.mul-stepper--round .mul-stepper__minus--disabled:active {
+  opacity: 0.3;
+}
+
+.c0.mul-stepper--round .mul-stepper__plus {
+  color: #fff;
+  background-color: #fa220a;
+}
+
+.c0.mul-stepper--round .mul-stepper__minus {
+  color: #fa220a;
+  background-color: #fff;
+  border: 1px solid #fa220a;
+}
+
+<div
+    class="c0 mul-stepper"
   >
     <button
       class="mul-stepper__minus mul-stepper__minus--disabled"
@@ -120,8 +692,151 @@ exports[`Stepper input-width prop 1`] = `
 
 exports[`Stepper placeholder prop 1`] = `
 <DocumentFragment>
-  <div
-    class="sc-AxjAm kxFdPY mul-stepper"
+  .c0.mul-stepper {
+  font-size: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0.mul-stepper .mul-stepper__plus,
+.c0.mul-stepper .mul-stepper__minus {
+  position: relative;
+  box-sizing: border-box;
+  width: 28px;
+  height: 28px;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  vertical-align: middle;
+  background-color: #f2f3f5;
+  border: 0;
+  cursor: pointer;
+}
+
+.c0.mul-stepper .mul-stepper__plus::before,
+.c0.mul-stepper .mul-stepper__minus::before {
+  width: 50%;
+  height: 1px;
+}
+
+.c0.mul-stepper .mul-stepper__plus::after,
+.c0.mul-stepper .mul-stepper__minus::after {
+  width: 1px;
+  height: 50%;
+}
+
+.c0.mul-stepper .mul-stepper__plus::before,
+.c0.mul-stepper .mul-stepper__minus::before,
+.c0.mul-stepper .mul-stepper__plus::after,
+.c0.mul-stepper .mul-stepper__minus::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: currentColor;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  content: '';
+}
+
+.c0.mul-stepper .mul-stepper__plus:active,
+.c0.mul-stepper .mul-stepper__minus:active {
+  background-color: #e8e8e8;
+}
+
+.c0.mul-stepper .mul-stepper__plus--disabled,
+.c0.mul-stepper .mul-stepper__minus--disabled {
+  color: #c8c9cc;
+  background-color: #f7f8fa;
+  cursor: not-allowed;
+}
+
+.c0.mul-stepper .mul-stepper__plus--disabled:active,
+.c0.mul-stepper .mul-stepper__minus--disabled:active {
+  background-color: #f7f8fa;
+}
+
+.c0.mul-stepper .mul-stepper__minus {
+  border-radius: 4px 0 0 4px;
+}
+
+.c0.mul-stepper .mul-stepper__minus::after {
+  display: none;
+}
+
+.c0.mul-stepper .mul-stepper__plus {
+  border-radius: 0 4px 4px 0;
+}
+
+.c0.mul-stepper .mul-stepper__input {
+  box-sizing: border-box;
+  width: 32px;
+  height: 28px;
+  margin: 0 2px;
+  padding: 0;
+  color: #323233;
+  font-size: 14px;
+  line-height: normal;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #f2f3f5;
+  border: 0;
+  border-width: 1px 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+.c0.mul-stepper .mul-stepper__input:disabled {
+  color: #c8c9cc;
+  background-color: #f2f3f5;
+  -webkit-text-fill-color: currentColor;
+  opacity: 1;
+}
+
+.c0.mul-stepper .mul-stepper__input:-moz-read-only {
+  cursor: default;
+}
+
+.c0.mul-stepper .mul-stepper__input:read-only {
+  cursor: default;
+}
+
+.c0.mul-stepper--round .mul-stepper__input {
+  background-color: transparent;
+}
+
+.c0.mul-stepper--round .mul-stepper__plus,
+.c0.mul-stepper--round .mul-stepper__minus {
+  border-radius: 100%;
+}
+
+.c0.mul-stepper--round .mul-stepper__plus:active,
+.c0.mul-stepper--round .mul-stepper__minus:active {
+  opacity: 0.7;
+}
+
+.c0.mul-stepper--round .mul-stepper__plus--disabled,
+.c0.mul-stepper--round .mul-stepper__minus--disabled,
+.c0.mul-stepper--round .mul-stepper__plus--disabled:active,
+.c0.mul-stepper--round .mul-stepper__minus--disabled:active {
+  opacity: 0.3;
+}
+
+.c0.mul-stepper--round .mul-stepper__plus {
+  color: #fff;
+  background-color: #fa220a;
+}
+
+.c0.mul-stepper--round .mul-stepper__minus {
+  color: #fa220a;
+  background-color: #fff;
+  border: 1px solid #fa220a;
+}
+
+<div
+    class="c0 mul-stepper"
   >
     <button
       class="mul-stepper__minus"
@@ -150,8 +865,151 @@ exports[`Stepper placeholder prop 1`] = `
 
 exports[`Stepper show-plus & show-minus props 1`] = `
 <DocumentFragment>
-  <div
-    class="sc-AxjAm kxFdPY mul-stepper"
+  .c0.mul-stepper {
+  font-size: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0.mul-stepper .mul-stepper__plus,
+.c0.mul-stepper .mul-stepper__minus {
+  position: relative;
+  box-sizing: border-box;
+  width: 28px;
+  height: 28px;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  vertical-align: middle;
+  background-color: #f2f3f5;
+  border: 0;
+  cursor: pointer;
+}
+
+.c0.mul-stepper .mul-stepper__plus::before,
+.c0.mul-stepper .mul-stepper__minus::before {
+  width: 50%;
+  height: 1px;
+}
+
+.c0.mul-stepper .mul-stepper__plus::after,
+.c0.mul-stepper .mul-stepper__minus::after {
+  width: 1px;
+  height: 50%;
+}
+
+.c0.mul-stepper .mul-stepper__plus::before,
+.c0.mul-stepper .mul-stepper__minus::before,
+.c0.mul-stepper .mul-stepper__plus::after,
+.c0.mul-stepper .mul-stepper__minus::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: currentColor;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  content: '';
+}
+
+.c0.mul-stepper .mul-stepper__plus:active,
+.c0.mul-stepper .mul-stepper__minus:active {
+  background-color: #e8e8e8;
+}
+
+.c0.mul-stepper .mul-stepper__plus--disabled,
+.c0.mul-stepper .mul-stepper__minus--disabled {
+  color: #c8c9cc;
+  background-color: #f7f8fa;
+  cursor: not-allowed;
+}
+
+.c0.mul-stepper .mul-stepper__plus--disabled:active,
+.c0.mul-stepper .mul-stepper__minus--disabled:active {
+  background-color: #f7f8fa;
+}
+
+.c0.mul-stepper .mul-stepper__minus {
+  border-radius: 4px 0 0 4px;
+}
+
+.c0.mul-stepper .mul-stepper__minus::after {
+  display: none;
+}
+
+.c0.mul-stepper .mul-stepper__plus {
+  border-radius: 0 4px 4px 0;
+}
+
+.c0.mul-stepper .mul-stepper__input {
+  box-sizing: border-box;
+  width: 32px;
+  height: 28px;
+  margin: 0 2px;
+  padding: 0;
+  color: #323233;
+  font-size: 14px;
+  line-height: normal;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #f2f3f5;
+  border: 0;
+  border-width: 1px 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+.c0.mul-stepper .mul-stepper__input:disabled {
+  color: #c8c9cc;
+  background-color: #f2f3f5;
+  -webkit-text-fill-color: currentColor;
+  opacity: 1;
+}
+
+.c0.mul-stepper .mul-stepper__input:-moz-read-only {
+  cursor: default;
+}
+
+.c0.mul-stepper .mul-stepper__input:read-only {
+  cursor: default;
+}
+
+.c0.mul-stepper--round .mul-stepper__input {
+  background-color: transparent;
+}
+
+.c0.mul-stepper--round .mul-stepper__plus,
+.c0.mul-stepper--round .mul-stepper__minus {
+  border-radius: 100%;
+}
+
+.c0.mul-stepper--round .mul-stepper__plus:active,
+.c0.mul-stepper--round .mul-stepper__minus:active {
+  opacity: 0.7;
+}
+
+.c0.mul-stepper--round .mul-stepper__plus--disabled,
+.c0.mul-stepper--round .mul-stepper__minus--disabled,
+.c0.mul-stepper--round .mul-stepper__plus--disabled:active,
+.c0.mul-stepper--round .mul-stepper__minus--disabled:active {
+  opacity: 0.3;
+}
+
+.c0.mul-stepper--round .mul-stepper__plus {
+  color: #fff;
+  background-color: #fa220a;
+}
+
+.c0.mul-stepper--round .mul-stepper__minus {
+  color: #fa220a;
+  background-color: #fff;
+  border: 1px solid #fa220a;
+}
+
+<div
+    class="c0 mul-stepper"
   >
     <input
       aria-valuemax="Infinity"

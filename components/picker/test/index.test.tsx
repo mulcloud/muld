@@ -2,6 +2,7 @@
 import React from 'react';
 import { render, cleanup, fireEvent } from '@testing-library/react';
 import Picker from '../index';
+import 'jest-styled-components';
 import '@testing-library/jest-dom/extend-expect';
 
 const Wrapper = (props: any) => {

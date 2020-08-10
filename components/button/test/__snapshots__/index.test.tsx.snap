@@ -2,14 +2,227 @@
 
 exports[`Button icon-prefix prop 1`] = `
 <DocumentFragment>
-  <button
-    class="sc-AxirZ dGfnmF mul-button mul-button--default mul-button--normal"
+  .c0.mul-button {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  height: 44px;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  border-radius: 2px;
+  cursor: pointer;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+  -webkit-appearance: none;
+}
+
+.c0.mul-button::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  border: inherit;
+  border-color: #000;
+  border-radius: inherit;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  opacity: 0;
+  content: ' ';
+}
+
+.c0.mul-button:active::before {
+  opacity: 0.1;
+}
+
+.c0.mul-button--loading::before,
+.c0.mul-button--disabled::before {
+  display: none;
+}
+
+.c0.mul-button--default {
+  color: #323233;
+  background-color: #fff;
+  border: 1px solid #ebedf0;
+}
+
+.c0.mul-button--primary {
+  color: #fff;
+  background-color: #07c160;
+  border: 1px solid #07c160;
+}
+
+.c0.mul-button--info {
+  color: #fff;
+  background-color: #108ee9;
+  border: 1px solid #108ee9;
+}
+
+.c0.mul-button--danger {
+  color: #fff;
+  background-color: #fa220a;
+  border: 1px solid #fa220a;
+}
+
+.c0.mul-button--warning {
+  color: #fff;
+  background-color: #ff976a;
+  border: 1px solid #ff976a;
+}
+
+.c0.mul-button--plain {
+  background-color: #fff;
+}
+
+.c0.mul-button--plain.mul-button--primary {
+  color: #07c160;
+}
+
+.c0.mul-button--plain.mul-button--info {
+  color: #108ee9;
+}
+
+.c0.mul-button--plain.mul-button--danger {
+  color: #fa220a;
+}
+
+.c0.mul-button--plain.mul-button--warning {
+  color: #ff976a;
+}
+
+.c0.mul-button--large {
+  width: 100%;
+  height: 50px;
+}
+
+.c0.mul-button--normal {
+  padding: 0 15px;
+  font-size: 14px;
+}
+
+.c0.mul-button--small {
+  height: 32px;
+  padding: 0 8px;
+  font-size: 12px;
+}
+
+.c0.mul-button__loading {
+  color: inherit;
+  font-size: inherit;
+}
+
+.c0.mul-button--mini {
+  height: 24px;
+  padding: 0 4px;
+  font-size: 10px;
+}
+
+.c0.mul-button--mini + .mul-button--mini {
+  margin-left: 4px;
+}
+
+.c0.mul-button--block {
+  display: block;
+  width: 100%;
+}
+
+.c0.mul-button--disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.c0.mul-button--loading {
+  cursor: default;
+}
+
+.c0.mul-button--round {
+  border-radius: 999px;
+}
+
+.c0.mul-button--square {
+  border-radius: 0;
+}
+
+.c0.mul-button .mul-button__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.c0.mul-button .mul-button__icon {
+  min-width: 1em;
+  font-size: 1.2em;
+  line-height: inherit;
+}
+
+.c0.mul-button .mul-button__icon + .mul-button__text,
+.c0.mul-button .mul-button__loading + .mul-button__text {
+  margin-left: 5px;
+}
+
+.c0.mul-button .mul-button--hairline {
+  border-width: 0;
+}
+
+.c0.mul-button .mul-button--hairline::after {
+  border-color: inherit;
+  border-radius: 4px;
+}
+
+.c0.mul-button .mul-button--hairline.mul-button--round::after {
+  border-radius: 999px;
+}
+
+.c0.mul-button .mul-button--hairline.mul-button--square::after {
+  border-radius: 0;
+}
+
+.c1.mul-icon {
+  position: relative;
+  display: inline-block;
+  font-family: 'muld-icon' !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.c1.mul-icon::before {
+  display: inline-block;
+}
+
+.c1.mul-icon .mul-icon__image {
+  width: 1em;
+  height: 1em;
+  object-fit: contain;
+}
+
+.c1.mul-icon-success::before {
+  content: '\\F0C8';
+}
+
+<button
+    class="c0 mul-button mul-button--default mul-button--normal"
   >
     <div
       class="mul-button__content"
     >
       <i
-        class="sc-fznZeY cCHXlm my-icon my-icon-success mul-button__icon"
+        class="c1 my-icon my-icon-success mul-button__icon"
         content="F0C8"
         name="success"
         style="font-size: 20px;"

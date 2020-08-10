@@ -2,8 +2,22 @@
 
 exports[`List check the direction props 1`] = `
 <DocumentFragment>
-  <div
-    class="sc-AxirZ jfMPHR mul-list"
+  .c0.mul-list .mul-list__loading,
+.c0.mul-list .mul-list__finished-text,
+.c0.mul-list .mul-list__error-text {
+  color: #969799;
+  font-size: 14px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.c0.mul-list .mul-list__placeholder {
+  height: 0;
+  pointer-events: none;
+}
+
+<div
+    class="c0 mul-list"
     role="feed"
   >
     <div
@@ -15,8 +29,22 @@ exports[`List check the direction props 1`] = `
 
 exports[`List check the direction props 2`] = `
 <DocumentFragment>
-  <div
-    class="sc-AxirZ jfMPHR mul-list"
+  .c0.mul-list .mul-list__loading,
+.c0.mul-list .mul-list__finished-text,
+.c0.mul-list .mul-list__error-text {
+  color: #969799;
+  font-size: 14px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.c0.mul-list .mul-list__placeholder {
+  height: 0;
+  pointer-events: none;
+}
+
+<div
+    class="c0 mul-list"
     role="feed"
   >
     <div
@@ -28,9 +56,23 @@ exports[`List check the direction props 2`] = `
 
 exports[`List error children 1`] = `
 <DocumentFragment>
-  <div
+  .c0.mul-list .mul-list__loading,
+.c0.mul-list .mul-list__finished-text,
+.c0.mul-list .mul-list__error-text {
+  color: #969799;
+  font-size: 14px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.c0.mul-list .mul-list__placeholder {
+  height: 0;
+  pointer-events: none;
+}
+
+<div
     aria-busy="false"
-    class="sc-AxirZ jfMPHR mul-list"
+    class="c0 mul-list"
     role="feed"
   >
     <div
@@ -49,9 +91,23 @@ exports[`List error children 1`] = `
 
 exports[`List finished children 1`] = `
 <DocumentFragment>
-  <div
+  .c0.mul-list .mul-list__loading,
+.c0.mul-list .mul-list__finished-text,
+.c0.mul-list .mul-list__error-text {
+  color: #969799;
+  font-size: 14px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.c0.mul-list .mul-list__placeholder {
+  height: 0;
+  pointer-events: none;
+}
+
+<div
     aria-busy="false"
-    class="sc-AxirZ jfMPHR mul-list"
+    class="c0 mul-list"
     role="feed"
   >
     <div

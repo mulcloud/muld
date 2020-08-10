@@ -20,7 +20,7 @@ export const View = styled.div`
         font-weight: ${$font_weight_bold};
         font-size: ${$font_size_sm};
         font-family: ${$price_integer_font_family};
-        line-height: ${Number($font_size_lg) - Number($border_width_base) * 2};
+        line-height: calc(${$font_size_lg} - ${$border_width_base} * 2);
         text-align: center;
         background-color: #ee0a24;
         border: ${$border_width_base} solid ${$white};
