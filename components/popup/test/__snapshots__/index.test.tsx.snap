@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Popup closeable prop 1`] = `<DocumentFragment />`;
+
+exports[`Popup duration prop when position is top 1`] = `<DocumentFragment />`;
+
+exports[`Popup get container with selector 1`] = `<DocumentFragment />`;
+
+exports[`Popup icon-close popup 1`] = `<DocumentFragment />`;
+
+exports[`Popup popup lock scroll 1`] = `<DocumentFragment />`;
+
+exports[`Popup reset z-indx 1`] = `<DocumentFragment />`;
+
+exports[`Popup round prop 1`] = `<DocumentFragment />`;

@@ -83,10 +83,10 @@ module.exports = {
                                 path: 'common-layout',
                                 title: '常用布局',
                             },
-                            // {
-                            //     path: 'popup',
-                            //     title: 'Popup 弹出层',
-                            // },
+                            {
+                                path: 'popup',
+                                title: 'Popup 弹出层',
+                            },
                             {
                                 path: 'style',
                                 title: 'Style 内置样式',
