@@ -61,6 +61,7 @@
     "babel-jest": "^26.1.0",
     "husky": "^4.2.5",
     "jest": "^26.1.0",
+    "jest-styled-components": "^7.0.2",
     "lint-staged": "^10.2.11",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
