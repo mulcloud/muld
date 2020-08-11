@@ -27,7 +27,7 @@ const defaultProps = {
     show: false,
     zIndex: 1,
     lockScroll: true,
-    duration: 300,
+    duration: 0.3,
 };
 
 export type OverlayProps = Props & typeof defaultProps;
@@ -38,27 +38,25 @@ const Overlay: React.FC<React.PropsWithChildren<OverlayProps>> = (props: Overlay
     const style: React.CSSProperties = {
         zIndex,
         ...props.customStyle,
+        animationDuration: `${duration}s`,
     };
 
     const handleClick = (event: React.MouseEvent<HTMLDivElement>): void => {
         onClick && onClick(event);
     };
 
-    if (show) {
-        return (
-            <CSSTransition unmountOnExit in={show} timeout={duration} classNames="mul-fade">
-                <View
-                    className={classnames([bem(), props.className])}
-                    style={style}
-                    onClick={handleClick}
-                    onTouchMove={lockScroll ? preventTouchMove : noop}
-                >
-                    {props.children}
-                </View>
-            </CSSTransition>
-        );
-    }
-    return null;
+    return (
+        <CSSTransition unmountOnExit in={show} timeout={duration * 1000} classNames="mul-fade">
+            <View
+                className={classnames([bem(), props.className])}
+                style={style}
+                onClick={handleClick}
+                onTouchMove={lockScroll ? preventTouchMove : noop}
+            >
+                {props.children}
+            </View>
+        </CSSTransition>
+    );
 };
 
 export default withDefaultProps(React.memo(Overlay), defaultProps);

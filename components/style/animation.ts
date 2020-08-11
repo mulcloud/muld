@@ -87,7 +87,8 @@ export const animation = `
     .mul-fade-enter-active {
         animation: ${$animation_duration_base} mul-fade-in both ${$animation_timing_function_enter};
     }
-    .mul-fade-leave-active {
+
+    .mul-fade-exit-active {
         animation: ${$animation_duration_base} mul-fade-out both ${$animation_timing_function_leave};
     }
 

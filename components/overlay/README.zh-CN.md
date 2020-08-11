@@ -59,7 +59,7 @@ const [show, setState] = React.useState(false);
 | --- | --- | --- | --- |
 | show | 是否展示遮罩层 | _boolean_ | `false` |
 | zIndex | z-index 层级 | _number \| string_ | `1` |
-| duration | 动画时长，单位毫秒 | _number \| string_ | `300` |
+| duration | 动画时长，单位秒 | _number \| string_ | `0.3` |
 | className | 自定义类名 | _string_ | - |
 | customStyle | 自定义样式 | _object_ | - |
 | lockScroll | 是否锁定背景滚动，锁定时蒙层里的内容也将无法滚动 | _boolean_ | `true` |

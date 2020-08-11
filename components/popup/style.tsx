@@ -81,31 +81,75 @@ export const View = styled.div`
                 transition-timing-function: ease-out;
             }
 
-            &-slide-top-leave-active,
-            &-slide-left-leave-active,
-            &-slide-right-leave-active,
-            &-slide-bottom-leave-active {
+            &-slide-top-exit-active,
+            &-slide-left-exit-active,
+            &-slide-right-exit-active,
+            &-slide-bottom-exit-active {
                 transition-timing-function: ease-in;
             }
 
-            &-slide-top-enter,
-            &-slide-top-leave-active {
+            &-slide-top-enter {
                 transform: translate3d(0, -100%, 0);
             }
 
-            &-slide-right-enter,
-            &-slide-right-leave-active {
-                transform: translate3d(100%, -50%, 0);
+            &-slide-top-enter-active {
+                transform: translate3d(0, 0, 0);
             }
 
-            &-slide-bottom-enter,
-            &-slide-bottom-leave-active {
+            &-slide-top-exit {
+                transform: translate3d(0, 0, 0);
+            }
+
+            &-slide-top-exit-active {
+                transform: translate3d(0, -100%, 0);
+            }
+
+            &-slide-bottom-enter {
                 transform: translate3d(0, 100%, 0);
             }
 
-            &-slide-left-enter,
-            &-slide-left-leave-active {
+            &-slide-bottom-exit {
+                transform: translate3d(0, 0, 0);
+            }
+
+            &-slide-bottom-enter-active {
+                transform: translate3d(0, 0, 0);
+            }
+
+            &-slide-bottom-exit-active {
+                transform: translate3d(0, 100%, 0);
+            }
+
+            &-slide-right-enter {
+                transform: translate3d(100%, -50%, 0);
+            }
+
+            &-slide-right-exit {
+                transform: translate3d(0, -50%, 0);
+            }
+
+            &-slide-right-exit-active {
+                transform: translate3d(100%, -50%, 0);
+            }
+
+            &-slide-right-enter-active {
+                transform: translate3d(0, -50%, 0);
+            }
+
+            &-slide-left-enter {
                 transform: translate3d(-100%, -50%, 0);
+            }
+
+            &-slide-left-exit {
+                transform: translate3d(0, -50%, 0);
+            }
+
+            &-slide-left-exit-active {
+                transform: translate3d(-100%, -50%, 0);
+            }
+
+            &-slide-left-enter-active {
+                transform: translate3d(0, -50%, 0);
             }
         }
     }
