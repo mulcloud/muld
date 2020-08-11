@@ -344,3 +344,26 @@ export const $sidebar: CSSProperties = {
     sidebar_selected_border_color: `${$red}`,
     sidebar_disabled_text_color: `${$gray5}`,
 };
+
+// Field
+export const $field: CSSProperties = {
+    field_label_width: '6.2em',
+    field_label_margin_right: `${$padding_sm}`,
+    field_label_color: `${$gray7}`,
+    field_disabled_text_color: `${$gray5}`,
+    field_input_text_color: `${$text_color}`,
+    field_placeholder_text_color: `${$gray5}`,
+    field_input_disabled_text_color: `${$gray5}`,
+    field_input_error_text_color: `${$red}`,
+    field_clear_icon_color: `${$gray5}`,
+    field_clear_icon_size: '16px',
+    field_icon_size: '16px',
+    field_right_icon_color: `${$gray6}`,
+    field_error_message_color: `${$red}`,
+    field_error_message_text_size: '12px',
+    field_word_limit_color: `${$gray7}`,
+    field_word_limit_font_size: `${$font_size_sm}`,
+    field_word_limit_line_height: '16px',
+    field_text_area_min_height: '60px',
+    cell_line_height: `${$cell.line_height}`,
+};
