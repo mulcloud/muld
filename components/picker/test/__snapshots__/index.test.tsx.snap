@@ -1,0 +1,755 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render columns-bottom slot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm cuCmLo mul-picker"
+  >
+    <div
+      slot="columns-top"
+    >
+      columns-top
+    </div>
+    <div
+      slot="columns-top"
+    >
+      columns-top
+    </div>
+    <div
+      class="mul-picker__columns"
+      style="height: 264px;"
+    >
+      <div
+        class="mul-picker-column"
+      >
+        <ul
+          style="transform: translate3d(0, 110px, 0); transition-duration: 200ms; transition-property: all;"
+        >
+          <div>
+            <li
+              class="undefined mul-picker-column__item mul-picker-column__item--selected"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1990
+              </div>
+            </li>
+          </div>
+          <div>
+            <li
+              class="undefined mul-picker-column__item"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1991
+              </div>
+            </li>
+          </div>
+          <div>
+            <li
+              class="undefined mul-picker-column__item"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1992
+              </div>
+            </li>
+          </div>
+          <div>
+            <li
+              class="undefined mul-picker-column__item"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1993
+              </div>
+            </li>
+          </div>
+          <div>
+            <li
+              class="undefined mul-picker-column__item"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1994
+              </div>
+            </li>
+          </div>
+          <div>
+            <li
+              class="undefined mul-picker-column__item"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1995
+              </div>
+            </li>
+          </div>
+        </ul>
+      </div>
+      <div
+        class="mul-picker__mask"
+        style="background-size: 100% 110px;"
+      />
+      <div
+        class="mul-hairline-unset--top-bottom mul-picker__frame"
+        style="height: 44px;"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`render columns-top slot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm cuCmLo mul-picker"
+  >
+    <div
+      slot="columns-top"
+    >
+      columns-top
+    </div>
+    <div
+      slot="columns-top"
+    >
+      columns-top
+    </div>
+    <div
+      class="mul-picker__columns"
+      style="height: 264px;"
+    >
+      <div
+        class="mul-picker-column"
+      >
+        <ul
+          style="transform: translate3d(0, 110px, 0); transition-duration: 200ms; transition-property: all;"
+        >
+          <div>
+            <li
+              class="undefined mul-picker-column__item mul-picker-column__item--selected"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1990
+              </div>
+            </li>
+          </div>
+          <div>
+            <li
+              class="undefined mul-picker-column__item"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1991
+              </div>
+            </li>
+          </div>
+          <div>
+            <li
+              class="undefined mul-picker-column__item"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1992
+              </div>
+            </li>
+          </div>
+          <div>
+            <li
+              class="undefined mul-picker-column__item"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1993
+              </div>
+            </li>
+          </div>
+          <div>
+            <li
+              class="undefined mul-picker-column__item"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1994
+              </div>
+            </li>
+          </div>
+          <div>
+            <li
+              class="undefined mul-picker-column__item"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1995
+              </div>
+            </li>
+          </div>
+        </ul>
+      </div>
+      <div
+        class="mul-picker__mask"
+        style="background-size: 100% 110px;"
+      />
+      <div
+        class="mul-hairline-unset--top-bottom mul-picker__frame"
+        style="height: 44px;"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`render default index 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm cuCmLo mul-picker"
+  >
+    <div
+      class="mul-picker__toolbar"
+    >
+      <button
+        class="mul-picker__cancel"
+        type="button"
+      >
+        取消
+      </button>
+      <div
+        class="mul-picker__title mul-ellipsis"
+      >
+        标题
+      </div>
+      <button
+        class="mul-picker__confirm"
+        type="button"
+      >
+        确认
+      </button>
+    </div>
+    <div
+      class="mul-picker__columns"
+      style="height: 264px;"
+    >
+      <div
+        class="mul-picker-column"
+      >
+        <ul
+          style="transform: translate3d(0, 22px, 0); transition-duration: 200ms; transition-property: all;"
+        >
+          <div>
+            <li
+              class="undefined mul-picker-column__item"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1990
+              </div>
+            </li>
+          </div>
+          <div>
+            <li
+              class="undefined mul-picker-column__item"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1991
+              </div>
+            </li>
+          </div>
+          <div>
+            <li
+              class="undefined mul-picker-column__item mul-picker-column__item--selected"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1992
+              </div>
+            </li>
+          </div>
+          <div>
+            <li
+              class="undefined mul-picker-column__item"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1993
+              </div>
+            </li>
+          </div>
+          <div>
+            <li
+              class="undefined mul-picker-column__item"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1994
+              </div>
+            </li>
+          </div>
+          <div>
+            <li
+              class="undefined mul-picker-column__item"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1995
+              </div>
+            </li>
+          </div>
+        </ul>
+      </div>
+      <div
+        class="mul-picker__mask"
+        style="background-size: 100% 110px;"
+      />
+      <div
+        class="mul-hairline-unset--top-bottom mul-picker__frame"
+        style="height: 44px;"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`render default slot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm cuCmLo mul-picker"
+  >
+    <div>
+      header
+    </div>
+    <div
+      class="mul-picker__columns"
+      style="height: 264px;"
+    >
+      <div
+        class="mul-picker-column"
+      >
+        <ul
+          style="transform: translate3d(0, 110px, 0); transition-duration: 200ms; transition-property: all;"
+        >
+          <div>
+            <li
+              class="undefined mul-picker-column__item mul-picker-column__item--selected"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1990
+              </div>
+            </li>
+          </div>
+          <div>
+            <li
+              class="undefined mul-picker-column__item"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1991
+              </div>
+            </li>
+          </div>
+          <div>
+            <li
+              class="undefined mul-picker-column__item"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1992
+              </div>
+            </li>
+          </div>
+          <div>
+            <li
+              class="undefined mul-picker-column__item"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1993
+              </div>
+            </li>
+          </div>
+          <div>
+            <li
+              class="undefined mul-picker-column__item"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1994
+              </div>
+            </li>
+          </div>
+          <div>
+            <li
+              class="undefined mul-picker-column__item"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1995
+              </div>
+            </li>
+          </div>
+        </ul>
+      </div>
+      <div
+        class="mul-picker__mask"
+        style="background-size: 100% 110px;"
+      />
+      <div
+        class="mul-hairline-unset--top-bottom mul-picker__frame"
+        style="height: 44px;"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`render mul options 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm cuCmLo mul-picker"
+  >
+    <div
+      class="mul-picker__toolbar"
+    >
+      <button
+        class="mul-picker__cancel"
+        type="button"
+      >
+        取消
+      </button>
+      <div
+        class="mul-picker__title mul-ellipsis"
+      >
+        标题
+      </div>
+      <button
+        class="mul-picker__confirm"
+        type="button"
+      >
+        确认
+      </button>
+    </div>
+    <div
+      class="mul-picker__columns"
+      style="height: 264px;"
+    >
+      <div
+        class="mul-picker-column"
+      >
+        <ul
+          style="transform: translate3d(0, 22px, 0); transition-duration: 200ms; transition-property: all;"
+        >
+          <div>
+            <li
+              class="undefined mul-picker-column__item"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1990
+              </div>
+            </li>
+          </div>
+          <div>
+            <li
+              class="undefined mul-picker-column__item"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1991
+              </div>
+            </li>
+          </div>
+          <div>
+            <li
+              class="undefined mul-picker-column__item mul-picker-column__item--selected"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1992
+              </div>
+            </li>
+          </div>
+          <div>
+            <li
+              class="undefined mul-picker-column__item"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1993
+              </div>
+            </li>
+          </div>
+          <div>
+            <li
+              class="undefined mul-picker-column__item"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1994
+              </div>
+            </li>
+          </div>
+          <div>
+            <li
+              class="undefined mul-picker-column__item"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1995
+              </div>
+            </li>
+          </div>
+        </ul>
+      </div>
+      <div
+        class="mul-picker__mask"
+        style="background-size: 100% 110px;"
+      />
+      <div
+        class="mul-hairline-unset--top-bottom mul-picker__frame"
+        style="height: 44px;"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`render title slot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm cuCmLo mul-picker"
+  >
+    <div
+      slot="title"
+    >
+      title
+    </div>
+    <div
+      class="mul-picker__columns"
+      style="height: 264px;"
+    >
+      <div
+        class="mul-picker-column"
+      >
+        <ul
+          style="transform: translate3d(0, 110px, 0); transition-duration: 200ms; transition-property: all;"
+        >
+          <div>
+            <li
+              class="undefined mul-picker-column__item mul-picker-column__item--selected"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1990
+              </div>
+            </li>
+          </div>
+          <div>
+            <li
+              class="undefined mul-picker-column__item"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1991
+              </div>
+            </li>
+          </div>
+          <div>
+            <li
+              class="undefined mul-picker-column__item"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1992
+              </div>
+            </li>
+          </div>
+          <div>
+            <li
+              class="undefined mul-picker-column__item"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1993
+              </div>
+            </li>
+          </div>
+          <div>
+            <li
+              class="undefined mul-picker-column__item"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1994
+              </div>
+            </li>
+          </div>
+          <div>
+            <li
+              class="undefined mul-picker-column__item"
+              role="button"
+              style="height: 44px;"
+              tabindex="0"
+            >
+              <div
+                class="mul-ellipsis"
+              >
+                1995
+              </div>
+            </li>
+          </div>
+        </ul>
+      </div>
+      <div
+        class="mul-picker__mask"
+        style="background-size: 100% 110px;"
+      />
+      <div
+        class="mul-hairline-unset--top-bottom mul-picker__frame"
+        style="height: 44px;"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

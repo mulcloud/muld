@@ -13,7 +13,7 @@ exports[`Image loading-icon prop 1`] = `
       class="mul-image__loading"
     >
       <i
-        class="sc-fznKkj blcCKK mul-image__loading-icon mul-image__loading-icon-success"
+        class="sc-fznZeY cCHXlm mul-image__loading-icon mul-image__loading-icon-success"
         content="F0C8"
         name="success"
         style="font-size: 20px;"
@@ -38,7 +38,7 @@ exports[`Image radius prop 1`] = `
       class="mul-image__loading"
     >
       <i
-        class="sc-fznKkj vRuen mul-image__loading-icon mul-image__loading-icon-photo"
+        class="sc-fznZeY gWPLVv mul-image__loading-icon mul-image__loading-icon-photo"
         content="F09D"
         name="photo"
         style="font-size: 20px;"

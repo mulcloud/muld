@@ -9,7 +9,7 @@ exports[`Button icon-prefix prop 1`] = `
       class="mul-button__content"
     >
       <i
-        class="sc-fznKkj blcCKK my-icon my-icon-success mul-button__icon"
+        class="sc-fznZeY cCHXlm my-icon my-icon-success mul-button__icon"
         content="F0C8"
         name="success"
         style="font-size: 20px;"
