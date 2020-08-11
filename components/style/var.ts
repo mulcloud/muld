@@ -303,3 +303,21 @@ export const $picker: CSSProperties = {
     picker_loading_icon_color: `${$blue}`,
     picker_loading_mask_color: 'rgba(255, 255, 255, 0.9)',
 };
+
+// Sidebar
+export const $sidebar: CSSProperties = {
+    sidebar_width: '80px',
+    sidebar_padding: `20px ${$padding_sm}`,
+    sidebar_text_color: `${$text_color}`,
+    sidebar_font_size: `${$font_size_md}`,
+    sidebar_line_height: `${$line_height_md}`,
+    sidebar_background_color: `${$background_color}`,
+    sidebar_active_color: `${$active_color}`,
+    sidebar_selected_text_color: `${$text_color}`,
+    sidebar_selected_font_weight: `${$font_weight_bold}`,
+    sidebar_selected_background_color: `${$white}`,
+    sidebar_selected_border_width: `4px`,
+    sidebar_selected_border_height: `16px`,
+    sidebar_selected_border_color: `${$red}`,
+    sidebar_disabled_text_color: `${$gray5}`,
+};
