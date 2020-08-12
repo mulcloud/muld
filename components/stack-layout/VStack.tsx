@@ -17,7 +17,6 @@ export const VStack: React.FC<React.PropsWithChildren<VStackProps>> = (props) =>
         flexDirection: 'column',
         alignSelf: 'stretch',
         flex: '1 1 auto',
-        height: '100%',
     };
 
     if (alignX) {
