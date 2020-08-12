@@ -173,7 +173,7 @@ export const View = styled.button`
             margin-left: 5px;
         }
 
-        .mul-button--hairline {
+        &--hairline {
             border-width: 0;
 
             &::after {

@@ -2,6 +2,7 @@
     "compilerOptions": {
         "baseUrl": "../",
         "outDir": "../lib",
+        "target": "esnext",
         "jsx": "react",
         "moduleResolution": "node",
         "emitDeclarationOnly": true,

@@ -2,7 +2,30 @@
 
 exports[`Cell arrow direction 1`] = `
 <DocumentFragment>
-  .c0.mul-cell {
+  .c1.mul-icon {
+  position: relative;
+  display: inline-block;
+  font-family: 'muld-icon' !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.c1.mul-icon::before {
+  display: inline-block;
+}
+
+.c1.mul-icon .mul-icon__image {
+  width: 1em;
+  height: 1em;
+  object-fit: contain;
+}
+
+.c1.mul-icon-arrow-down::before {
+  content: '\\F007';
+}
+
+.c0.mul-cell {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -31,7 +54,7 @@ exports[`Cell arrow direction 1`] = `
   right: 16px;
   bottom: 0;
   left: 16px;
-  borderBottom: 1px solid #ebedf0;
+  border-bottom: 1px solid #ebedf0;
   -webkit-transform: scaleY(0.5);
   -ms-transform: scaleY(0.5);
   transform: scaleY(0.5);
@@ -120,29 +143,6 @@ exports[`Cell arrow direction 1`] = `
 
 .c0.mul-cell--large .mul-cell__label {
   font-size: 14px;
-}
-
-.c1.mul-icon {
-  position: relative;
-  display: inline-block;
-  font-family: 'muld-icon' !important;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-
-.c1.mul-icon::before {
-  display: inline-block;
-}
-
-.c1.mul-icon .mul-icon__image {
-  width: 1em;
-  height: 1em;
-  object-fit: contain;
-}
-
-.c1.mul-icon-arrow-down::before {
-  content: '\\F007';
 }
 
 <div
@@ -167,127 +167,7 @@ exports[`Cell arrow direction 1`] = `
 
 exports[`Cell icon-prefix prop 1`] = `
 <DocumentFragment>
-  .c0.mul-cell {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  box-sizing: border-box;
-  width: 100%;
-  padding: 10px 16px;
-  overflow: hidden;
-  color: #323233;
-  font-size: 14px;
-  line-height: 24px;
-  background-color: #fff;
-}
-
-.c0.mul-cell:last-child::after,
-.c0.mul-cell--borderless::after {
-  display: none;
-}
-
-.c0.mul-cell::after {
-  position: absolute;
-  box-sizing: border-box;
-  content: ' ';
-  pointer-events: none;
-  right: 16px;
-  bottom: 0;
-  left: 16px;
-  borderBottom: 1px solid #ebedf0;
-  -webkit-transform: scaleY(0.5);
-  -ms-transform: scaleY(0.5);
-  transform: scaleY(0.5);
-}
-
-.c0.mul-cell .mul-cell__label {
-  margin-top: 4px;
-  color: #969799;
-  font-size: 12px;
-  line-height: 18px;
-}
-
-.c0.mul-cell .mul-cell__title,
-.c0.mul-cell .mul-cell__value {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
-
-.c0.mul-cell .mul-cell__value {
-  position: relative;
-  overflow: hidden;
-  color: #969799;
-  text-align: right;
-  vertical-align: middle;
-  word-wrap: break-word;
-}
-
-.c0.mul-cell .mul-cell__value--alone {
-  color: #323233;
-  text-align: left;
-}
-
-.c0.mul-cell .mul-cell__left-icon,
-.c0.mul-cell .mul-cell__right-icon {
-  min-width: 1em;
-  height: 24px;
-  font-size: 16px;
-  line-height: 24px;
-}
-
-.c0.mul-cell .mul-cell__left-icon {
-  margin-right: 4px;
-}
-
-.c0.mul-cell .mul-cell__right-icon {
-  margin-left: 4px;
-  color: #969799;
-}
-
-.c0.mul-cell--clickable {
-  cursor: pointer;
-}
-
-.c0.mul-cell--clickable:active {
-  background-color: #f2f3f5;
-}
-
-.c0.mul-cell--required {
-  overflow: visible;
-}
-
-.c0.mul-cell--required::before {
-  position: absolute;
-  left: 8px;
-  color: #fa220a;
-  font-size: 14px;
-  content: '*';
-}
-
-.c0.mul-cell--center {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c0.mul-cell--large {
-  padding-top: 12px;
-  padding-bottom: 12px;
-}
-
-.c0.mul-cell--large .mul-cell__title {
-  font-size: 16px;
-}
-
-.c0.mul-cell--large .mul-cell__label {
-  font-size: 14px;
-}
-
-.c1.mul-icon {
+  .c1.mul-icon {
   position: relative;
   display: inline-block;
   font-family: 'muld-icon' !important;
@@ -310,27 +190,7 @@ exports[`Cell icon-prefix prop 1`] = `
   content: '\\F0C8';
 }
 
-<div
-    class="c0 mul-cell"
-  >
-    <i
-      class="c1 my-icon my-icon-success mul-cell__left-icon"
-      content="F0C8"
-      name="success"
-      style="font-size: 20px;"
-    />
-    <div
-      class="mul-cell__value mul-cell__value--alone"
-    >
-      content
-    </div>
-  </div>
-</DocumentFragment>
-`;
-
-exports[`Cell render slot 1`] = `
-<DocumentFragment>
-  .c0.mul-cell {
+.c0.mul-cell {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -359,7 +219,7 @@ exports[`Cell render slot 1`] = `
   right: 16px;
   bottom: 0;
   left: 16px;
-  borderBottom: 1px solid #ebedf0;
+  border-bottom: 1px solid #ebedf0;
   -webkit-transform: scaleY(0.5);
   -ms-transform: scaleY(0.5);
   transform: scaleY(0.5);
@@ -450,7 +310,27 @@ exports[`Cell render slot 1`] = `
   font-size: 14px;
 }
 
-.c1.mul-icon {
+<div
+    class="c0 mul-cell"
+  >
+    <i
+      class="c1 my-icon my-icon-success mul-cell__left-icon"
+      content="F0C8"
+      name="success"
+      style="font-size: 20px;"
+    />
+    <div
+      class="mul-cell__value mul-cell__value--alone"
+    >
+      content
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Cell render slot 1`] = `
+<DocumentFragment>
+  .c1.mul-icon {
   position: relative;
   display: inline-block;
   font-family: 'muld-icon' !important;
@@ -471,6 +351,126 @@ exports[`Cell render slot 1`] = `
 
 .c1.mul-icon-::before {
   content: '\\ ';
+}
+
+.c0.mul-cell {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 16px;
+  overflow: hidden;
+  color: #323233;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #fff;
+}
+
+.c0.mul-cell:last-child::after,
+.c0.mul-cell--borderless::after {
+  display: none;
+}
+
+.c0.mul-cell::after {
+  position: absolute;
+  box-sizing: border-box;
+  content: ' ';
+  pointer-events: none;
+  right: 16px;
+  bottom: 0;
+  left: 16px;
+  border-bottom: 1px solid #ebedf0;
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.c0.mul-cell .mul-cell__label {
+  margin-top: 4px;
+  color: #969799;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.c0.mul-cell .mul-cell__title,
+.c0.mul-cell .mul-cell__value {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c0.mul-cell .mul-cell__value {
+  position: relative;
+  overflow: hidden;
+  color: #969799;
+  text-align: right;
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+
+.c0.mul-cell .mul-cell__value--alone {
+  color: #323233;
+  text-align: left;
+}
+
+.c0.mul-cell .mul-cell__left-icon,
+.c0.mul-cell .mul-cell__right-icon {
+  min-width: 1em;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c0.mul-cell .mul-cell__left-icon {
+  margin-right: 4px;
+}
+
+.c0.mul-cell .mul-cell__right-icon {
+  margin-left: 4px;
+  color: #969799;
+}
+
+.c0.mul-cell--clickable {
+  cursor: pointer;
+}
+
+.c0.mul-cell--clickable:active {
+  background-color: #f2f3f5;
+}
+
+.c0.mul-cell--required {
+  overflow: visible;
+}
+
+.c0.mul-cell--required::before {
+  position: absolute;
+  left: 8px;
+  color: #fa220a;
+  font-size: 14px;
+  content: '*';
+}
+
+.c0.mul-cell--center {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0.mul-cell--large {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c0.mul-cell--large .mul-cell__title {
+  font-size: 16px;
+}
+
+.c0.mul-cell--large .mul-cell__label {
+  font-size: 14px;
 }
 
 <div
@@ -533,7 +533,7 @@ exports[`Cell title-style prop 1`] = `
   right: 16px;
   bottom: 0;
   left: 16px;
-  borderBottom: 1px solid #ebedf0;
+  border-bottom: 1px solid #ebedf0;
   -webkit-transform: scaleY(0.5);
   -ms-transform: scaleY(0.5);
   transform: scaleY(0.5);

@@ -365,5 +365,5 @@ export const $field: CSSProperties = {
     field_word_limit_font_size: `${$font_size_sm}`,
     field_word_limit_line_height: '16px',
     field_text_area_min_height: '60px',
-    cell_line_height: `${$cell.line_height}`,
+    cell_line_height: '24px',
 };
