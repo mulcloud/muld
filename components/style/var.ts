@@ -203,6 +203,24 @@ export const $checkbox: CSSProperties = {
     disabled_background_color: `${$border_color}`,
 };
 
+// Tab
+export const $tab: CSSProperties = {
+    $tab_text_color: $gray7,
+    $tab_active_text_color: $text_color,
+    $tab_disabled_text_color: $gray5,
+    $tab_font_size: $font_size_md,
+};
+
+// Tabs
+export const $tabs: CSSProperties = {
+    $tabs_default_color: $red,
+    $tabs_line_height: '44px',
+    $tabs_card_height: '30px',
+    $tabs_nav_background_color: $white,
+    $tabs_bottom_bar_height: '3px',
+    $tabs_bottom_bar_color: $red,
+};
+
 export const $tag: CSSProperties = {
     // Tag
     padding: `0 ${$padding_base}`,
