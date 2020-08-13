@@ -191,7 +191,11 @@ const Picker: React.FC<PickerPropsType> = (props: PickerPropsType) => {
             onCascadeChange(columnIndex);
         }
 
-        setCurrentIndex(columnIndex);
+        // inside callback use setState cause update warning.
+        // add setTimeout avoid setState warning.
+        setTimeout(() => {
+            setCurrentIndex(columnIndex);
+        }, 0);
 
         props.onChange && props.onChange(getColumnChangeValue(0, columnIndex), columnIndex);
     };
