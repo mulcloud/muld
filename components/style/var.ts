@@ -254,6 +254,26 @@ export const $popup = {
     popup_close_icon_z_index: '1',
 };
 
+// Step
+export const $step = {
+    step_text_color: $gray6,
+    step_active_color: $green,
+    step_process_text_color: $text_color,
+    step_font_size: $font_size_md,
+    step_line_color: $border_color,
+    step_finish_line_color: $green,
+    step_finish_text_color: $text_color,
+    step_icon_size: '12px',
+    step_circle_size: '5px',
+    step_circle_color: $gray6,
+    step_horizontal_title_font_size: $font_size_sm,
+};
+
+// Steps
+export const $steps = {
+    steps_background_color: $white,
+};
+
 // Stepper
 export const $stepper: CSSProperties = {
     stepper_active_color: '#e8e8e8',

@@ -41,7 +41,7 @@ export interface PropsType {
     onChange?: (value: string | number, index: number) => void | string;
     onConfirm?: (value: string | number, index: number) => void | string;
     onCancel?: () => void;
-    children: any;
+    children?: React.ReactElement;
 }
 
 const defaultProps = {
