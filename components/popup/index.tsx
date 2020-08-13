@@ -31,7 +31,7 @@ interface Props extends React.HTMLAttributes<HTMLDivElement> {
     onClose?: () => void;
     onClosed?: () => void;
     onOpened?: () => void;
-    onClickOverlay?: () => void;
+    onClosePopup?: () => void;
 }
 const defaultProps = {
     visible: false,
@@ -57,7 +57,7 @@ const Popup: React.FC<React.PropsWithChildren<PopupProps>> = (props: PopupProps)
         style,
         lockScroll,
         overlay,
-        onClickOverlay,
+        onClosePopup,
         transition,
         overlayClass,
         overlayStyle,
@@ -87,16 +87,12 @@ const Popup: React.FC<React.PropsWithChildren<PopupProps>> = (props: PopupProps)
             isfirstRender.current = false;
         } else if (visible) {
             onOpen && onOpen();
-            if (lockScroll) {
-                useTouch(lockScroll, 'add');
-            }
         } else {
             onClose && onClose();
-            if (lockScroll && context.lockCount) {
-                useTouch(lockScroll, 'remove');
-            }
         }
     }, [visible]);
+
+    useTouch(lockScroll, visible, context.lockCount);
 
     const wrapStyle: React.CSSProperties = {
         ...style,
@@ -123,7 +119,7 @@ const Popup: React.FC<React.PropsWithChildren<PopupProps>> = (props: PopupProps)
 
     const handleOverlayClick = () => {
         if (closeOnClickOverlay) {
-            onClickOverlay && onClickOverlay();
+            onClosePopup && onClosePopup();
         }
     };
 
