@@ -128,4 +128,4 @@ function PopupDemo() {
 | onClose         | 关闭弹出层时触发           | -              |
 | onOpened        | 打开弹出层且动画结束后触发   | -              |
 | onClosed        | 关闭弹出层且动画结束后触发   | -              |
-| onClickOverlay  | 点击遮罩层时触发           | -              |
+| onClosePopup    | 点击遮罩层或者关闭按钮时触发   | -              |

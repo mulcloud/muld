@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { on, off, preventDefault } from '../../utils/dom/event';
 import { getScroller } from '../../utils/dom/scroll';
 import { context } from './context';
@@ -17,12 +17,16 @@ export function getDirection(x: number, y: number) {
     return '';
 }
 
-export function useTouch(lockScroll: boolean, type: lockType) {
+export function useTouch(lockScroll: boolean | undefined, visible: boolean, count: number) {
     const [direction, setDirection] = useState('');
     const [startX, setStartX] = useState(0);
     const [startY, setStartY] = useState(0);
     const [deltaX, setDeltaX] = useState(0);
     const [deltaY, setDeltaY] = useState(0);
+
+    useEffect(() => {
+        handletTouchEvent(lockScroll, visible, count);
+    }, [visible]);
 
     const touchStart = function (event: any) {
         setStartX(event.touches[0].clientX);
@@ -51,20 +55,24 @@ export function useTouch(lockScroll: boolean, type: lockType) {
             preventDefault(event, true);
         }
     };
-    if (lockScroll) {
-        if (type === 'add') {
-            on(document, 'touchstart', touchStart);
-            on(document, 'touchmove', touchMove);
-            if (!context.lockCount) {
-                document.body.classList.add('mul-overflow-hidden');
+
+    function handletTouchEvent(lockScroll: boolean | undefined, visible: boolean, count: number) {
+        if (lockScroll) {
+            if (visible) {
+                on(document, 'touchstart', touchStart);
+                on(document, 'touchmove', touchMove);
+                if (!context.lockCount) {
+                    document.body.classList.add('mul-overflow-hidden');
+                }
+                context.lockCount++;
             }
-            context.lockCount++;
-        } else {
-            off(document, 'touchstart', touchStart);
-            off(document, 'touchmove', touchMove);
-            context.lockCount--;
-            if (!context.lockCount) {
-                document.body.classList.add('mul-overflow-hidden');
+            if (!visible && count) {
+                off(document, 'touchstart', touchStart);
+                off(document, 'touchmove', touchMove);
+                context.lockCount--;
+                if (!context.lockCount) {
+                    document.body.classList.add('mul-overflow-hidden');
+                }
             }
         }
     }

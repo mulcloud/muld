@@ -42,11 +42,7 @@ export default function PopupDemo() {
         <View className="demo-popup">
             <DemoBlock title="展示弹出层">
                 <Cell title="展示弹出层" is-link onClick={() => setBasic(true)}></Cell>
-                <Popup
-                    visible={showBasic}
-                    style={basicStyle}
-                    onClickOverlay={() => setBasic(false)}
-                >
+                <Popup visible={showBasic} style={basicStyle} onClosePopup={() => setBasic(false)}>
                     内容
                 </Popup>
             </DemoBlock>
@@ -60,25 +56,25 @@ export default function PopupDemo() {
                     visible={showTop}
                     position="top"
                     style={heightStyle}
-                    onClickOverlay={() => setTop(false)}
+                    onClosePopup={() => setTop(false)}
                 ></Popup>
                 <Popup
                     visible={showBottom}
                     position="bottom"
                     style={heightStyle}
-                    onClickOverlay={() => setBottom(false)}
+                    onClosePopup={() => setBottom(false)}
                 ></Popup>
                 <Popup
                     visible={showLeft}
                     position="left"
                     style={widthStyle}
-                    onClickOverlay={() => setLeft(false)}
+                    onClosePopup={() => setLeft(false)}
                 ></Popup>
                 <Popup
                     visible={showRight}
                     position="right"
                     style={widthStyle}
-                    onClickOverlay={() => setRight(false)}
+                    onClosePopup={() => setRight(false)}
                 ></Popup>
             </DemoBlock>
 
@@ -91,7 +87,7 @@ export default function PopupDemo() {
                     closeable
                     position="bottom"
                     style={heightStyle}
-                    onClickOverlay={() => setClose(false)}
+                    onClosePopup={() => setClose(false)}
                 ></Popup>
                 <Popup
                     visible={showCustomCloseIcon}
@@ -99,7 +95,7 @@ export default function PopupDemo() {
                     closeIcon="close"
                     position="bottom"
                     style={heightStyle}
-                    onClickOverlay={() => setCustomClose(false)}
+                    onClosePopup={() => setCustomClose(false)}
                 ></Popup>
                 <Popup
                     visible={showCustomIconPosition}
@@ -107,7 +103,7 @@ export default function PopupDemo() {
                     closeIconPosition="top-left"
                     position="bottom"
                     style={heightStyle}
-                    onClickOverlay={() => setCustomIconPosition(false)}
+                    onClosePopup={() => setCustomIconPosition(false)}
                 ></Popup>
             </DemoBlock>
 
@@ -118,7 +114,7 @@ export default function PopupDemo() {
                     round
                     position="bottom"
                     style={heightStyle}
-                    onClickOverlay={() => setRoundCorner(false)}
+                    onClosePopup={() => setRoundCorner(false)}
                 ></Popup>
             </DemoBlock>
 
@@ -128,7 +124,7 @@ export default function PopupDemo() {
                     visible={showGetContainer}
                     getContainer="body"
                     style={basicStyle}
-                    onClickOverlay={() => setGetContainer(false)}
+                    onClosePopup={() => setGetContainer(false)}
                 ></Popup>
             </DemoBlock>
         </View>
