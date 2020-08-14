@@ -33,24 +33,19 @@
     "classnames": "^2.2.6",
     "react-copy-to-clipboard": "^5.0.2",
     "react-transition-group": "^4.4.1",
-    "styled-components": "^5.1.1"
+    "styled-components": "^5.1.1",
+    "styled-system": "^5.1.5"
   },
   "peerDependencies": {
     "react": ">=16.13.1",
     "react-dom": ">=16.13.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.10.5",
-    "@babel/plugin-proposal-class-properties": "^7.10.4",
-    "@babel/plugin-proposal-decorators": "^7.10.5",
-    "@babel/preset-env": "^7.10.4",
-    "@babel/preset-react": "^7.10.4",
-    "@babel/preset-typescript": "^7.10.4",
     "@testing-library/jest-dom": "^5.11.1",
     "@testing-library/react": "^10.4.7",
     "@testing-library/react-hooks": "^3.3.0",
-    "@trillion/fabric": "^0.0.1",
-    "@trillion/muld-tools": "^0.0.2",
+    "@trillion/fabric": "^0.0.1-beta.0",
+    "@trillion/muld-tools": "0.0.2-beta.1",
     "@types/classnames": "^2.2.10",
     "@types/jest": "^26.0.4",
     "@types/react": "^16.9.43",
@@ -58,6 +53,7 @@
     "@types/react-dom": "^16.9.8",
     "@types/react-transition-group": "^4.4.0",
     "@types/styled-components": "^5.1.1",
+    "@types/styled-system": "^5.1.10",
     "babel-jest": "^26.1.0",
     "husky": "^4.2.5",
     "jest": "^26.1.0",

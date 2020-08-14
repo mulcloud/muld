@@ -84,6 +84,10 @@ module.exports = {
                                 title: '常用布局',
                             },
                             {
+                                path: 'box',
+                                title: 'Box 盒',
+                            },
+                            {
                                 path: 'popup',
                                 title: 'Popup 弹出层',
                             },
