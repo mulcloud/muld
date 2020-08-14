@@ -1,5 +1,5 @@
 import { css, createGlobalStyle } from 'styled-components';
-import { $black, $white, $red, $orange, $orange_light, $green, $gray1, $gray6, $blue } from './var';
+import { $black, $white, $red, $orange, $green, $gray6, $blue } from './var';
 
 const color = css`
     .mul-text {
@@ -10,7 +10,7 @@ const color = css`
             color: ${$blue};
         }
         &--secondary {
-            color: '#888888';
+            color: #888888;
         }
         &--primary {
             color: ${$red};
@@ -27,9 +27,6 @@ const color = css`
         &--info {
             color: ${$gray6};
         }
-        &--light {
-            color: ${$orange_light};
-        }
         &--white {
             color: ${$white};
         }
@@ -40,10 +37,10 @@ const color = css`
 
     .mul-bg {
         &--default {
-            background-color: '#f8f8f8e';
+            background-color: #f8f8f8;
         }
         &--primary {
-            background-color: ${$gray1};
+            background-color: ${$red};
         }
         &--success {
             background-color: ${$green};

@@ -6,14 +6,11 @@ import { $white, $padding_md, $blue } from '../var';
 
 export default function StyleDemo() {
     return (
-        <View className="demo-stepper">
+        <View className="demo-style">
             <DemoBlock title="Text Ellipsis">
                 <div className="mul-ellipsis">这是一段最多显示一行的文字，多余的内容会被省略</div>
                 <div className="mul-multi-ellipsis--l2">
-                    这是一段最多显示两行的文字，多余的内容会被省略
-                </div>
-                <div className="mul-multi-ellipsis--l3">
-                    这是一段最多显示三行的文字，多余的内容会被省略
+                    这是一段最多显示两行的文字，多余的内容会被省略,这是一段最多显示两行的文字，多余的内容会被省略
                 </div>
             </DemoBlock>
             <DemoBlock title="Hairline">
@@ -28,17 +25,16 @@ export default function StyleDemo() {
                 <p className="mul-text--danger">mul-text--danger</p>
                 <p className="mul-text--warning">mul-text--warning</p>
                 <p className="mul-text--info">mul-text--info</p>
-                <p className="mul-text--light">mul-text--light</p>
                 <p className="mul-text--disable">mul-text--disable</p>
             </DemoBlock>
             <DemoBlock title="Background Color">
-                <div className="mul-bg--default mul-text--white">mul-bg--primary</div>
+                <div className="mul-bg--default mul-text--black">mul-bg--default</div>
                 <div className="mul-bg--primary mul-text--white">mul-bg--primary</div>
                 <div className="mul-bg--success mul-text--white">mul-bg--success</div>
                 <div className="mul-bg--danger mul-text--white">mul-bg--danger</div>
                 <div className="mul-bg--warning mul-text--white">mul-bg--warning</div>
                 <div className="mul-bg--info mul-text--white">mul-bg--info</div>
-                <div className="mul-bg--white mul-text--black">mul-bg--light</div>
+                <div className="mul-bg--white mul-text--black">mul-bg--white</div>
                 <div className="mul-bg--transparent mul-text--dark">mul-bg--transparent</div>
             </DemoBlock>
         </View>
@@ -47,6 +43,9 @@ export default function StyleDemo() {
 
 const View = styled(DemoSection)`
     &.demo-style {
+        background-color: ${$white};
+        padding: 20px;
+
         .mul-ellipsis,
         .mul-multi-ellipsis--l2 {
             max-width: 300px;
@@ -77,6 +76,15 @@ const View = styled(DemoSection)`
             margin: -50px 0 0 -50px;
             background-color: ${$blue};
             border-radius: 3px;
+        }
+        p {
+            margin-bottom: 10px;
+            padding-left: 20px;
+        }
+
+        [class*='mul-bg'] {
+            padding: 10px;
+            margin: 0px 0px 10px 20px;
         }
     }
 `;
