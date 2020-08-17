@@ -31,7 +31,8 @@ interface ColumnCascade {
 
 export type Column = ColumnObject | ColumnRoot | string | ColumnCascade;
 
-export interface PropsType {
+interface PropsType {
+    value?: string;
     title?: string;
     loading?: boolean;
     itemHeight?: number;
@@ -45,13 +46,14 @@ export interface PropsType {
     columns: Column[];
     toolbarPosition?: string;
     valueKey?: string;
-    onChange?: (value: string | number, index: number | string) => void | string;
-    onConfirm?: (value: string | number, index: number | string) => void | string;
+    onChange?: (value: string, index: string) => void | string;
+    onConfirm?: (value: string, index: string) => void | string;
     onCancel?: () => void;
     children?: any;
 }
 
 const defaultProps = {
+    value: '',
     title: '标题',
     loading: false,
     itemHeight: DEFAULT_ITEM_HEIGHT,
@@ -67,10 +69,11 @@ const defaultProps = {
     valueKey: 'text',
 };
 
-type PickerPropsType = PropsType & typeof defaultProps;
+export type PickerPropsType = PropsType & typeof defaultProps;
 
 const Picker: React.FC<PickerPropsType> = (props: PickerPropsType) => {
     const {
+        value,
         title,
         loading,
         showToolbar,
@@ -98,30 +101,57 @@ const Picker: React.FC<PickerPropsType> = (props: PickerPropsType) => {
 
     const [children, setChildren] = useState([] as any[]);
 
-    function format() {
+    function updateColumn() {
         if (dataType() === 'text') {
             setFormattedColumns([{ values: columns as string[] }]);
         } else if (dataType() === 'cascade') {
             formatCascade();
         } else {
-            setIndexes(
-                columns.map(
-                    (item: Column, index: number, array: Column[]) =>
-                        (item as ColumnObject).defaultIndex || 0,
-                ),
-            );
-            setValues(
-                columns.map(
-                    (item: Column, index: number, array: Column[]) =>
-                        (item as ColumnObject).values![(item as ColumnObject).defaultIndex || 0],
-                ),
-            );
+            const valueArray = value.split(',');
+            const newFormattedColumns = columns;
+
+            newFormattedColumns.forEach((column: Column, index: number, array: Column[]) => {
+                const newDefaultIndex = (column as {
+                    defaultIndex: number;
+                    values: string[];
+                }).values.findIndex((item: string) => item === valueArray[index]);
+
+                if (newDefaultIndex !== -1) {
+                    (newFormattedColumns[index] as {
+                        defaultIndex: number;
+                        values: string[];
+                    }).defaultIndex = newDefaultIndex;
+                }
+            });
             setFormattedColumns(columns as Column[]);
         }
     }
 
+    function format() {
+        updateColumn();
+        if (dataType() === 'text' || dataType() === 'cascade') {
+            return;
+        }
+        setIndexes(
+            columns.map(
+                (item: Column, index: number, array: Column[]) =>
+                    (item as ColumnObject).defaultIndex! || 0,
+            ),
+        );
+        setValues(
+            columns.map(
+                (item: Column, index: number, array: Column[]) =>
+                    (item as ColumnObject).values![(item as ColumnObject).defaultIndex || 0],
+            ),
+        );
+    }
+
     useEffect(() => {
         format();
+    }, [value]);
+
+    useEffect(() => {
+        updateColumn();
     }, [columns]);
 
     function itemPxHeight(): number {
@@ -210,7 +240,6 @@ const Picker: React.FC<PickerPropsType> = (props: PickerPropsType) => {
     const onChange = (index: number, columnIndex: number) => {
         const indexesArray: number[] = indexes;
         let valuesArray: string[] = values;
-
         indexesArray[index] = columnIndex;
 
         if (dataType() === 'cascade') {
@@ -250,7 +279,9 @@ const Picker: React.FC<PickerPropsType> = (props: PickerPropsType) => {
 
     function emit(event: string) {
         if (dataType() === 'text') {
-            event === 'onConfirm' && onConfirm && onConfirm(getColumnValue(0), currentIndex);
+            event === 'onConfirm' &&
+                onConfirm &&
+                onConfirm(getColumnValue(0), String(currentIndex));
             event === 'onCancel' && onCancel && onCancel();
         } else {
             if (dataType() === 'cascade') {

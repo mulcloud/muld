@@ -14,6 +14,7 @@ export { default as Stepper } from './stepper';
 export { default as Steps } from './steps';
 export { default as Picker } from './picker';
 export { default as GlobalStyle } from './style';
+export { default as DatetimePicker } from './datetime-picker';
 export { default as Card } from './card';
 export { default as Cell } from './cell';
 export { default as CellGroup } from './cell/CellGroup';
