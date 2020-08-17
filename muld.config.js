@@ -173,10 +173,10 @@ module.exports = {
                             //     path: 'action-sheet',
                             //     title: 'ActionSheet 动作面板',
                             // },
-                            // {
-                            //     path: 'dialog',
-                            //     title: 'Dialog 弹出框',
-                            // },
+                            {
+                                path: 'dialog',
+                                title: 'Dialog 弹出框',
+                            },
                             // {
                             //     path: 'dropdown-menu',
                             //     title: 'DropdownMenu 下拉菜单',
