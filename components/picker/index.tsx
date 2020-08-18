@@ -14,15 +14,22 @@ import { PickerColumn } from './PickerColumn';
 const [bem] = createNS('picker');
 export const DEFAULT_ITEM_HEIGHT = 44;
 
-export type ColumnObject = {
+interface ColumnRoot {
     values: (string | ColumnObject | string | { values: string })[];
-};
-export type Column =
-    | ColumnObject
-    | string
-    | { values?: string; children?: []; defaultIndex?: number };
+}
 
-export type Columns = Column[];
+interface ColumnObject {
+    values?: string;
+    children?: [];
+    defaultIndex?: number;
+}
+
+interface ColumnCascade {
+    text: string;
+    children?: { text: string; children: { text: string }[] }[];
+}
+
+export type Column = ColumnObject | ColumnRoot | string | ColumnCascade;
 
 export interface PropsType {
     title?: string;
@@ -35,13 +42,13 @@ export interface PropsType {
     defaultIndex?: number;
     allowHtml?: boolean;
     swipeDuration?: number;
-    columns: Columns | string;
+    columns: Column[];
     toolbarPosition?: string;
     valueKey?: string;
-    onChange?: (value: string | number, index: number) => void | string;
-    onConfirm?: (value: string | number, index: number) => void | string;
+    onChange?: (value: string | number, index: number | string) => void | string;
+    onConfirm?: (value: string | number, index: number | string) => void | string;
     onCancel?: () => void;
-    children?: React.ReactElement;
+    children?: any;
 }
 
 const defaultProps = {
@@ -55,7 +62,7 @@ const defaultProps = {
     confirmButtonText: '确认',
     defaultIndex: 0,
     swipeDuration: 200,
-    columns: [] as Columns | string,
+    columns: [] as Column[],
     toolbarPosition: 'top',
     valueKey: 'text',
 };
@@ -85,14 +92,30 @@ const Picker: React.FC<PickerPropsType> = (props: PickerPropsType) => {
 
     const [currentIndex, setCurrentIndex] = useState(defaultIndex);
 
+    const [indexes, setIndexes] = useState([] as number[]);
+
+    const [values, setValues] = useState([] as string[]);
+
     const [children, setChildren] = useState([] as any[]);
 
     function format() {
         if (dataType() === 'text') {
-            setFormattedColumns([{ values: columns as string }]);
+            setFormattedColumns([{ values: columns as string[] }]);
         } else if (dataType() === 'cascade') {
             formatCascade();
         } else {
+            setIndexes(
+                columns.map(
+                    (item: Column, index: number, array: Column[]) =>
+                        (item as ColumnObject).defaultIndex || 0,
+                ),
+            );
+            setValues(
+                columns.map(
+                    (item: Column, index: number, array: Column[]) =>
+                        (item as ColumnObject).values![(item as ColumnObject).defaultIndex || 0],
+                ),
+            );
             setFormattedColumns(columns as Column[]);
         }
     }
@@ -120,17 +143,20 @@ const Picker: React.FC<PickerPropsType> = (props: PickerPropsType) => {
     }
 
     function formatCascade() {
-        const formatted = [];
+        const formatted: any[] = [];
 
         let cursor: any = {
             children: columns,
             defaultIndex: undefined as number | undefined,
         };
+        const indexesArray = [];
 
         while (cursor && cursor.children) {
             const newDefaultIndex: number = isDef(cursor.defaultIndex)
                 ? cursor.defaultIndex!
                 : +defaultIndex;
+
+            indexesArray.push(newDefaultIndex);
 
             formatted.push({
                 values: cursor.children,
@@ -140,131 +166,77 @@ const Picker: React.FC<PickerPropsType> = (props: PickerPropsType) => {
             cursor = cursor.children[newDefaultIndex];
         }
 
-        setFormattedColumns(formatted);
-    }
+        setIndexes(indexesArray);
 
-    // @exposed-api
-    // get indexes of all columns
-    const getIndexes = () => {
-        return children.map((child: any) => child.currentIndex);
-    };
+        setFormattedColumns(formatted);
+
+        setValues(
+            indexesArray.map((item: number, index: number) => formatted[index].values![item].text!),
+        );
+    }
 
     // get column instance by index
     const getColumn = (index: number) => {
         return children[index];
     };
 
-    // @exposed-api
     // set options of column by index
     const setColumnValues = (index: number, options: any) => {
-        const column = children[index];
-
-        if (column) {
-            // Todo: have no effect?
-            column.updateOptions(options);
+        if (!index) {
+            return;
         }
+
+        const newFormattedColumns = formattedColumns;
+        newFormattedColumns[index] = { values: options };
+        setFormattedColumns(newFormattedColumns);
     };
 
-    const getColumnChangeValue = (index: number, columnIndex: number) => {
-        const column = getColumn(index);
-        return column.options[columnIndex];
-    };
-
-    const onCascadeChange = (columnIndex: number) => {
+    const onCascadeChange = (index: number) => {
         let cursor: any = { children: columns };
-        let newColumnIndex = columnIndex;
-        const indexes = getIndexes();
 
-        for (let i = 0; i <= columnIndex; i++) {
+        for (let i = 0; i <= index; i++) {
             cursor = cursor && cursor.children[indexes[i]];
         }
 
+        let newIndex = index;
+
         while (cursor && cursor.children) {
-            newColumnIndex++;
-            setColumnValues(newColumnIndex, cursor.children);
+            newIndex++;
+            setColumnValues(newIndex, cursor.children);
             cursor = cursor.children[cursor.defaultIndex || 0];
         }
     };
 
-    const onChange = (columnIndex: number) => {
+    const onChange = (index: number, columnIndex: number) => {
+        const indexesArray: number[] = indexes;
+        let valuesArray: string[] = values;
+
+        indexesArray[index] = columnIndex;
+
         if (dataType() === 'cascade') {
-            onCascadeChange(columnIndex);
+            onCascadeChange(index);
+            valuesArray = indexes.map(
+                (item, index) =>
+                    (formattedColumns[index] as { values: { text: string }[] }).values[item].text,
+            );
+        } else {
+            valuesArray[index] = (formattedColumns[index] as { values: string[] }).values[
+                columnIndex
+            ];
         }
 
-        // inside callback use setState cause update warning.
-        // add setTimeout avoid setState warning.
         setTimeout(() => {
+            // single setState() is sync function
+            // inside callback use setState cause parant components update warning
+            // use setTimeout to avoid re-render warning
             setCurrentIndex(columnIndex);
+            setIndexes([...indexesArray]);
+            setValues([...valuesArray]);
         }, 0);
 
-        props.onChange && props.onChange(getColumnChangeValue(0, columnIndex), columnIndex);
+        props.onChange && props.onChange(valuesArray.join(','), indexes.join(','));
     };
 
-    // @exposed-api
-    // get column option index by column index
-    // const getColumnIndex = (columnIndex: number) => {
-    //     return (getColumn(columnIndex) || {}).currentIndex;
-    // };
-
-    // @exposed-api
-    // get values of all columns
-    const getValues = () => {
-        // eslint-disable-next-line no-console
-        return children.map((child) => console.log('12', child));
-    };
-
-    // todo: exposed ref api
-    // @exposed-api
-    // set column value by index
-    // const setColumnValue = (index: number, value: any) => {
-    //     const column = getColumn(index);
-
-    //     if (column) {
-    //         column.setValue(value);
-
-    //         if (dataType() === 'cascade') {
-    //             onCascadeChange(index);
-    //         }
-    //     }
-    // };
-
-    // @exposed-api
-    // set column option index by column index
-    // const setColumnIndex = (columnIndex: number, optionIndex: number) => {
-    //     const column = getColumn(columnIndex);
-
-    //     if (column) {
-    //         column.setIndex(optionIndex);
-
-    //         if (dataType() === 'cascade') {
-    //             onCascadeChange(columnIndex);
-    //         }
-    //     }
-    // };
-
-    // @exposed-api
-    // get options of column by index
-    // const getColumnValues = (index: number) => {
-    //     return (children[index] || {}).options;
-    // };
-
-    // @exposed-api
-    // set values of all columns
-    // const setValues = (values) => {
-    //     values.forEach((value, index) => {
-    //         setColumnValue(index, value);
-    //     });
-    // };
-
-    // @exposed-api
-    // set indexes of all columns
-    // const setIndexes = (indexes) => {
-    //     indexes.forEach((optionIndex, columnIndex) => {
-    //         setColumnIndex(columnIndex, optionIndex);
-    //     });
-    // };
-
-    // @exposed-api
     // get column value by index
     const getColumnValue = (index: number) => {
         const column = getColumn(index);
@@ -281,13 +253,17 @@ const Picker: React.FC<PickerPropsType> = (props: PickerPropsType) => {
             event === 'onConfirm' && onConfirm && onConfirm(getColumnValue(0), currentIndex);
             event === 'onCancel' && onCancel && onCancel();
         } else {
-            let values: any = getValues();
-
             if (dataType() === 'cascade') {
-                values = values.map((item: any) => item[valueKey]);
+                setValues(
+                    indexes.map(
+                        (item, index) =>
+                            (formattedColumns[index] as { values: { text: string }[] }).values[item]
+                                .text,
+                    ),
+                );
             }
 
-            event === 'onConfirm' && onConfirm && onConfirm(values, currentIndex);
+            event === 'onConfirm' && onConfirm && onConfirm(values.join(','), indexes.join(','));
             event === 'onCancel' && onCancel && onCancel();
         }
     }
@@ -353,9 +329,10 @@ const Picker: React.FC<PickerPropsType> = (props: PickerPropsType) => {
     }
 
     const genColumnItems = () => {
-        return formattedColumns.map((item: any, columnIndex: number) => (
+        return formattedColumns.map((item: any, index: number) => (
             <PickerColumn
-                key={columnIndex}
+                key={index}
+                index={index}
                 valueKey={valueKey}
                 className={item.className}
                 allowHtml={allowHtml}

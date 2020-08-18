@@ -300,6 +300,9 @@ export const $steps = {
     steps_background_color: $white,
 };
 
+// Sticky
+export const $sticky_z_index = 99;
+
 // Stepper
 export const $stepper: CSSProperties = {
     stepper_active_color: '#e8e8e8',

@@ -72,6 +72,12 @@ function columns(): any[] {
 }
 
 export default function PickerDemo(): React.ReactElement {
+    const pickerRef = React.useRef<HTMLDivElement>(null);
+
+    React.useEffect(() => {
+        console.log(pickerRef);
+    });
+
     return (
         <View className="demo-picker">
             <DemoBlock title="基础用法">
@@ -79,10 +85,10 @@ export default function PickerDemo(): React.ReactElement {
                     <Picker
                         columns={i18n['zh-CN'].textColumns}
                         showToolbar={true}
-                        onChange={(value: string, index: number) => {
+                        onChange={(value: string | number, index: number | string) => {
                             console.log('demo1 change', value, index);
                         }}
-                        onConfirm={(value: string, index: number) => {
+                        onConfirm={(value: string | number, index: number | string) => {
                             console.log('demo1 confirm', value, index);
                         }}
                         onCancel={() => {
@@ -98,14 +104,24 @@ export default function PickerDemo(): React.ReactElement {
                         columns={i18n['zh-CN'].textColumns}
                         showToolbar={true}
                         title="标题"
-                        defaultIndex="2"
+                        defaultIndex={2}
                     />
                 </div>
             </DemoBlock>
 
             <DemoBlock title="多项选择">
                 <div className="demo-Picker-row">
-                    <Picker columns={i18n['zh-CN'].dateColumns} showToolbar={true} title="标题" />
+                    <Picker
+                        columns={i18n['zh-CN'].dateColumns}
+                        showToolbar={true}
+                        title="标题"
+                        onChange={(value: string | number, index: number | string) => {
+                            console.log('demo1 change', value, index);
+                        }}
+                        onConfirm={(value: string | number, index: number | string) => {
+                            console.log('demo1 confirm', value, index);
+                        }}
+                    />
                 </div>
             </DemoBlock>
 
@@ -132,6 +148,12 @@ export default function PickerDemo(): React.ReactElement {
                         columns={i18n['zh-CN'].cascadeColumns}
                         showToolbar={true}
                         title="标题"
+                        onChange={(value: string | number, index: number | string) => {
+                            console.log('demo1 change', value, index);
+                        }}
+                        onConfirm={(value: string | number, index: number | string) => {
+                            console.log('demo1 confirm', value, index);
+                        }}
                     />
                 </div>
             </DemoBlock>
