@@ -160,10 +160,10 @@ module.exports = {
                             //     path: 'switch',
                             //     title: 'Switch 开关',
                             // },
-                            // {
-                            //     path: 'uploader',
-                            //     title: 'Uploader 文件上传',
-                            // },
+                            {
+                                path: 'uploader',
+                                title: 'Uploader 文件上传',
+                            },
                         ],
                     },
                     {
