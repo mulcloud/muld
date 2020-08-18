@@ -371,6 +371,18 @@ export const $sidebar: CSSProperties = {
     sidebar_disabled_text_color: `${$gray5}`,
 };
 
+// Progress
+export const $progress: CSSProperties = {
+    height: '4px',
+    color: `${$blue}`,
+    background_color: `${$gray3}`,
+    pivot_padding: '0 5px',
+    pivot_text_color: `${$white}`,
+    pivot_font_size: `${$font_size_xs}`,
+    pivot_line_height: '1.6',
+    pivot_background_color: `${$blue}`,
+};
+
 // Field
 export const $field: CSSProperties = {
     field_label_width: '6.2em',
