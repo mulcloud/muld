@@ -46,7 +46,7 @@ export function hairlineBottom(
         right: ${right};
         bottom: 0;
         left: ${left};
-        borderBottom: 1px solid ${color};
+        border-bottom: 1px solid ${color};
         transform: scaleY(0.5);
     `;
 }

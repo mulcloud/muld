@@ -19,7 +19,7 @@ interface Props extends React.HTMLAttributes<HTMLDivElement> {
     duration: number | string | null;
     className?: any;
     lockScroll?: boolean;
-    customStyle?: Record<string, unknown>;
+    customStyle?: React.CSSProperties;
     onClick?: (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => void;
 }
 

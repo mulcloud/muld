@@ -1,0 +1,5516 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Field arrow-direction prop 1`] = `
+<DocumentFragment>
+  .c0.mul-cell {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 16px;
+  overflow: hidden;
+  color: #323233;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #fff;
+}
+
+.c0.mul-cell:last-child::after,
+.c0.mul-cell--borderless::after {
+  display: none;
+}
+
+.c0.mul-cell::after {
+  position: absolute;
+  box-sizing: border-box;
+  content: ' ';
+  pointer-events: none;
+  right: 16px;
+  bottom: 0;
+  left: 16px;
+  border-bottom: 1px solid #ebedf0;
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.c0.mul-cell .mul-cell__label {
+  margin-top: 4px;
+  color: #969799;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.c0.mul-cell .mul-cell__title,
+.c0.mul-cell .mul-cell__value {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c0.mul-cell .mul-cell__value {
+  position: relative;
+  overflow: hidden;
+  color: #969799;
+  text-align: right;
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+
+.c0.mul-cell .mul-cell__value--alone {
+  color: #323233;
+  text-align: left;
+}
+
+.c0.mul-cell .mul-cell__left-icon,
+.c0.mul-cell .mul-cell__right-icon {
+  min-width: 1em;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c0.mul-cell .mul-cell__left-icon {
+  margin-right: 4px;
+}
+
+.c0.mul-cell .mul-cell__right-icon {
+  margin-left: 4px;
+  color: #969799;
+}
+
+.c0.mul-cell--clickable {
+  cursor: pointer;
+}
+
+.c0.mul-cell--clickable:active {
+  background-color: #f2f3f5;
+}
+
+.c0.mul-cell--required {
+  overflow: visible;
+}
+
+.c0.mul-cell--required::before {
+  position: absolute;
+  left: 8px;
+  color: #fa220a;
+  font-size: 14px;
+  content: '*';
+}
+
+.c0.mul-cell--center {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0.mul-cell--large {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c0.mul-cell--large .mul-cell__title {
+  font-size: 16px;
+}
+
+.c0.mul-cell--large .mul-cell__label {
+  font-size: 14px;
+}
+
+.c2.mul-icon {
+  position: relative;
+  display: inline-block;
+  font-family: 'muld-icon' !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.c2.mul-icon::before {
+  display: inline-block;
+}
+
+.c2.mul-icon .mul-icon__image {
+  width: 1em;
+  height: 1em;
+  object-fit: contain;
+}
+
+.c2.mul-icon-arrow-up::before {
+  content: '\\F009';
+}
+
+.c1 .mul-field__label {
+  -webkit-flex: none !important;
+  -ms-flex: none !important;
+  flex: none !important;
+  box-sizing: border-box;
+  width: 6.2em;
+  margin-right: 12px;
+  color: #646566;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.c1 .mul-field__label--center {
+  text-align: center;
+}
+
+.c1 .mul-field__label--right {
+  padding-right: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--disabled .mul-field__label {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__value {
+  overflow: visible;
+}
+
+.c1 .mul-field__body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 .mul-field__control {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  line-height: inherit;
+  text-align: left;
+  background-color: transparent;
+  border: 0;
+  resize: none;
+}
+
+.c1 .mul-field__control::-webkit-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::-moz-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:-ms-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:disabled {
+  color: #c8c9cc;
+  background-color: transparent;
+  cursor: not-allowed;
+  opacity: 1;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field__control:-moz-read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control:read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control--center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c1 .mul-field__control--right {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.c1 .mul-field__control--custom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='date'],
+.c1 .mul-field__control[type='time'],
+.c1 .mul-field__control[type='datetime-local'] {
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='search'] {
+  -webkit-appearance: none;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__icon,
+.c1 .mul-field__button,
+.c1 .mul-field__right-icon {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__right-icon {
+  margin-right: -8px;
+  padding: 0 8px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__clear {
+  color: #c8c9cc;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c1 .mul-field__left-icon .mul-icon,
+.c1 .mul-field__right-icon .mul-icon {
+  display: block;
+  min-width: 1em;
+  font-size: 16px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__left-icon {
+  margin-right: 4px;
+}
+
+.c1 .mul-field__right-icon {
+  color: #969799;
+}
+
+.c1 .mul-field__button {
+  padding-left: 8px;
+}
+
+.c1 .mul-field__error-message {
+  color: #fa220a;
+  font-size: 12px;
+  text-align: left;
+}
+
+.c1 .mul-field__error-message--center {
+  text-align: center;
+}
+
+.c1 .mul-field__error-message--right {
+  text-align: right;
+}
+
+.c1 .mul-field__word-limit {
+  margin-top: 4px;
+  color: #646566;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-webkit-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-moz-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control:-ms-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--min-height .mul-field__control {
+  min-height: 60px;
+}
+
+<div
+    class="c0 mul-cell mul-cell--clickable c1 mul-field"
+    role="button"
+    tabindex="0"
+  >
+    <div
+      class="mul-cell__value mul-cell__value--alone mul-field__value"
+    >
+      <div
+        class="mul-field__body"
+      >
+        <input
+          class="mul-field__control"
+          rows="3"
+          type="text"
+        />
+      </div>
+    </div>
+    <i
+      class="c2 mul-icon mul-icon-arrow-up mul-cell__right-icon"
+      content="F009"
+      name="arrow-up"
+      style="font-size: 20px;"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Field clearable prop 1`] = `
+<DocumentFragment>
+  .c0.mul-cell {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 16px;
+  overflow: hidden;
+  color: #323233;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #fff;
+}
+
+.c0.mul-cell:last-child::after,
+.c0.mul-cell--borderless::after {
+  display: none;
+}
+
+.c0.mul-cell::after {
+  position: absolute;
+  box-sizing: border-box;
+  content: ' ';
+  pointer-events: none;
+  right: 16px;
+  bottom: 0;
+  left: 16px;
+  border-bottom: 1px solid #ebedf0;
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.c0.mul-cell .mul-cell__label {
+  margin-top: 4px;
+  color: #969799;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.c0.mul-cell .mul-cell__title,
+.c0.mul-cell .mul-cell__value {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c0.mul-cell .mul-cell__value {
+  position: relative;
+  overflow: hidden;
+  color: #969799;
+  text-align: right;
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+
+.c0.mul-cell .mul-cell__value--alone {
+  color: #323233;
+  text-align: left;
+}
+
+.c0.mul-cell .mul-cell__left-icon,
+.c0.mul-cell .mul-cell__right-icon {
+  min-width: 1em;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c0.mul-cell .mul-cell__left-icon {
+  margin-right: 4px;
+}
+
+.c0.mul-cell .mul-cell__right-icon {
+  margin-left: 4px;
+  color: #969799;
+}
+
+.c0.mul-cell--clickable {
+  cursor: pointer;
+}
+
+.c0.mul-cell--clickable:active {
+  background-color: #f2f3f5;
+}
+
+.c0.mul-cell--required {
+  overflow: visible;
+}
+
+.c0.mul-cell--required::before {
+  position: absolute;
+  left: 8px;
+  color: #fa220a;
+  font-size: 14px;
+  content: '*';
+}
+
+.c0.mul-cell--center {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0.mul-cell--large {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c0.mul-cell--large .mul-cell__title {
+  font-size: 16px;
+}
+
+.c0.mul-cell--large .mul-cell__label {
+  font-size: 14px;
+}
+
+.c1 .mul-field__label {
+  -webkit-flex: none !important;
+  -ms-flex: none !important;
+  flex: none !important;
+  box-sizing: border-box;
+  width: 6.2em;
+  margin-right: 12px;
+  color: #646566;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.c1 .mul-field__label--center {
+  text-align: center;
+}
+
+.c1 .mul-field__label--right {
+  padding-right: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--disabled .mul-field__label {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__value {
+  overflow: visible;
+}
+
+.c1 .mul-field__body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 .mul-field__control {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  line-height: inherit;
+  text-align: left;
+  background-color: transparent;
+  border: 0;
+  resize: none;
+}
+
+.c1 .mul-field__control::-webkit-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::-moz-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:-ms-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:disabled {
+  color: #c8c9cc;
+  background-color: transparent;
+  cursor: not-allowed;
+  opacity: 1;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field__control:-moz-read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control:read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control--center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c1 .mul-field__control--right {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.c1 .mul-field__control--custom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='date'],
+.c1 .mul-field__control[type='time'],
+.c1 .mul-field__control[type='datetime-local'] {
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='search'] {
+  -webkit-appearance: none;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__icon,
+.c1 .mul-field__button,
+.c1 .mul-field__right-icon {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__right-icon {
+  margin-right: -8px;
+  padding: 0 8px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__clear {
+  color: #c8c9cc;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c1 .mul-field__left-icon .mul-icon,
+.c1 .mul-field__right-icon .mul-icon {
+  display: block;
+  min-width: 1em;
+  font-size: 16px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__left-icon {
+  margin-right: 4px;
+}
+
+.c1 .mul-field__right-icon {
+  color: #969799;
+}
+
+.c1 .mul-field__button {
+  padding-left: 8px;
+}
+
+.c1 .mul-field__error-message {
+  color: #fa220a;
+  font-size: 12px;
+  text-align: left;
+}
+
+.c1 .mul-field__error-message--center {
+  text-align: center;
+}
+
+.c1 .mul-field__error-message--right {
+  text-align: right;
+}
+
+.c1 .mul-field__word-limit {
+  margin-top: 4px;
+  color: #646566;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-webkit-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-moz-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control:-ms-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--min-height .mul-field__control {
+  min-height: 60px;
+}
+
+<div
+    class="c0 mul-cell c1 mul-field"
+  >
+    <div
+      class="mul-cell__value mul-cell__value--alone mul-field__value"
+    >
+      <div
+        class="mul-field__body"
+      >
+        <input
+          class="mul-field__control"
+          rows="3"
+          type="text"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Field clearable prop 2`] = `
+<DocumentFragment>
+  .c0.mul-cell {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 16px;
+  overflow: hidden;
+  color: #323233;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #fff;
+}
+
+.c0.mul-cell:last-child::after,
+.c0.mul-cell--borderless::after {
+  display: none;
+}
+
+.c0.mul-cell::after {
+  position: absolute;
+  box-sizing: border-box;
+  content: ' ';
+  pointer-events: none;
+  right: 16px;
+  bottom: 0;
+  left: 16px;
+  border-bottom: 1px solid #ebedf0;
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.c0.mul-cell .mul-cell__label {
+  margin-top: 4px;
+  color: #969799;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.c0.mul-cell .mul-cell__title,
+.c0.mul-cell .mul-cell__value {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c0.mul-cell .mul-cell__value {
+  position: relative;
+  overflow: hidden;
+  color: #969799;
+  text-align: right;
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+
+.c0.mul-cell .mul-cell__value--alone {
+  color: #323233;
+  text-align: left;
+}
+
+.c0.mul-cell .mul-cell__left-icon,
+.c0.mul-cell .mul-cell__right-icon {
+  min-width: 1em;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c0.mul-cell .mul-cell__left-icon {
+  margin-right: 4px;
+}
+
+.c0.mul-cell .mul-cell__right-icon {
+  margin-left: 4px;
+  color: #969799;
+}
+
+.c0.mul-cell--clickable {
+  cursor: pointer;
+}
+
+.c0.mul-cell--clickable:active {
+  background-color: #f2f3f5;
+}
+
+.c0.mul-cell--required {
+  overflow: visible;
+}
+
+.c0.mul-cell--required::before {
+  position: absolute;
+  left: 8px;
+  color: #fa220a;
+  font-size: 14px;
+  content: '*';
+}
+
+.c0.mul-cell--center {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0.mul-cell--large {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c0.mul-cell--large .mul-cell__title {
+  font-size: 16px;
+}
+
+.c0.mul-cell--large .mul-cell__label {
+  font-size: 14px;
+}
+
+.c2.mul-icon {
+  position: relative;
+  display: inline-block;
+  font-family: 'muld-icon' !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.c2.mul-icon::before {
+  display: inline-block;
+}
+
+.c2.mul-icon .mul-icon__image {
+  width: 1em;
+  height: 1em;
+  object-fit: contain;
+}
+
+.c2.mul-icon-clear::before {
+  content: '\\F031';
+}
+
+.c1 .mul-field__label {
+  -webkit-flex: none !important;
+  -ms-flex: none !important;
+  flex: none !important;
+  box-sizing: border-box;
+  width: 6.2em;
+  margin-right: 12px;
+  color: #646566;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.c1 .mul-field__label--center {
+  text-align: center;
+}
+
+.c1 .mul-field__label--right {
+  padding-right: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--disabled .mul-field__label {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__value {
+  overflow: visible;
+}
+
+.c1 .mul-field__body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 .mul-field__control {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  line-height: inherit;
+  text-align: left;
+  background-color: transparent;
+  border: 0;
+  resize: none;
+}
+
+.c1 .mul-field__control::-webkit-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::-moz-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:-ms-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:disabled {
+  color: #c8c9cc;
+  background-color: transparent;
+  cursor: not-allowed;
+  opacity: 1;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field__control:-moz-read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control:read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control--center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c1 .mul-field__control--right {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.c1 .mul-field__control--custom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='date'],
+.c1 .mul-field__control[type='time'],
+.c1 .mul-field__control[type='datetime-local'] {
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='search'] {
+  -webkit-appearance: none;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__icon,
+.c1 .mul-field__button,
+.c1 .mul-field__right-icon {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__right-icon {
+  margin-right: -8px;
+  padding: 0 8px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__clear {
+  color: #c8c9cc;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c1 .mul-field__left-icon .mul-icon,
+.c1 .mul-field__right-icon .mul-icon {
+  display: block;
+  min-width: 1em;
+  font-size: 16px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__left-icon {
+  margin-right: 4px;
+}
+
+.c1 .mul-field__right-icon {
+  color: #969799;
+}
+
+.c1 .mul-field__button {
+  padding-left: 8px;
+}
+
+.c1 .mul-field__error-message {
+  color: #fa220a;
+  font-size: 12px;
+  text-align: left;
+}
+
+.c1 .mul-field__error-message--center {
+  text-align: center;
+}
+
+.c1 .mul-field__error-message--right {
+  text-align: right;
+}
+
+.c1 .mul-field__word-limit {
+  margin-top: 4px;
+  color: #646566;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-webkit-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-moz-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control:-ms-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--min-height .mul-field__control {
+  min-height: 60px;
+}
+
+<div
+    class="c0 mul-cell c1 mul-field"
+  >
+    <div
+      class="mul-cell__value mul-cell__value--alone mul-field__value"
+    >
+      <div
+        class="mul-field__body"
+      >
+        <input
+          class="mul-field__control"
+          rows="3"
+          type="text"
+        />
+        <i
+          class="c2 mul-icon mul-icon-clear mul-field__clear"
+          content="F031"
+          name="clear"
+          style="font-size: 14px;"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Field colon prop 1`] = `
+<DocumentFragment>
+  .c0.mul-cell {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 16px;
+  overflow: hidden;
+  color: #323233;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #fff;
+}
+
+.c0.mul-cell:last-child::after,
+.c0.mul-cell--borderless::after {
+  display: none;
+}
+
+.c0.mul-cell::after {
+  position: absolute;
+  box-sizing: border-box;
+  content: ' ';
+  pointer-events: none;
+  right: 16px;
+  bottom: 0;
+  left: 16px;
+  border-bottom: 1px solid #ebedf0;
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.c0.mul-cell .mul-cell__label {
+  margin-top: 4px;
+  color: #969799;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.c0.mul-cell .mul-cell__title,
+.c0.mul-cell .mul-cell__value {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c0.mul-cell .mul-cell__value {
+  position: relative;
+  overflow: hidden;
+  color: #969799;
+  text-align: right;
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+
+.c0.mul-cell .mul-cell__value--alone {
+  color: #323233;
+  text-align: left;
+}
+
+.c0.mul-cell .mul-cell__left-icon,
+.c0.mul-cell .mul-cell__right-icon {
+  min-width: 1em;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c0.mul-cell .mul-cell__left-icon {
+  margin-right: 4px;
+}
+
+.c0.mul-cell .mul-cell__right-icon {
+  margin-left: 4px;
+  color: #969799;
+}
+
+.c0.mul-cell--clickable {
+  cursor: pointer;
+}
+
+.c0.mul-cell--clickable:active {
+  background-color: #f2f3f5;
+}
+
+.c0.mul-cell--required {
+  overflow: visible;
+}
+
+.c0.mul-cell--required::before {
+  position: absolute;
+  left: 8px;
+  color: #fa220a;
+  font-size: 14px;
+  content: '*';
+}
+
+.c0.mul-cell--center {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0.mul-cell--large {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c0.mul-cell--large .mul-cell__title {
+  font-size: 16px;
+}
+
+.c0.mul-cell--large .mul-cell__label {
+  font-size: 14px;
+}
+
+.c1 .mul-field__label {
+  -webkit-flex: none !important;
+  -ms-flex: none !important;
+  flex: none !important;
+  box-sizing: border-box;
+  width: 6.2em;
+  margin-right: 12px;
+  color: #646566;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.c1 .mul-field__label--center {
+  text-align: center;
+}
+
+.c1 .mul-field__label--right {
+  padding-right: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--disabled .mul-field__label {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__value {
+  overflow: visible;
+}
+
+.c1 .mul-field__body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 .mul-field__control {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  line-height: inherit;
+  text-align: left;
+  background-color: transparent;
+  border: 0;
+  resize: none;
+}
+
+.c1 .mul-field__control::-webkit-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::-moz-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:-ms-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:disabled {
+  color: #c8c9cc;
+  background-color: transparent;
+  cursor: not-allowed;
+  opacity: 1;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field__control:-moz-read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control:read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control--center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c1 .mul-field__control--right {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.c1 .mul-field__control--custom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='date'],
+.c1 .mul-field__control[type='time'],
+.c1 .mul-field__control[type='datetime-local'] {
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='search'] {
+  -webkit-appearance: none;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__icon,
+.c1 .mul-field__button,
+.c1 .mul-field__right-icon {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__right-icon {
+  margin-right: -8px;
+  padding: 0 8px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__clear {
+  color: #c8c9cc;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c1 .mul-field__left-icon .mul-icon,
+.c1 .mul-field__right-icon .mul-icon {
+  display: block;
+  min-width: 1em;
+  font-size: 16px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__left-icon {
+  margin-right: 4px;
+}
+
+.c1 .mul-field__right-icon {
+  color: #969799;
+}
+
+.c1 .mul-field__button {
+  padding-left: 8px;
+}
+
+.c1 .mul-field__error-message {
+  color: #fa220a;
+  font-size: 12px;
+  text-align: left;
+}
+
+.c1 .mul-field__error-message--center {
+  text-align: center;
+}
+
+.c1 .mul-field__error-message--right {
+  text-align: right;
+}
+
+.c1 .mul-field__word-limit {
+  margin-top: 4px;
+  color: #646566;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-webkit-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-moz-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control:-ms-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--min-height .mul-field__control {
+  min-height: 60px;
+}
+
+<div
+    class="c0 mul-cell c1 mul-field"
+  >
+    <div
+      class="mul-cell__title mul-field__label"
+    >
+      <span>
+        multrue
+      </span>
+    </div>
+    <div
+      class="mul-cell__value mul-field__value"
+    >
+      <div
+        class="mul-field__body"
+      >
+        <input
+          class="mul-field__control"
+          rows="3"
+          type="text"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Field label-class prop 1`] = `
+<DocumentFragment>
+  .c0.mul-cell {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 16px;
+  overflow: hidden;
+  color: #323233;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #fff;
+}
+
+.c0.mul-cell:last-child::after,
+.c0.mul-cell--borderless::after {
+  display: none;
+}
+
+.c0.mul-cell::after {
+  position: absolute;
+  box-sizing: border-box;
+  content: ' ';
+  pointer-events: none;
+  right: 16px;
+  bottom: 0;
+  left: 16px;
+  border-bottom: 1px solid #ebedf0;
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.c0.mul-cell .mul-cell__label {
+  margin-top: 4px;
+  color: #969799;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.c0.mul-cell .mul-cell__title,
+.c0.mul-cell .mul-cell__value {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c0.mul-cell .mul-cell__value {
+  position: relative;
+  overflow: hidden;
+  color: #969799;
+  text-align: right;
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+
+.c0.mul-cell .mul-cell__value--alone {
+  color: #323233;
+  text-align: left;
+}
+
+.c0.mul-cell .mul-cell__left-icon,
+.c0.mul-cell .mul-cell__right-icon {
+  min-width: 1em;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c0.mul-cell .mul-cell__left-icon {
+  margin-right: 4px;
+}
+
+.c0.mul-cell .mul-cell__right-icon {
+  margin-left: 4px;
+  color: #969799;
+}
+
+.c0.mul-cell--clickable {
+  cursor: pointer;
+}
+
+.c0.mul-cell--clickable:active {
+  background-color: #f2f3f5;
+}
+
+.c0.mul-cell--required {
+  overflow: visible;
+}
+
+.c0.mul-cell--required::before {
+  position: absolute;
+  left: 8px;
+  color: #fa220a;
+  font-size: 14px;
+  content: '*';
+}
+
+.c0.mul-cell--center {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0.mul-cell--large {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c0.mul-cell--large .mul-cell__title {
+  font-size: 16px;
+}
+
+.c0.mul-cell--large .mul-cell__label {
+  font-size: 14px;
+}
+
+.c1 .mul-field__label {
+  -webkit-flex: none !important;
+  -ms-flex: none !important;
+  flex: none !important;
+  box-sizing: border-box;
+  width: 6.2em;
+  margin-right: 12px;
+  color: #646566;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.c1 .mul-field__label--center {
+  text-align: center;
+}
+
+.c1 .mul-field__label--right {
+  padding-right: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--disabled .mul-field__label {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__value {
+  overflow: visible;
+}
+
+.c1 .mul-field__body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 .mul-field__control {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  line-height: inherit;
+  text-align: left;
+  background-color: transparent;
+  border: 0;
+  resize: none;
+}
+
+.c1 .mul-field__control::-webkit-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::-moz-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:-ms-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:disabled {
+  color: #c8c9cc;
+  background-color: transparent;
+  cursor: not-allowed;
+  opacity: 1;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field__control:-moz-read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control:read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control--center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c1 .mul-field__control--right {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.c1 .mul-field__control--custom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='date'],
+.c1 .mul-field__control[type='time'],
+.c1 .mul-field__control[type='datetime-local'] {
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='search'] {
+  -webkit-appearance: none;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__icon,
+.c1 .mul-field__button,
+.c1 .mul-field__right-icon {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__right-icon {
+  margin-right: -8px;
+  padding: 0 8px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__clear {
+  color: #c8c9cc;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c1 .mul-field__left-icon .mul-icon,
+.c1 .mul-field__right-icon .mul-icon {
+  display: block;
+  min-width: 1em;
+  font-size: 16px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__left-icon {
+  margin-right: 4px;
+}
+
+.c1 .mul-field__right-icon {
+  color: #969799;
+}
+
+.c1 .mul-field__button {
+  padding-left: 8px;
+}
+
+.c1 .mul-field__error-message {
+  color: #fa220a;
+  font-size: 12px;
+  text-align: left;
+}
+
+.c1 .mul-field__error-message--center {
+  text-align: center;
+}
+
+.c1 .mul-field__error-message--right {
+  text-align: right;
+}
+
+.c1 .mul-field__word-limit {
+  margin-top: 4px;
+  color: #646566;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-webkit-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-moz-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control:-ms-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--min-height .mul-field__control {
+  min-height: 60px;
+}
+
+<div
+    class="c0 mul-cell c1 mul-field"
+  >
+    <div
+      class="mul-cell__title mul-field__label custom-label-class"
+    >
+      <span>
+        Label
+      </span>
+    </div>
+    <div
+      class="mul-cell__value mul-field__value"
+    >
+      <div
+        class="mul-field__body"
+      >
+        <input
+          class="mul-field__control"
+          rows="3"
+          type="text"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Field label-width prop with unit 1`] = `
+<DocumentFragment>
+  .c0.mul-cell {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 16px;
+  overflow: hidden;
+  color: #323233;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #fff;
+}
+
+.c0.mul-cell:last-child::after,
+.c0.mul-cell--borderless::after {
+  display: none;
+}
+
+.c0.mul-cell::after {
+  position: absolute;
+  box-sizing: border-box;
+  content: ' ';
+  pointer-events: none;
+  right: 16px;
+  bottom: 0;
+  left: 16px;
+  border-bottom: 1px solid #ebedf0;
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.c0.mul-cell .mul-cell__label {
+  margin-top: 4px;
+  color: #969799;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.c0.mul-cell .mul-cell__title,
+.c0.mul-cell .mul-cell__value {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c0.mul-cell .mul-cell__value {
+  position: relative;
+  overflow: hidden;
+  color: #969799;
+  text-align: right;
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+
+.c0.mul-cell .mul-cell__value--alone {
+  color: #323233;
+  text-align: left;
+}
+
+.c0.mul-cell .mul-cell__left-icon,
+.c0.mul-cell .mul-cell__right-icon {
+  min-width: 1em;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c0.mul-cell .mul-cell__left-icon {
+  margin-right: 4px;
+}
+
+.c0.mul-cell .mul-cell__right-icon {
+  margin-left: 4px;
+  color: #969799;
+}
+
+.c0.mul-cell--clickable {
+  cursor: pointer;
+}
+
+.c0.mul-cell--clickable:active {
+  background-color: #f2f3f5;
+}
+
+.c0.mul-cell--required {
+  overflow: visible;
+}
+
+.c0.mul-cell--required::before {
+  position: absolute;
+  left: 8px;
+  color: #fa220a;
+  font-size: 14px;
+  content: '*';
+}
+
+.c0.mul-cell--center {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0.mul-cell--large {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c0.mul-cell--large .mul-cell__title {
+  font-size: 16px;
+}
+
+.c0.mul-cell--large .mul-cell__label {
+  font-size: 14px;
+}
+
+.c1 .mul-field__label {
+  -webkit-flex: none !important;
+  -ms-flex: none !important;
+  flex: none !important;
+  box-sizing: border-box;
+  width: 6.2em;
+  margin-right: 12px;
+  color: #646566;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.c1 .mul-field__label--center {
+  text-align: center;
+}
+
+.c1 .mul-field__label--right {
+  padding-right: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--disabled .mul-field__label {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__value {
+  overflow: visible;
+}
+
+.c1 .mul-field__body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 .mul-field__control {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  line-height: inherit;
+  text-align: left;
+  background-color: transparent;
+  border: 0;
+  resize: none;
+}
+
+.c1 .mul-field__control::-webkit-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::-moz-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:-ms-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:disabled {
+  color: #c8c9cc;
+  background-color: transparent;
+  cursor: not-allowed;
+  opacity: 1;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field__control:-moz-read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control:read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control--center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c1 .mul-field__control--right {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.c1 .mul-field__control--custom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='date'],
+.c1 .mul-field__control[type='time'],
+.c1 .mul-field__control[type='datetime-local'] {
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='search'] {
+  -webkit-appearance: none;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__icon,
+.c1 .mul-field__button,
+.c1 .mul-field__right-icon {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__right-icon {
+  margin-right: -8px;
+  padding: 0 8px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__clear {
+  color: #c8c9cc;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c1 .mul-field__left-icon .mul-icon,
+.c1 .mul-field__right-icon .mul-icon {
+  display: block;
+  min-width: 1em;
+  font-size: 16px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__left-icon {
+  margin-right: 4px;
+}
+
+.c1 .mul-field__right-icon {
+  color: #969799;
+}
+
+.c1 .mul-field__button {
+  padding-left: 8px;
+}
+
+.c1 .mul-field__error-message {
+  color: #fa220a;
+  font-size: 12px;
+  text-align: left;
+}
+
+.c1 .mul-field__error-message--center {
+  text-align: center;
+}
+
+.c1 .mul-field__error-message--right {
+  text-align: right;
+}
+
+.c1 .mul-field__word-limit {
+  margin-top: 4px;
+  color: #646566;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-webkit-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-moz-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control:-ms-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--min-height .mul-field__control {
+  min-height: 60px;
+}
+
+<div
+    class="c0 mul-cell c1 mul-field"
+  >
+    <div
+      class="mul-cell__title mul-field__label"
+      style="width: 10rem;"
+    >
+      <span>
+        Label
+      </span>
+    </div>
+    <div
+      class="mul-cell__value mul-field__value"
+    >
+      <div
+        class="mul-field__body"
+      >
+        <input
+          class="mul-field__control"
+          rows="3"
+          type="text"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Field label-width prop without unit 1`] = `
+<DocumentFragment>
+  .c0.mul-cell {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 16px;
+  overflow: hidden;
+  color: #323233;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #fff;
+}
+
+.c0.mul-cell:last-child::after,
+.c0.mul-cell--borderless::after {
+  display: none;
+}
+
+.c0.mul-cell::after {
+  position: absolute;
+  box-sizing: border-box;
+  content: ' ';
+  pointer-events: none;
+  right: 16px;
+  bottom: 0;
+  left: 16px;
+  border-bottom: 1px solid #ebedf0;
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.c0.mul-cell .mul-cell__label {
+  margin-top: 4px;
+  color: #969799;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.c0.mul-cell .mul-cell__title,
+.c0.mul-cell .mul-cell__value {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c0.mul-cell .mul-cell__value {
+  position: relative;
+  overflow: hidden;
+  color: #969799;
+  text-align: right;
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+
+.c0.mul-cell .mul-cell__value--alone {
+  color: #323233;
+  text-align: left;
+}
+
+.c0.mul-cell .mul-cell__left-icon,
+.c0.mul-cell .mul-cell__right-icon {
+  min-width: 1em;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c0.mul-cell .mul-cell__left-icon {
+  margin-right: 4px;
+}
+
+.c0.mul-cell .mul-cell__right-icon {
+  margin-left: 4px;
+  color: #969799;
+}
+
+.c0.mul-cell--clickable {
+  cursor: pointer;
+}
+
+.c0.mul-cell--clickable:active {
+  background-color: #f2f3f5;
+}
+
+.c0.mul-cell--required {
+  overflow: visible;
+}
+
+.c0.mul-cell--required::before {
+  position: absolute;
+  left: 8px;
+  color: #fa220a;
+  font-size: 14px;
+  content: '*';
+}
+
+.c0.mul-cell--center {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0.mul-cell--large {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c0.mul-cell--large .mul-cell__title {
+  font-size: 16px;
+}
+
+.c0.mul-cell--large .mul-cell__label {
+  font-size: 14px;
+}
+
+.c1 .mul-field__label {
+  -webkit-flex: none !important;
+  -ms-flex: none !important;
+  flex: none !important;
+  box-sizing: border-box;
+  width: 6.2em;
+  margin-right: 12px;
+  color: #646566;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.c1 .mul-field__label--center {
+  text-align: center;
+}
+
+.c1 .mul-field__label--right {
+  padding-right: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--disabled .mul-field__label {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__value {
+  overflow: visible;
+}
+
+.c1 .mul-field__body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 .mul-field__control {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  line-height: inherit;
+  text-align: left;
+  background-color: transparent;
+  border: 0;
+  resize: none;
+}
+
+.c1 .mul-field__control::-webkit-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::-moz-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:-ms-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:disabled {
+  color: #c8c9cc;
+  background-color: transparent;
+  cursor: not-allowed;
+  opacity: 1;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field__control:-moz-read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control:read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control--center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c1 .mul-field__control--right {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.c1 .mul-field__control--custom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='date'],
+.c1 .mul-field__control[type='time'],
+.c1 .mul-field__control[type='datetime-local'] {
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='search'] {
+  -webkit-appearance: none;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__icon,
+.c1 .mul-field__button,
+.c1 .mul-field__right-icon {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__right-icon {
+  margin-right: -8px;
+  padding: 0 8px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__clear {
+  color: #c8c9cc;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c1 .mul-field__left-icon .mul-icon,
+.c1 .mul-field__right-icon .mul-icon {
+  display: block;
+  min-width: 1em;
+  font-size: 16px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__left-icon {
+  margin-right: 4px;
+}
+
+.c1 .mul-field__right-icon {
+  color: #969799;
+}
+
+.c1 .mul-field__button {
+  padding-left: 8px;
+}
+
+.c1 .mul-field__error-message {
+  color: #fa220a;
+  font-size: 12px;
+  text-align: left;
+}
+
+.c1 .mul-field__error-message--center {
+  text-align: center;
+}
+
+.c1 .mul-field__error-message--right {
+  text-align: right;
+}
+
+.c1 .mul-field__word-limit {
+  margin-top: 4px;
+  color: #646566;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-webkit-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-moz-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control:-ms-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--min-height .mul-field__control {
+  min-height: 60px;
+}
+
+<div
+    class="c0 mul-cell c1 mul-field"
+  >
+    <div
+      class="mul-cell__title mul-field__label"
+      style="width: 100px;"
+    >
+      <span>
+        Label
+      </span>
+    </div>
+    <div
+      class="mul-cell__value mul-field__value"
+    >
+      <div
+        class="mul-field__body"
+      >
+        <input
+          class="mul-field__control"
+          rows="3"
+          type="text"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Field name prop 1`] = `
+<DocumentFragment>
+  .c0.mul-cell {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 16px;
+  overflow: hidden;
+  color: #323233;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #fff;
+}
+
+.c0.mul-cell:last-child::after,
+.c0.mul-cell--borderless::after {
+  display: none;
+}
+
+.c0.mul-cell::after {
+  position: absolute;
+  box-sizing: border-box;
+  content: ' ';
+  pointer-events: none;
+  right: 16px;
+  bottom: 0;
+  left: 16px;
+  border-bottom: 1px solid #ebedf0;
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.c0.mul-cell .mul-cell__label {
+  margin-top: 4px;
+  color: #969799;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.c0.mul-cell .mul-cell__title,
+.c0.mul-cell .mul-cell__value {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c0.mul-cell .mul-cell__value {
+  position: relative;
+  overflow: hidden;
+  color: #969799;
+  text-align: right;
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+
+.c0.mul-cell .mul-cell__value--alone {
+  color: #323233;
+  text-align: left;
+}
+
+.c0.mul-cell .mul-cell__left-icon,
+.c0.mul-cell .mul-cell__right-icon {
+  min-width: 1em;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c0.mul-cell .mul-cell__left-icon {
+  margin-right: 4px;
+}
+
+.c0.mul-cell .mul-cell__right-icon {
+  margin-left: 4px;
+  color: #969799;
+}
+
+.c0.mul-cell--clickable {
+  cursor: pointer;
+}
+
+.c0.mul-cell--clickable:active {
+  background-color: #f2f3f5;
+}
+
+.c0.mul-cell--required {
+  overflow: visible;
+}
+
+.c0.mul-cell--required::before {
+  position: absolute;
+  left: 8px;
+  color: #fa220a;
+  font-size: 14px;
+  content: '*';
+}
+
+.c0.mul-cell--center {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0.mul-cell--large {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c0.mul-cell--large .mul-cell__title {
+  font-size: 16px;
+}
+
+.c0.mul-cell--large .mul-cell__label {
+  font-size: 14px;
+}
+
+.c1 .mul-field__label {
+  -webkit-flex: none !important;
+  -ms-flex: none !important;
+  flex: none !important;
+  box-sizing: border-box;
+  width: 6.2em;
+  margin-right: 12px;
+  color: #646566;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.c1 .mul-field__label--center {
+  text-align: center;
+}
+
+.c1 .mul-field__label--right {
+  padding-right: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--disabled .mul-field__label {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__value {
+  overflow: visible;
+}
+
+.c1 .mul-field__body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 .mul-field__control {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  line-height: inherit;
+  text-align: left;
+  background-color: transparent;
+  border: 0;
+  resize: none;
+}
+
+.c1 .mul-field__control::-webkit-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::-moz-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:-ms-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:disabled {
+  color: #c8c9cc;
+  background-color: transparent;
+  cursor: not-allowed;
+  opacity: 1;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field__control:-moz-read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control:read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control--center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c1 .mul-field__control--right {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.c1 .mul-field__control--custom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='date'],
+.c1 .mul-field__control[type='time'],
+.c1 .mul-field__control[type='datetime-local'] {
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='search'] {
+  -webkit-appearance: none;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__icon,
+.c1 .mul-field__button,
+.c1 .mul-field__right-icon {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__right-icon {
+  margin-right: -8px;
+  padding: 0 8px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__clear {
+  color: #c8c9cc;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c1 .mul-field__left-icon .mul-icon,
+.c1 .mul-field__right-icon .mul-icon {
+  display: block;
+  min-width: 1em;
+  font-size: 16px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__left-icon {
+  margin-right: 4px;
+}
+
+.c1 .mul-field__right-icon {
+  color: #969799;
+}
+
+.c1 .mul-field__button {
+  padding-left: 8px;
+}
+
+.c1 .mul-field__error-message {
+  color: #fa220a;
+  font-size: 12px;
+  text-align: left;
+}
+
+.c1 .mul-field__error-message--center {
+  text-align: center;
+}
+
+.c1 .mul-field__error-message--right {
+  text-align: right;
+}
+
+.c1 .mul-field__word-limit {
+  margin-top: 4px;
+  color: #646566;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-webkit-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-moz-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control:-ms-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--min-height .mul-field__control {
+  min-height: 60px;
+}
+
+<div
+    class="c0 mul-cell c1 mul-field"
+  >
+    <div
+      class="mul-cell__value mul-cell__value--alone mul-field__value"
+    >
+      <div
+        class="mul-field__body"
+      >
+        <input
+          class="mul-field__control"
+          name="mul"
+          rows="3"
+          type="text"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Field reach max word-limit 1`] = `
+<DocumentFragment>
+  .c0.mul-cell {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 16px;
+  overflow: hidden;
+  color: #323233;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #fff;
+}
+
+.c0.mul-cell:last-child::after,
+.c0.mul-cell--borderless::after {
+  display: none;
+}
+
+.c0.mul-cell::after {
+  position: absolute;
+  box-sizing: border-box;
+  content: ' ';
+  pointer-events: none;
+  right: 16px;
+  bottom: 0;
+  left: 16px;
+  border-bottom: 1px solid #ebedf0;
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.c0.mul-cell .mul-cell__label {
+  margin-top: 4px;
+  color: #969799;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.c0.mul-cell .mul-cell__title,
+.c0.mul-cell .mul-cell__value {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c0.mul-cell .mul-cell__value {
+  position: relative;
+  overflow: hidden;
+  color: #969799;
+  text-align: right;
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+
+.c0.mul-cell .mul-cell__value--alone {
+  color: #323233;
+  text-align: left;
+}
+
+.c0.mul-cell .mul-cell__left-icon,
+.c0.mul-cell .mul-cell__right-icon {
+  min-width: 1em;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c0.mul-cell .mul-cell__left-icon {
+  margin-right: 4px;
+}
+
+.c0.mul-cell .mul-cell__right-icon {
+  margin-left: 4px;
+  color: #969799;
+}
+
+.c0.mul-cell--clickable {
+  cursor: pointer;
+}
+
+.c0.mul-cell--clickable:active {
+  background-color: #f2f3f5;
+}
+
+.c0.mul-cell--required {
+  overflow: visible;
+}
+
+.c0.mul-cell--required::before {
+  position: absolute;
+  left: 8px;
+  color: #fa220a;
+  font-size: 14px;
+  content: '*';
+}
+
+.c0.mul-cell--center {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0.mul-cell--large {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c0.mul-cell--large .mul-cell__title {
+  font-size: 16px;
+}
+
+.c0.mul-cell--large .mul-cell__label {
+  font-size: 14px;
+}
+
+.c1 .mul-field__label {
+  -webkit-flex: none !important;
+  -ms-flex: none !important;
+  flex: none !important;
+  box-sizing: border-box;
+  width: 6.2em;
+  margin-right: 12px;
+  color: #646566;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.c1 .mul-field__label--center {
+  text-align: center;
+}
+
+.c1 .mul-field__label--right {
+  padding-right: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--disabled .mul-field__label {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__value {
+  overflow: visible;
+}
+
+.c1 .mul-field__body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 .mul-field__control {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  line-height: inherit;
+  text-align: left;
+  background-color: transparent;
+  border: 0;
+  resize: none;
+}
+
+.c1 .mul-field__control::-webkit-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::-moz-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:-ms-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:disabled {
+  color: #c8c9cc;
+  background-color: transparent;
+  cursor: not-allowed;
+  opacity: 1;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field__control:-moz-read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control:read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control--center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c1 .mul-field__control--right {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.c1 .mul-field__control--custom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='date'],
+.c1 .mul-field__control[type='time'],
+.c1 .mul-field__control[type='datetime-local'] {
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='search'] {
+  -webkit-appearance: none;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__icon,
+.c1 .mul-field__button,
+.c1 .mul-field__right-icon {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__right-icon {
+  margin-right: -8px;
+  padding: 0 8px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__clear {
+  color: #c8c9cc;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c1 .mul-field__left-icon .mul-icon,
+.c1 .mul-field__right-icon .mul-icon {
+  display: block;
+  min-width: 1em;
+  font-size: 16px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__left-icon {
+  margin-right: 4px;
+}
+
+.c1 .mul-field__right-icon {
+  color: #969799;
+}
+
+.c1 .mul-field__button {
+  padding-left: 8px;
+}
+
+.c1 .mul-field__error-message {
+  color: #fa220a;
+  font-size: 12px;
+  text-align: left;
+}
+
+.c1 .mul-field__error-message--center {
+  text-align: center;
+}
+
+.c1 .mul-field__error-message--right {
+  text-align: right;
+}
+
+.c1 .mul-field__word-limit {
+  margin-top: 4px;
+  color: #646566;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-webkit-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-moz-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control:-ms-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--min-height .mul-field__control {
+  min-height: 60px;
+}
+
+<div
+    class="c0 mul-cell c1 mul-field"
+  >
+    <div
+      class="mul-cell__value mul-cell__value--alone mul-field__value"
+    >
+      <div
+        class="mul-field__body"
+      >
+        <input
+          class="mul-field__control"
+          rows="3"
+          type="text"
+        />
+      </div>
+      <div
+        class="mul-field__word-limit"
+      >
+        <span
+          class="mul-field__word-num"
+        >
+          3
+        </span>
+        /3
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Field reach max word-limit null 1`] = `
+<DocumentFragment>
+  .c0.mul-cell {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 16px;
+  overflow: hidden;
+  color: #323233;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #fff;
+}
+
+.c0.mul-cell:last-child::after,
+.c0.mul-cell--borderless::after {
+  display: none;
+}
+
+.c0.mul-cell::after {
+  position: absolute;
+  box-sizing: border-box;
+  content: ' ';
+  pointer-events: none;
+  right: 16px;
+  bottom: 0;
+  left: 16px;
+  border-bottom: 1px solid #ebedf0;
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.c0.mul-cell .mul-cell__label {
+  margin-top: 4px;
+  color: #969799;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.c0.mul-cell .mul-cell__title,
+.c0.mul-cell .mul-cell__value {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c0.mul-cell .mul-cell__value {
+  position: relative;
+  overflow: hidden;
+  color: #969799;
+  text-align: right;
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+
+.c0.mul-cell .mul-cell__value--alone {
+  color: #323233;
+  text-align: left;
+}
+
+.c0.mul-cell .mul-cell__left-icon,
+.c0.mul-cell .mul-cell__right-icon {
+  min-width: 1em;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c0.mul-cell .mul-cell__left-icon {
+  margin-right: 4px;
+}
+
+.c0.mul-cell .mul-cell__right-icon {
+  margin-left: 4px;
+  color: #969799;
+}
+
+.c0.mul-cell--clickable {
+  cursor: pointer;
+}
+
+.c0.mul-cell--clickable:active {
+  background-color: #f2f3f5;
+}
+
+.c0.mul-cell--required {
+  overflow: visible;
+}
+
+.c0.mul-cell--required::before {
+  position: absolute;
+  left: 8px;
+  color: #fa220a;
+  font-size: 14px;
+  content: '*';
+}
+
+.c0.mul-cell--center {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0.mul-cell--large {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c0.mul-cell--large .mul-cell__title {
+  font-size: 16px;
+}
+
+.c0.mul-cell--large .mul-cell__label {
+  font-size: 14px;
+}
+
+.c1 .mul-field__label {
+  -webkit-flex: none !important;
+  -ms-flex: none !important;
+  flex: none !important;
+  box-sizing: border-box;
+  width: 6.2em;
+  margin-right: 12px;
+  color: #646566;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.c1 .mul-field__label--center {
+  text-align: center;
+}
+
+.c1 .mul-field__label--right {
+  padding-right: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--disabled .mul-field__label {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__value {
+  overflow: visible;
+}
+
+.c1 .mul-field__body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 .mul-field__control {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  line-height: inherit;
+  text-align: left;
+  background-color: transparent;
+  border: 0;
+  resize: none;
+}
+
+.c1 .mul-field__control::-webkit-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::-moz-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:-ms-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:disabled {
+  color: #c8c9cc;
+  background-color: transparent;
+  cursor: not-allowed;
+  opacity: 1;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field__control:-moz-read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control:read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control--center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c1 .mul-field__control--right {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.c1 .mul-field__control--custom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='date'],
+.c1 .mul-field__control[type='time'],
+.c1 .mul-field__control[type='datetime-local'] {
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='search'] {
+  -webkit-appearance: none;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__icon,
+.c1 .mul-field__button,
+.c1 .mul-field__right-icon {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__right-icon {
+  margin-right: -8px;
+  padding: 0 8px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__clear {
+  color: #c8c9cc;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c1 .mul-field__left-icon .mul-icon,
+.c1 .mul-field__right-icon .mul-icon {
+  display: block;
+  min-width: 1em;
+  font-size: 16px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__left-icon {
+  margin-right: 4px;
+}
+
+.c1 .mul-field__right-icon {
+  color: #969799;
+}
+
+.c1 .mul-field__button {
+  padding-left: 8px;
+}
+
+.c1 .mul-field__error-message {
+  color: #fa220a;
+  font-size: 12px;
+  text-align: left;
+}
+
+.c1 .mul-field__error-message--center {
+  text-align: center;
+}
+
+.c1 .mul-field__error-message--right {
+  text-align: right;
+}
+
+.c1 .mul-field__word-limit {
+  margin-top: 4px;
+  color: #646566;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-webkit-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-moz-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control:-ms-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--min-height .mul-field__control {
+  min-height: 60px;
+}
+
+<div
+    class="c0 mul-cell c1 mul-field"
+  >
+    <div
+      class="mul-cell__value mul-cell__value--alone mul-field__value"
+    >
+      <div
+        class="mul-field__body"
+      >
+        <input
+          class="mul-field__control"
+          rows="3"
+          type="text"
+        />
+      </div>
+      <div
+        class="mul-field__word-limit"
+      >
+        <span
+          class="mul-field__word-num"
+        >
+          0
+        </span>
+        /3
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Field reach max word-limit undefined 1`] = `
+<DocumentFragment>
+  .c0.mul-cell {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 16px;
+  overflow: hidden;
+  color: #323233;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #fff;
+}
+
+.c0.mul-cell:last-child::after,
+.c0.mul-cell--borderless::after {
+  display: none;
+}
+
+.c0.mul-cell::after {
+  position: absolute;
+  box-sizing: border-box;
+  content: ' ';
+  pointer-events: none;
+  right: 16px;
+  bottom: 0;
+  left: 16px;
+  border-bottom: 1px solid #ebedf0;
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.c0.mul-cell .mul-cell__label {
+  margin-top: 4px;
+  color: #969799;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.c0.mul-cell .mul-cell__title,
+.c0.mul-cell .mul-cell__value {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c0.mul-cell .mul-cell__value {
+  position: relative;
+  overflow: hidden;
+  color: #969799;
+  text-align: right;
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+
+.c0.mul-cell .mul-cell__value--alone {
+  color: #323233;
+  text-align: left;
+}
+
+.c0.mul-cell .mul-cell__left-icon,
+.c0.mul-cell .mul-cell__right-icon {
+  min-width: 1em;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c0.mul-cell .mul-cell__left-icon {
+  margin-right: 4px;
+}
+
+.c0.mul-cell .mul-cell__right-icon {
+  margin-left: 4px;
+  color: #969799;
+}
+
+.c0.mul-cell--clickable {
+  cursor: pointer;
+}
+
+.c0.mul-cell--clickable:active {
+  background-color: #f2f3f5;
+}
+
+.c0.mul-cell--required {
+  overflow: visible;
+}
+
+.c0.mul-cell--required::before {
+  position: absolute;
+  left: 8px;
+  color: #fa220a;
+  font-size: 14px;
+  content: '*';
+}
+
+.c0.mul-cell--center {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0.mul-cell--large {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c0.mul-cell--large .mul-cell__title {
+  font-size: 16px;
+}
+
+.c0.mul-cell--large .mul-cell__label {
+  font-size: 14px;
+}
+
+.c1 .mul-field__label {
+  -webkit-flex: none !important;
+  -ms-flex: none !important;
+  flex: none !important;
+  box-sizing: border-box;
+  width: 6.2em;
+  margin-right: 12px;
+  color: #646566;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.c1 .mul-field__label--center {
+  text-align: center;
+}
+
+.c1 .mul-field__label--right {
+  padding-right: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--disabled .mul-field__label {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__value {
+  overflow: visible;
+}
+
+.c1 .mul-field__body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 .mul-field__control {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  line-height: inherit;
+  text-align: left;
+  background-color: transparent;
+  border: 0;
+  resize: none;
+}
+
+.c1 .mul-field__control::-webkit-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::-moz-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:-ms-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:disabled {
+  color: #c8c9cc;
+  background-color: transparent;
+  cursor: not-allowed;
+  opacity: 1;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field__control:-moz-read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control:read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control--center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c1 .mul-field__control--right {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.c1 .mul-field__control--custom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='date'],
+.c1 .mul-field__control[type='time'],
+.c1 .mul-field__control[type='datetime-local'] {
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='search'] {
+  -webkit-appearance: none;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__icon,
+.c1 .mul-field__button,
+.c1 .mul-field__right-icon {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__right-icon {
+  margin-right: -8px;
+  padding: 0 8px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__clear {
+  color: #c8c9cc;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c1 .mul-field__left-icon .mul-icon,
+.c1 .mul-field__right-icon .mul-icon {
+  display: block;
+  min-width: 1em;
+  font-size: 16px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__left-icon {
+  margin-right: 4px;
+}
+
+.c1 .mul-field__right-icon {
+  color: #969799;
+}
+
+.c1 .mul-field__button {
+  padding-left: 8px;
+}
+
+.c1 .mul-field__error-message {
+  color: #fa220a;
+  font-size: 12px;
+  text-align: left;
+}
+
+.c1 .mul-field__error-message--center {
+  text-align: center;
+}
+
+.c1 .mul-field__error-message--right {
+  text-align: right;
+}
+
+.c1 .mul-field__word-limit {
+  margin-top: 4px;
+  color: #646566;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-webkit-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-moz-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control:-ms-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--min-height .mul-field__control {
+  min-height: 60px;
+}
+
+<div
+    class="c0 mul-cell c1 mul-field"
+  >
+    <div
+      class="mul-cell__value mul-cell__value--alone mul-field__value"
+    >
+      <div
+        class="mul-field__body"
+      >
+        <input
+          class="mul-field__control"
+          rows="3"
+          type="text"
+        />
+      </div>
+      <div
+        class="mul-field__word-limit"
+      >
+        <span
+          class="mul-field__word-num"
+        >
+          0
+        </span>
+        /3
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Field render field has children 1`] = `
+<DocumentFragment>
+  .c0.mul-cell {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 16px;
+  overflow: hidden;
+  color: #323233;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #fff;
+}
+
+.c0.mul-cell:last-child::after,
+.c0.mul-cell--borderless::after {
+  display: none;
+}
+
+.c0.mul-cell::after {
+  position: absolute;
+  box-sizing: border-box;
+  content: ' ';
+  pointer-events: none;
+  right: 16px;
+  bottom: 0;
+  left: 16px;
+  border-bottom: 1px solid #ebedf0;
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.c0.mul-cell .mul-cell__label {
+  margin-top: 4px;
+  color: #969799;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.c0.mul-cell .mul-cell__title,
+.c0.mul-cell .mul-cell__value {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c0.mul-cell .mul-cell__value {
+  position: relative;
+  overflow: hidden;
+  color: #969799;
+  text-align: right;
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+
+.c0.mul-cell .mul-cell__value--alone {
+  color: #323233;
+  text-align: left;
+}
+
+.c0.mul-cell .mul-cell__left-icon,
+.c0.mul-cell .mul-cell__right-icon {
+  min-width: 1em;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c0.mul-cell .mul-cell__left-icon {
+  margin-right: 4px;
+}
+
+.c0.mul-cell .mul-cell__right-icon {
+  margin-left: 4px;
+  color: #969799;
+}
+
+.c0.mul-cell--clickable {
+  cursor: pointer;
+}
+
+.c0.mul-cell--clickable:active {
+  background-color: #f2f3f5;
+}
+
+.c0.mul-cell--required {
+  overflow: visible;
+}
+
+.c0.mul-cell--required::before {
+  position: absolute;
+  left: 8px;
+  color: #fa220a;
+  font-size: 14px;
+  content: '*';
+}
+
+.c0.mul-cell--center {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0.mul-cell--large {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c0.mul-cell--large .mul-cell__title {
+  font-size: 16px;
+}
+
+.c0.mul-cell--large .mul-cell__label {
+  font-size: 14px;
+}
+
+.c1 .mul-field__label {
+  -webkit-flex: none !important;
+  -ms-flex: none !important;
+  flex: none !important;
+  box-sizing: border-box;
+  width: 6.2em;
+  margin-right: 12px;
+  color: #646566;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.c1 .mul-field__label--center {
+  text-align: center;
+}
+
+.c1 .mul-field__label--right {
+  padding-right: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--disabled .mul-field__label {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__value {
+  overflow: visible;
+}
+
+.c1 .mul-field__body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 .mul-field__control {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  line-height: inherit;
+  text-align: left;
+  background-color: transparent;
+  border: 0;
+  resize: none;
+}
+
+.c1 .mul-field__control::-webkit-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::-moz-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:-ms-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:disabled {
+  color: #c8c9cc;
+  background-color: transparent;
+  cursor: not-allowed;
+  opacity: 1;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field__control:-moz-read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control:read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control--center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c1 .mul-field__control--right {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.c1 .mul-field__control--custom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='date'],
+.c1 .mul-field__control[type='time'],
+.c1 .mul-field__control[type='datetime-local'] {
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='search'] {
+  -webkit-appearance: none;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__icon,
+.c1 .mul-field__button,
+.c1 .mul-field__right-icon {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__right-icon {
+  margin-right: -8px;
+  padding: 0 8px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__clear {
+  color: #c8c9cc;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c1 .mul-field__left-icon .mul-icon,
+.c1 .mul-field__right-icon .mul-icon {
+  display: block;
+  min-width: 1em;
+  font-size: 16px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__left-icon {
+  margin-right: 4px;
+}
+
+.c1 .mul-field__right-icon {
+  color: #969799;
+}
+
+.c1 .mul-field__button {
+  padding-left: 8px;
+}
+
+.c1 .mul-field__error-message {
+  color: #fa220a;
+  font-size: 12px;
+  text-align: left;
+}
+
+.c1 .mul-field__error-message--center {
+  text-align: center;
+}
+
+.c1 .mul-field__error-message--right {
+  text-align: right;
+}
+
+.c1 .mul-field__word-limit {
+  margin-top: 4px;
+  color: #646566;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-webkit-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-moz-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control:-ms-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--min-height .mul-field__control {
+  min-height: 60px;
+}
+
+<div
+    class="c0 mul-cell c1 mul-field"
+  >
+    <div
+      class="mul-cell__value mul-cell__value--alone mul-field__value"
+    >
+      <div
+        class="mul-field__body"
+      >
+        <div
+          class="mul-field__control mul-field__control--custom"
+        >
+          <div>
+            Custom Input
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Field render label 1`] = `
+<DocumentFragment>
+  .c0.mul-cell {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 16px;
+  overflow: hidden;
+  color: #323233;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #fff;
+}
+
+.c0.mul-cell:last-child::after,
+.c0.mul-cell--borderless::after {
+  display: none;
+}
+
+.c0.mul-cell::after {
+  position: absolute;
+  box-sizing: border-box;
+  content: ' ';
+  pointer-events: none;
+  right: 16px;
+  bottom: 0;
+  left: 16px;
+  border-bottom: 1px solid #ebedf0;
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.c0.mul-cell .mul-cell__label {
+  margin-top: 4px;
+  color: #969799;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.c0.mul-cell .mul-cell__title,
+.c0.mul-cell .mul-cell__value {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c0.mul-cell .mul-cell__value {
+  position: relative;
+  overflow: hidden;
+  color: #969799;
+  text-align: right;
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+
+.c0.mul-cell .mul-cell__value--alone {
+  color: #323233;
+  text-align: left;
+}
+
+.c0.mul-cell .mul-cell__left-icon,
+.c0.mul-cell .mul-cell__right-icon {
+  min-width: 1em;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c0.mul-cell .mul-cell__left-icon {
+  margin-right: 4px;
+}
+
+.c0.mul-cell .mul-cell__right-icon {
+  margin-left: 4px;
+  color: #969799;
+}
+
+.c0.mul-cell--clickable {
+  cursor: pointer;
+}
+
+.c0.mul-cell--clickable:active {
+  background-color: #f2f3f5;
+}
+
+.c0.mul-cell--required {
+  overflow: visible;
+}
+
+.c0.mul-cell--required::before {
+  position: absolute;
+  left: 8px;
+  color: #fa220a;
+  font-size: 14px;
+  content: '*';
+}
+
+.c0.mul-cell--center {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0.mul-cell--large {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c0.mul-cell--large .mul-cell__title {
+  font-size: 16px;
+}
+
+.c0.mul-cell--large .mul-cell__label {
+  font-size: 14px;
+}
+
+.c1 .mul-field__label {
+  -webkit-flex: none !important;
+  -ms-flex: none !important;
+  flex: none !important;
+  box-sizing: border-box;
+  width: 6.2em;
+  margin-right: 12px;
+  color: #646566;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.c1 .mul-field__label--center {
+  text-align: center;
+}
+
+.c1 .mul-field__label--right {
+  padding-right: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--disabled .mul-field__label {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__value {
+  overflow: visible;
+}
+
+.c1 .mul-field__body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 .mul-field__control {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  line-height: inherit;
+  text-align: left;
+  background-color: transparent;
+  border: 0;
+  resize: none;
+}
+
+.c1 .mul-field__control::-webkit-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::-moz-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:-ms-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:disabled {
+  color: #c8c9cc;
+  background-color: transparent;
+  cursor: not-allowed;
+  opacity: 1;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field__control:-moz-read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control:read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control--center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c1 .mul-field__control--right {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.c1 .mul-field__control--custom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='date'],
+.c1 .mul-field__control[type='time'],
+.c1 .mul-field__control[type='datetime-local'] {
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='search'] {
+  -webkit-appearance: none;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__icon,
+.c1 .mul-field__button,
+.c1 .mul-field__right-icon {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__right-icon {
+  margin-right: -8px;
+  padding: 0 8px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__clear {
+  color: #c8c9cc;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c1 .mul-field__left-icon .mul-icon,
+.c1 .mul-field__right-icon .mul-icon {
+  display: block;
+  min-width: 1em;
+  font-size: 16px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__left-icon {
+  margin-right: 4px;
+}
+
+.c1 .mul-field__right-icon {
+  color: #969799;
+}
+
+.c1 .mul-field__button {
+  padding-left: 8px;
+}
+
+.c1 .mul-field__error-message {
+  color: #fa220a;
+  font-size: 12px;
+  text-align: left;
+}
+
+.c1 .mul-field__error-message--center {
+  text-align: center;
+}
+
+.c1 .mul-field__error-message--right {
+  text-align: right;
+}
+
+.c1 .mul-field__word-limit {
+  margin-top: 4px;
+  color: #646566;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-webkit-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-moz-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control:-ms-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--min-height .mul-field__control {
+  min-height: 60px;
+}
+
+<div
+    class="c0 mul-cell c1 mul-field"
+  >
+    <div
+      class="mul-cell__title mul-field__label"
+    >
+      <div>
+        label
+      </div>
+    </div>
+    <div
+      class="mul-cell__value mul-field__value"
+    >
+      <div
+        class="mul-field__body"
+      >
+        <input
+          class="mul-field__control"
+          rows="3"
+          type="text"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Field render textarea 1`] = `
+<DocumentFragment>
+  .c0.mul-cell {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 16px;
+  overflow: hidden;
+  color: #323233;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #fff;
+}
+
+.c0.mul-cell:last-child::after,
+.c0.mul-cell--borderless::after {
+  display: none;
+}
+
+.c0.mul-cell::after {
+  position: absolute;
+  box-sizing: border-box;
+  content: ' ';
+  pointer-events: none;
+  right: 16px;
+  bottom: 0;
+  left: 16px;
+  border-bottom: 1px solid #ebedf0;
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.c0.mul-cell .mul-cell__label {
+  margin-top: 4px;
+  color: #969799;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.c0.mul-cell .mul-cell__title,
+.c0.mul-cell .mul-cell__value {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c0.mul-cell .mul-cell__value {
+  position: relative;
+  overflow: hidden;
+  color: #969799;
+  text-align: right;
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+
+.c0.mul-cell .mul-cell__value--alone {
+  color: #323233;
+  text-align: left;
+}
+
+.c0.mul-cell .mul-cell__left-icon,
+.c0.mul-cell .mul-cell__right-icon {
+  min-width: 1em;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c0.mul-cell .mul-cell__left-icon {
+  margin-right: 4px;
+}
+
+.c0.mul-cell .mul-cell__right-icon {
+  margin-left: 4px;
+  color: #969799;
+}
+
+.c0.mul-cell--clickable {
+  cursor: pointer;
+}
+
+.c0.mul-cell--clickable:active {
+  background-color: #f2f3f5;
+}
+
+.c0.mul-cell--required {
+  overflow: visible;
+}
+
+.c0.mul-cell--required::before {
+  position: absolute;
+  left: 8px;
+  color: #fa220a;
+  font-size: 14px;
+  content: '*';
+}
+
+.c0.mul-cell--center {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0.mul-cell--large {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c0.mul-cell--large .mul-cell__title {
+  font-size: 16px;
+}
+
+.c0.mul-cell--large .mul-cell__label {
+  font-size: 14px;
+}
+
+.c1 .mul-field__label {
+  -webkit-flex: none !important;
+  -ms-flex: none !important;
+  flex: none !important;
+  box-sizing: border-box;
+  width: 6.2em;
+  margin-right: 12px;
+  color: #646566;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.c1 .mul-field__label--center {
+  text-align: center;
+}
+
+.c1 .mul-field__label--right {
+  padding-right: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--disabled .mul-field__label {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__value {
+  overflow: visible;
+}
+
+.c1 .mul-field__body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 .mul-field__control {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  line-height: inherit;
+  text-align: left;
+  background-color: transparent;
+  border: 0;
+  resize: none;
+}
+
+.c1 .mul-field__control::-webkit-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::-moz-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:-ms-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:disabled {
+  color: #c8c9cc;
+  background-color: transparent;
+  cursor: not-allowed;
+  opacity: 1;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field__control:-moz-read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control:read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control--center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c1 .mul-field__control--right {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.c1 .mul-field__control--custom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='date'],
+.c1 .mul-field__control[type='time'],
+.c1 .mul-field__control[type='datetime-local'] {
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='search'] {
+  -webkit-appearance: none;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__icon,
+.c1 .mul-field__button,
+.c1 .mul-field__right-icon {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__right-icon {
+  margin-right: -8px;
+  padding: 0 8px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__clear {
+  color: #c8c9cc;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c1 .mul-field__left-icon .mul-icon,
+.c1 .mul-field__right-icon .mul-icon {
+  display: block;
+  min-width: 1em;
+  font-size: 16px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__left-icon {
+  margin-right: 4px;
+}
+
+.c1 .mul-field__right-icon {
+  color: #969799;
+}
+
+.c1 .mul-field__button {
+  padding-left: 8px;
+}
+
+.c1 .mul-field__error-message {
+  color: #fa220a;
+  font-size: 12px;
+  text-align: left;
+}
+
+.c1 .mul-field__error-message--center {
+  text-align: center;
+}
+
+.c1 .mul-field__error-message--right {
+  text-align: right;
+}
+
+.c1 .mul-field__word-limit {
+  margin-top: 4px;
+  color: #646566;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-webkit-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-moz-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control:-ms-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--min-height .mul-field__control {
+  min-height: 60px;
+}
+
+<div
+    class="c0 mul-cell c1 mul-field"
+  >
+    <div
+      class="mul-cell__value mul-cell__value--alone mul-field__value"
+    >
+      <div
+        class="mul-field__body"
+      >
+        <textarea
+          class="mul-field__control"
+          rows="3"
+          style="height: auto;"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Field size prop 1`] = `
+<DocumentFragment>
+  .c0.mul-cell {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 16px;
+  overflow: hidden;
+  color: #323233;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #fff;
+}
+
+.c0.mul-cell:last-child::after,
+.c0.mul-cell--borderless::after {
+  display: none;
+}
+
+.c0.mul-cell::after {
+  position: absolute;
+  box-sizing: border-box;
+  content: ' ';
+  pointer-events: none;
+  right: 16px;
+  bottom: 0;
+  left: 16px;
+  border-bottom: 1px solid #ebedf0;
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.c0.mul-cell .mul-cell__label {
+  margin-top: 4px;
+  color: #969799;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.c0.mul-cell .mul-cell__title,
+.c0.mul-cell .mul-cell__value {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c0.mul-cell .mul-cell__value {
+  position: relative;
+  overflow: hidden;
+  color: #969799;
+  text-align: right;
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+
+.c0.mul-cell .mul-cell__value--alone {
+  color: #323233;
+  text-align: left;
+}
+
+.c0.mul-cell .mul-cell__left-icon,
+.c0.mul-cell .mul-cell__right-icon {
+  min-width: 1em;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c0.mul-cell .mul-cell__left-icon {
+  margin-right: 4px;
+}
+
+.c0.mul-cell .mul-cell__right-icon {
+  margin-left: 4px;
+  color: #969799;
+}
+
+.c0.mul-cell--clickable {
+  cursor: pointer;
+}
+
+.c0.mul-cell--clickable:active {
+  background-color: #f2f3f5;
+}
+
+.c0.mul-cell--required {
+  overflow: visible;
+}
+
+.c0.mul-cell--required::before {
+  position: absolute;
+  left: 8px;
+  color: #fa220a;
+  font-size: 14px;
+  content: '*';
+}
+
+.c0.mul-cell--center {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0.mul-cell--large {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c0.mul-cell--large .mul-cell__title {
+  font-size: 16px;
+}
+
+.c0.mul-cell--large .mul-cell__label {
+  font-size: 14px;
+}
+
+.c1 .mul-field__label {
+  -webkit-flex: none !important;
+  -ms-flex: none !important;
+  flex: none !important;
+  box-sizing: border-box;
+  width: 6.2em;
+  margin-right: 12px;
+  color: #646566;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.c1 .mul-field__label--center {
+  text-align: center;
+}
+
+.c1 .mul-field__label--right {
+  padding-right: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--disabled .mul-field__label {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__value {
+  overflow: visible;
+}
+
+.c1 .mul-field__body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 .mul-field__control {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  line-height: inherit;
+  text-align: left;
+  background-color: transparent;
+  border: 0;
+  resize: none;
+}
+
+.c1 .mul-field__control::-webkit-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::-moz-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:-ms-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:disabled {
+  color: #c8c9cc;
+  background-color: transparent;
+  cursor: not-allowed;
+  opacity: 1;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field__control:-moz-read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control:read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control--center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c1 .mul-field__control--right {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.c1 .mul-field__control--custom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='date'],
+.c1 .mul-field__control[type='time'],
+.c1 .mul-field__control[type='datetime-local'] {
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='search'] {
+  -webkit-appearance: none;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__icon,
+.c1 .mul-field__button,
+.c1 .mul-field__right-icon {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__right-icon {
+  margin-right: -8px;
+  padding: 0 8px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__clear {
+  color: #c8c9cc;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c1 .mul-field__left-icon .mul-icon,
+.c1 .mul-field__right-icon .mul-icon {
+  display: block;
+  min-width: 1em;
+  font-size: 16px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__left-icon {
+  margin-right: 4px;
+}
+
+.c1 .mul-field__right-icon {
+  color: #969799;
+}
+
+.c1 .mul-field__button {
+  padding-left: 8px;
+}
+
+.c1 .mul-field__error-message {
+  color: #fa220a;
+  font-size: 12px;
+  text-align: left;
+}
+
+.c1 .mul-field__error-message--center {
+  text-align: center;
+}
+
+.c1 .mul-field__error-message--right {
+  text-align: right;
+}
+
+.c1 .mul-field__word-limit {
+  margin-top: 4px;
+  color: #646566;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-webkit-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-moz-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control:-ms-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--min-height .mul-field__control {
+  min-height: 60px;
+}
+
+<div
+    class="c0 mul-cell mul-cell--large c1 mul-field"
+  >
+    <div
+      class="mul-cell__value mul-cell__value--alone mul-field__value"
+    >
+      <div
+        class="mul-field__body"
+      >
+        <input
+          class="mul-field__control"
+          rows="3"
+          type="text"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

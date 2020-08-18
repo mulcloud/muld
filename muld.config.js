@@ -116,14 +116,14 @@ module.exports = {
                             //     path: 'datetime-picker',
                             //     title: 'DatetimePicker 时间选择',
                             // },
-                            // {
-                            //     path: 'field',
-                            //     title: 'Field 输入框',
-                            // },
-                            // {
-                            //     path: 'form',
-                            //     title: 'Form 表单',
-                            // },
+                            {
+                                path: 'field',
+                                title: 'Field 输入框',
+                            },
+                            {
+                                path: 'form',
+                                title: 'Form 表单',
+                            },
                             // {
                             //     path: 'number-keyboard',
                             //     title: 'NumberKeyboard 数字键盘',
@@ -160,10 +160,10 @@ module.exports = {
                             //     path: 'switch',
                             //     title: 'Switch 开关',
                             // },
-                            // {
-                            //     path: 'uploader',
-                            //     title: 'Uploader 文件上传',
-                            // },
+                            {
+                                path: 'uploader',
+                                title: 'Uploader 文件上传',
+                            },
                         ],
                     },
                     {
@@ -173,6 +173,14 @@ module.exports = {
                             //     path: 'action-sheet',
                             //     title: 'ActionSheet 动作面板',
                             // },
+                            {
+                                path: 'dialog',
+                                title: 'Dialog 弹出框',
+                            },
+                            {
+                                path: 'action-sheet',
+                                title: 'ActionSheet 动作面板',
+                            },
                             // {
                             //     path: 'dialog',
                             //     title: 'Dialog 弹出框',
@@ -258,10 +266,10 @@ module.exports = {
                                 path: 'steps',
                                 title: 'Steps 步骤条',
                             },
-                            // {
-                            //     path: 'sticky',
-                            //     title: 'Sticky 粘性布局',
-                            // },
+                            {
+                                path: 'sticky',
+                                title: 'Sticky 粘性布局',
+                            },
                             // {
                             //     path: 'swipe',
                             //     title: 'Swipe 轮播',

@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { View } from './style';
+import { FieldContext } from '../field';
 import { createNS, withDefaultProps, isDef, addUnit, isNaN, formatNumber } from '../utils';
 
 const [bem] = createNS('stepper');
@@ -81,10 +82,16 @@ function useFormatValue(props: Props): [number | string, SetValue] {
     } = props;
     const initVal = isDef(value) ? value : defaultValue;
     const [$value, setValue] = React.useState(format(initVal!));
+    const field = React.useContext(FieldContext);
+
+    React.useEffect(() => {
+        field.updateInputValue && field.updateInputValue($value);
+    }, [$value]);
 
     React.useEffect(() => {
         if (value && !equal($value, value)) {
-            setValue(format(value));
+            const formatValue = format(value);
+            setValue(formatValue);
         }
     }, [value]);
 

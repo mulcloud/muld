@@ -15,6 +15,7 @@ const [bem] = createNS('picker-column');
 export type DirectionType = 'horizontal' | 'vertical' | '';
 
 export type Props = {
+    index: number;
     valueKey: string;
     allowHtml: boolean;
     className: string;
@@ -23,7 +24,7 @@ export type Props = {
     swipeDuration: number;
     visibleItemCount: number;
     initialOptions: any[];
-    onChange: (index: number) => void;
+    onChange: (index: number, columnIndex: number) => void;
     setColumnChildren: (val: Record<string, unknown>) => void;
 };
 
@@ -41,7 +42,7 @@ export const PickerColumn: React.FC<Props> = (props) => {
         setColumnChildren,
     } = props;
 
-    const options = deepClone(initialOptions);
+    const [options, setOptions] = useState(deepClone(initialOptions));
 
     const [duration, setDuration] = useState(swipeDuration);
 
@@ -77,7 +78,7 @@ export const PickerColumn: React.FC<Props> = (props) => {
                 setCurrentIndex(newIndex);
                 // props callback for get index and value
                 if (emitChange) {
-                    onChange && onChange(newIndex);
+                    onChange && onChange(props.index, newIndex);
                 }
             }
         };
@@ -92,13 +93,9 @@ export const PickerColumn: React.FC<Props> = (props) => {
         setOffset(newOffset);
     }
 
-    // todo: (cascade) how to update options?
-    // function updateOptions(newOptions) {
-    //     if (JSON.stringify(newOptions) !== JSON.stringify(options)) {
-    //         setOptions(deepClone(options));
-    //         setIndex(defaultIndex);
-    //     }
-    // }
+    useEffect(() => {
+        setOptions(deepClone(initialOptions));
+    }, [initialOptions]);
 
     useEffect(() => {
         setColumnChildren({ options, currentIndex });
@@ -227,7 +224,6 @@ export const PickerColumn: React.FC<Props> = (props) => {
 
     const onTouchStart = (event: React.TouchEvent) => {
         resetTouchStatus();
-
         setStartPos({ startX: event.touches[0].clientX, startY: event.touches[0].clientY });
 
         if (moving) {
