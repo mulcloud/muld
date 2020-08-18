@@ -111,7 +111,6 @@ function PopupDemo() {
 | round | 是否显示圆角 | _boolean_ | `false` |
 | lockScroll | 是否锁定背景滚动 | _boolean_ | `true` |
 | closeOnPopstate (TODO)| 是否在页面回退时自动关闭 | _boolean_ | `true` |
-| closeOnClickOverlay | 是否在点击遮罩层后关闭 | _boolean_ | `true` |
 | closeable | 是否显示关闭图标 | _boolean_ | `false` |
 | closeIcon | 关闭图标名称或图片链接 | _string_ | `cross` |
 | closeIconPosition | 关闭图标位置，可选值为`top-left`<br>`bottom-left` `bottom-right` | _string_ | `top-right` |
@@ -128,4 +127,4 @@ function PopupDemo() {
 | onClose         | 关闭弹出层时触发           | -              |
 | onOpened        | 打开弹出层且动画结束后触发   | -              |
 | onClosed        | 关闭弹出层且动画结束后触发   | -              |
-| onClosePopup    | 点击遮罩层或者关闭按钮时触发   | -              |
+| onCancel    | 点击遮罩层或者关闭按钮时触发   | -              |

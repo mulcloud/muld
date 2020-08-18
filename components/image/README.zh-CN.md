@@ -102,6 +102,7 @@ import { LazyLoad } from '@trillion/muld';
 | loading | 是否展示图片加载中提示 | _boolean_ | `true` |
 | loading | 自定义加载中的提示内容    | _React.ReactNode \| string_ | - |
 | error   | 自定义加载失败时的提示内容 | _React.ReactNode \| string_ | - |
+| className | 添加自定义样式 | _React.ReactNode \| string_ | - |
 
 ### 图片填充模式 
 

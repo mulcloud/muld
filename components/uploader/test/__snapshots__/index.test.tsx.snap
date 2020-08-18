@@ -1,0 +1,1412 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Uploader disable preview image 1`] = `
+<DocumentFragment>
+  .c0.mul-uploader {
+  position: relative;
+  display: inline-block;
+}
+
+.c0.mul-uploader .mul-uploader__wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c0.mul-uploader .mul-uploader__wrapper--disabled {
+  opacity: 0.5;
+}
+
+.c0.mul-uploader .mul-uploader__input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.c0.mul-uploader .mul-uploader__input-wrapper {
+  position: relative;
+}
+
+.c0.mul-uploader .mul-uploader__input:disabled {
+  cursor: not-allowed;
+}
+
+.c0.mul-uploader .mul-uploader__upload {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 80px;
+  height: 80px;
+  margin: 0 8px 8px 0;
+  background-color: #f7f8fa;
+}
+
+.c0.mul-uploader .mul-uploader__upload:active {
+  background-color: #f2f3f5;
+}
+
+.c0.mul-uploader .mul-uploader__upload-icon {
+  color: #dcdee0;
+  font-size: 24px;
+}
+
+.c0.mul-uploader .mul-uploader__upload-text {
+  margin-top: 8px;
+  color: #969799;
+  font-size: 10px;
+}
+
+.c0.mul-uploader .mul-uploader__preview {
+  position: relative;
+  margin: 0 8px 8px 0;
+  cursor: pointer;
+}
+
+.c0.mul-uploader .mul-uploader__preview-image {
+  display: block;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+}
+
+.c0.mul-uploader .mul-uploader__preview .mul-uploader__preview-delete {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 14px;
+  height: 14px;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 0 0 0 12px;
+}
+
+.c0.mul-uploader .mul-uploader__preview .mul-uploader__preview-delete .mul-uploader__preview-delete-icon {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  color: #fff;
+  color: #fff;
+  font-size: 16px;
+  -webkit-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  transform: scale(0.5);
+}
+
+.c0.mul-uploader .mul-uploader__preview .mul-uploader-cover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.c0.mul-uploader .mul-uploader__mask {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  background-color: rgba(50,50,51,0.88);
+}
+
+.c0.mul-uploader .mul-uploader__mask-icon {
+  font-size: 22px;
+}
+
+.c0.mul-uploader .mul-uploader__mask-message {
+  margin-top: 6px;
+  padding: 0 $padding_base;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.c0.mul-uploader__loading {
+  width: 22px;
+  height: 22px;
+  color: #fff;
+}
+
+.c0.mul-uploader__file {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background-color: #f7f8fa;
+}
+
+.c0.mul-uploader__file-icon {
+  color: #646566;
+  font-size: 20px;
+}
+
+.c0.mul-uploader__file-name {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 8px;
+  padding: 0 4px;
+  color: #646566;
+  font-size: 12px;
+  text-align: center;
+}
+
+.c1.mul-icon {
+  position: relative;
+  display: inline-block;
+  font-family: 'muld-icon' !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.c1.mul-icon::before {
+  display: inline-block;
+}
+
+.c1.mul-icon .mul-icon__image {
+  width: 1em;
+  height: 1em;
+  object-fit: contain;
+}
+
+.c1.mul-icon-photograph::before {
+  content: '\\F09E';
+}
+
+<div
+    class="c0 mul-uploader"
+  >
+    <div
+      class="mul-uploader__wrapper"
+    >
+      <div
+        class="mul-uploader__upload"
+      >
+        <i
+          class="c1 mul-icon mul-icon-photograph mul-uploader__upload-icon"
+          content="F09E"
+          name="photograph"
+          style="font-size: 20px;"
+        />
+        <input
+          accept="image/*"
+          class="mul-uploader__input"
+          type="file"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Uploader preview-cover slot 1`] = `
+<DocumentFragment>
+  .c0.mul-uploader {
+  position: relative;
+  display: inline-block;
+}
+
+.c0.mul-uploader .mul-uploader__wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c0.mul-uploader .mul-uploader__wrapper--disabled {
+  opacity: 0.5;
+}
+
+.c0.mul-uploader .mul-uploader__input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.c0.mul-uploader .mul-uploader__input-wrapper {
+  position: relative;
+}
+
+.c0.mul-uploader .mul-uploader__input:disabled {
+  cursor: not-allowed;
+}
+
+.c0.mul-uploader .mul-uploader__upload {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 80px;
+  height: 80px;
+  margin: 0 8px 8px 0;
+  background-color: #f7f8fa;
+}
+
+.c0.mul-uploader .mul-uploader__upload:active {
+  background-color: #f2f3f5;
+}
+
+.c0.mul-uploader .mul-uploader__upload-icon {
+  color: #dcdee0;
+  font-size: 24px;
+}
+
+.c0.mul-uploader .mul-uploader__upload-text {
+  margin-top: 8px;
+  color: #969799;
+  font-size: 10px;
+}
+
+.c0.mul-uploader .mul-uploader__preview {
+  position: relative;
+  margin: 0 8px 8px 0;
+  cursor: pointer;
+}
+
+.c0.mul-uploader .mul-uploader__preview-image {
+  display: block;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+}
+
+.c0.mul-uploader .mul-uploader__preview .mul-uploader__preview-delete {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 14px;
+  height: 14px;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 0 0 0 12px;
+}
+
+.c0.mul-uploader .mul-uploader__preview .mul-uploader__preview-delete .mul-uploader__preview-delete-icon {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  color: #fff;
+  color: #fff;
+  font-size: 16px;
+  -webkit-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  transform: scale(0.5);
+}
+
+.c0.mul-uploader .mul-uploader__preview .mul-uploader-cover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.c0.mul-uploader .mul-uploader__mask {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  background-color: rgba(50,50,51,0.88);
+}
+
+.c0.mul-uploader .mul-uploader__mask-icon {
+  font-size: 22px;
+}
+
+.c0.mul-uploader .mul-uploader__mask-message {
+  margin-top: 6px;
+  padding: 0 $padding_base;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.c0.mul-uploader__loading {
+  width: 22px;
+  height: 22px;
+  color: #fff;
+}
+
+.c0.mul-uploader__file {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background-color: #f7f8fa;
+}
+
+.c0.mul-uploader__file-icon {
+  color: #646566;
+  font-size: 20px;
+}
+
+.c0.mul-uploader__file-name {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 8px;
+  padding: 0 4px;
+  color: #646566;
+  font-size: 12px;
+  text-align: center;
+}
+
+.c1.mul-image {
+  position: relative;
+  display: inline-block;
+}
+
+.c1.mul-image--round {
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.c1.mul-image--round img {
+  border-radius: inherit;
+}
+
+.c1.mul-image .mul-image__img,
+.c1.mul-image .mul-image__error,
+.c1.mul-image .mul-image__loading {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.c1.mul-image .mul-image__error,
+.c1.mul-image .mul-image__loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #969799;
+  font-size: 14px;
+  background-color: #f7f8fa;
+}
+
+.c1.mul-image .mul-image__loading-icon {
+  font-size: 22px;
+}
+
+.c1.mul-image .mul-image__error-icon {
+  font-size: 22px;
+}
+
+.c2.mul-icon {
+  position: relative;
+  display: inline-block;
+  font-family: 'muld-icon' !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.c2.mul-icon::before {
+  display: inline-block;
+}
+
+.c2.mul-icon .mul-icon__image {
+  width: 1em;
+  height: 1em;
+  object-fit: contain;
+}
+
+.c2.mul-icon-photo::before {
+  content: '\\F09D';
+}
+
+.c3.mul-icon {
+  position: relative;
+  display: inline-block;
+  font-family: 'muld-icon' !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.c3.mul-icon::before {
+  display: inline-block;
+}
+
+.c3.mul-icon .mul-icon__image {
+  width: 1em;
+  height: 1em;
+  object-fit: contain;
+}
+
+.c3.mul-icon-cross::before {
+  content: '\\F042';
+}
+
+.c4.mul-icon {
+  position: relative;
+  display: inline-block;
+  font-family: 'muld-icon' !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.c4.mul-icon::before {
+  display: inline-block;
+}
+
+.c4.mul-icon .mul-icon__image {
+  width: 1em;
+  height: 1em;
+  object-fit: contain;
+}
+
+.c4.mul-icon-photograph::before {
+  content: '\\F09E';
+}
+
+<div
+    class="c0 mul-uploader"
+  >
+    <div
+      class="mul-uploader__wrapper"
+    >
+      <div
+        class="mul-uploader__preview"
+      >
+        <div
+          class="c1 mul-image mul-uploader__preview-image"
+        >
+          <img
+            class="mul-image__img"
+            src="https://img.yzcdn.cn/vant/cat.jpeg"
+            style="object-fit: cover;"
+          />
+          <div
+            class="mul-image__loading"
+          >
+            <i
+              class="c2 mul-image__loading-icon mul-image__loading-icon-photo"
+              content="F09D"
+              name="photo"
+              style="font-size: 20px;"
+            />
+          </div>
+          <div
+            class="mul-uploader__preview-cover"
+          >
+            <div
+              slot="preview-cover"
+            >
+              <div
+                class="preview-cover mul-ellipsis"
+              >
+                图片名称
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="mul-uploader__preview-delete"
+        >
+          <i
+            class="c3 mul-icon mul-icon-cross mul-uploader__preview-delete-icon"
+            content="F042"
+            name="cross"
+            style="font-size: 16px;"
+          />
+        </div>
+      </div>
+      <div
+        class="mul-uploader__upload"
+      >
+        <i
+          class="c4 mul-icon mul-icon-photograph mul-uploader__upload-icon"
+          content="F09E"
+          name="photograph"
+          style="font-size: 20px;"
+        />
+        <input
+          accept="image/*"
+          class="mul-uploader__input"
+          type="file"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Uploader render preview image with image-fit prop 1`] = `
+<DocumentFragment>
+  .c0.mul-uploader {
+  position: relative;
+  display: inline-block;
+}
+
+.c0.mul-uploader .mul-uploader__wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c0.mul-uploader .mul-uploader__wrapper--disabled {
+  opacity: 0.5;
+}
+
+.c0.mul-uploader .mul-uploader__input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.c0.mul-uploader .mul-uploader__input-wrapper {
+  position: relative;
+}
+
+.c0.mul-uploader .mul-uploader__input:disabled {
+  cursor: not-allowed;
+}
+
+.c0.mul-uploader .mul-uploader__upload {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 80px;
+  height: 80px;
+  margin: 0 8px 8px 0;
+  background-color: #f7f8fa;
+}
+
+.c0.mul-uploader .mul-uploader__upload:active {
+  background-color: #f2f3f5;
+}
+
+.c0.mul-uploader .mul-uploader__upload-icon {
+  color: #dcdee0;
+  font-size: 24px;
+}
+
+.c0.mul-uploader .mul-uploader__upload-text {
+  margin-top: 8px;
+  color: #969799;
+  font-size: 10px;
+}
+
+.c0.mul-uploader .mul-uploader__preview {
+  position: relative;
+  margin: 0 8px 8px 0;
+  cursor: pointer;
+}
+
+.c0.mul-uploader .mul-uploader__preview-image {
+  display: block;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+}
+
+.c0.mul-uploader .mul-uploader__preview .mul-uploader__preview-delete {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 14px;
+  height: 14px;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 0 0 0 12px;
+}
+
+.c0.mul-uploader .mul-uploader__preview .mul-uploader__preview-delete .mul-uploader__preview-delete-icon {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  color: #fff;
+  color: #fff;
+  font-size: 16px;
+  -webkit-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  transform: scale(0.5);
+}
+
+.c0.mul-uploader .mul-uploader__preview .mul-uploader-cover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.c0.mul-uploader .mul-uploader__mask {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  background-color: rgba(50,50,51,0.88);
+}
+
+.c0.mul-uploader .mul-uploader__mask-icon {
+  font-size: 22px;
+}
+
+.c0.mul-uploader .mul-uploader__mask-message {
+  margin-top: 6px;
+  padding: 0 $padding_base;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.c0.mul-uploader__loading {
+  width: 22px;
+  height: 22px;
+  color: #fff;
+}
+
+.c0.mul-uploader__file {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background-color: #f7f8fa;
+}
+
+.c0.mul-uploader__file-icon {
+  color: #646566;
+  font-size: 20px;
+}
+
+.c0.mul-uploader__file-name {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 8px;
+  padding: 0 4px;
+  color: #646566;
+  font-size: 12px;
+  text-align: center;
+}
+
+.c1.mul-image {
+  position: relative;
+  display: inline-block;
+}
+
+.c1.mul-image--round {
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.c1.mul-image--round img {
+  border-radius: inherit;
+}
+
+.c1.mul-image .mul-image__img,
+.c1.mul-image .mul-image__error,
+.c1.mul-image .mul-image__loading {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.c1.mul-image .mul-image__error,
+.c1.mul-image .mul-image__loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #969799;
+  font-size: 14px;
+  background-color: #f7f8fa;
+}
+
+.c1.mul-image .mul-image__loading-icon {
+  font-size: 22px;
+}
+
+.c1.mul-image .mul-image__error-icon {
+  font-size: 22px;
+}
+
+.c2.mul-icon {
+  position: relative;
+  display: inline-block;
+  font-family: 'muld-icon' !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.c2.mul-icon::before {
+  display: inline-block;
+}
+
+.c2.mul-icon .mul-icon__image {
+  width: 1em;
+  height: 1em;
+  object-fit: contain;
+}
+
+.c2.mul-icon-photo::before {
+  content: '\\F09D';
+}
+
+.c3.mul-icon {
+  position: relative;
+  display: inline-block;
+  font-family: 'muld-icon' !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.c3.mul-icon::before {
+  display: inline-block;
+}
+
+.c3.mul-icon .mul-icon__image {
+  width: 1em;
+  height: 1em;
+  object-fit: contain;
+}
+
+.c3.mul-icon-cross::before {
+  content: '\\F042';
+}
+
+.c4.mul-icon {
+  position: relative;
+  display: inline-block;
+  font-family: 'muld-icon' !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.c4.mul-icon::before {
+  display: inline-block;
+}
+
+.c4.mul-icon .mul-icon__image {
+  width: 1em;
+  height: 1em;
+  object-fit: contain;
+}
+
+.c4.mul-icon-photograph::before {
+  content: '\\F09E';
+}
+
+<div
+    class="c0 mul-uploader"
+  >
+    <div
+      class="mul-uploader__wrapper"
+    >
+      <div
+        class="mul-uploader__preview"
+      >
+        <div
+          class="c1 mul-image mul-uploader__preview-image"
+        >
+          <img
+            class="mul-image__img"
+            src="https://img.yzcdn.cn/vant/cat.jpeg"
+            style="object-fit: contain;"
+          />
+          <div
+            class="mul-image__loading"
+          >
+            <i
+              class="c2 mul-image__loading-icon mul-image__loading-icon-photo"
+              content="F09D"
+              name="photo"
+              style="font-size: 20px;"
+            />
+          </div>
+        </div>
+        <div
+          class="mul-uploader__preview-delete"
+        >
+          <i
+            class="c3 mul-icon mul-icon-cross mul-uploader__preview-delete-icon"
+            content="F042"
+            name="cross"
+            style="font-size: 16px;"
+          />
+        </div>
+      </div>
+      <div
+        class="mul-uploader__upload"
+      >
+        <i
+          class="c4 mul-icon mul-icon-photograph mul-uploader__upload-icon"
+          content="F09E"
+          name="photograph"
+          style="font-size: 20px;"
+        />
+        <input
+          accept="image/*"
+          class="mul-uploader__input"
+          type="file"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Uploader upload-icon prop 1`] = `
+<DocumentFragment>
+  .c0.mul-uploader {
+  position: relative;
+  display: inline-block;
+}
+
+.c0.mul-uploader .mul-uploader__wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c0.mul-uploader .mul-uploader__wrapper--disabled {
+  opacity: 0.5;
+}
+
+.c0.mul-uploader .mul-uploader__input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.c0.mul-uploader .mul-uploader__input-wrapper {
+  position: relative;
+}
+
+.c0.mul-uploader .mul-uploader__input:disabled {
+  cursor: not-allowed;
+}
+
+.c0.mul-uploader .mul-uploader__upload {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 80px;
+  height: 80px;
+  margin: 0 8px 8px 0;
+  background-color: #f7f8fa;
+}
+
+.c0.mul-uploader .mul-uploader__upload:active {
+  background-color: #f2f3f5;
+}
+
+.c0.mul-uploader .mul-uploader__upload-icon {
+  color: #dcdee0;
+  font-size: 24px;
+}
+
+.c0.mul-uploader .mul-uploader__upload-text {
+  margin-top: 8px;
+  color: #969799;
+  font-size: 10px;
+}
+
+.c0.mul-uploader .mul-uploader__preview {
+  position: relative;
+  margin: 0 8px 8px 0;
+  cursor: pointer;
+}
+
+.c0.mul-uploader .mul-uploader__preview-image {
+  display: block;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+}
+
+.c0.mul-uploader .mul-uploader__preview .mul-uploader__preview-delete {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 14px;
+  height: 14px;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 0 0 0 12px;
+}
+
+.c0.mul-uploader .mul-uploader__preview .mul-uploader__preview-delete .mul-uploader__preview-delete-icon {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  color: #fff;
+  color: #fff;
+  font-size: 16px;
+  -webkit-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  transform: scale(0.5);
+}
+
+.c0.mul-uploader .mul-uploader__preview .mul-uploader-cover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.c0.mul-uploader .mul-uploader__mask {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  background-color: rgba(50,50,51,0.88);
+}
+
+.c0.mul-uploader .mul-uploader__mask-icon {
+  font-size: 22px;
+}
+
+.c0.mul-uploader .mul-uploader__mask-message {
+  margin-top: 6px;
+  padding: 0 $padding_base;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.c0.mul-uploader__loading {
+  width: 22px;
+  height: 22px;
+  color: #fff;
+}
+
+.c0.mul-uploader__file {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background-color: #f7f8fa;
+}
+
+.c0.mul-uploader__file-icon {
+  color: #646566;
+  font-size: 20px;
+}
+
+.c0.mul-uploader__file-name {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 8px;
+  padding: 0 4px;
+  color: #646566;
+  font-size: 12px;
+  text-align: center;
+}
+
+.c1.mul-image {
+  position: relative;
+  display: inline-block;
+}
+
+.c1.mul-image--round {
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.c1.mul-image--round img {
+  border-radius: inherit;
+}
+
+.c1.mul-image .mul-image__img,
+.c1.mul-image .mul-image__error,
+.c1.mul-image .mul-image__loading {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.c1.mul-image .mul-image__error,
+.c1.mul-image .mul-image__loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #969799;
+  font-size: 14px;
+  background-color: #f7f8fa;
+}
+
+.c1.mul-image .mul-image__loading-icon {
+  font-size: 22px;
+}
+
+.c1.mul-image .mul-image__error-icon {
+  font-size: 22px;
+}
+
+.c2.mul-icon {
+  position: relative;
+  display: inline-block;
+  font-family: 'muld-icon' !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.c2.mul-icon::before {
+  display: inline-block;
+}
+
+.c2.mul-icon .mul-icon__image {
+  width: 1em;
+  height: 1em;
+  object-fit: contain;
+}
+
+.c2.mul-icon-photo::before {
+  content: '\\F09D';
+}
+
+.c3.mul-icon {
+  position: relative;
+  display: inline-block;
+  font-family: 'muld-icon' !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.c3.mul-icon::before {
+  display: inline-block;
+}
+
+.c3.mul-icon .mul-icon__image {
+  width: 1em;
+  height: 1em;
+  object-fit: contain;
+}
+
+.c3.mul-icon-cross::before {
+  content: '\\F042';
+}
+
+.c4.mul-icon {
+  position: relative;
+  display: inline-block;
+  font-family: 'muld-icon' !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.c4.mul-icon::before {
+  display: inline-block;
+}
+
+.c4.mul-icon .mul-icon__image {
+  width: 1em;
+  height: 1em;
+  object-fit: contain;
+}
+
+.c4.mul-icon-add::before {
+  content: '\\F002';
+}
+
+<div
+    class="c0 mul-uploader"
+  >
+    <div
+      class="mul-uploader__wrapper"
+    >
+      <div
+        class="mul-uploader__preview"
+      >
+        <div
+          class="c1 mul-image mul-uploader__preview-image"
+        >
+          <img
+            class="mul-image__img"
+            src="https://img.yzcdn.cn/vant/cat.jpeg"
+            style="object-fit: cover;"
+          />
+          <div
+            class="mul-image__loading"
+          >
+            <i
+              class="c2 mul-image__loading-icon mul-image__loading-icon-photo"
+              content="F09D"
+              name="photo"
+              style="font-size: 20px;"
+            />
+          </div>
+        </div>
+        <div
+          class="mul-uploader__preview-delete"
+        >
+          <i
+            class="c3 mul-icon mul-icon-cross mul-uploader__preview-delete-icon"
+            content="F042"
+            name="cross"
+            style="font-size: 16px;"
+          />
+        </div>
+      </div>
+      <div
+        class="mul-uploader__upload"
+      >
+        <i
+          class="c4 mul-icon mul-icon-add mul-uploader__upload-icon"
+          content="F002"
+          name="add"
+          style="font-size: 20px;"
+        />
+        <input
+          accept="image/*"
+          class="mul-uploader__input"
+          type="file"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

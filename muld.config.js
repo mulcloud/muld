@@ -160,10 +160,10 @@ module.exports = {
                             //     path: 'switch',
                             //     title: 'Switch 开关',
                             // },
-                            // {
-                            //     path: 'uploader',
-                            //     title: 'Uploader 文件上传',
-                            // },
+                            {
+                                path: 'uploader',
+                                title: 'Uploader 文件上传',
+                            },
                         ],
                     },
                     {
@@ -173,6 +173,14 @@ module.exports = {
                             //     path: 'action-sheet',
                             //     title: 'ActionSheet 动作面板',
                             // },
+                            {
+                                path: 'dialog',
+                                title: 'Dialog 弹出框',
+                            },
+                            {
+                                path: 'action-sheet',
+                                title: 'ActionSheet 动作面板',
+                            },
                             // {
                             //     path: 'dialog',
                             //     title: 'Dialog 弹出框',

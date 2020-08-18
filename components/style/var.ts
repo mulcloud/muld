@@ -60,6 +60,32 @@ export const $animation_duration_fast = '0.2s';
 export const $animation_timing_function_enter = 'ease-out';
 export const $animation_timing_function_leave = 'ease-in';
 
+// ActionSheet
+export const $action_sheet = {
+    max_height: '80%',
+    header_height: '48px',
+    header_font_size: $font_size_lg,
+    description_color: $gray6,
+    description_font_size: $font_size_md,
+    description_line_height: $line_height_md,
+    item_background: $white,
+    item_font_size: $font_size_lg,
+    item_line_height: $line_height_lg,
+    item_text_color: $text_color,
+    item_disabled_text_color: $gray5,
+    subname_color: $gray6,
+    subname_font_size: $font_size_sm,
+    subname_line_height: $line_height_sm,
+    close_icon_size: '22px',
+    close_icon_color: $gray5,
+    close_icon_active_color: $gray6,
+    close_icon_padding: `0 ${$padding_md}`,
+    cancel_text_color: $gray7,
+    cancel_padding_top: $padding_xs,
+    cancel_padding_color: $background_color,
+    loading_icon_size: '22px',
+};
+
 // Border
 export const $border_color = $gray3;
 export const $border_width_base = '1px';
@@ -366,4 +392,32 @@ export const $field: CSSProperties = {
     field_word_limit_line_height: '16px',
     field_text_area_min_height: '60px',
     cell_line_height: '24px',
+};
+
+// Uploader
+export const $uploader: CSSProperties = {
+    size: '80px',
+    icon_size: '24px',
+    icon_color: $gray4,
+    text_color: $gray6,
+    text_font_size: $font_size_xs,
+    upload_background_color: $gray1,
+    upload_active_color: $active_color,
+    delete_color: $white,
+    delete_icon_size: '14px',
+    delete_background_color: 'rgba(0, 0, 0, 0.7)',
+    file_background_color: $background_color,
+    file_icon_size: '20px',
+    file_icon_color: $gray7,
+    file_name_padding: `0 ${$padding_base}`,
+    file_name_margin_top: $padding_xs,
+    file_name_font_size: $font_size_sm,
+    file_name_text_color: $gray7,
+    mask_background_color: 'rgba(50, 50, 51, 0.88)',
+    mask_icon_size: '22px',
+    mask_message_font_size: $font_size_sm,
+    mask_message_line_height: $line_height_xs,
+    loading_icon_size: '22px',
+    loading_icon_color: $white,
+    disabled_opacity: $disabled_opacity,
 };

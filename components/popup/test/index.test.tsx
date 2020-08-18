@@ -2,7 +2,7 @@ import * as React from 'react';
 import '@testing-library/jest-dom/extend-expect';
 import { render, cleanup, fireEvent } from '@testing-library/react';
 import 'regenerator-runtime';
-import Popup from '..';
+import { Popup } from '../..';
 
 const EventDemo = (props: any) => {
     return <Popup {...props}></Popup>;
