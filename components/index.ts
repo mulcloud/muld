@@ -27,5 +27,6 @@ export { default as Popup } from './popup';
 export { default as Sidebar } from './sidebar';
 export { default as SidebarItem } from './sidebar-item';
 export { default as Box } from './box';
+export { default as Dialog } from './dialog';
 export { default as ActionSheet } from './action-sheet';
 export { default as Sticky } from './sticky';
