@@ -175,20 +175,20 @@ exports[`Button icon-prefix prop 1`] = `
   margin-left: 5px;
 }
 
-.c0.mul-button .mul-button--hairline {
+.c0.mul-button--hairline {
   border-width: 0;
 }
 
-.c0.mul-button .mul-button--hairline::after {
+.c0.mul-button--hairline::after {
   border-color: inherit;
   border-radius: 4px;
 }
 
-.c0.mul-button .mul-button--hairline.mul-button--round::after {
+.c0.mul-button--hairline.mul-button--round::after {
   border-radius: 999px;
 }
 
-.c0.mul-button .mul-button--hairline.mul-button--square::after {
+.c0.mul-button--hairline.mul-button--square::after {
   border-radius: 0;
 }
 

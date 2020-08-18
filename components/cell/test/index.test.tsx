@@ -2,7 +2,7 @@ import * as React from 'react';
 import '@testing-library/jest-dom/extend-expect';
 import 'jest-styled-components';
 import { render, cleanup, fireEvent } from '@testing-library/react';
-import Cell from '..';
+import { Cell } from '../..';
 
 describe('Cell', () => {
     afterEach(cleanup);

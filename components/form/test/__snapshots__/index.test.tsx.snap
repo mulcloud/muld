@@ -1,0 +1,3107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form colon prop 1`] = `
+<DocumentFragment>
+  .c0.mul-cell {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 16px;
+  overflow: hidden;
+  color: #323233;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #fff;
+}
+
+.c0.mul-cell:last-child::after,
+.c0.mul-cell--borderless::after {
+  display: none;
+}
+
+.c0.mul-cell::after {
+  position: absolute;
+  box-sizing: border-box;
+  content: ' ';
+  pointer-events: none;
+  right: 16px;
+  bottom: 0;
+  left: 16px;
+  border-bottom: 1px solid #ebedf0;
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.c0.mul-cell .mul-cell__label {
+  margin-top: 4px;
+  color: #969799;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.c0.mul-cell .mul-cell__title,
+.c0.mul-cell .mul-cell__value {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c0.mul-cell .mul-cell__value {
+  position: relative;
+  overflow: hidden;
+  color: #969799;
+  text-align: right;
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+
+.c0.mul-cell .mul-cell__value--alone {
+  color: #323233;
+  text-align: left;
+}
+
+.c0.mul-cell .mul-cell__left-icon,
+.c0.mul-cell .mul-cell__right-icon {
+  min-width: 1em;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c0.mul-cell .mul-cell__left-icon {
+  margin-right: 4px;
+}
+
+.c0.mul-cell .mul-cell__right-icon {
+  margin-left: 4px;
+  color: #969799;
+}
+
+.c0.mul-cell--clickable {
+  cursor: pointer;
+}
+
+.c0.mul-cell--clickable:active {
+  background-color: #f2f3f5;
+}
+
+.c0.mul-cell--required {
+  overflow: visible;
+}
+
+.c0.mul-cell--required::before {
+  position: absolute;
+  left: 8px;
+  color: #fa220a;
+  font-size: 14px;
+  content: '*';
+}
+
+.c0.mul-cell--center {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0.mul-cell--large {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c0.mul-cell--large .mul-cell__title {
+  font-size: 16px;
+}
+
+.c0.mul-cell--large .mul-cell__label {
+  font-size: 14px;
+}
+
+.c1 .mul-field__label {
+  -webkit-flex: none !important;
+  -ms-flex: none !important;
+  flex: none !important;
+  box-sizing: border-box;
+  width: 6.2em;
+  margin-right: 12px;
+  color: #646566;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.c1 .mul-field__label--center {
+  text-align: center;
+}
+
+.c1 .mul-field__label--right {
+  padding-right: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--disabled .mul-field__label {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__value {
+  overflow: visible;
+}
+
+.c1 .mul-field__body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 .mul-field__control {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  line-height: inherit;
+  text-align: left;
+  background-color: transparent;
+  border: 0;
+  resize: none;
+}
+
+.c1 .mul-field__control::-webkit-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::-moz-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:-ms-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:disabled {
+  color: #c8c9cc;
+  background-color: transparent;
+  cursor: not-allowed;
+  opacity: 1;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field__control:-moz-read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control:read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control--center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c1 .mul-field__control--right {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.c1 .mul-field__control--custom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='date'],
+.c1 .mul-field__control[type='time'],
+.c1 .mul-field__control[type='datetime-local'] {
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='search'] {
+  -webkit-appearance: none;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__icon,
+.c1 .mul-field__button,
+.c1 .mul-field__right-icon {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__right-icon {
+  margin-right: -8px;
+  padding: 0 8px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__clear {
+  color: #c8c9cc;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c1 .mul-field__left-icon .mul-icon,
+.c1 .mul-field__right-icon .mul-icon {
+  display: block;
+  min-width: 1em;
+  font-size: 16px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__left-icon {
+  margin-right: 4px;
+}
+
+.c1 .mul-field__right-icon {
+  color: #969799;
+}
+
+.c1 .mul-field__button {
+  padding-left: 8px;
+}
+
+.c1 .mul-field__error-message {
+  color: #fa220a;
+  font-size: 12px;
+  text-align: left;
+}
+
+.c1 .mul-field__error-message--center {
+  text-align: center;
+}
+
+.c1 .mul-field__error-message--right {
+  text-align: right;
+}
+
+.c1 .mul-field__word-limit {
+  margin-top: 4px;
+  color: #646566;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-webkit-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-moz-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control:-ms-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--min-height .mul-field__control {
+  min-height: 60px;
+}
+
+<form
+    class="mul-form"
+  >
+    <div
+      class="c0 mul-cell c1 mul-field"
+    >
+      <div
+        class="mul-cell__title mul-field__label"
+      >
+        <span>
+          Label
+        </span>
+      </div>
+      <div
+        class="mul-cell__value mul-field__value"
+      >
+        <div
+          class="mul-field__body"
+        >
+          <input
+            class="mul-field__control"
+            rows="3"
+            type="text"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="c0 mul-cell c1 mul-field"
+    >
+      <div
+        class="mul-cell__title mul-field__label"
+      >
+        <div>
+          Custom Label
+        </div>
+      </div>
+      <div
+        class="mul-cell__value mul-field__value"
+      >
+        <div
+          class="mul-field__body"
+        >
+          <input
+            class="mul-field__control"
+            rows="3"
+            type="text"
+          />
+        </div>
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`Form error-message-align prop 1`] = `
+<DocumentFragment>
+  .c0.mul-cell {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 16px;
+  overflow: hidden;
+  color: #323233;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #fff;
+}
+
+.c0.mul-cell:last-child::after,
+.c0.mul-cell--borderless::after {
+  display: none;
+}
+
+.c0.mul-cell::after {
+  position: absolute;
+  box-sizing: border-box;
+  content: ' ';
+  pointer-events: none;
+  right: 16px;
+  bottom: 0;
+  left: 16px;
+  border-bottom: 1px solid #ebedf0;
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.c0.mul-cell .mul-cell__label {
+  margin-top: 4px;
+  color: #969799;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.c0.mul-cell .mul-cell__title,
+.c0.mul-cell .mul-cell__value {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c0.mul-cell .mul-cell__value {
+  position: relative;
+  overflow: hidden;
+  color: #969799;
+  text-align: right;
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+
+.c0.mul-cell .mul-cell__value--alone {
+  color: #323233;
+  text-align: left;
+}
+
+.c0.mul-cell .mul-cell__left-icon,
+.c0.mul-cell .mul-cell__right-icon {
+  min-width: 1em;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c0.mul-cell .mul-cell__left-icon {
+  margin-right: 4px;
+}
+
+.c0.mul-cell .mul-cell__right-icon {
+  margin-left: 4px;
+  color: #969799;
+}
+
+.c0.mul-cell--clickable {
+  cursor: pointer;
+}
+
+.c0.mul-cell--clickable:active {
+  background-color: #f2f3f5;
+}
+
+.c0.mul-cell--required {
+  overflow: visible;
+}
+
+.c0.mul-cell--required::before {
+  position: absolute;
+  left: 8px;
+  color: #fa220a;
+  font-size: 14px;
+  content: '*';
+}
+
+.c0.mul-cell--center {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0.mul-cell--large {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c0.mul-cell--large .mul-cell__title {
+  font-size: 16px;
+}
+
+.c0.mul-cell--large .mul-cell__label {
+  font-size: 14px;
+}
+
+.c1 .mul-field__label {
+  -webkit-flex: none !important;
+  -ms-flex: none !important;
+  flex: none !important;
+  box-sizing: border-box;
+  width: 6.2em;
+  margin-right: 12px;
+  color: #646566;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.c1 .mul-field__label--center {
+  text-align: center;
+}
+
+.c1 .mul-field__label--right {
+  padding-right: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--disabled .mul-field__label {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__value {
+  overflow: visible;
+}
+
+.c1 .mul-field__body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 .mul-field__control {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  line-height: inherit;
+  text-align: left;
+  background-color: transparent;
+  border: 0;
+  resize: none;
+}
+
+.c1 .mul-field__control::-webkit-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::-moz-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:-ms-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:disabled {
+  color: #c8c9cc;
+  background-color: transparent;
+  cursor: not-allowed;
+  opacity: 1;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field__control:-moz-read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control:read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control--center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c1 .mul-field__control--right {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.c1 .mul-field__control--custom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='date'],
+.c1 .mul-field__control[type='time'],
+.c1 .mul-field__control[type='datetime-local'] {
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='search'] {
+  -webkit-appearance: none;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__icon,
+.c1 .mul-field__button,
+.c1 .mul-field__right-icon {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__right-icon {
+  margin-right: -8px;
+  padding: 0 8px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__clear {
+  color: #c8c9cc;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c1 .mul-field__left-icon .mul-icon,
+.c1 .mul-field__right-icon .mul-icon {
+  display: block;
+  min-width: 1em;
+  font-size: 16px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__left-icon {
+  margin-right: 4px;
+}
+
+.c1 .mul-field__right-icon {
+  color: #969799;
+}
+
+.c1 .mul-field__button {
+  padding-left: 8px;
+}
+
+.c1 .mul-field__error-message {
+  color: #fa220a;
+  font-size: 12px;
+  text-align: left;
+}
+
+.c1 .mul-field__error-message--center {
+  text-align: center;
+}
+
+.c1 .mul-field__error-message--right {
+  text-align: right;
+}
+
+.c1 .mul-field__word-limit {
+  margin-top: 4px;
+  color: #646566;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-webkit-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-moz-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control:-ms-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--min-height .mul-field__control {
+  min-height: 60px;
+}
+
+<form
+    class="mul-form"
+  >
+    <div
+      class="c0 mul-cell c1 mul-field"
+    >
+      <div
+        class="mul-cell__value mul-cell__value--alone mul-field__value"
+      >
+        <div
+          class="mul-field__body"
+        >
+          <input
+            class="mul-field__control"
+            rows="3"
+            type="text"
+          />
+        </div>
+        <div
+          class="mul-field__error-message"
+        >
+          Error
+        </div>
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`Form failed event 1`] = `
+<DocumentFragment>
+  .c0.mul-cell {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 16px;
+  overflow: hidden;
+  color: #323233;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #fff;
+}
+
+.c0.mul-cell:last-child::after,
+.c0.mul-cell--borderless::after {
+  display: none;
+}
+
+.c0.mul-cell::after {
+  position: absolute;
+  box-sizing: border-box;
+  content: ' ';
+  pointer-events: none;
+  right: 16px;
+  bottom: 0;
+  left: 16px;
+  border-bottom: 1px solid #ebedf0;
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.c0.mul-cell .mul-cell__label {
+  margin-top: 4px;
+  color: #969799;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.c0.mul-cell .mul-cell__title,
+.c0.mul-cell .mul-cell__value {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c0.mul-cell .mul-cell__value {
+  position: relative;
+  overflow: hidden;
+  color: #969799;
+  text-align: right;
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+
+.c0.mul-cell .mul-cell__value--alone {
+  color: #323233;
+  text-align: left;
+}
+
+.c0.mul-cell .mul-cell__left-icon,
+.c0.mul-cell .mul-cell__right-icon {
+  min-width: 1em;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c0.mul-cell .mul-cell__left-icon {
+  margin-right: 4px;
+}
+
+.c0.mul-cell .mul-cell__right-icon {
+  margin-left: 4px;
+  color: #969799;
+}
+
+.c0.mul-cell--clickable {
+  cursor: pointer;
+}
+
+.c0.mul-cell--clickable:active {
+  background-color: #f2f3f5;
+}
+
+.c0.mul-cell--required {
+  overflow: visible;
+}
+
+.c0.mul-cell--required::before {
+  position: absolute;
+  left: 8px;
+  color: #fa220a;
+  font-size: 14px;
+  content: '*';
+}
+
+.c0.mul-cell--center {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0.mul-cell--large {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c0.mul-cell--large .mul-cell__title {
+  font-size: 16px;
+}
+
+.c0.mul-cell--large .mul-cell__label {
+  font-size: 14px;
+}
+
+.c2.mul-button {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  height: 44px;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  border-radius: 2px;
+  cursor: pointer;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+  -webkit-appearance: none;
+}
+
+.c2.mul-button::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  border: inherit;
+  border-color: #000;
+  border-radius: inherit;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  opacity: 0;
+  content: ' ';
+}
+
+.c2.mul-button:active::before {
+  opacity: 0.1;
+}
+
+.c2.mul-button--loading::before,
+.c2.mul-button--disabled::before {
+  display: none;
+}
+
+.c2.mul-button--default {
+  color: #323233;
+  background-color: #fff;
+  border: 1px solid #ebedf0;
+}
+
+.c2.mul-button--primary {
+  color: #fff;
+  background-color: #07c160;
+  border: 1px solid #07c160;
+}
+
+.c2.mul-button--info {
+  color: #fff;
+  background-color: #108ee9;
+  border: 1px solid #108ee9;
+}
+
+.c2.mul-button--danger {
+  color: #fff;
+  background-color: #fa220a;
+  border: 1px solid #fa220a;
+}
+
+.c2.mul-button--warning {
+  color: #fff;
+  background-color: #ff976a;
+  border: 1px solid #ff976a;
+}
+
+.c2.mul-button--plain {
+  background-color: #fff;
+}
+
+.c2.mul-button--plain.mul-button--primary {
+  color: #07c160;
+}
+
+.c2.mul-button--plain.mul-button--info {
+  color: #108ee9;
+}
+
+.c2.mul-button--plain.mul-button--danger {
+  color: #fa220a;
+}
+
+.c2.mul-button--plain.mul-button--warning {
+  color: #ff976a;
+}
+
+.c2.mul-button--large {
+  width: 100%;
+  height: 50px;
+}
+
+.c2.mul-button--normal {
+  padding: 0 15px;
+  font-size: 14px;
+}
+
+.c2.mul-button--small {
+  height: 32px;
+  padding: 0 8px;
+  font-size: 12px;
+}
+
+.c2.mul-button__loading {
+  color: inherit;
+  font-size: inherit;
+}
+
+.c2.mul-button--mini {
+  height: 24px;
+  padding: 0 4px;
+  font-size: 10px;
+}
+
+.c2.mul-button--mini + .mul-button--mini {
+  margin-left: 4px;
+}
+
+.c2.mul-button--block {
+  display: block;
+  width: 100%;
+}
+
+.c2.mul-button--disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.c2.mul-button--loading {
+  cursor: default;
+}
+
+.c2.mul-button--round {
+  border-radius: 999px;
+}
+
+.c2.mul-button--square {
+  border-radius: 0;
+}
+
+.c2.mul-button .mul-button__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.c2.mul-button .mul-button__icon {
+  min-width: 1em;
+  font-size: 1.2em;
+  line-height: inherit;
+}
+
+.c2.mul-button .mul-button__icon + .mul-button__text,
+.c2.mul-button .mul-button__loading + .mul-button__text {
+  margin-left: 5px;
+}
+
+.c2.mul-button--hairline {
+  border-width: 0;
+}
+
+.c2.mul-button--hairline::after {
+  border-color: inherit;
+  border-radius: 4px;
+}
+
+.c2.mul-button--hairline.mul-button--round::after {
+  border-radius: 999px;
+}
+
+.c2.mul-button--hairline.mul-button--square::after {
+  border-radius: 0;
+}
+
+.c1 .mul-field__label {
+  -webkit-flex: none !important;
+  -ms-flex: none !important;
+  flex: none !important;
+  box-sizing: border-box;
+  width: 6.2em;
+  margin-right: 12px;
+  color: #646566;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.c1 .mul-field__label--center {
+  text-align: center;
+}
+
+.c1 .mul-field__label--right {
+  padding-right: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--disabled .mul-field__label {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__value {
+  overflow: visible;
+}
+
+.c1 .mul-field__body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 .mul-field__control {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  line-height: inherit;
+  text-align: left;
+  background-color: transparent;
+  border: 0;
+  resize: none;
+}
+
+.c1 .mul-field__control::-webkit-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::-moz-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:-ms-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:disabled {
+  color: #c8c9cc;
+  background-color: transparent;
+  cursor: not-allowed;
+  opacity: 1;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field__control:-moz-read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control:read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control--center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c1 .mul-field__control--right {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.c1 .mul-field__control--custom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='date'],
+.c1 .mul-field__control[type='time'],
+.c1 .mul-field__control[type='datetime-local'] {
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='search'] {
+  -webkit-appearance: none;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__icon,
+.c1 .mul-field__button,
+.c1 .mul-field__right-icon {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__right-icon {
+  margin-right: -8px;
+  padding: 0 8px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__clear {
+  color: #c8c9cc;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c1 .mul-field__left-icon .mul-icon,
+.c1 .mul-field__right-icon .mul-icon {
+  display: block;
+  min-width: 1em;
+  font-size: 16px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__left-icon {
+  margin-right: 4px;
+}
+
+.c1 .mul-field__right-icon {
+  color: #969799;
+}
+
+.c1 .mul-field__button {
+  padding-left: 8px;
+}
+
+.c1 .mul-field__error-message {
+  color: #fa220a;
+  font-size: 12px;
+  text-align: left;
+}
+
+.c1 .mul-field__error-message--center {
+  text-align: center;
+}
+
+.c1 .mul-field__error-message--right {
+  text-align: right;
+}
+
+.c1 .mul-field__word-limit {
+  margin-top: 4px;
+  color: #646566;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-webkit-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-moz-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control:-ms-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--min-height .mul-field__control {
+  min-height: 60px;
+}
+
+<form
+    class="mul-form"
+  >
+    <div
+      class="c0 mul-cell c1 mul-field mul-field--error"
+    >
+      <div
+        class="mul-cell__value mul-cell__value--alone mul-field__value"
+      >
+        <div
+          class="mul-field__body"
+        >
+          <input
+            class="mul-field__control"
+            name="A"
+            rows="3"
+            type="text"
+          />
+        </div>
+        <div
+          class="mul-field__error-message"
+        >
+          A failed
+        </div>
+      </div>
+    </div>
+    <div
+      class="c0 mul-cell c1 mul-field mul-field--error"
+    >
+      <div
+        class="mul-cell__value mul-cell__value--alone mul-field__value"
+      >
+        <div
+          class="mul-field__body"
+        >
+          <input
+            class="mul-field__control"
+            name="B"
+            rows="3"
+            type="text"
+          />
+        </div>
+        <div
+          class="mul-field__error-message"
+        >
+          B failed
+        </div>
+      </div>
+    </div>
+    <button
+      class="c2 mul-button mul-button--default mul-button--normal"
+      type="submit"
+    >
+      <div
+        class="mul-button__content"
+      />
+    </button>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`Form input-align prop 1`] = `
+<DocumentFragment>
+  .c0.mul-cell {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 16px;
+  overflow: hidden;
+  color: #323233;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #fff;
+}
+
+.c0.mul-cell:last-child::after,
+.c0.mul-cell--borderless::after {
+  display: none;
+}
+
+.c0.mul-cell::after {
+  position: absolute;
+  box-sizing: border-box;
+  content: ' ';
+  pointer-events: none;
+  right: 16px;
+  bottom: 0;
+  left: 16px;
+  border-bottom: 1px solid #ebedf0;
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.c0.mul-cell .mul-cell__label {
+  margin-top: 4px;
+  color: #969799;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.c0.mul-cell .mul-cell__title,
+.c0.mul-cell .mul-cell__value {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c0.mul-cell .mul-cell__value {
+  position: relative;
+  overflow: hidden;
+  color: #969799;
+  text-align: right;
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+
+.c0.mul-cell .mul-cell__value--alone {
+  color: #323233;
+  text-align: left;
+}
+
+.c0.mul-cell .mul-cell__left-icon,
+.c0.mul-cell .mul-cell__right-icon {
+  min-width: 1em;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c0.mul-cell .mul-cell__left-icon {
+  margin-right: 4px;
+}
+
+.c0.mul-cell .mul-cell__right-icon {
+  margin-left: 4px;
+  color: #969799;
+}
+
+.c0.mul-cell--clickable {
+  cursor: pointer;
+}
+
+.c0.mul-cell--clickable:active {
+  background-color: #f2f3f5;
+}
+
+.c0.mul-cell--required {
+  overflow: visible;
+}
+
+.c0.mul-cell--required::before {
+  position: absolute;
+  left: 8px;
+  color: #fa220a;
+  font-size: 14px;
+  content: '*';
+}
+
+.c0.mul-cell--center {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0.mul-cell--large {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c0.mul-cell--large .mul-cell__title {
+  font-size: 16px;
+}
+
+.c0.mul-cell--large .mul-cell__label {
+  font-size: 14px;
+}
+
+.c1 .mul-field__label {
+  -webkit-flex: none !important;
+  -ms-flex: none !important;
+  flex: none !important;
+  box-sizing: border-box;
+  width: 6.2em;
+  margin-right: 12px;
+  color: #646566;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.c1 .mul-field__label--center {
+  text-align: center;
+}
+
+.c1 .mul-field__label--right {
+  padding-right: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--disabled .mul-field__label {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__value {
+  overflow: visible;
+}
+
+.c1 .mul-field__body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 .mul-field__control {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  line-height: inherit;
+  text-align: left;
+  background-color: transparent;
+  border: 0;
+  resize: none;
+}
+
+.c1 .mul-field__control::-webkit-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::-moz-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:-ms-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:disabled {
+  color: #c8c9cc;
+  background-color: transparent;
+  cursor: not-allowed;
+  opacity: 1;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field__control:-moz-read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control:read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control--center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c1 .mul-field__control--right {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.c1 .mul-field__control--custom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='date'],
+.c1 .mul-field__control[type='time'],
+.c1 .mul-field__control[type='datetime-local'] {
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='search'] {
+  -webkit-appearance: none;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__icon,
+.c1 .mul-field__button,
+.c1 .mul-field__right-icon {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__right-icon {
+  margin-right: -8px;
+  padding: 0 8px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__clear {
+  color: #c8c9cc;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c1 .mul-field__left-icon .mul-icon,
+.c1 .mul-field__right-icon .mul-icon {
+  display: block;
+  min-width: 1em;
+  font-size: 16px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__left-icon {
+  margin-right: 4px;
+}
+
+.c1 .mul-field__right-icon {
+  color: #969799;
+}
+
+.c1 .mul-field__button {
+  padding-left: 8px;
+}
+
+.c1 .mul-field__error-message {
+  color: #fa220a;
+  font-size: 12px;
+  text-align: left;
+}
+
+.c1 .mul-field__error-message--center {
+  text-align: center;
+}
+
+.c1 .mul-field__error-message--right {
+  text-align: right;
+}
+
+.c1 .mul-field__word-limit {
+  margin-top: 4px;
+  color: #646566;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-webkit-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-moz-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control:-ms-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--min-height .mul-field__control {
+  min-height: 60px;
+}
+
+<form
+    class="mul-form"
+  >
+    <div
+      class="c0 mul-cell c1 mul-field"
+    >
+      <div
+        class="mul-cell__value mul-cell__value--alone mul-field__value"
+      >
+        <div
+          class="mul-field__body"
+        >
+          <input
+            class="mul-field__control"
+            rows="3"
+            type="text"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="c0 mul-cell c1 mul-field"
+    >
+      <div
+        class="mul-cell__value mul-cell__value--alone mul-field__value"
+      >
+        <div
+          class="mul-field__body"
+        >
+          <div
+            class="mul-field__control mul-field__control--custom"
+          >
+            <div />
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`Form label-align prop 1`] = `
+<DocumentFragment>
+  .c0.mul-cell {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 16px;
+  overflow: hidden;
+  color: #323233;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #fff;
+}
+
+.c0.mul-cell:last-child::after,
+.c0.mul-cell--borderless::after {
+  display: none;
+}
+
+.c0.mul-cell::after {
+  position: absolute;
+  box-sizing: border-box;
+  content: ' ';
+  pointer-events: none;
+  right: 16px;
+  bottom: 0;
+  left: 16px;
+  border-bottom: 1px solid #ebedf0;
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.c0.mul-cell .mul-cell__label {
+  margin-top: 4px;
+  color: #969799;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.c0.mul-cell .mul-cell__title,
+.c0.mul-cell .mul-cell__value {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c0.mul-cell .mul-cell__value {
+  position: relative;
+  overflow: hidden;
+  color: #969799;
+  text-align: right;
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+
+.c0.mul-cell .mul-cell__value--alone {
+  color: #323233;
+  text-align: left;
+}
+
+.c0.mul-cell .mul-cell__left-icon,
+.c0.mul-cell .mul-cell__right-icon {
+  min-width: 1em;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c0.mul-cell .mul-cell__left-icon {
+  margin-right: 4px;
+}
+
+.c0.mul-cell .mul-cell__right-icon {
+  margin-left: 4px;
+  color: #969799;
+}
+
+.c0.mul-cell--clickable {
+  cursor: pointer;
+}
+
+.c0.mul-cell--clickable:active {
+  background-color: #f2f3f5;
+}
+
+.c0.mul-cell--required {
+  overflow: visible;
+}
+
+.c0.mul-cell--required::before {
+  position: absolute;
+  left: 8px;
+  color: #fa220a;
+  font-size: 14px;
+  content: '*';
+}
+
+.c0.mul-cell--center {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0.mul-cell--large {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c0.mul-cell--large .mul-cell__title {
+  font-size: 16px;
+}
+
+.c0.mul-cell--large .mul-cell__label {
+  font-size: 14px;
+}
+
+.c1 .mul-field__label {
+  -webkit-flex: none !important;
+  -ms-flex: none !important;
+  flex: none !important;
+  box-sizing: border-box;
+  width: 6.2em;
+  margin-right: 12px;
+  color: #646566;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.c1 .mul-field__label--center {
+  text-align: center;
+}
+
+.c1 .mul-field__label--right {
+  padding-right: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--disabled .mul-field__label {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__value {
+  overflow: visible;
+}
+
+.c1 .mul-field__body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 .mul-field__control {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  line-height: inherit;
+  text-align: left;
+  background-color: transparent;
+  border: 0;
+  resize: none;
+}
+
+.c1 .mul-field__control::-webkit-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::-moz-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:-ms-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:disabled {
+  color: #c8c9cc;
+  background-color: transparent;
+  cursor: not-allowed;
+  opacity: 1;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field__control:-moz-read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control:read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control--center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c1 .mul-field__control--right {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.c1 .mul-field__control--custom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='date'],
+.c1 .mul-field__control[type='time'],
+.c1 .mul-field__control[type='datetime-local'] {
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='search'] {
+  -webkit-appearance: none;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__icon,
+.c1 .mul-field__button,
+.c1 .mul-field__right-icon {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__right-icon {
+  margin-right: -8px;
+  padding: 0 8px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__clear {
+  color: #c8c9cc;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c1 .mul-field__left-icon .mul-icon,
+.c1 .mul-field__right-icon .mul-icon {
+  display: block;
+  min-width: 1em;
+  font-size: 16px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__left-icon {
+  margin-right: 4px;
+}
+
+.c1 .mul-field__right-icon {
+  color: #969799;
+}
+
+.c1 .mul-field__button {
+  padding-left: 8px;
+}
+
+.c1 .mul-field__error-message {
+  color: #fa220a;
+  font-size: 12px;
+  text-align: left;
+}
+
+.c1 .mul-field__error-message--center {
+  text-align: center;
+}
+
+.c1 .mul-field__error-message--right {
+  text-align: right;
+}
+
+.c1 .mul-field__word-limit {
+  margin-top: 4px;
+  color: #646566;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-webkit-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-moz-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control:-ms-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--min-height .mul-field__control {
+  min-height: 60px;
+}
+
+<form
+    class="mul-form"
+  >
+    <div
+      class="c0 mul-cell c1 mul-field"
+    >
+      <div
+        class="mul-cell__title mul-field__label"
+      >
+        <span>
+          Label
+        </span>
+      </div>
+      <div
+        class="mul-cell__value mul-field__value"
+      >
+        <div
+          class="mul-field__body"
+        >
+          <input
+            class="mul-field__control"
+            rows="3"
+            type="text"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="c0 mul-cell c1 mul-field mul-field--label-center"
+    >
+      <div
+        class="mul-cell__title mul-field__label mul-field__label--center"
+      >
+        <span>
+          Label
+        </span>
+      </div>
+      <div
+        class="mul-cell__value mul-field__value"
+      >
+        <div
+          class="mul-field__body"
+        >
+          <input
+            class="mul-field__control"
+            rows="3"
+            type="text"
+          />
+        </div>
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`Form label-width prop 1`] = `
+<DocumentFragment>
+  .c0.mul-cell {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 16px;
+  overflow: hidden;
+  color: #323233;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #fff;
+}
+
+.c0.mul-cell:last-child::after,
+.c0.mul-cell--borderless::after {
+  display: none;
+}
+
+.c0.mul-cell::after {
+  position: absolute;
+  box-sizing: border-box;
+  content: ' ';
+  pointer-events: none;
+  right: 16px;
+  bottom: 0;
+  left: 16px;
+  border-bottom: 1px solid #ebedf0;
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.c0.mul-cell .mul-cell__label {
+  margin-top: 4px;
+  color: #969799;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.c0.mul-cell .mul-cell__title,
+.c0.mul-cell .mul-cell__value {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c0.mul-cell .mul-cell__value {
+  position: relative;
+  overflow: hidden;
+  color: #969799;
+  text-align: right;
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+
+.c0.mul-cell .mul-cell__value--alone {
+  color: #323233;
+  text-align: left;
+}
+
+.c0.mul-cell .mul-cell__left-icon,
+.c0.mul-cell .mul-cell__right-icon {
+  min-width: 1em;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c0.mul-cell .mul-cell__left-icon {
+  margin-right: 4px;
+}
+
+.c0.mul-cell .mul-cell__right-icon {
+  margin-left: 4px;
+  color: #969799;
+}
+
+.c0.mul-cell--clickable {
+  cursor: pointer;
+}
+
+.c0.mul-cell--clickable:active {
+  background-color: #f2f3f5;
+}
+
+.c0.mul-cell--required {
+  overflow: visible;
+}
+
+.c0.mul-cell--required::before {
+  position: absolute;
+  left: 8px;
+  color: #fa220a;
+  font-size: 14px;
+  content: '*';
+}
+
+.c0.mul-cell--center {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0.mul-cell--large {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c0.mul-cell--large .mul-cell__title {
+  font-size: 16px;
+}
+
+.c0.mul-cell--large .mul-cell__label {
+  font-size: 14px;
+}
+
+.c1 .mul-field__label {
+  -webkit-flex: none !important;
+  -ms-flex: none !important;
+  flex: none !important;
+  box-sizing: border-box;
+  width: 6.2em;
+  margin-right: 12px;
+  color: #646566;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.c1 .mul-field__label--center {
+  text-align: center;
+}
+
+.c1 .mul-field__label--right {
+  padding-right: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--disabled .mul-field__label {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__value {
+  overflow: visible;
+}
+
+.c1 .mul-field__body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 .mul-field__control {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  line-height: inherit;
+  text-align: left;
+  background-color: transparent;
+  border: 0;
+  resize: none;
+}
+
+.c1 .mul-field__control::-webkit-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::-moz-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:-ms-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:disabled {
+  color: #c8c9cc;
+  background-color: transparent;
+  cursor: not-allowed;
+  opacity: 1;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field__control:-moz-read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control:read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control--center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c1 .mul-field__control--right {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.c1 .mul-field__control--custom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='date'],
+.c1 .mul-field__control[type='time'],
+.c1 .mul-field__control[type='datetime-local'] {
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='search'] {
+  -webkit-appearance: none;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__icon,
+.c1 .mul-field__button,
+.c1 .mul-field__right-icon {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__right-icon {
+  margin-right: -8px;
+  padding: 0 8px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__clear {
+  color: #c8c9cc;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c1 .mul-field__left-icon .mul-icon,
+.c1 .mul-field__right-icon .mul-icon {
+  display: block;
+  min-width: 1em;
+  font-size: 16px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__left-icon {
+  margin-right: 4px;
+}
+
+.c1 .mul-field__right-icon {
+  color: #969799;
+}
+
+.c1 .mul-field__button {
+  padding-left: 8px;
+}
+
+.c1 .mul-field__error-message {
+  color: #fa220a;
+  font-size: 12px;
+  text-align: left;
+}
+
+.c1 .mul-field__error-message--center {
+  text-align: center;
+}
+
+.c1 .mul-field__error-message--right {
+  text-align: right;
+}
+
+.c1 .mul-field__word-limit {
+  margin-top: 4px;
+  color: #646566;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-webkit-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-moz-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control:-ms-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--min-height .mul-field__control {
+  min-height: 60px;
+}
+
+<form
+    class="mul-form"
+  >
+    <div
+      class="c0 mul-cell c1 mul-field"
+    >
+      <div
+        class="mul-cell__title mul-field__label"
+      >
+        <span>
+          Label
+        </span>
+      </div>
+      <div
+        class="mul-cell__value mul-field__value"
+      >
+        <div
+          class="mul-field__body"
+        >
+          <input
+            class="mul-field__control"
+            rows="3"
+            type="text"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="c0 mul-cell c1 mul-field"
+    >
+      <div
+        class="mul-cell__title mul-field__label"
+        style="width: 10vw;"
+      >
+        <span>
+          Label
+        </span>
+      </div>
+      <div
+        class="mul-cell__value mul-field__value"
+      >
+        <div
+          class="mul-field__body"
+        >
+          <input
+            class="mul-field__control"
+            rows="3"
+            type="text"
+          />
+        </div>
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`Form validate-first prop 1`] = `
+<DocumentFragment>
+  .c0.mul-cell {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 16px;
+  overflow: hidden;
+  color: #323233;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #fff;
+}
+
+.c0.mul-cell:last-child::after,
+.c0.mul-cell--borderless::after {
+  display: none;
+}
+
+.c0.mul-cell::after {
+  position: absolute;
+  box-sizing: border-box;
+  content: ' ';
+  pointer-events: none;
+  right: 16px;
+  bottom: 0;
+  left: 16px;
+  border-bottom: 1px solid #ebedf0;
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.c0.mul-cell .mul-cell__label {
+  margin-top: 4px;
+  color: #969799;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.c0.mul-cell .mul-cell__title,
+.c0.mul-cell .mul-cell__value {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c0.mul-cell .mul-cell__value {
+  position: relative;
+  overflow: hidden;
+  color: #969799;
+  text-align: right;
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+
+.c0.mul-cell .mul-cell__value--alone {
+  color: #323233;
+  text-align: left;
+}
+
+.c0.mul-cell .mul-cell__left-icon,
+.c0.mul-cell .mul-cell__right-icon {
+  min-width: 1em;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c0.mul-cell .mul-cell__left-icon {
+  margin-right: 4px;
+}
+
+.c0.mul-cell .mul-cell__right-icon {
+  margin-left: 4px;
+  color: #969799;
+}
+
+.c0.mul-cell--clickable {
+  cursor: pointer;
+}
+
+.c0.mul-cell--clickable:active {
+  background-color: #f2f3f5;
+}
+
+.c0.mul-cell--required {
+  overflow: visible;
+}
+
+.c0.mul-cell--required::before {
+  position: absolute;
+  left: 8px;
+  color: #fa220a;
+  font-size: 14px;
+  content: '*';
+}
+
+.c0.mul-cell--center {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0.mul-cell--large {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c0.mul-cell--large .mul-cell__title {
+  font-size: 16px;
+}
+
+.c0.mul-cell--large .mul-cell__label {
+  font-size: 14px;
+}
+
+.c2.mul-button {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  height: 44px;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  border-radius: 2px;
+  cursor: pointer;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+  -webkit-appearance: none;
+}
+
+.c2.mul-button::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  border: inherit;
+  border-color: #000;
+  border-radius: inherit;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  opacity: 0;
+  content: ' ';
+}
+
+.c2.mul-button:active::before {
+  opacity: 0.1;
+}
+
+.c2.mul-button--loading::before,
+.c2.mul-button--disabled::before {
+  display: none;
+}
+
+.c2.mul-button--default {
+  color: #323233;
+  background-color: #fff;
+  border: 1px solid #ebedf0;
+}
+
+.c2.mul-button--primary {
+  color: #fff;
+  background-color: #07c160;
+  border: 1px solid #07c160;
+}
+
+.c2.mul-button--info {
+  color: #fff;
+  background-color: #108ee9;
+  border: 1px solid #108ee9;
+}
+
+.c2.mul-button--danger {
+  color: #fff;
+  background-color: #fa220a;
+  border: 1px solid #fa220a;
+}
+
+.c2.mul-button--warning {
+  color: #fff;
+  background-color: #ff976a;
+  border: 1px solid #ff976a;
+}
+
+.c2.mul-button--plain {
+  background-color: #fff;
+}
+
+.c2.mul-button--plain.mul-button--primary {
+  color: #07c160;
+}
+
+.c2.mul-button--plain.mul-button--info {
+  color: #108ee9;
+}
+
+.c2.mul-button--plain.mul-button--danger {
+  color: #fa220a;
+}
+
+.c2.mul-button--plain.mul-button--warning {
+  color: #ff976a;
+}
+
+.c2.mul-button--large {
+  width: 100%;
+  height: 50px;
+}
+
+.c2.mul-button--normal {
+  padding: 0 15px;
+  font-size: 14px;
+}
+
+.c2.mul-button--small {
+  height: 32px;
+  padding: 0 8px;
+  font-size: 12px;
+}
+
+.c2.mul-button__loading {
+  color: inherit;
+  font-size: inherit;
+}
+
+.c2.mul-button--mini {
+  height: 24px;
+  padding: 0 4px;
+  font-size: 10px;
+}
+
+.c2.mul-button--mini + .mul-button--mini {
+  margin-left: 4px;
+}
+
+.c2.mul-button--block {
+  display: block;
+  width: 100%;
+}
+
+.c2.mul-button--disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.c2.mul-button--loading {
+  cursor: default;
+}
+
+.c2.mul-button--round {
+  border-radius: 999px;
+}
+
+.c2.mul-button--square {
+  border-radius: 0;
+}
+
+.c2.mul-button .mul-button__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.c2.mul-button .mul-button__icon {
+  min-width: 1em;
+  font-size: 1.2em;
+  line-height: inherit;
+}
+
+.c2.mul-button .mul-button__icon + .mul-button__text,
+.c2.mul-button .mul-button__loading + .mul-button__text {
+  margin-left: 5px;
+}
+
+.c2.mul-button--hairline {
+  border-width: 0;
+}
+
+.c2.mul-button--hairline::after {
+  border-color: inherit;
+  border-radius: 4px;
+}
+
+.c2.mul-button--hairline.mul-button--round::after {
+  border-radius: 999px;
+}
+
+.c2.mul-button--hairline.mul-button--square::after {
+  border-radius: 0;
+}
+
+.c1 .mul-field__label {
+  -webkit-flex: none !important;
+  -ms-flex: none !important;
+  flex: none !important;
+  box-sizing: border-box;
+  width: 6.2em;
+  margin-right: 12px;
+  color: #646566;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.c1 .mul-field__label--center {
+  text-align: center;
+}
+
+.c1 .mul-field__label--right {
+  padding-right: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--disabled .mul-field__label {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__value {
+  overflow: visible;
+}
+
+.c1 .mul-field__body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 .mul-field__control {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  line-height: inherit;
+  text-align: left;
+  background-color: transparent;
+  border: 0;
+  resize: none;
+}
+
+.c1 .mul-field__control::-webkit-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::-moz-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:-ms-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control::placeholder {
+  color: #c8c9cc;
+}
+
+.c1 .mul-field__control:disabled {
+  color: #c8c9cc;
+  background-color: transparent;
+  cursor: not-allowed;
+  opacity: 1;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field__control:-moz-read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control:read-only {
+  cursor: default;
+}
+
+.c1 .mul-field__control--center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c1 .mul-field__control--right {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.c1 .mul-field__control--custom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='date'],
+.c1 .mul-field__control[type='time'],
+.c1 .mul-field__control[type='datetime-local'] {
+  min-height: 24px;
+}
+
+.c1 .mul-field__control[type='search'] {
+  -webkit-appearance: none;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__icon,
+.c1 .mul-field__button,
+.c1 .mul-field__right-icon {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c1 .mul-field__clear,
+.c1 .mul-field__right-icon {
+  margin-right: -8px;
+  padding: 0 8px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__clear {
+  color: #c8c9cc;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c1 .mul-field__left-icon .mul-icon,
+.c1 .mul-field__right-icon .mul-icon {
+  display: block;
+  min-width: 1em;
+  font-size: 16px;
+  line-height: inherit;
+}
+
+.c1 .mul-field__left-icon {
+  margin-right: 4px;
+}
+
+.c1 .mul-field__right-icon {
+  color: #969799;
+}
+
+.c1 .mul-field__button {
+  padding-left: 8px;
+}
+
+.c1 .mul-field__error-message {
+  color: #fa220a;
+  font-size: 12px;
+  text-align: left;
+}
+
+.c1 .mul-field__error-message--center {
+  text-align: center;
+}
+
+.c1 .mul-field__error-message--right {
+  text-align: right;
+}
+
+.c1 .mul-field__word-limit {
+  margin-top: 4px;
+  color: #646566;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-webkit-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::-moz-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control:-ms-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--error .mul-field__control,
+.c1 .mul-field--error .mul-field__control::placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c1 .mul-field--min-height .mul-field__control {
+  min-height: 60px;
+}
+
+<form
+    class="mul-form"
+  >
+    <div
+      class="c0 mul-cell c1 mul-field mul-field--error"
+    >
+      <div
+        class="mul-cell__value mul-cell__value--alone mul-field__value"
+      >
+        <div
+          class="mul-field__body"
+        >
+          <input
+            class="mul-field__control"
+            name="A"
+            rows="3"
+            type="text"
+          />
+        </div>
+        <div
+          class="mul-field__error-message"
+        >
+          A failed
+        </div>
+      </div>
+    </div>
+    <div
+      class="c0 mul-cell c1 mul-field"
+    >
+      <div
+        class="mul-cell__value mul-cell__value--alone mul-field__value"
+      >
+        <div
+          class="mul-field__body"
+        >
+          <input
+            class="mul-field__control"
+            name="B"
+            rows="3"
+            type="text"
+          />
+        </div>
+      </div>
+    </div>
+    <button
+      class="c2 mul-button mul-button--default mul-button--normal"
+      type="submit"
+    >
+      <div
+        class="mul-button__content"
+      />
+    </button>
+  </form>
+</DocumentFragment>
+`;
