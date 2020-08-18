@@ -73,6 +73,7 @@ import { LazyLoad } from '@trillion/muld';
 | loadingIcon  | Loading icon | _string_ | `photo` |
 | loading | Custom loading placeholder | _React.ReactNode \| string_ | - |
 | error   | Custom error placeholder   | _React.ReactNode \| string_ | - |
+| className | Custom class  | _React.ReactNode \| string_ | - |
 
 ### fit optional value
 

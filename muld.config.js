@@ -160,10 +160,10 @@ module.exports = {
                             //     path: 'switch',
                             //     title: 'Switch 开关',
                             // },
-                            // {
-                            //     path: 'uploader',
-                            //     title: 'Uploader 文件上传',
-                            // },
+                            {
+                                path: 'uploader',
+                                title: 'Uploader 文件上传',
+                            },
                         ],
                     },
                     {
@@ -177,6 +177,14 @@ module.exports = {
                                 path: 'dialog',
                                 title: 'Dialog 弹出框',
                             },
+                            {
+                                path: 'action-sheet',
+                                title: 'ActionSheet 动作面板',
+                            },
+                            // {
+                            //     path: 'dialog',
+                            //     title: 'Dialog 弹出框',
+                            // },
                             // {
                             //     path: 'dropdown-menu',
                             //     title: 'DropdownMenu 下拉菜单',
@@ -258,10 +266,10 @@ module.exports = {
                                 path: 'steps',
                                 title: 'Steps 步骤条',
                             },
-                            // {
-                            //     path: 'sticky',
-                            //     title: 'Sticky 粘性布局',
-                            // },
+                            {
+                                path: 'sticky',
+                                title: 'Sticky 粘性布局',
+                            },
                             // {
                             //     path: 'swipe',
                             //     title: 'Swipe 轮播',

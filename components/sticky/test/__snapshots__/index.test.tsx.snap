@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sticky offset-top prop 1`] = `
+<DocumentFragment>
+  .c0.mul-sticky .mul-sticky--fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 99;
+}
+
+<div
+    class="c0 mul-sticky"
+    style="height: auto;"
+  >
+    <div
+      class=""
+    >
+      content
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Sticky offset-top with vw unit 1`] = `
+<DocumentFragment>
+  .c0.mul-sticky .mul-sticky--fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 99;
+}
+
+<div
+    class="c0 mul-sticky"
+    style="height: auto;"
+  >
+    <div
+      class=""
+    >
+      content
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Sticky sticky to top 1`] = `
+<DocumentFragment>
+  .c0.mul-sticky .mul-sticky--fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 99;
+}
+
+<div
+    class="c0 mul-sticky"
+    style="height: auto;"
+  >
+    <div
+      class=""
+    >
+      content
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Sticky z-index prop 1`] = `
+<DocumentFragment>
+  .c0.mul-sticky .mul-sticky--fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 99;
+}
+
+<div
+    class="c0 mul-sticky"
+    style="height: auto;"
+  >
+    <div
+      class=""
+    >
+      content
+    </div>
+  </div>
+</DocumentFragment>
+`;

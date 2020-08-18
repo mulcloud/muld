@@ -1,4 +1,5 @@
 import * as React from 'react';
+import classnames from 'classnames';
 import { createNS, isDef, addUnit } from '../utils';
 import { View } from './style';
 import Icon from '../icon';
@@ -137,9 +138,14 @@ const Image: React.FC<ImageProps> = (props: ImageProps) => {
     }
 
     return (
-        <View className={className} style={computedStyle()} onClick={handleClick}>
+        <View
+            className={classnames([className, props.className])}
+            style={computedStyle()}
+            onClick={handleClick}
+        >
             {genImage()}
             {genPlaceholder()}
+            {props.children}
         </View>
     );
 };
