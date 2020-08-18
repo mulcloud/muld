@@ -15,6 +15,7 @@ export type positionType = 'top' | 'bottom' | 'right' | 'left' | 'center';
 export type closeIconPositionType = 'top-left' | 'bottom-left' | 'bottom-right' | 'top-right';
 
 interface Props extends React.HTMLAttributes<HTMLDivElement> {
+    className?: string;
     round?: boolean;
     duration?: number | string | null;
     closeable?: boolean;
@@ -31,12 +32,12 @@ interface Props extends React.HTMLAttributes<HTMLDivElement> {
     onClose?: () => void;
     onClosed?: () => void;
     onOpened?: () => void;
-    onClosePopup?: () => void;
+    onCancel?: () => void;
+    onClickOverlay?: () => void; // [deprecated]
 }
 const defaultProps = {
     visible: false,
     overlay: true,
-    closeOnClickOverlay: true,
     closeIcon: 'cross',
     position: 'center' as positionType,
     closeIconPosition: 'top-right' as closeIconPositionType,
@@ -47,6 +48,7 @@ export type PopupProps = Props & typeof defaultProps;
 
 const Popup: React.FC<React.PropsWithChildren<PopupProps>> = (props: PopupProps) => {
     const {
+        className,
         round,
         zIndex,
         position,
@@ -57,7 +59,6 @@ const Popup: React.FC<React.PropsWithChildren<PopupProps>> = (props: PopupProps)
         style,
         lockScroll,
         overlay,
-        onClosePopup,
         transition,
         overlayClass,
         overlayStyle,
@@ -65,9 +66,10 @@ const Popup: React.FC<React.PropsWithChildren<PopupProps>> = (props: PopupProps)
         closeIcon,
         closeIconPosition,
         getContainer,
+        onCancel,
+        onClickOverlay,
         onOpen,
         onClose,
-        closeOnClickOverlay,
         onClosed,
         onOpened,
     } = props;
@@ -118,9 +120,8 @@ const Popup: React.FC<React.PropsWithChildren<PopupProps>> = (props: PopupProps)
     }
 
     const handleOverlayClick = () => {
-        if (closeOnClickOverlay) {
-            onClosePopup && onClosePopup();
-        }
+        onCancel && onCancel();
+        onClickOverlay && onClickOverlay();
     };
 
     return (
@@ -131,7 +132,7 @@ const Popup: React.FC<React.PropsWithChildren<PopupProps>> = (props: PopupProps)
                     customStyle={overlayStyle}
                     show={visible}
                     zIndex={zIndex || context.zIndex}
-                    onClick={() => handleOverlayClick()}
+                    onClick={handleOverlayClick}
                 ></Overlay>
             )}
             <CSSTransition
@@ -154,6 +155,7 @@ const Popup: React.FC<React.PropsWithChildren<PopupProps>> = (props: PopupProps)
                                 [position]: position,
                                 'safe-area-inset-bottom': safeAreaInsetBottom,
                             }),
+                            className,
                         )}
                         style={wrapStyle}
                         onClick={handleClick}
@@ -163,7 +165,7 @@ const Popup: React.FC<React.PropsWithChildren<PopupProps>> = (props: PopupProps)
                             <Icon
                                 name={closeIcon}
                                 className={classnames(bem('close-icon', closeIconPosition))}
-                                onClick={() => handleOverlayClick()}
+                                onClick={handleOverlayClick}
                             />
                         )}
                     </View>

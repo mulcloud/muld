@@ -60,6 +60,32 @@ export const $animation_duration_fast = '0.2s';
 export const $animation_timing_function_enter = 'ease-out';
 export const $animation_timing_function_leave = 'ease-in';
 
+// ActionSheet
+export const $action_sheet = {
+    max_height: '80%',
+    header_height: '48px',
+    header_font_size: $font_size_lg,
+    description_color: $gray6,
+    description_font_size: $font_size_md,
+    description_line_height: $line_height_md,
+    item_background: $white,
+    item_font_size: $font_size_lg,
+    item_line_height: $line_height_lg,
+    item_text_color: $text_color,
+    item_disabled_text_color: $gray5,
+    subname_color: $gray6,
+    subname_font_size: $font_size_sm,
+    subname_line_height: $line_height_sm,
+    close_icon_size: '22px',
+    close_icon_color: $gray5,
+    close_icon_active_color: $gray6,
+    close_icon_padding: `0 ${$padding_md}`,
+    cancel_text_color: $gray7,
+    cancel_padding_top: $padding_xs,
+    cancel_padding_color: $background_color,
+    loading_icon_size: '22px',
+};
+
 // Border
 export const $border_color = $gray3;
 export const $border_width_base = '1px';
