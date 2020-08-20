@@ -28,7 +28,7 @@ export default function StickyDemo(): React.ReactNode {
             </DemoBlock>
             <DemoBlock title="指定容器">
                 <div ref={container}>
-                    <Box height="150px" backgroundColor="#fff">
+                    <Box height="150px" bg="#fff">
                         <Sticky container={container}>
                             <Button type="warning" className="lg">
                                 指定容器

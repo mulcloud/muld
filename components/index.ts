@@ -32,3 +32,5 @@ export { default as ActionSheet } from './action-sheet';
 export { default as Sticky } from './sticky';
 export { default as Field } from './field';
 export { default as Form } from './form';
+export { default as Tab } from './tab';
+export { default as Tabs } from './tabs';

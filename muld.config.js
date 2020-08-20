@@ -308,6 +308,14 @@ module.exports = {
                             //             title: 'Tab 标签页',
                             //         },
                             //         {
+                            //             path: 'sidebar',
+                            //             title: 'Sidebar 侧边导航',
+                            //         },
+                            {
+                                path: 'tab',
+                                title: 'Tab 标签页',
+                            },
+                            //         {
                             //             path: 'tabbar',
                             //             title: 'Tabbar 标签栏',
                             //         },
