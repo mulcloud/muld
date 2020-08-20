@@ -1,0 +1,2180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tab change tabs data 1`] = `
+<DocumentFragment>
+  .c3.mul-tab__pane-wrapper {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.c3.mul-tab__pane-wrapper--inactive {
+  height: 0;
+  overflow: visible;
+}
+
+.c0.mul-tabs {
+  position: relative;
+}
+
+.c0.mul-tabs .mul-tabs__wrap {
+  overflow: hidden;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--page-top {
+  position: fixed;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--content-bottom {
+  top: auto;
+  bottom: 0;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--scrollable .mul-tab {
+  -webkit-flex: 0 0 22%;
+  -ms-flex: 0 0 22%;
+  flex: 0 0 22%;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--scrollable .mul-tab--complete {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--scrollable .mul-tabs__nav {
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--scrollable .mul-tabs__nav::-webkit-scrollbar {
+  display: none;
+}
+
+.c0.mul-tabs .mul-tabs__nav {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0.mul-tabs .mul-tabs__nav--line {
+  box-sizing: content-box;
+  height: 100%;
+  padding-bottom: 15px;
+}
+
+.c0.mul-tabs .mul-tabs__nav--card {
+  box-sizing: border-box;
+  height: 30px;
+  margin: 0 16px;
+  border: 1px solid #fa220a;
+  border-radius: 2px;
+}
+
+.c0.mul-tabs .mul-tabs__nav--card .mul-tab {
+  color: #fa220a;
+  border-right: 1px solid #fa220a;
+}
+
+.c0.mul-tabs .mul-tabs__nav--card .mul-tab:last-child {
+  border-right: none;
+}
+
+.c0.mul-tabs .mul-tabs__nav--card .mul-tab--active {
+  color: #fff;
+  background-color: #fa220a;
+}
+
+.c0.mul-tabs .mul-tabs__line {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  z-index: 1;
+  height: 3px;
+  background-color: #fa220a;
+  border-radius: 3px;
+}
+
+.c0.mul-tabs .mul-tabs__track {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  will-change: left;
+}
+
+.c0.mul-tabs .mul-tabs__content--animated {
+  overflow: hidden;
+}
+
+.c0.mul-tabs--line .mul-tabs__wrap {
+  height: 44px;
+}
+
+.c0.mul-tabs--card > .mul-tabs__wrap {
+  height: 30px;
+}
+
+.c1.mul-sticky .mul-sticky--fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.c2.mul-tab {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0 4px;
+  color: #646566;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.c2.mul-tab .mul-tab__pane,
+.c2.mul-tab .mul-tab__pane-wrapper {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.c2.mul-tab .mul-tab__pane-wrapper--inactive {
+  height: 0;
+  overflow: visible;
+}
+
+.c2.mul-tab--active {
+  color: #323233;
+  font-weight: 500;
+}
+
+.c2.mul-tab--disabled {
+  color: #c8c9cc;
+  cursor: not-allowed;
+}
+
+.c2.mul-tab .mul-tab__text--ellipsis {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.c2.mul-tab .mul-tab__text-wrapper {
+  position: relative;
+}
+
+<div
+    class="c0 mul-tabs mul-tabs--line"
+  >
+    <div
+      class="c1 mul-sticky"
+      style="height: auto;"
+    >
+      <div
+        class=""
+      >
+        <div
+          class="mul-tabs__wrap mul-tabs__wrap--mul-hairline--top-bottom"
+        >
+          <div
+            class="mul-tabs__nav mul-tabs__nav--line"
+            role="tablist"
+            style="border-color: #ee0a24; background: white;"
+          >
+            <div
+              aria-selected="true"
+              class="c2 mul-tab mul-tab--active"
+              role="tab"
+            >
+              <span
+                class="mul-tab__text mul-tab__text--ellipsis"
+              >
+                标签1
+              </span>
+            </div>
+            <div
+              aria-selected="false"
+              class="c2 mul-tab"
+              role="tab"
+            >
+              <span
+                class="mul-tab__text mul-tab__text--ellipsis"
+              >
+                标签2
+              </span>
+            </div>
+            <div
+              aria-selected="false"
+              class="c2 mul-tab"
+              role="tab"
+            >
+              <span
+                class="mul-tab__text mul-tab__text--ellipsis"
+              >
+                标签3
+              </span>
+            </div>
+            <div
+              class="mul-tabs__line"
+              style="background-color: rgb(238, 10, 36);"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mul-tabs__content"
+    >
+      <div
+        class="c3 mul-tab__pane"
+        role="tabpanel"
+        style="display: block;"
+      >
+        内容1
+      </div>
+      <div
+        class="c3 mul-tab__pane"
+        role="tabpanel"
+        style="display: none;"
+      >
+        内容2
+      </div>
+      <div
+        class="c3 mul-tab__pane"
+        role="tabpanel"
+        style="display: none;"
+      >
+        内容3
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tab change tabs data 2`] = `
+<DocumentFragment>
+  .c2.mul-tab__pane-wrapper {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.c2.mul-tab__pane-wrapper--inactive {
+  height: 0;
+  overflow: visible;
+}
+
+.c0.mul-tabs {
+  position: relative;
+}
+
+.c0.mul-tabs .mul-tabs__wrap {
+  overflow: hidden;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--page-top {
+  position: fixed;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--content-bottom {
+  top: auto;
+  bottom: 0;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--scrollable .mul-tab {
+  -webkit-flex: 0 0 22%;
+  -ms-flex: 0 0 22%;
+  flex: 0 0 22%;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--scrollable .mul-tab--complete {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--scrollable .mul-tabs__nav {
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--scrollable .mul-tabs__nav::-webkit-scrollbar {
+  display: none;
+}
+
+.c0.mul-tabs .mul-tabs__nav {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0.mul-tabs .mul-tabs__nav--line {
+  box-sizing: content-box;
+  height: 100%;
+  padding-bottom: 15px;
+}
+
+.c0.mul-tabs .mul-tabs__nav--card {
+  box-sizing: border-box;
+  height: 30px;
+  margin: 0 16px;
+  border: 1px solid #fa220a;
+  border-radius: 2px;
+}
+
+.c0.mul-tabs .mul-tabs__nav--card .mul-tab {
+  color: #fa220a;
+  border-right: 1px solid #fa220a;
+}
+
+.c0.mul-tabs .mul-tabs__nav--card .mul-tab:last-child {
+  border-right: none;
+}
+
+.c0.mul-tabs .mul-tabs__nav--card .mul-tab--active {
+  color: #fff;
+  background-color: #fa220a;
+}
+
+.c0.mul-tabs .mul-tabs__line {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  z-index: 1;
+  height: 3px;
+  background-color: #fa220a;
+  border-radius: 3px;
+}
+
+.c0.mul-tabs .mul-tabs__track {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  will-change: left;
+}
+
+.c0.mul-tabs .mul-tabs__content--animated {
+  overflow: hidden;
+}
+
+.c0.mul-tabs--line .mul-tabs__wrap {
+  height: 44px;
+}
+
+.c0.mul-tabs--card > .mul-tabs__wrap {
+  height: 30px;
+}
+
+.c1.mul-tab {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0 4px;
+  color: #646566;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.c1.mul-tab .mul-tab__pane,
+.c1.mul-tab .mul-tab__pane-wrapper {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.c1.mul-tab .mul-tab__pane-wrapper--inactive {
+  height: 0;
+  overflow: visible;
+}
+
+.c1.mul-tab--active {
+  color: #323233;
+  font-weight: 500;
+}
+
+.c1.mul-tab--disabled {
+  color: #c8c9cc;
+  cursor: not-allowed;
+}
+
+.c1.mul-tab .mul-tab__text--ellipsis {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.c1.mul-tab .mul-tab__text-wrapper {
+  position: relative;
+}
+
+<div
+    class="c0 mul-tabs mul-tabs--card"
+  >
+    <div
+      class="mul-tabs__wrap"
+    >
+      <div
+        class="mul-tabs__nav mul-tabs__nav--card"
+        role="tablist"
+        style="border-color: blue; background: white;"
+      >
+        <div
+          aria-selected="true"
+          class="c1 mul-tab mul-tab--active"
+          role="tab"
+          style="border-color: blue; background-color: blue;"
+        >
+          <span
+            class="mul-tab__text mul-tab__text--ellipsis"
+          >
+            标签1
+          </span>
+        </div>
+        <div
+          aria-selected="false"
+          class="c1 mul-tab"
+          role="tab"
+          style="border-color: blue; color: blue;"
+        >
+          <span
+            class="mul-tab__text mul-tab__text--ellipsis"
+          >
+            标签2
+          </span>
+        </div>
+        <div
+          aria-selected="false"
+          class="c1 mul-tab"
+          role="tab"
+          style="border-color: blue; color: blue;"
+        >
+          <span
+            class="mul-tab__text mul-tab__text--ellipsis"
+          >
+            标签3
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mul-tabs__content"
+    >
+      <div
+        class="c2 mul-tab__pane"
+        role="tabpanel"
+        style="display: block;"
+      >
+        内容1
+      </div>
+      <div
+        class="c2 mul-tab__pane"
+        role="tabpanel"
+        style="display: none;"
+      >
+        内容2
+      </div>
+      <div
+        class="c2 mul-tab__pane"
+        role="tabpanel"
+        style="display: none;"
+      >
+        内容3
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tab click to switch tab 1`] = `
+<DocumentFragment>
+  .c2.mul-tab__pane-wrapper {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.c2.mul-tab__pane-wrapper--inactive {
+  height: 0;
+  overflow: visible;
+}
+
+.c0.mul-tabs {
+  position: relative;
+}
+
+.c0.mul-tabs .mul-tabs__wrap {
+  overflow: hidden;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--page-top {
+  position: fixed;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--content-bottom {
+  top: auto;
+  bottom: 0;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--scrollable .mul-tab {
+  -webkit-flex: 0 0 22%;
+  -ms-flex: 0 0 22%;
+  flex: 0 0 22%;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--scrollable .mul-tab--complete {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--scrollable .mul-tabs__nav {
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--scrollable .mul-tabs__nav::-webkit-scrollbar {
+  display: none;
+}
+
+.c0.mul-tabs .mul-tabs__nav {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0.mul-tabs .mul-tabs__nav--line {
+  box-sizing: content-box;
+  height: 100%;
+  padding-bottom: 15px;
+}
+
+.c0.mul-tabs .mul-tabs__nav--card {
+  box-sizing: border-box;
+  height: 30px;
+  margin: 0 16px;
+  border: 1px solid #fa220a;
+  border-radius: 2px;
+}
+
+.c0.mul-tabs .mul-tabs__nav--card .mul-tab {
+  color: #fa220a;
+  border-right: 1px solid #fa220a;
+}
+
+.c0.mul-tabs .mul-tabs__nav--card .mul-tab:last-child {
+  border-right: none;
+}
+
+.c0.mul-tabs .mul-tabs__nav--card .mul-tab--active {
+  color: #fff;
+  background-color: #fa220a;
+}
+
+.c0.mul-tabs .mul-tabs__line {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  z-index: 1;
+  height: 3px;
+  background-color: #fa220a;
+  border-radius: 3px;
+}
+
+.c0.mul-tabs .mul-tabs__track {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  will-change: left;
+}
+
+.c0.mul-tabs .mul-tabs__content--animated {
+  overflow: hidden;
+}
+
+.c0.mul-tabs--line .mul-tabs__wrap {
+  height: 44px;
+}
+
+.c0.mul-tabs--card > .mul-tabs__wrap {
+  height: 30px;
+}
+
+.c1.mul-tab {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0 4px;
+  color: #646566;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.c1.mul-tab .mul-tab__pane,
+.c1.mul-tab .mul-tab__pane-wrapper {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.c1.mul-tab .mul-tab__pane-wrapper--inactive {
+  height: 0;
+  overflow: visible;
+}
+
+.c1.mul-tab--active {
+  color: #323233;
+  font-weight: 500;
+}
+
+.c1.mul-tab--disabled {
+  color: #c8c9cc;
+  cursor: not-allowed;
+}
+
+.c1.mul-tab .mul-tab__text--ellipsis {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.c1.mul-tab .mul-tab__text-wrapper {
+  position: relative;
+}
+
+<div
+    class="c0 mul-tabs mul-tabs--line"
+  >
+    <div
+      class="mul-tabs__wrap mul-tabs__wrap--mul-hairline--top-bottom"
+    >
+      <div
+        class="mul-tabs__nav mul-tabs__nav--line"
+        role="tablist"
+        style="border-color: #ee0a24; background: white;"
+      >
+        <div
+          aria-selected="false"
+          class="c1 mul-tab"
+          role="tab"
+        >
+          <span
+            class="mul-tab__text mul-tab__text--ellipsis"
+          >
+            标签1
+          </span>
+        </div>
+        <div
+          aria-selected="true"
+          class="c1 mul-tab mul-tab--active"
+          role="tab"
+        >
+          <span
+            class="mul-tab__text mul-tab__text--ellipsis"
+          >
+            标签2
+          </span>
+        </div>
+        <div
+          aria-selected="false"
+          class="c1 mul-tab"
+          role="tab"
+        >
+          <span
+            class="mul-tab__text mul-tab__text--ellipsis"
+          >
+            标签3
+          </span>
+        </div>
+        <div
+          class="mul-tabs__line"
+          style="background-color: rgb(238, 10, 36);"
+        />
+      </div>
+    </div>
+    <div
+      class="mul-tabs__content"
+    >
+      <div
+        class="c2 mul-tab__pane"
+        role="tabpanel"
+        style="display: none;"
+      >
+        内容1
+      </div>
+      <div
+        class="c2 mul-tab__pane"
+        role="tabpanel"
+        style="display: block;"
+      >
+        内容2
+      </div>
+      <div
+        class="c2 mul-tab__pane"
+        role="tabpanel"
+        style="display: none;"
+      >
+        内容3
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tab click to switch tab 2`] = `
+<DocumentFragment>
+  .c2.mul-tab__pane-wrapper {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.c2.mul-tab__pane-wrapper--inactive {
+  height: 0;
+  overflow: visible;
+}
+
+.c0.mul-tabs {
+  position: relative;
+}
+
+.c0.mul-tabs .mul-tabs__wrap {
+  overflow: hidden;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--page-top {
+  position: fixed;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--content-bottom {
+  top: auto;
+  bottom: 0;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--scrollable .mul-tab {
+  -webkit-flex: 0 0 22%;
+  -ms-flex: 0 0 22%;
+  flex: 0 0 22%;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--scrollable .mul-tab--complete {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--scrollable .mul-tabs__nav {
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--scrollable .mul-tabs__nav::-webkit-scrollbar {
+  display: none;
+}
+
+.c0.mul-tabs .mul-tabs__nav {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0.mul-tabs .mul-tabs__nav--line {
+  box-sizing: content-box;
+  height: 100%;
+  padding-bottom: 15px;
+}
+
+.c0.mul-tabs .mul-tabs__nav--card {
+  box-sizing: border-box;
+  height: 30px;
+  margin: 0 16px;
+  border: 1px solid #fa220a;
+  border-radius: 2px;
+}
+
+.c0.mul-tabs .mul-tabs__nav--card .mul-tab {
+  color: #fa220a;
+  border-right: 1px solid #fa220a;
+}
+
+.c0.mul-tabs .mul-tabs__nav--card .mul-tab:last-child {
+  border-right: none;
+}
+
+.c0.mul-tabs .mul-tabs__nav--card .mul-tab--active {
+  color: #fff;
+  background-color: #fa220a;
+}
+
+.c0.mul-tabs .mul-tabs__line {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  z-index: 1;
+  height: 3px;
+  background-color: #fa220a;
+  border-radius: 3px;
+}
+
+.c0.mul-tabs .mul-tabs__track {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  will-change: left;
+}
+
+.c0.mul-tabs .mul-tabs__content--animated {
+  overflow: hidden;
+}
+
+.c0.mul-tabs--line .mul-tabs__wrap {
+  height: 44px;
+}
+
+.c0.mul-tabs--card > .mul-tabs__wrap {
+  height: 30px;
+}
+
+.c1.mul-tab {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0 4px;
+  color: #646566;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.c1.mul-tab .mul-tab__pane,
+.c1.mul-tab .mul-tab__pane-wrapper {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.c1.mul-tab .mul-tab__pane-wrapper--inactive {
+  height: 0;
+  overflow: visible;
+}
+
+.c1.mul-tab--active {
+  color: #323233;
+  font-weight: 500;
+}
+
+.c1.mul-tab--disabled {
+  color: #c8c9cc;
+  cursor: not-allowed;
+}
+
+.c1.mul-tab .mul-tab__text--ellipsis {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.c1.mul-tab .mul-tab__text-wrapper {
+  position: relative;
+}
+
+<div
+    class="c0 mul-tabs mul-tabs--line"
+  >
+    <div
+      class="mul-tabs__wrap mul-tabs__wrap--mul-hairline--top-bottom"
+    >
+      <div
+        class="mul-tabs__nav mul-tabs__nav--line"
+        role="tablist"
+        style="border-color: #ee0a24; background: white;"
+      >
+        <div
+          aria-selected="true"
+          class="c1 mul-tab mul-tab--active"
+          role="tab"
+        >
+          <span
+            class="mul-tab__text mul-tab__text--ellipsis"
+          >
+            标签1
+          </span>
+        </div>
+        <div
+          aria-selected="false"
+          class="c1 mul-tab"
+          role="tab"
+        >
+          <span
+            class="mul-tab__text mul-tab__text--ellipsis"
+          >
+            标签2
+          </span>
+        </div>
+        <div
+          aria-selected="false"
+          class="c1 mul-tab"
+          role="tab"
+        >
+          <span
+            class="mul-tab__text mul-tab__text--ellipsis"
+          >
+            标签3
+          </span>
+        </div>
+        <div
+          class="mul-tabs__line"
+          style="background-color: rgb(238, 10, 36);"
+        />
+      </div>
+    </div>
+    <div
+      class="mul-tabs__content"
+    >
+      <div
+        class="c2 mul-tab__pane"
+        role="tabpanel"
+        style="display: block;"
+      >
+        内容1
+      </div>
+      <div
+        class="c2 mul-tab__pane"
+        role="tabpanel"
+        style="display: none;"
+      >
+        内容2
+      </div>
+      <div
+        class="c2 mul-tab__pane"
+        role="tabpanel"
+        style="display: none;"
+      >
+        内容3
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tab lazy render 1`] = `
+<DocumentFragment>
+  .c3.mul-tab__pane-wrapper {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.c3.mul-tab__pane-wrapper--inactive {
+  height: 0;
+  overflow: visible;
+}
+
+.c0.mul-tabs {
+  position: relative;
+}
+
+.c0.mul-tabs .mul-tabs__wrap {
+  overflow: hidden;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--page-top {
+  position: fixed;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--content-bottom {
+  top: auto;
+  bottom: 0;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--scrollable .mul-tab {
+  -webkit-flex: 0 0 22%;
+  -ms-flex: 0 0 22%;
+  flex: 0 0 22%;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--scrollable .mul-tab--complete {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--scrollable .mul-tabs__nav {
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--scrollable .mul-tabs__nav::-webkit-scrollbar {
+  display: none;
+}
+
+.c0.mul-tabs .mul-tabs__nav {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0.mul-tabs .mul-tabs__nav--line {
+  box-sizing: content-box;
+  height: 100%;
+  padding-bottom: 15px;
+}
+
+.c0.mul-tabs .mul-tabs__nav--card {
+  box-sizing: border-box;
+  height: 30px;
+  margin: 0 16px;
+  border: 1px solid #fa220a;
+  border-radius: 2px;
+}
+
+.c0.mul-tabs .mul-tabs__nav--card .mul-tab {
+  color: #fa220a;
+  border-right: 1px solid #fa220a;
+}
+
+.c0.mul-tabs .mul-tabs__nav--card .mul-tab:last-child {
+  border-right: none;
+}
+
+.c0.mul-tabs .mul-tabs__nav--card .mul-tab--active {
+  color: #fff;
+  background-color: #fa220a;
+}
+
+.c0.mul-tabs .mul-tabs__line {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  z-index: 1;
+  height: 3px;
+  background-color: #fa220a;
+  border-radius: 3px;
+}
+
+.c0.mul-tabs .mul-tabs__track {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  will-change: left;
+}
+
+.c0.mul-tabs .mul-tabs__content--animated {
+  overflow: hidden;
+}
+
+.c0.mul-tabs--line .mul-tabs__wrap {
+  height: 44px;
+}
+
+.c0.mul-tabs--card > .mul-tabs__wrap {
+  height: 30px;
+}
+
+.c1.mul-sticky .mul-sticky--fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.c2.mul-tab {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0 4px;
+  color: #646566;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.c2.mul-tab .mul-tab__pane,
+.c2.mul-tab .mul-tab__pane-wrapper {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.c2.mul-tab .mul-tab__pane-wrapper--inactive {
+  height: 0;
+  overflow: visible;
+}
+
+.c2.mul-tab--active {
+  color: #323233;
+  font-weight: 500;
+}
+
+.c2.mul-tab--disabled {
+  color: #c8c9cc;
+  cursor: not-allowed;
+}
+
+.c2.mul-tab .mul-tab__text--ellipsis {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.c2.mul-tab .mul-tab__text-wrapper {
+  position: relative;
+}
+
+<div
+    class="c0 mul-tabs mul-tabs--line"
+  >
+    <div
+      class="c1 mul-sticky"
+      style="height: auto;"
+    >
+      <div
+        class=""
+      >
+        <div
+          class="mul-tabs__wrap mul-tabs__wrap--mul-hairline--top-bottom"
+        >
+          <div
+            class="mul-tabs__nav mul-tabs__nav--line"
+            role="tablist"
+            style="border-color: #ee0a24; background: white;"
+          >
+            <div
+              aria-selected="true"
+              class="c2 mul-tab mul-tab--active"
+              role="tab"
+            >
+              <span
+                class="mul-tab__text mul-tab__text--ellipsis"
+              >
+                标签1
+              </span>
+            </div>
+            <div
+              aria-selected="false"
+              class="c2 mul-tab"
+              role="tab"
+            >
+              <span
+                class="mul-tab__text mul-tab__text--ellipsis"
+              >
+                标签2
+              </span>
+            </div>
+            <div
+              aria-selected="false"
+              class="c2 mul-tab"
+              role="tab"
+            >
+              <span
+                class="mul-tab__text mul-tab__text--ellipsis"
+              >
+                标签3
+              </span>
+            </div>
+            <div
+              class="mul-tabs__line"
+              style="background-color: rgb(238, 10, 36);"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mul-tabs__content"
+    >
+      <div
+        class="c3 mul-tab__pane"
+        role="tabpanel"
+        style="display: block;"
+      >
+        内容1
+      </div>
+      <div
+        class="c3 mul-tab__pane"
+        role="tabpanel"
+        style="display: none;"
+      >
+        内容2
+      </div>
+      <div
+        class="c3 mul-tab__pane"
+        role="tabpanel"
+        style="display: none;"
+      >
+        内容3
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tab lazy render 2`] = `
+<DocumentFragment>
+  .c2.mul-tab__pane-wrapper {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.c2.mul-tab__pane-wrapper--inactive {
+  height: 0;
+  overflow: visible;
+}
+
+.c0.mul-tabs {
+  position: relative;
+}
+
+.c0.mul-tabs .mul-tabs__wrap {
+  overflow: hidden;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--page-top {
+  position: fixed;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--content-bottom {
+  top: auto;
+  bottom: 0;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--scrollable .mul-tab {
+  -webkit-flex: 0 0 22%;
+  -ms-flex: 0 0 22%;
+  flex: 0 0 22%;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--scrollable .mul-tab--complete {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--scrollable .mul-tabs__nav {
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--scrollable .mul-tabs__nav::-webkit-scrollbar {
+  display: none;
+}
+
+.c0.mul-tabs .mul-tabs__nav {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0.mul-tabs .mul-tabs__nav--line {
+  box-sizing: content-box;
+  height: 100%;
+  padding-bottom: 15px;
+}
+
+.c0.mul-tabs .mul-tabs__nav--card {
+  box-sizing: border-box;
+  height: 30px;
+  margin: 0 16px;
+  border: 1px solid #fa220a;
+  border-radius: 2px;
+}
+
+.c0.mul-tabs .mul-tabs__nav--card .mul-tab {
+  color: #fa220a;
+  border-right: 1px solid #fa220a;
+}
+
+.c0.mul-tabs .mul-tabs__nav--card .mul-tab:last-child {
+  border-right: none;
+}
+
+.c0.mul-tabs .mul-tabs__nav--card .mul-tab--active {
+  color: #fff;
+  background-color: #fa220a;
+}
+
+.c0.mul-tabs .mul-tabs__line {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  z-index: 1;
+  height: 3px;
+  background-color: #fa220a;
+  border-radius: 3px;
+}
+
+.c0.mul-tabs .mul-tabs__track {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  will-change: left;
+}
+
+.c0.mul-tabs .mul-tabs__content--animated {
+  overflow: hidden;
+}
+
+.c0.mul-tabs--line .mul-tabs__wrap {
+  height: 44px;
+}
+
+.c0.mul-tabs--card > .mul-tabs__wrap {
+  height: 30px;
+}
+
+.c1.mul-tab {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0 4px;
+  color: #646566;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.c1.mul-tab .mul-tab__pane,
+.c1.mul-tab .mul-tab__pane-wrapper {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.c1.mul-tab .mul-tab__pane-wrapper--inactive {
+  height: 0;
+  overflow: visible;
+}
+
+.c1.mul-tab--active {
+  color: #323233;
+  font-weight: 500;
+}
+
+.c1.mul-tab--disabled {
+  color: #c8c9cc;
+  cursor: not-allowed;
+}
+
+.c1.mul-tab .mul-tab__text--ellipsis {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.c1.mul-tab .mul-tab__text-wrapper {
+  position: relative;
+}
+
+<div
+    class="c0 mul-tabs mul-tabs--card"
+  >
+    <div
+      class="mul-tabs__wrap"
+    >
+      <div
+        class="mul-tabs__nav mul-tabs__nav--card"
+        role="tablist"
+        style="border-color: blue; background: white;"
+      >
+        <div
+          aria-selected="true"
+          class="c1 mul-tab mul-tab--active"
+          role="tab"
+          style="border-color: blue; background-color: blue;"
+        >
+          <span
+            class="mul-tab__text mul-tab__text--ellipsis"
+          >
+            标签1
+          </span>
+        </div>
+        <div
+          aria-selected="false"
+          class="c1 mul-tab"
+          role="tab"
+          style="border-color: blue; color: blue;"
+        >
+          <span
+            class="mul-tab__text mul-tab__text--ellipsis"
+          >
+            标签2
+          </span>
+        </div>
+        <div
+          aria-selected="false"
+          class="c1 mul-tab"
+          role="tab"
+          style="border-color: blue; color: blue;"
+        >
+          <span
+            class="mul-tab__text mul-tab__text--ellipsis"
+          >
+            标签3
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mul-tabs__content"
+    >
+      <div
+        class="c2 mul-tab__pane"
+        role="tabpanel"
+        style="display: block;"
+      >
+        内容1
+      </div>
+      <div
+        class="c2 mul-tab__pane"
+        role="tabpanel"
+        style="display: none;"
+      >
+        内容2
+      </div>
+      <div
+        class="c2 mul-tab__pane"
+        role="tabpanel"
+        style="display: none;"
+      >
+        内容3
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tab name prop 1`] = `
+<DocumentFragment>
+  .c2.mul-tab__pane-wrapper {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.c2.mul-tab__pane-wrapper--inactive {
+  height: 0;
+  overflow: visible;
+}
+
+.c0.mul-tabs {
+  position: relative;
+}
+
+.c0.mul-tabs .mul-tabs__wrap {
+  overflow: hidden;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--page-top {
+  position: fixed;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--content-bottom {
+  top: auto;
+  bottom: 0;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--scrollable .mul-tab {
+  -webkit-flex: 0 0 22%;
+  -ms-flex: 0 0 22%;
+  flex: 0 0 22%;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--scrollable .mul-tab--complete {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--scrollable .mul-tabs__nav {
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--scrollable .mul-tabs__nav::-webkit-scrollbar {
+  display: none;
+}
+
+.c0.mul-tabs .mul-tabs__nav {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0.mul-tabs .mul-tabs__nav--line {
+  box-sizing: content-box;
+  height: 100%;
+  padding-bottom: 15px;
+}
+
+.c0.mul-tabs .mul-tabs__nav--card {
+  box-sizing: border-box;
+  height: 30px;
+  margin: 0 16px;
+  border: 1px solid #fa220a;
+  border-radius: 2px;
+}
+
+.c0.mul-tabs .mul-tabs__nav--card .mul-tab {
+  color: #fa220a;
+  border-right: 1px solid #fa220a;
+}
+
+.c0.mul-tabs .mul-tabs__nav--card .mul-tab:last-child {
+  border-right: none;
+}
+
+.c0.mul-tabs .mul-tabs__nav--card .mul-tab--active {
+  color: #fff;
+  background-color: #fa220a;
+}
+
+.c0.mul-tabs .mul-tabs__line {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  z-index: 1;
+  height: 3px;
+  background-color: #fa220a;
+  border-radius: 3px;
+}
+
+.c0.mul-tabs .mul-tabs__track {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  will-change: left;
+}
+
+.c0.mul-tabs .mul-tabs__content--animated {
+  overflow: hidden;
+}
+
+.c0.mul-tabs--line .mul-tabs__wrap {
+  height: 44px;
+}
+
+.c0.mul-tabs--card > .mul-tabs__wrap {
+  height: 30px;
+}
+
+.c1.mul-tab {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0 4px;
+  color: #646566;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.c1.mul-tab .mul-tab__pane,
+.c1.mul-tab .mul-tab__pane-wrapper {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.c1.mul-tab .mul-tab__pane-wrapper--inactive {
+  height: 0;
+  overflow: visible;
+}
+
+.c1.mul-tab--active {
+  color: #323233;
+  font-weight: 500;
+}
+
+.c1.mul-tab--disabled {
+  color: #c8c9cc;
+  cursor: not-allowed;
+}
+
+.c1.mul-tab .mul-tab__text--ellipsis {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.c1.mul-tab .mul-tab__text-wrapper {
+  position: relative;
+}
+
+<div
+    class="c0 mul-tabs mul-tabs--line"
+  >
+    <div
+      class="mul-tabs__wrap mul-tabs__wrap--mul-hairline--top-bottom"
+    >
+      <div
+        class="mul-tabs__nav mul-tabs__nav--line"
+        role="tablist"
+        style="border-color: #ee0a24; background: white;"
+      >
+        <div
+          aria-selected="true"
+          class="c1 mul-tab mul-tab--active"
+          role="tab"
+        >
+          <span
+            class="mul-tab__text mul-tab__text--ellipsis"
+          >
+            标签1
+          </span>
+        </div>
+        <div
+          aria-selected="false"
+          class="c1 mul-tab"
+          role="tab"
+        >
+          <span
+            class="mul-tab__text mul-tab__text--ellipsis"
+          >
+            标签2
+          </span>
+        </div>
+        <div
+          aria-selected="false"
+          class="c1 mul-tab mul-tab--disabled"
+          role="tab"
+        >
+          <span
+            class="mul-tab__text mul-tab__text--ellipsis"
+          >
+            标签3
+          </span>
+        </div>
+        <div
+          class="mul-tabs__line"
+          style="background-color: rgb(238, 10, 36);"
+        />
+      </div>
+    </div>
+    <div
+      class="mul-tabs__content"
+    >
+      <div
+        class="c2 mul-tab__pane"
+        role="tabpanel"
+        style="display: none;"
+      >
+        内容1
+      </div>
+      <div
+        class="c2 mul-tab__pane"
+        role="tabpanel"
+        style="display: none;"
+      >
+        内容2
+      </div>
+      <div
+        class="c2 mul-tab__pane"
+        role="tabpanel"
+        style="display: none;"
+      >
+        内容3
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tab render navLeft & navRight 1`] = `
+<DocumentFragment>
+  .c3.mul-tab__pane-wrapper {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.c3.mul-tab__pane-wrapper--inactive {
+  height: 0;
+  overflow: visible;
+}
+
+.c0.mul-tabs {
+  position: relative;
+}
+
+.c0.mul-tabs .mul-tabs__wrap {
+  overflow: hidden;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--page-top {
+  position: fixed;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--content-bottom {
+  top: auto;
+  bottom: 0;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--scrollable .mul-tab {
+  -webkit-flex: 0 0 22%;
+  -ms-flex: 0 0 22%;
+  flex: 0 0 22%;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--scrollable .mul-tab--complete {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--scrollable .mul-tabs__nav {
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.c0.mul-tabs .mul-tabs__wrap--scrollable .mul-tabs__nav::-webkit-scrollbar {
+  display: none;
+}
+
+.c0.mul-tabs .mul-tabs__nav {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0.mul-tabs .mul-tabs__nav--line {
+  box-sizing: content-box;
+  height: 100%;
+  padding-bottom: 15px;
+}
+
+.c0.mul-tabs .mul-tabs__nav--card {
+  box-sizing: border-box;
+  height: 30px;
+  margin: 0 16px;
+  border: 1px solid #fa220a;
+  border-radius: 2px;
+}
+
+.c0.mul-tabs .mul-tabs__nav--card .mul-tab {
+  color: #fa220a;
+  border-right: 1px solid #fa220a;
+}
+
+.c0.mul-tabs .mul-tabs__nav--card .mul-tab:last-child {
+  border-right: none;
+}
+
+.c0.mul-tabs .mul-tabs__nav--card .mul-tab--active {
+  color: #fff;
+  background-color: #fa220a;
+}
+
+.c0.mul-tabs .mul-tabs__line {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  z-index: 1;
+  height: 3px;
+  background-color: #fa220a;
+  border-radius: 3px;
+}
+
+.c0.mul-tabs .mul-tabs__track {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  will-change: left;
+}
+
+.c0.mul-tabs .mul-tabs__content--animated {
+  overflow: hidden;
+}
+
+.c0.mul-tabs--line .mul-tabs__wrap {
+  height: 44px;
+}
+
+.c0.mul-tabs--card > .mul-tabs__wrap {
+  height: 30px;
+}
+
+.c1.mul-sticky .mul-sticky--fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.c2.mul-tab {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0 4px;
+  color: #646566;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.c2.mul-tab .mul-tab__pane,
+.c2.mul-tab .mul-tab__pane-wrapper {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.c2.mul-tab .mul-tab__pane-wrapper--inactive {
+  height: 0;
+  overflow: visible;
+}
+
+.c2.mul-tab--active {
+  color: #323233;
+  font-weight: 500;
+}
+
+.c2.mul-tab--disabled {
+  color: #c8c9cc;
+  cursor: not-allowed;
+}
+
+.c2.mul-tab .mul-tab__text--ellipsis {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.c2.mul-tab .mul-tab__text-wrapper {
+  position: relative;
+}
+
+<div
+    class="c0 mul-tabs mul-tabs--line"
+  >
+    <div
+      class="c1 mul-sticky"
+      style="height: auto;"
+    >
+      <div
+        class=""
+      >
+        <div
+          class="mul-tabs__wrap mul-tabs__wrap--mul-hairline--top-bottom"
+        >
+          <div
+            class="mul-tabs__nav mul-tabs__nav--line"
+            role="tablist"
+            style="border-color: #ee0a24; background: white;"
+          >
+            nav left
+            <div
+              aria-selected="true"
+              class="c2 mul-tab mul-tab--active"
+              role="tab"
+            >
+              <span
+                class="mul-tab__text mul-tab__text--ellipsis"
+              >
+                标签1
+              </span>
+            </div>
+            <div
+              aria-selected="false"
+              class="c2 mul-tab"
+              role="tab"
+            >
+              <span
+                class="mul-tab__text mul-tab__text--ellipsis"
+              >
+                标签2
+              </span>
+            </div>
+            <div
+              aria-selected="false"
+              class="c2 mul-tab"
+              role="tab"
+            >
+              <span
+                class="mul-tab__text mul-tab__text--ellipsis"
+              >
+                标签3
+              </span>
+            </div>
+            <div
+              class="mul-tabs__line"
+              style="background-color: rgb(238, 10, 36);"
+            />
+            nav right
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mul-tabs__content"
+    >
+      <div
+        class="c3 mul-tab__pane"
+        role="tabpanel"
+        style="display: block;"
+      >
+        内容1
+      </div>
+      <div
+        class="c3 mul-tab__pane"
+        role="tabpanel"
+        style="display: none;"
+      >
+        内容2
+      </div>
+      <div
+        class="c3 mul-tab__pane"
+        role="tabpanel"
+        style="display: none;"
+      >
+        内容3
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

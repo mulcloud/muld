@@ -131,6 +131,7 @@ const Popup: React.FC<React.PropsWithChildren<PopupProps>> = (props: PopupProps)
                     className={overlayClass}
                     customStyle={overlayStyle}
                     show={visible}
+                    duration={duration}
                     zIndex={zIndex || context.zIndex}
                     onClick={handleOverlayClick}
                 ></Overlay>
@@ -138,7 +139,7 @@ const Popup: React.FC<React.PropsWithChildren<PopupProps>> = (props: PopupProps)
             <CSSTransition
                 unmountOnExit
                 in={visible}
-                timeout={0}
+                timeout={duration * 1000}
                 classNames={transitionName}
                 onEntered={() => {
                     onOpened && onOpened();
@@ -147,31 +148,27 @@ const Popup: React.FC<React.PropsWithChildren<PopupProps>> = (props: PopupProps)
                     onClosed && onClosed();
                 }}
             >
-                {visible ? (
-                    <View
-                        className={classnames(
-                            bem({
-                                round,
-                                [position]: position,
-                                'safe-area-inset-bottom': safeAreaInsetBottom,
-                            }),
-                            className,
-                        )}
-                        style={wrapStyle}
-                        onClick={handleClick}
-                    >
-                        {props.children}
-                        {closeable && (
-                            <Icon
-                                name={closeIcon}
-                                className={classnames(bem('close-icon', closeIconPosition))}
-                                onClick={handleOverlayClick}
-                            />
-                        )}
-                    </View>
-                ) : (
-                    <span></span>
-                )}
+                <View
+                    className={classnames(
+                        bem({
+                            round,
+                            [position]: position,
+                            'safe-area-inset-bottom': safeAreaInsetBottom,
+                        }),
+                        className,
+                    )}
+                    style={wrapStyle}
+                    onClick={handleClick}
+                >
+                    {props.children}
+                    {closeable && (
+                        <Icon
+                            name={closeIcon}
+                            className={classnames(bem('close-icon', closeIconPosition))}
+                            onClick={handleOverlayClick}
+                        />
+                    )}
+                </View>
             </CSSTransition>
         </Portal>
     );

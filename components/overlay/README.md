@@ -52,7 +52,7 @@ const [show, setState] = React.useState(false);
 | --- | --- | --- | --- |
 | show | Whether to show overlay | _boolean_ | `false` |
 | zIndex | z-index | _number \| string_ | `1` |
-| duration | Animation duration | _number \| string_ | `300` |
+| duration | Animation duration | _number \| string_ | `0.3` |
 | className | ClassName | _string_ | - |
 | customStyle | Custom style | _object_ | - |
 | lockScroll | Whether to lock background scroll | _boolean_ | `true` |
