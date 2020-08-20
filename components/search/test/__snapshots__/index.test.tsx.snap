@@ -1,0 +1,1468 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search left slot 1`] = `
+<DocumentFragment>
+  .c0.mul-search {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  background-color: #fff;
+}
+
+.c0.mul-search .mul-search__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding-left: 8px;
+  background-color: #f7f8fa;
+  border-radius: 2px;
+}
+
+.c0.mul-search .mul-search__content--round {
+  border-radius: 999px;
+}
+
+.c0.mul-search .mul-search__label {
+  padding: 0 5px;
+  color: #323233;
+  font-size: 14px;
+  line-height: 34px;
+}
+
+.c0.mul-search .mul-cell {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 5px 8px 5px 0;
+  background-color: transparent;
+}
+
+.c0.mul-search .mul-cell .mul-cell__left-icon {
+  color: #969799;
+}
+
+.c0.mul-search--show-action {
+  padding-right: 0;
+}
+
+.c0.mul-search input::-webkit-search-decoration,
+.c0.mul-search input::-webkit-search-cancel-button,
+.c0.mul-search input::-webkit-search-results-button,
+.c0.mul-search input::-webkit-search-results-decoration {
+  display: none;
+}
+
+.c0.mul-search .mul-search__action {
+  padding: 0 8px;
+  color: #323233;
+  font-size: 14px;
+  line-height: 34px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0.mul-search .mul-search__action:active {
+  background-color: #f2f3f5;
+}
+
+.c1.mul-cell {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 16px;
+  overflow: hidden;
+  color: #323233;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #fff;
+}
+
+.c1.mul-cell:last-child::after,
+.c1.mul-cell--borderless::after {
+  display: none;
+}
+
+.c1.mul-cell::after {
+  position: absolute;
+  box-sizing: border-box;
+  content: ' ';
+  pointer-events: none;
+  right: 16px;
+  bottom: 0;
+  left: 16px;
+  border-bottom: 1px solid #ebedf0;
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.c1.mul-cell .mul-cell__label {
+  margin-top: 4px;
+  color: #969799;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.c1.mul-cell .mul-cell__title,
+.c1.mul-cell .mul-cell__value {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c1.mul-cell .mul-cell__value {
+  position: relative;
+  overflow: hidden;
+  color: #969799;
+  text-align: right;
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+
+.c1.mul-cell .mul-cell__value--alone {
+  color: #323233;
+  text-align: left;
+}
+
+.c1.mul-cell .mul-cell__left-icon,
+.c1.mul-cell .mul-cell__right-icon {
+  min-width: 1em;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c1.mul-cell .mul-cell__left-icon {
+  margin-right: 4px;
+}
+
+.c1.mul-cell .mul-cell__right-icon {
+  margin-left: 4px;
+  color: #969799;
+}
+
+.c1.mul-cell--clickable {
+  cursor: pointer;
+}
+
+.c1.mul-cell--clickable:active {
+  background-color: #f2f3f5;
+}
+
+.c1.mul-cell--required {
+  overflow: visible;
+}
+
+.c1.mul-cell--required::before {
+  position: absolute;
+  left: 8px;
+  color: #fa220a;
+  font-size: 14px;
+  content: '*';
+}
+
+.c1.mul-cell--center {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1.mul-cell--large {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c1.mul-cell--large .mul-cell__title {
+  font-size: 16px;
+}
+
+.c1.mul-cell--large .mul-cell__label {
+  font-size: 14px;
+}
+
+.c3.mul-icon {
+  position: relative;
+  display: inline-block;
+  font-family: 'muld-icon' !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.c3.mul-icon::before {
+  display: inline-block;
+}
+
+.c3.mul-icon .mul-icon__image {
+  width: 1em;
+  height: 1em;
+  object-fit: contain;
+}
+
+.c3.mul-icon-search::before {
+  content: '\\F0AF';
+}
+
+.c2 .mul-field__label {
+  -webkit-flex: none !important;
+  -ms-flex: none !important;
+  flex: none !important;
+  box-sizing: border-box;
+  width: 6.2em;
+  margin-right: 12px;
+  color: #646566;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.c2 .mul-field__label--center {
+  text-align: center;
+}
+
+.c2 .mul-field__label--right {
+  padding-right: 16px;
+  text-align: right;
+}
+
+.c2 .mul-field--disabled .mul-field__label {
+  color: #c8c9cc;
+}
+
+.c2 .mul-field__value {
+  overflow: visible;
+}
+
+.c2 .mul-field__body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 .mul-field__control {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  line-height: inherit;
+  text-align: left;
+  background-color: transparent;
+  border: 0;
+  resize: none;
+}
+
+.c2 .mul-field__control::-webkit-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c2 .mul-field__control::-moz-placeholder {
+  color: #c8c9cc;
+}
+
+.c2 .mul-field__control:-ms-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c2 .mul-field__control::placeholder {
+  color: #c8c9cc;
+}
+
+.c2 .mul-field__control:disabled {
+  color: #c8c9cc;
+  background-color: transparent;
+  cursor: not-allowed;
+  opacity: 1;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c2 .mul-field__control:-moz-read-only {
+  cursor: default;
+}
+
+.c2 .mul-field__control:read-only {
+  cursor: default;
+}
+
+.c2 .mul-field__control--center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c2 .mul-field__control--right {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.c2 .mul-field__control--custom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 24px;
+}
+
+.c2 .mul-field__control[type='date'],
+.c2 .mul-field__control[type='time'],
+.c2 .mul-field__control[type='datetime-local'] {
+  min-height: 24px;
+}
+
+.c2 .mul-field__control[type='search'] {
+  -webkit-appearance: none;
+}
+
+.c2 .mul-field__clear,
+.c2 .mul-field__icon,
+.c2 .mul-field__button,
+.c2 .mul-field__right-icon {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c2 .mul-field__clear,
+.c2 .mul-field__right-icon {
+  margin-right: -8px;
+  padding: 0 8px;
+  line-height: inherit;
+}
+
+.c2 .mul-field__clear {
+  color: #c8c9cc;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c2 .mul-field__left-icon .mul-icon,
+.c2 .mul-field__right-icon .mul-icon {
+  display: block;
+  min-width: 1em;
+  font-size: 16px;
+  line-height: inherit;
+}
+
+.c2 .mul-field__left-icon {
+  margin-right: 4px;
+}
+
+.c2 .mul-field__right-icon {
+  color: #969799;
+}
+
+.c2 .mul-field__button {
+  padding-left: 8px;
+}
+
+.c2 .mul-field__error-message {
+  color: #fa220a;
+  font-size: 12px;
+  text-align: left;
+}
+
+.c2 .mul-field__error-message--center {
+  text-align: center;
+}
+
+.c2 .mul-field__error-message--right {
+  text-align: right;
+}
+
+.c2 .mul-field__word-limit {
+  margin-top: 4px;
+  color: #646566;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+}
+
+.c2 .mul-field--error .mul-field__control,
+.c2 .mul-field--error .mul-field__control::-webkit-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c2 .mul-field--error .mul-field__control,
+.c2 .mul-field--error .mul-field__control::-moz-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c2 .mul-field--error .mul-field__control,
+.c2 .mul-field--error .mul-field__control:-ms-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c2 .mul-field--error .mul-field__control,
+.c2 .mul-field--error .mul-field__control::placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c2 .mul-field--min-height .mul-field__control {
+  min-height: 60px;
+}
+
+<div
+    class="c0 mul-search"
+  >
+    <div>
+      搜索
+    </div>
+    <div
+      class="mul-search__content mul-search__content--square"
+    >
+      <div
+        class="c1 mul-cell c2 mul-field"
+      >
+        <div
+          class="mul-field__left-icon"
+        >
+          <i
+            class="c3 mul-icon mul-icon-search"
+            content="F0AF"
+            name="search"
+            style="font-size: 14px;"
+          />
+        </div>
+        <div
+          class="mul-cell__value mul-cell__value--alone mul-field__value"
+        >
+          <div
+            class="mul-field__body"
+          >
+            <input
+              class="mul-field__control mul-field__control--left"
+              rows="3"
+              type="search"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Search leftIcon prop 1`] = `
+<DocumentFragment>
+  .c0.mul-search {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  background-color: #fff;
+}
+
+.c0.mul-search .mul-search__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding-left: 8px;
+  background-color: #f7f8fa;
+  border-radius: 2px;
+}
+
+.c0.mul-search .mul-search__content--round {
+  border-radius: 999px;
+}
+
+.c0.mul-search .mul-search__label {
+  padding: 0 5px;
+  color: #323233;
+  font-size: 14px;
+  line-height: 34px;
+}
+
+.c0.mul-search .mul-cell {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 5px 8px 5px 0;
+  background-color: transparent;
+}
+
+.c0.mul-search .mul-cell .mul-cell__left-icon {
+  color: #969799;
+}
+
+.c0.mul-search--show-action {
+  padding-right: 0;
+}
+
+.c0.mul-search input::-webkit-search-decoration,
+.c0.mul-search input::-webkit-search-cancel-button,
+.c0.mul-search input::-webkit-search-results-button,
+.c0.mul-search input::-webkit-search-results-decoration {
+  display: none;
+}
+
+.c0.mul-search .mul-search__action {
+  padding: 0 8px;
+  color: #323233;
+  font-size: 14px;
+  line-height: 34px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0.mul-search .mul-search__action:active {
+  background-color: #f2f3f5;
+}
+
+.c1.mul-cell {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 16px;
+  overflow: hidden;
+  color: #323233;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #fff;
+}
+
+.c1.mul-cell:last-child::after,
+.c1.mul-cell--borderless::after {
+  display: none;
+}
+
+.c1.mul-cell::after {
+  position: absolute;
+  box-sizing: border-box;
+  content: ' ';
+  pointer-events: none;
+  right: 16px;
+  bottom: 0;
+  left: 16px;
+  border-bottom: 1px solid #ebedf0;
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.c1.mul-cell .mul-cell__label {
+  margin-top: 4px;
+  color: #969799;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.c1.mul-cell .mul-cell__title,
+.c1.mul-cell .mul-cell__value {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c1.mul-cell .mul-cell__value {
+  position: relative;
+  overflow: hidden;
+  color: #969799;
+  text-align: right;
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+
+.c1.mul-cell .mul-cell__value--alone {
+  color: #323233;
+  text-align: left;
+}
+
+.c1.mul-cell .mul-cell__left-icon,
+.c1.mul-cell .mul-cell__right-icon {
+  min-width: 1em;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c1.mul-cell .mul-cell__left-icon {
+  margin-right: 4px;
+}
+
+.c1.mul-cell .mul-cell__right-icon {
+  margin-left: 4px;
+  color: #969799;
+}
+
+.c1.mul-cell--clickable {
+  cursor: pointer;
+}
+
+.c1.mul-cell--clickable:active {
+  background-color: #f2f3f5;
+}
+
+.c1.mul-cell--required {
+  overflow: visible;
+}
+
+.c1.mul-cell--required::before {
+  position: absolute;
+  left: 8px;
+  color: #fa220a;
+  font-size: 14px;
+  content: '*';
+}
+
+.c1.mul-cell--center {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1.mul-cell--large {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c1.mul-cell--large .mul-cell__title {
+  font-size: 16px;
+}
+
+.c1.mul-cell--large .mul-cell__label {
+  font-size: 14px;
+}
+
+.c3.mul-icon {
+  position: relative;
+  display: inline-block;
+  font-family: 'muld-icon' !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.c3.mul-icon::before {
+  display: inline-block;
+}
+
+.c3.mul-icon .mul-icon__image {
+  width: 1em;
+  height: 1em;
+  object-fit: contain;
+}
+
+.c3.mul-icon-setting-o::before {
+  content: '\\F0B4';
+}
+
+.c2 .mul-field__label {
+  -webkit-flex: none !important;
+  -ms-flex: none !important;
+  flex: none !important;
+  box-sizing: border-box;
+  width: 6.2em;
+  margin-right: 12px;
+  color: #646566;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.c2 .mul-field__label--center {
+  text-align: center;
+}
+
+.c2 .mul-field__label--right {
+  padding-right: 16px;
+  text-align: right;
+}
+
+.c2 .mul-field--disabled .mul-field__label {
+  color: #c8c9cc;
+}
+
+.c2 .mul-field__value {
+  overflow: visible;
+}
+
+.c2 .mul-field__body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 .mul-field__control {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  line-height: inherit;
+  text-align: left;
+  background-color: transparent;
+  border: 0;
+  resize: none;
+}
+
+.c2 .mul-field__control::-webkit-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c2 .mul-field__control::-moz-placeholder {
+  color: #c8c9cc;
+}
+
+.c2 .mul-field__control:-ms-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c2 .mul-field__control::placeholder {
+  color: #c8c9cc;
+}
+
+.c2 .mul-field__control:disabled {
+  color: #c8c9cc;
+  background-color: transparent;
+  cursor: not-allowed;
+  opacity: 1;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c2 .mul-field__control:-moz-read-only {
+  cursor: default;
+}
+
+.c2 .mul-field__control:read-only {
+  cursor: default;
+}
+
+.c2 .mul-field__control--center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c2 .mul-field__control--right {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.c2 .mul-field__control--custom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 24px;
+}
+
+.c2 .mul-field__control[type='date'],
+.c2 .mul-field__control[type='time'],
+.c2 .mul-field__control[type='datetime-local'] {
+  min-height: 24px;
+}
+
+.c2 .mul-field__control[type='search'] {
+  -webkit-appearance: none;
+}
+
+.c2 .mul-field__clear,
+.c2 .mul-field__icon,
+.c2 .mul-field__button,
+.c2 .mul-field__right-icon {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c2 .mul-field__clear,
+.c2 .mul-field__right-icon {
+  margin-right: -8px;
+  padding: 0 8px;
+  line-height: inherit;
+}
+
+.c2 .mul-field__clear {
+  color: #c8c9cc;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c2 .mul-field__left-icon .mul-icon,
+.c2 .mul-field__right-icon .mul-icon {
+  display: block;
+  min-width: 1em;
+  font-size: 16px;
+  line-height: inherit;
+}
+
+.c2 .mul-field__left-icon {
+  margin-right: 4px;
+}
+
+.c2 .mul-field__right-icon {
+  color: #969799;
+}
+
+.c2 .mul-field__button {
+  padding-left: 8px;
+}
+
+.c2 .mul-field__error-message {
+  color: #fa220a;
+  font-size: 12px;
+  text-align: left;
+}
+
+.c2 .mul-field__error-message--center {
+  text-align: center;
+}
+
+.c2 .mul-field__error-message--right {
+  text-align: right;
+}
+
+.c2 .mul-field__word-limit {
+  margin-top: 4px;
+  color: #646566;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+}
+
+.c2 .mul-field--error .mul-field__control,
+.c2 .mul-field--error .mul-field__control::-webkit-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c2 .mul-field--error .mul-field__control,
+.c2 .mul-field--error .mul-field__control::-moz-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c2 .mul-field--error .mul-field__control,
+.c2 .mul-field--error .mul-field__control:-ms-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c2 .mul-field--error .mul-field__control,
+.c2 .mul-field--error .mul-field__control::placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c2 .mul-field--min-height .mul-field__control {
+  min-height: 60px;
+}
+
+<div
+    class="c0 mul-search"
+  >
+    <div
+      class="mul-search__content mul-search__content--square"
+    >
+      <div
+        class="c1 mul-cell c2 mul-field"
+      >
+        <div
+          class="mul-field__left-icon"
+        >
+          <i
+            class="c3 mul-icon mul-icon-setting-o"
+            content="F0B4"
+            name="setting-o"
+            style="font-size: 14px;"
+          />
+        </div>
+        <div
+          class="mul-cell__value mul-cell__value--alone mul-field__value"
+        >
+          <div
+            class="mul-field__body"
+          >
+            <input
+              class="mul-field__control mul-field__control--left"
+              rows="3"
+              type="search"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Search rightIcon prop 1`] = `
+<DocumentFragment>
+  .c0.mul-search {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  background-color: #fff;
+}
+
+.c0.mul-search .mul-search__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding-left: 8px;
+  background-color: #f7f8fa;
+  border-radius: 2px;
+}
+
+.c0.mul-search .mul-search__content--round {
+  border-radius: 999px;
+}
+
+.c0.mul-search .mul-search__label {
+  padding: 0 5px;
+  color: #323233;
+  font-size: 14px;
+  line-height: 34px;
+}
+
+.c0.mul-search .mul-cell {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 5px 8px 5px 0;
+  background-color: transparent;
+}
+
+.c0.mul-search .mul-cell .mul-cell__left-icon {
+  color: #969799;
+}
+
+.c0.mul-search--show-action {
+  padding-right: 0;
+}
+
+.c0.mul-search input::-webkit-search-decoration,
+.c0.mul-search input::-webkit-search-cancel-button,
+.c0.mul-search input::-webkit-search-results-button,
+.c0.mul-search input::-webkit-search-results-decoration {
+  display: none;
+}
+
+.c0.mul-search .mul-search__action {
+  padding: 0 8px;
+  color: #323233;
+  font-size: 14px;
+  line-height: 34px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0.mul-search .mul-search__action:active {
+  background-color: #f2f3f5;
+}
+
+.c1.mul-cell {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 16px;
+  overflow: hidden;
+  color: #323233;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #fff;
+}
+
+.c1.mul-cell:last-child::after,
+.c1.mul-cell--borderless::after {
+  display: none;
+}
+
+.c1.mul-cell::after {
+  position: absolute;
+  box-sizing: border-box;
+  content: ' ';
+  pointer-events: none;
+  right: 16px;
+  bottom: 0;
+  left: 16px;
+  border-bottom: 1px solid #ebedf0;
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.c1.mul-cell .mul-cell__label {
+  margin-top: 4px;
+  color: #969799;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.c1.mul-cell .mul-cell__title,
+.c1.mul-cell .mul-cell__value {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c1.mul-cell .mul-cell__value {
+  position: relative;
+  overflow: hidden;
+  color: #969799;
+  text-align: right;
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+
+.c1.mul-cell .mul-cell__value--alone {
+  color: #323233;
+  text-align: left;
+}
+
+.c1.mul-cell .mul-cell__left-icon,
+.c1.mul-cell .mul-cell__right-icon {
+  min-width: 1em;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c1.mul-cell .mul-cell__left-icon {
+  margin-right: 4px;
+}
+
+.c1.mul-cell .mul-cell__right-icon {
+  margin-left: 4px;
+  color: #969799;
+}
+
+.c1.mul-cell--clickable {
+  cursor: pointer;
+}
+
+.c1.mul-cell--clickable:active {
+  background-color: #f2f3f5;
+}
+
+.c1.mul-cell--required {
+  overflow: visible;
+}
+
+.c1.mul-cell--required::before {
+  position: absolute;
+  left: 8px;
+  color: #fa220a;
+  font-size: 14px;
+  content: '*';
+}
+
+.c1.mul-cell--center {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1.mul-cell--large {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c1.mul-cell--large .mul-cell__title {
+  font-size: 16px;
+}
+
+.c1.mul-cell--large .mul-cell__label {
+  font-size: 14px;
+}
+
+.c3.mul-icon {
+  position: relative;
+  display: inline-block;
+  font-family: 'muld-icon' !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.c3.mul-icon::before {
+  display: inline-block;
+}
+
+.c3.mul-icon .mul-icon__image {
+  width: 1em;
+  height: 1em;
+  object-fit: contain;
+}
+
+.c3.mul-icon-search::before {
+  content: '\\F0AF';
+}
+
+.c4.mul-icon {
+  position: relative;
+  display: inline-block;
+  font-family: 'muld-icon' !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.c4.mul-icon::before {
+  display: inline-block;
+}
+
+.c4.mul-icon .mul-icon__image {
+  width: 1em;
+  height: 1em;
+  object-fit: contain;
+}
+
+.c4.mul-icon-setting-o::before {
+  content: '\\F0B4';
+}
+
+.c2 .mul-field__label {
+  -webkit-flex: none !important;
+  -ms-flex: none !important;
+  flex: none !important;
+  box-sizing: border-box;
+  width: 6.2em;
+  margin-right: 12px;
+  color: #646566;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.c2 .mul-field__label--center {
+  text-align: center;
+}
+
+.c2 .mul-field__label--right {
+  padding-right: 16px;
+  text-align: right;
+}
+
+.c2 .mul-field--disabled .mul-field__label {
+  color: #c8c9cc;
+}
+
+.c2 .mul-field__value {
+  overflow: visible;
+}
+
+.c2 .mul-field__body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 .mul-field__control {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  line-height: inherit;
+  text-align: left;
+  background-color: transparent;
+  border: 0;
+  resize: none;
+}
+
+.c2 .mul-field__control::-webkit-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c2 .mul-field__control::-moz-placeholder {
+  color: #c8c9cc;
+}
+
+.c2 .mul-field__control:-ms-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c2 .mul-field__control::placeholder {
+  color: #c8c9cc;
+}
+
+.c2 .mul-field__control:disabled {
+  color: #c8c9cc;
+  background-color: transparent;
+  cursor: not-allowed;
+  opacity: 1;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c2 .mul-field__control:-moz-read-only {
+  cursor: default;
+}
+
+.c2 .mul-field__control:read-only {
+  cursor: default;
+}
+
+.c2 .mul-field__control--center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c2 .mul-field__control--right {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.c2 .mul-field__control--custom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 24px;
+}
+
+.c2 .mul-field__control[type='date'],
+.c2 .mul-field__control[type='time'],
+.c2 .mul-field__control[type='datetime-local'] {
+  min-height: 24px;
+}
+
+.c2 .mul-field__control[type='search'] {
+  -webkit-appearance: none;
+}
+
+.c2 .mul-field__clear,
+.c2 .mul-field__icon,
+.c2 .mul-field__button,
+.c2 .mul-field__right-icon {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c2 .mul-field__clear,
+.c2 .mul-field__right-icon {
+  margin-right: -8px;
+  padding: 0 8px;
+  line-height: inherit;
+}
+
+.c2 .mul-field__clear {
+  color: #c8c9cc;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c2 .mul-field__left-icon .mul-icon,
+.c2 .mul-field__right-icon .mul-icon {
+  display: block;
+  min-width: 1em;
+  font-size: 16px;
+  line-height: inherit;
+}
+
+.c2 .mul-field__left-icon {
+  margin-right: 4px;
+}
+
+.c2 .mul-field__right-icon {
+  color: #969799;
+}
+
+.c2 .mul-field__button {
+  padding-left: 8px;
+}
+
+.c2 .mul-field__error-message {
+  color: #fa220a;
+  font-size: 12px;
+  text-align: left;
+}
+
+.c2 .mul-field__error-message--center {
+  text-align: center;
+}
+
+.c2 .mul-field__error-message--right {
+  text-align: right;
+}
+
+.c2 .mul-field__word-limit {
+  margin-top: 4px;
+  color: #646566;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+}
+
+.c2 .mul-field--error .mul-field__control,
+.c2 .mul-field--error .mul-field__control::-webkit-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c2 .mul-field--error .mul-field__control,
+.c2 .mul-field--error .mul-field__control::-moz-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c2 .mul-field--error .mul-field__control,
+.c2 .mul-field--error .mul-field__control:-ms-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c2 .mul-field--error .mul-field__control,
+.c2 .mul-field--error .mul-field__control::placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c2 .mul-field--min-height .mul-field__control {
+  min-height: 60px;
+}
+
+<div
+    class="c0 mul-search"
+  >
+    <div
+      class="mul-search__content mul-search__content--square"
+    >
+      <div
+        class="c1 mul-cell c2 mul-field"
+      >
+        <div
+          class="mul-field__left-icon"
+        >
+          <i
+            class="c3 mul-icon mul-icon-search"
+            content="F0AF"
+            name="search"
+            style="font-size: 14px;"
+          />
+        </div>
+        <div
+          class="mul-cell__value mul-cell__value--alone mul-field__value"
+        >
+          <div
+            class="mul-field__body"
+          >
+            <input
+              class="mul-field__control mul-field__control--left"
+              rows="3"
+              type="search"
+            />
+            <div
+              class="mul-field__right-icon"
+            >
+              <i
+                class="c4 mul-icon mul-icon-setting-o"
+                content="F0B4"
+                name="setting-o"
+                style="font-size: 14px;"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
