@@ -7,7 +7,7 @@ Used to select time, support date and time dimensions, usually used with the [Po
 ### Install
 
 ```js
-impot { DatetimePicker } from '@trillion/muld';
+import { DatetimePicker } from '@trillion/muld';
 ```
 
 ## Usage
