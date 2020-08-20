@@ -268,6 +268,18 @@ export const $notify: CSSProperties = {
     warning_background_color: `${$orange}`,
 };
 
+// Empty
+export const $empty = {
+    empty_padding: `${$padding_xl} 0`,
+    empty_image_size: '160px',
+    empty_description_margin_top: `${$padding_md}`,
+    empty_description_padding: '0 60px',
+    empty_description_color: `${$gray6}`,
+    empty_description_font_size: `${$font_size_md}`,
+    empty_description_line_height: `${$line_height_md}`,
+    empty_bottom_margin_top: '24px',
+};
+
 // Popup
 export const $popup = {
     popup_background_color: `${$white}`,
