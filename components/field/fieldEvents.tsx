@@ -11,18 +11,18 @@ export class FieldEvents {
         this.fieldGetters = fieldGetters;
     }
 
-    $emit(eventType: string, event: React.SyntheticEvent<Element>) {
+    $emit(eventType: string, event: React.SyntheticEvent<Element> | string) {
         const triggerEvent = Reflect.get(this.fieldGetters.props, eventType);
         if (triggerEvent) {
             triggerEvent(event);
         }
     }
 
-    updateValue = (value: any, trigger = 'onChange') => {
+    updateValue = (value: string | number, trigger = 'onChange') => {
         value = isDef(value) ? String(value) : '';
 
         // native maxlength not work when type is number
-        const maxlength = this.fieldGetters.maxLength;
+        const maxlength = Number(this.fieldGetters.maxLength);
         if (isDef(maxlength) && value.length > maxlength!) {
             value = value.slice(0, maxlength);
         }
@@ -74,13 +74,13 @@ export class FieldEvents {
         }
     };
 
-    onChange = (event: React.FormEvent<HTMLElement>) => {
+    onChange = (event: React.ChangeEvent<HTMLTextAreaElement | HTMLInputElement>) => {
         // not update value when composing
         if (this.isOnComposition) {
             return;
         }
 
-        this.updateValue((event.target as any).value);
+        this.updateValue(event.target.value);
     };
 
     onFocus = (event: React.FocusEvent<HTMLElement>) => {
@@ -102,7 +102,7 @@ export class FieldEvents {
         resetScroll();
     };
 
-    onClick = (event: React.MouseEvent<HTMLElement>) => {
+    onClick = (event: React.SyntheticEvent<HTMLElement>) => {
         this.$emit('onClick', event);
     };
 

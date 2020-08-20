@@ -11,18 +11,16 @@ export class FieldRules {
         this.fieldGetters = fieldGetters;
     }
 
-    runValidator = (value: FormValue, rule: Rule<FormValue>) => {
-        return new Promise((resolve) => {
+    runValidator(value: FormValue, rule: Rule<FormValue>) {
+        return new Promise<boolean>((resolve) => {
             const returnVal = rule.validator!(value, rule);
-
             if (isPromise(returnVal)) {
                 return returnVal.then(resolve);
             }
-
             resolve(returnVal);
             return null;
         });
-    };
+    }
 
     isEmptyValue = (value: FormValue) => {
         if (Array.isArray(value)) {
@@ -53,7 +51,7 @@ export class FieldRules {
 
     runRules = (rules: Rule<FormValue>[]) => {
         return rules.reduce(
-            (promise: Promise<any>, rule) =>
+            (promise: Promise<void | null>, rule) =>
                 promise.then(() => {
                     if (this.fieldGetters.validateFailed) {
                         return null;

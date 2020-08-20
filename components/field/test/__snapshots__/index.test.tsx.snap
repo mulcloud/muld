@@ -362,6 +362,30 @@ exports[`Field arrow-direction prop 1`] = `
   min-height: 60px;
 }
 
+.c1.mul-field--round {
+  padding: 0px !important;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.c1.mul-field--round__padding {
+  padding-left: 16px !important;
+}
+
+.c1.mul-field--round .mul-field__body--round {
+  background-color: #fff;
+  border: 1px solid #ebedf0;
+  border-radius: 999px;
+  padding: 10px 15px;
+}
+
+.c1.mul-field--round .mul-field__error-message {
+  padding: 0px 16px;
+}
+
 <div
     class="c0 mul-cell mul-cell--clickable c1 mul-field"
     role="button"
@@ -727,6 +751,30 @@ exports[`Field clearable prop 1`] = `
 
 .c1 .mul-field--min-height .mul-field__control {
   min-height: 60px;
+}
+
+.c1.mul-field--round {
+  padding: 0px !important;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.c1.mul-field--round__padding {
+  padding-left: 16px !important;
+}
+
+.c1.mul-field--round .mul-field__body--round {
+  background-color: #fff;
+  border: 1px solid #ebedf0;
+  border-radius: 999px;
+  padding: 10px 15px;
+}
+
+.c1.mul-field--round .mul-field__error-message {
+  padding: 0px 16px;
 }
 
 <div
@@ -1111,6 +1159,30 @@ exports[`Field clearable prop 2`] = `
   min-height: 60px;
 }
 
+.c1.mul-field--round {
+  padding: 0px !important;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.c1.mul-field--round__padding {
+  padding-left: 16px !important;
+}
+
+.c1.mul-field--round .mul-field__body--round {
+  background-color: #fff;
+  border: 1px solid #ebedf0;
+  border-radius: 999px;
+  padding: 10px 15px;
+}
+
+.c1.mul-field--round .mul-field__error-message {
+  padding: 0px 16px;
+}
+
 <div
     class="c0 mul-cell c1 mul-field"
   >
@@ -1476,8 +1548,32 @@ exports[`Field colon prop 1`] = `
   min-height: 60px;
 }
 
+.c1.mul-field--round {
+  padding: 0px !important;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.c1.mul-field--round__padding {
+  padding-left: 16px !important;
+}
+
+.c1.mul-field--round .mul-field__body--round {
+  background-color: #fff;
+  border: 1px solid #ebedf0;
+  border-radius: 999px;
+  padding: 10px 15px;
+}
+
+.c1.mul-field--round .mul-field__error-message {
+  padding: 0px 16px;
+}
+
 <div
-    class="c0 mul-cell c1 mul-field"
+    class="c0 mul-cell c1 mul-field mul-field--round__padding"
   >
     <div
       class="mul-cell__title mul-field__label"
@@ -1842,8 +1938,32 @@ exports[`Field label-class prop 1`] = `
   min-height: 60px;
 }
 
+.c1.mul-field--round {
+  padding: 0px !important;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.c1.mul-field--round__padding {
+  padding-left: 16px !important;
+}
+
+.c1.mul-field--round .mul-field__body--round {
+  background-color: #fff;
+  border: 1px solid #ebedf0;
+  border-radius: 999px;
+  padding: 10px 15px;
+}
+
+.c1.mul-field--round .mul-field__error-message {
+  padding: 0px 16px;
+}
+
 <div
-    class="c0 mul-cell c1 mul-field"
+    class="c0 mul-cell c1 mul-field mul-field--round__padding"
   >
     <div
       class="mul-cell__title mul-field__label custom-label-class"
@@ -2208,8 +2328,32 @@ exports[`Field label-width prop with unit 1`] = `
   min-height: 60px;
 }
 
+.c1.mul-field--round {
+  padding: 0px !important;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.c1.mul-field--round__padding {
+  padding-left: 16px !important;
+}
+
+.c1.mul-field--round .mul-field__body--round {
+  background-color: #fff;
+  border: 1px solid #ebedf0;
+  border-radius: 999px;
+  padding: 10px 15px;
+}
+
+.c1.mul-field--round .mul-field__error-message {
+  padding: 0px 16px;
+}
+
 <div
-    class="c0 mul-cell c1 mul-field"
+    class="c0 mul-cell c1 mul-field mul-field--round__padding"
   >
     <div
       class="mul-cell__title mul-field__label"
@@ -2575,8 +2719,32 @@ exports[`Field label-width prop without unit 1`] = `
   min-height: 60px;
 }
 
+.c1.mul-field--round {
+  padding: 0px !important;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.c1.mul-field--round__padding {
+  padding-left: 16px !important;
+}
+
+.c1.mul-field--round .mul-field__body--round {
+  background-color: #fff;
+  border: 1px solid #ebedf0;
+  border-radius: 999px;
+  padding: 10px 15px;
+}
+
+.c1.mul-field--round .mul-field__error-message {
+  padding: 0px 16px;
+}
+
 <div
-    class="c0 mul-cell c1 mul-field"
+    class="c0 mul-cell c1 mul-field mul-field--round__padding"
   >
     <div
       class="mul-cell__title mul-field__label"
@@ -2942,6 +3110,30 @@ exports[`Field name prop 1`] = `
   min-height: 60px;
 }
 
+.c1.mul-field--round {
+  padding: 0px !important;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.c1.mul-field--round__padding {
+  padding-left: 16px !important;
+}
+
+.c1.mul-field--round .mul-field__body--round {
+  background-color: #fff;
+  border: 1px solid #ebedf0;
+  border-radius: 999px;
+  padding: 10px 15px;
+}
+
+.c1.mul-field--round .mul-field__error-message {
+  padding: 0px 16px;
+}
+
 <div
     class="c0 mul-cell c1 mul-field"
   >
@@ -3300,6 +3492,30 @@ exports[`Field reach max word-limit 1`] = `
 
 .c1 .mul-field--min-height .mul-field__control {
   min-height: 60px;
+}
+
+.c1.mul-field--round {
+  padding: 0px !important;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.c1.mul-field--round__padding {
+  padding-left: 16px !important;
+}
+
+.c1.mul-field--round .mul-field__body--round {
+  background-color: #fff;
+  border: 1px solid #ebedf0;
+  border-radius: 999px;
+  padding: 10px 15px;
+}
+
+.c1.mul-field--round .mul-field__error-message {
+  padding: 0px 16px;
 }
 
 <div
@@ -3671,6 +3887,30 @@ exports[`Field reach max word-limit null 1`] = `
   min-height: 60px;
 }
 
+.c1.mul-field--round {
+  padding: 0px !important;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.c1.mul-field--round__padding {
+  padding-left: 16px !important;
+}
+
+.c1.mul-field--round .mul-field__body--round {
+  background-color: #fff;
+  border: 1px solid #ebedf0;
+  border-radius: 999px;
+  padding: 10px 15px;
+}
+
+.c1.mul-field--round .mul-field__error-message {
+  padding: 0px 16px;
+}
+
 <div
     class="c0 mul-cell c1 mul-field"
   >
@@ -4038,6 +4278,30 @@ exports[`Field reach max word-limit undefined 1`] = `
 
 .c1 .mul-field--min-height .mul-field__control {
   min-height: 60px;
+}
+
+.c1.mul-field--round {
+  padding: 0px !important;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.c1.mul-field--round__padding {
+  padding-left: 16px !important;
+}
+
+.c1.mul-field--round .mul-field__body--round {
+  background-color: #fff;
+  border: 1px solid #ebedf0;
+  border-radius: 999px;
+  padding: 10px 15px;
+}
+
+.c1.mul-field--round .mul-field__error-message {
+  padding: 0px 16px;
 }
 
 <div
@@ -4409,6 +4673,30 @@ exports[`Field render field has children 1`] = `
   min-height: 60px;
 }
 
+.c1.mul-field--round {
+  padding: 0px !important;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.c1.mul-field--round__padding {
+  padding-left: 16px !important;
+}
+
+.c1.mul-field--round .mul-field__body--round {
+  background-color: #fff;
+  border: 1px solid #ebedf0;
+  border-radius: 999px;
+  padding: 10px 15px;
+}
+
+.c1.mul-field--round .mul-field__error-message {
+  padding: 0px 16px;
+}
+
 <div
     class="c0 mul-cell c1 mul-field"
   >
@@ -4770,8 +5058,32 @@ exports[`Field render label 1`] = `
   min-height: 60px;
 }
 
+.c1.mul-field--round {
+  padding: 0px !important;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.c1.mul-field--round__padding {
+  padding-left: 16px !important;
+}
+
+.c1.mul-field--round .mul-field__body--round {
+  background-color: #fff;
+  border: 1px solid #ebedf0;
+  border-radius: 999px;
+  padding: 10px 15px;
+}
+
+.c1.mul-field--round .mul-field__error-message {
+  padding: 0px 16px;
+}
+
 <div
-    class="c0 mul-cell c1 mul-field"
+    class="c0 mul-cell c1 mul-field mul-field--round__padding"
   >
     <div
       class="mul-cell__title mul-field__label"
@@ -5136,6 +5448,30 @@ exports[`Field render textarea 1`] = `
   min-height: 60px;
 }
 
+.c1.mul-field--round {
+  padding: 0px !important;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.c1.mul-field--round__padding {
+  padding-left: 16px !important;
+}
+
+.c1.mul-field--round .mul-field__body--round {
+  background-color: #fff;
+  border: 1px solid #ebedf0;
+  border-radius: 999px;
+  padding: 10px 15px;
+}
+
+.c1.mul-field--round .mul-field__error-message {
+  padding: 0px 16px;
+}
+
 <div
     class="c0 mul-cell c1 mul-field"
   >
@@ -5493,6 +5829,30 @@ exports[`Field size prop 1`] = `
 
 .c1 .mul-field--min-height .mul-field__control {
   min-height: 60px;
+}
+
+.c1.mul-field--round {
+  padding: 0px !important;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.c1.mul-field--round__padding {
+  padding-left: 16px !important;
+}
+
+.c1.mul-field--round .mul-field__body--round {
+  background-color: #fff;
+  border: 1px solid #ebedf0;
+  border-radius: 999px;
+  padding: 10px 15px;
+}
+
+.c1.mul-field--round .mul-field__error-message {
+  padding: 0px 16px;
 }
 
 <div

@@ -172,7 +172,7 @@ describe('Form', () => {
         });
     });
 
-    test('rules prop - message function', async () => {
+    it('rules prop - message function', async () => {
         const onFailed = jest.fn();
         const { container } = render(
             <Form onFailed={onFailed}>
@@ -189,7 +189,7 @@ describe('Form', () => {
         });
     });
 
-    test('rules prop - formatter', async () => {
+    it('rules prop - formatter', async () => {
         const onFailed = jest.fn();
         const { container } = render(
             <Form onFailed={onFailed}>
@@ -219,7 +219,7 @@ describe('Form', () => {
         });
     });
 
-    test('rules prop - async validator', async () => {
+    it('rules prop - async validator', async () => {
         const onFailed = jest.fn();
         const { container } = render(
             <Form onFailed={onFailed}>

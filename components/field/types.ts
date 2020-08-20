@@ -6,7 +6,10 @@ interface AutoSize {
     minHeight: number;
 }
 
-export interface Props extends FieldEvents {
+type UpdateInputValue = (v: any) => void;
+type FieldEvent<T> = (v: T) => void;
+
+export interface Props {
     value: number | string;
     type: string;
     error: boolean;
@@ -43,6 +46,15 @@ export interface Props extends FieldEvents {
     arrowDirection: 'up' | 'down' | 'left' | 'right';
     rows: number | string;
     className: string;
+    round: boolean;
+    onChange: FieldEvent<string>;
+    onFocus: FieldEvent<React.FocusEvent<HTMLElement>>;
+    onBlur: FieldEvent<React.SyntheticEvent<HTMLElement>>;
+    onClear: FieldEvent<React.SyntheticEvent<HTMLElement>>;
+    onClick: FieldEvent<React.SyntheticEvent<HTMLElement>>;
+    onClickInput: FieldEvent<React.SyntheticEvent<HTMLElement>>;
+    onClickLeftIcon: FieldEvent<React.SyntheticEvent<HTMLElement>>;
+    onClickRightIcon: FieldEvent<React.SyntheticEvent<HTMLElement>>;
 }
 
 export type SetDispatch<T> = React.Dispatch<React.SetStateAction<T>>;
@@ -60,20 +72,20 @@ export interface StateParams {
     focused: boolean;
     validateFailed: boolean;
     validateMessage: string;
-    inputRef: React.RefObject<HTMLInputElement>;
+    inputRef: React.RefObject<HTMLInputElement | HTMLTextAreaElement>;
     currentViewRef: React.RefObject<HTMLDivElement>;
-    form: FormValidator;
+    form?: Partial<FormValidator>;
 }
 
-export interface InputProps {
+export interface InputProps extends FieldEvents {
     input: React.ReactNode;
     getProp: (k: string) => any;
-    updateInputValue: (v: any) => void;
+    updateInputValue: UpdateInputValue;
 }
 
 export interface MessageProps {
     errorMessage?: string;
-    form?: FormValidator;
+    form?: Partial<FormValidator>;
     validateMessage?: string;
     errorMessageAlign: string;
 }
@@ -104,14 +116,14 @@ export interface LabelProps {
 export interface Rule<T> {
     required?: boolean;
     message?: string | ((value: T, rule: Rule<T>) => string);
-    validator?: (value: T, rule: Rule<T>) => boolean | Promise<any>;
+    validator?: (value: T, rule: Rule<T>) => boolean | Promise<boolean>;
     pattern?: RegExp;
     trigger?: string;
     formatter?: (value: T, rule: Rule<T>) => any;
 }
 
 export interface Context {
-    updateInputValue?: (v: any) => void;
+    updateInputValue?: UpdateInputValue;
 }
 
 export interface ValidateError {

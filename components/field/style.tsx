@@ -7,9 +7,9 @@ export const View = styled(Cell as any)`
         &__label {
             flex: none !important;
             box-sizing: border-box;
-            width: ${$field.field_label_width};
-            margin-right: ${$field.field_label_margin_right};
-            color: ${$field.field_label_color};
+            width: ${$field.label_width};
+            margin-right: ${$field.label_margin_right};
+            color: ${$field.label_color};
             text-align: left;
             word-wrap: break-word;
 
@@ -25,7 +25,7 @@ export const View = styled(Cell as any)`
 
         &--disabled {
             .mul-field__label {
-                color: ${$field.field_disabled_text_color};
+                color: ${$field.disabled_text_color};
             }
         }
 
@@ -45,7 +45,7 @@ export const View = styled(Cell as any)`
             min-width: 0; // for flex-shrink in field__button
             margin: 0;
             padding: 0;
-            color: ${$field.field_input_text_color};
+            color: ${$field.input_text_color};
             line-height: inherit;
             text-align: left;
             background-color: transparent;
@@ -53,11 +53,11 @@ export const View = styled(Cell as any)`
             resize: none;
 
             &::placeholder {
-                color: ${$field.field_placeholder_text_color};
+                color: ${$field.placeholder_text_color};
             }
 
             &:disabled {
-                color: ${$field.field_input_disabled_text_color};
+                color: ${$field.input_disabled_text_color};
                 background-color: transparent;
                 cursor: not-allowed;
                 opacity: 1;
@@ -112,8 +112,8 @@ export const View = styled(Cell as any)`
         }
 
         &__clear {
-            color: ${$field.field_clear_icon_color};
-            font-size: ${$field.field_clear_icon_size};
+            color: ${$field.clear_icon_color};
+            font-size: ${$field.clear_icon_size};
             cursor: pointer;
         }
 
@@ -121,7 +121,7 @@ export const View = styled(Cell as any)`
         &__right-icon .mul-icon {
             display: block;
             min-width: 1em;
-            font-size: ${$field.field_icon_size};
+            font-size: ${$field.icon_size};
             line-height: inherit;
         }
 
@@ -130,7 +130,7 @@ export const View = styled(Cell as any)`
         }
 
         &__right-icon {
-            color: ${$field.field_right_icon_color};
+            color: ${$field.right_icon_color};
         }
 
         &__button {
@@ -138,8 +138,8 @@ export const View = styled(Cell as any)`
         }
 
         &__error-message {
-            color: ${$field.field_error_message_color};
-            font-size: ${$field.field_error_message_text_size};
+            color: ${$field.error_message_color};
+            font-size: ${$field.error_message_text_size};
             text-align: left;
 
             &--center {
@@ -153,9 +153,9 @@ export const View = styled(Cell as any)`
 
         &__word-limit {
             margin-top: ${$padding_base};
-            color: ${$field.field_word_limit_color};
-            font-size: ${$field.field_word_limit_font_size};
-            line-height: ${$field.field_word_limit_line_height};
+            color: ${$field.word_limit_color};
+            font-size: ${$field.word_limit_font_size};
+            line-height: ${$field.word_limit_line_height};
             text-align: right;
         }
 
@@ -163,7 +163,7 @@ export const View = styled(Cell as any)`
             .mul-field__control {
                 &,
                 &::placeholder {
-                    color: ${$field.field_input_error_text_color};
+                    color: ${$field.input_error_text_color};
                     -webkit-text-fill-color: currentColor;
                 }
             }
@@ -171,8 +171,30 @@ export const View = styled(Cell as any)`
 
         &--min-height {
             .mul-field__control {
-                min-height: ${$field.field_text_area_min_height};
+                min-height: ${$field.text_area_min_height};
             }
+        }
+    }
+
+    &.mul-field--round {
+        padding: 0px !important;
+        align-items: center;
+        background-color: transparent;
+
+        &__padding {
+            padding-left: 16px !important;
+        }
+
+        .mul-field__body {
+            &--round {
+                background-color: #fff;
+                border: 1px solid ${$field.cell_border_color};
+                border-radius: 999px;
+                padding: 10px 15px;
+            }
+        }
+        .mul-field__error-message {
+            padding: 0px 16px;
         }
     }
 `;

@@ -33,19 +33,12 @@ const defaultProps = {
     showErrorMessage: true,
 };
 
-export const FormContext = React.createContext<FormValidator>({} as any);
+export const FormContext = React.createContext<Partial<FormValidator>>({});
 
 export class FormValidator {
     props: Props;
 
     fields: FieldGetters[] = [];
-
-    $emit(eventType: string, v: any) {
-        const triggerEvent = Reflect.get(this.props, eventType);
-        if (triggerEvent) {
-            triggerEvent(v);
-        }
-    }
 
     constructor(props: Props) {
         this.props = props;
@@ -73,7 +66,7 @@ export class FormValidator {
 
             this.fields
                 .reduce(
-                    (promise: Promise<any>, field) =>
+                    (promise: Promise<void | null>, field) =>
                         promise.then(() => {
                             if (!errors.length) {
                                 return field.validate().then((error?: ValidateError) => {
@@ -123,7 +116,7 @@ export class FormValidator {
 
         if (matched.length) {
             return new Promise((resolve, reject) => {
-                matched[0].validate().then((error: any) => {
+                matched[0].validate().then((error) => {
                     if (error) {
                         reject(error);
                     } else {
@@ -180,13 +173,14 @@ export class FormValidator {
 
         this.validate()
             .then(() => {
-                this.$emit('onSubmit', values);
+                this.props.onSubmit && this.props.onSubmit(values);
             })
             .catch((errors) => {
-                this.$emit('onFailed', {
-                    values,
-                    errors,
-                });
+                this.props.onFailed &&
+                    this.props.onFailed({
+                        values,
+                        errors,
+                    });
 
                 if (this.props.scrollToError) {
                     this.scrollToField(errors[0].name);

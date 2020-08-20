@@ -18,7 +18,7 @@ import { createNS, withDefaultProps, isObject } from '../utils';
 
 const [bem] = createNS('field');
 
-export const FieldContext = React.createContext<Context>({} as any);
+export const FieldContext = React.createContext<Context>({});
 
 const defaultProps = {
     value: '',
@@ -108,7 +108,10 @@ const RightIcon: React.FC<RightIconProps> = (props) => {
     );
 };
 
-const Input = React.forwardRef<any, Partial<Props & InputProps>>(function ForwardInput(props, ref) {
+const Input = React.forwardRef<
+    HTMLInputElement | HTMLTextAreaElement,
+    Partial<InputProps & Omit<Props, 'onChange'>>
+>(function ForwardInput(props, ref) {
     const {
         type,
         input,
@@ -157,7 +160,7 @@ const Input = React.forwardRef<any, Partial<Props & InputProps>>(function Forwar
     };
 
     if (type === 'textarea') {
-        return <textarea ref={ref} {...inputProps} />;
+        return <textarea ref={ref as React.RefObject<HTMLTextAreaElement>} {...inputProps} />;
     }
 
     let inputType = type;
@@ -172,7 +175,14 @@ const Input = React.forwardRef<any, Partial<Props & InputProps>>(function Forwar
         inputType = 'tel';
         inputMode = 'numeric';
     }
-    return <input ref={ref} type={inputType} inputMode={inputMode} {...inputProps} />;
+    return (
+        <input
+            ref={ref as React.RefObject<HTMLInputElement>}
+            type={inputType}
+            inputMode={inputMode}
+            {...inputProps}
+        />
+    );
 });
 
 const Field: React.FC<React.PropsWithChildren<Partial<Props>>> = (props) => {
@@ -200,8 +210,9 @@ const Field: React.FC<React.PropsWithChildren<Partial<Props>>> = (props) => {
         iconPrefix,
         formatTrigger,
         className,
+        round,
     } = props;
-    const inputRef = React.useRef<HTMLInputElement>(null);
+    const inputRef = React.useRef<HTMLInputElement | HTMLTextAreaElement>(null);
     const currentViewRef = React.useRef<HTMLDivElement>(null);
     const fieldGetters = React.useRef<FieldGetters>();
     const preValue = React.useRef<number | string>();
@@ -268,14 +279,14 @@ const Field: React.FC<React.PropsWithChildren<Partial<Props>>> = (props) => {
     };
 
     React.useEffect(() => {
-        updateValue(_value, formatTrigger);
+        updateValue(_value!, formatTrigger);
         preValue.current = _value;
     }, []);
 
     React.useEffect(() => {
         adjustSize();
         if (preValue.current !== _value) {
-            updateValue(_value);
+            updateValue(_value!);
             preValue.current = _value;
         }
         fieldRules.resetValidation();
@@ -312,14 +323,16 @@ const Field: React.FC<React.PropsWithChildren<Partial<Props>>> = (props) => {
                 bem({
                     error: showError,
                     disabled,
+                    round,
                     [`label-${labelAlign}`]: labelAlign,
                     'min-height': type === 'textarea' && !autoSize,
+                    round__padding: !!label,
                 }),
                 className,
             )}
             onClick={onClick}
         >
-            <div ref={currentViewRef} className={bem('body')}>
+            <div ref={currentViewRef} className={bem('body', { round })}>
                 <Input
                     ref={inputRef}
                     {...props}
