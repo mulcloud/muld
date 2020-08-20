@@ -112,10 +112,6 @@ module.exports = {
                             //     path: 'checkbox',
                             //     title: 'Checkbox 复选框',
                             // },
-                            // {
-                            //     path: 'datetime-picker',
-                            //     title: 'DatetimePicker 时间选择',
-                            // },
                             {
                                 path: 'field',
                                 title: 'Field 输入框',
@@ -123,6 +119,10 @@ module.exports = {
                             {
                                 path: 'form',
                                 title: 'Form 表单',
+                            },
+                            {
+                                path: 'datetime-picker',
+                                title: 'DatetimePicker 时间选择',
                             },
                             // {
                             //     path: 'number-keyboard',
