@@ -234,10 +234,10 @@ module.exports = {
                             //     path: 'divider',
                             //     title: 'Divider 分割线',
                             // },
-                            // {
-                            //     path: 'empty',
-                            //     title: 'Empty 空状态',
-                            // },
+                            {
+                                path: 'empty',
+                                title: 'Empty 空状态',
+                            },
                             // {
                             //     path: 'image-preview',
                             //     title: 'ImagePreview 图片预览',
