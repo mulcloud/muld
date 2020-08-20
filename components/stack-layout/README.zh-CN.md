@@ -90,8 +90,8 @@ import { HStack, Spacer, VStack } from '@trillion/muld';
 | alignX | x轴方向的对齐方式 | _string_ | `left` |
 | alignY | y轴方向的对齐方式 | _string_ | `center` |
 | tag | 自定义元素标签 | _string_ | `div` |
-| spacing | 子元素间隔 | _boolean \| number_ | - |
-| padding | 填充间距 | _boolean \| number_ | - |
+| spacing | 子元素间隔 | _boolean \| number \| string_ | - |
+| padding | 填充间距 | _boolean \| number \| string_ | - |
 | frame | width、height | {width: number, height: number} | - |
 | border | border | { color: string; width: number; cornerRadius?: number } | - |
 | shadow | shadow | { color: string; radius: number; x: number; y: number } | - |
@@ -105,8 +105,8 @@ import { HStack, Spacer, VStack } from '@trillion/muld';
 | alignX | x轴方向的对齐方式 | _string_ | `left` |
 | alignY | y轴方向的对齐方式 | _string_ | `center` |
 | tag | 自定义元素标签 | _string_ | `div` |
-| spacing | 子元素间隔 | _boolean \| number_ | - |
-| padding | 填充间距 | _boolean \| number_ | - |
+| spacing | 子元素间隔 | _boolean \| number \| string_ | - |
+| padding | 填充间距 | _boolean \| number \| string_ | - |
 | frame | width、height | {width: number, height: number} | - |
 | border | border | { color: string; width: number; cornerRadius?: number } | - |
 | shadow | shadow | { color: string; radius: number; x: number; y: number } | - |
