@@ -356,10 +356,10 @@ module.exports = {
                             //     path: 'goods-action',
                             //     title: 'GoodsAction 商品导航',
                             // },
-                            // {
-                            //     path: 'submit-bar',
-                            //     title: 'SubmitBar 提交订单栏',
-                            // },
+                            {
+                                path: 'submit-bar',
+                                title: 'SubmitBar 提交订单栏',
+                            },
                             // {
                             //     path: 'sku',
                             //     title: 'Sku 商品规格',

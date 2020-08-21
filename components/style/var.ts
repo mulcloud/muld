@@ -480,3 +480,26 @@ export const $search: CSSProperties = {
     action_text_color: $text_color,
     action_font_size: $font_size_md,
 };
+// SubmitBar
+
+export const $submit_bar: CSSProperties = {
+    height: '50px',
+    z_index: 100,
+    background_color: $white,
+    button_width: '110px',
+    price_color: $red,
+    price_font_size: $font_size_md,
+    currency_font_size: $font_size_md,
+    text_color: $text_color,
+    text_font_size: $font_size_md,
+    tip_padding: `${$padding_xs} ${$padding_sm}`,
+    tip_font_size: $font_size_sm,
+    tip_line_height: 1.5,
+    tip_color: '#f56723',
+    tip_background_color: '#fff7cc',
+    tip_icon_size: '12px',
+    button_height: '40px',
+    padding: `0 ${$padding_md}`,
+    price_integer_font_size: '20px',
+    price_font_family: $price_integer_font_family,
+};
