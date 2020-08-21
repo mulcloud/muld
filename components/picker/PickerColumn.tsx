@@ -206,7 +206,7 @@ export const PickerColumn: React.FC<Props> = (props) => {
                         role="button"
                         tabIndex={disabled ? -1 : 0}
                         onClick={() => onClickItem(index)}
-                        className={`${className} ${bem('item', {
+                        className={`${className ? `${className} ` : ''}${bem('item', {
                             disabled,
                             selected: index === currentIndex,
                         })}`}

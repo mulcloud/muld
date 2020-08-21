@@ -439,6 +439,30 @@ exports[`Search left slot 1`] = `
   min-height: 60px;
 }
 
+.c2.mul-field--round {
+  padding: 0px !important;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.c2.mul-field--round__padding {
+  padding-left: 16px !important;
+}
+
+.c2.mul-field--round .mul-field__body--round {
+  background-color: #fff;
+  border: 1px solid #ebedf0;
+  border-radius: 999px;
+  padding: 10px 15px;
+}
+
+.c2.mul-field--round .mul-field__error-message {
+  padding: 0px 16px;
+}
+
 <div
     class="c0 mul-search"
   >
@@ -917,6 +941,30 @@ exports[`Search leftIcon prop 1`] = `
 
 .c2 .mul-field--min-height .mul-field__control {
   min-height: 60px;
+}
+
+.c2.mul-field--round {
+  padding: 0px !important;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.c2.mul-field--round__padding {
+  padding-left: 16px !important;
+}
+
+.c2.mul-field--round .mul-field__body--round {
+  background-color: #fff;
+  border: 1px solid #ebedf0;
+  border-radius: 999px;
+  padding: 10px 15px;
+}
+
+.c2.mul-field--round .mul-field__error-message {
+  padding: 0px 16px;
 }
 
 <div
@@ -1417,6 +1465,30 @@ exports[`Search rightIcon prop 1`] = `
 
 .c2 .mul-field--min-height .mul-field__control {
   min-height: 60px;
+}
+
+.c2.mul-field--round {
+  padding: 0px !important;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.c2.mul-field--round__padding {
+  padding-left: 16px !important;
+}
+
+.c2.mul-field--round .mul-field__body--round {
+  background-color: #fff;
+  border: 1px solid #ebedf0;
+  border-radius: 999px;
+  padding: 10px 15px;
+}
+
+.c2.mul-field--round .mul-field__error-message {
+  padding: 0px 16px;
 }
 
 <div

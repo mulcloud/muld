@@ -113,14 +113,21 @@ it('datehour type', () => {
 });
 
 it('max-date prop', () => {
-    const maxDate = new Date(2010, 5, 0, 0, 0);
-    const { asFragment } = render(<EventDemo type="date" maxDate={maxDate}></EventDemo>);
+    const date = new Date(2020, 10, 1, 0, 0);
+    const maxDate = new Date(2035, 5, 0, 0, 0);
+    const { asFragment } = render(
+        <EventDemo type="date" value={date} maxDate={maxDate}></EventDemo>,
+    );
     expect(asFragment()).toMatchSnapshot();
 });
 
 it('min-date prop', () => {
+    const date = new Date(2020, 10, 1, 0, 0);
+
     const minDate = new Date(2010, 5, 0, 0, 0);
-    const { asFragment } = render(<EventDemo type="date" minDate={minDate}></EventDemo>);
+    const { asFragment } = render(
+        <EventDemo type="date" value={date} minDate={minDate}></EventDemo>,
+    );
     expect(asFragment()).toMatchSnapshot();
 });
 

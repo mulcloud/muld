@@ -7,7 +7,7 @@
 ### 引入
 
 ```js
-import { Empty } from'@trillion/muld';
+import { Empty } from '@trillion/muld';
 ```
 
 ## 代码演示
