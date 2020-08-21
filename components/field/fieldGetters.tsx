@@ -44,8 +44,9 @@ export class FieldGetters {
         if (isDef(result)) {
             return result;
         }
-        if (this.form && isDef((this.form as any)[key])) {
-            return (this.form as any)[key];
+        const formPropVal = Reflect.get(this.form || {}, key);
+        if (formPropVal) {
+            return formPropVal;
         }
         return '';
     };

@@ -11,6 +11,7 @@ import FormatValue from './FormatValue';
 import Autosize from './Autosize';
 import ShowWordLimit from './ShowWordLimit';
 import InputAlign from './InputAlign';
+import RoundInput from './RoundInput';
 import { $padding_sm, $padding_md } from '../../style/var';
 
 export default function FieldDemo(): React.ReactNode {
@@ -26,6 +27,7 @@ export default function FieldDemo(): React.ReactNode {
             <Autosize />
             <ShowWordLimit />
             <InputAlign />
+            <RoundInput />
         </View>
     );
 }

@@ -6192,7 +6192,7 @@ exports[`max-date prop 1`] = `
         class="mul-picker-column"
       >
         <ul
-          style="transform: translate3d(0, -726px, 0); transition-duration: 200ms; transition-property: all;"
+          style="transform: translate3d(0, -770px, 0); transition-duration: 200ms; transition-property: all;"
         >
           <div>
             <li
@@ -6462,7 +6462,7 @@ exports[`max-date prop 1`] = `
           </div>
           <div>
             <li
-              class="undefined mul-picker-column__item mul-picker-column__item--selected"
+              class="undefined mul-picker-column__item"
               role="button"
               style="height: 44px;"
               tabindex="0"
@@ -6476,7 +6476,7 @@ exports[`max-date prop 1`] = `
           </div>
           <div>
             <li
-              class="undefined mul-picker-column__item"
+              class="undefined mul-picker-column__item mul-picker-column__item--selected"
               role="button"
               style="height: 44px;"
               tabindex="0"
@@ -9437,7 +9437,7 @@ exports[`min-date prop 1`] = `
         class="mul-picker-column"
       >
         <ul
-          style="transform: translate3d(0, -726px, 0); transition-duration: 200ms; transition-property: all;"
+          style="transform: translate3d(0, -770px, 0); transition-duration: 200ms; transition-property: all;"
         >
           <div>
             <li
@@ -9707,7 +9707,7 @@ exports[`min-date prop 1`] = `
           </div>
           <div>
             <li
-              class="undefined mul-picker-column__item mul-picker-column__item--selected"
+              class="undefined mul-picker-column__item"
               role="button"
               style="height: 44px;"
               tabindex="0"
@@ -9721,7 +9721,7 @@ exports[`min-date prop 1`] = `
           </div>
           <div>
             <li
-              class="undefined mul-picker-column__item"
+              class="undefined mul-picker-column__item mul-picker-column__item--selected"
               role="button"
               style="height: 44px;"
               tabindex="0"
