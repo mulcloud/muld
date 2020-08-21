@@ -464,3 +464,19 @@ export const $uploader: CSSProperties = {
     loading_icon_color: $white,
     disabled_opacity: $disabled_opacity,
 };
+
+// Search
+
+export const $search: CSSProperties = {
+    padding: `10px ${$padding_sm}`,
+    background_color: $white,
+    content_background_color: $gray1,
+    input_height: '34px',
+    label_padding: '0 5px',
+    label_color: $text_color,
+    label_font_size: $font_size_md,
+    left_icon_color: $gray6,
+    action_padding: `0 ${$padding_xs}`,
+    action_text_color: $text_color,
+    action_font_size: $font_size_md,
+};
