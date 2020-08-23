@@ -15,10 +15,11 @@ yarn add @trillion/muld --save
 
 ```
 // Using tsx
-import { Button } from 'vant-react';
+import { Button } from '@trillion/muld';
 
 // Using tm
 <import component="Button" from="@trillion/muld" />
+<import component="HStack" from="@trillion/muld" as="Panel"/>
 ```
 
 ## **Components completion status**
