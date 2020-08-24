@@ -413,6 +413,15 @@ export const $progress: CSSProperties = {
     pivot_background_color: `${$blue}`,
 };
 
+// Rate
+export const $rate: CSSProperties = {
+    rate_icon_size: `20px`,
+    rate_icon_gutter: `${$padding_base}`,
+    rate_icon_void_color: `${$gray5}`,
+    rate_icon_full_color: `${$red}`,
+    rate_icon_disabled_color: `${$gray5}`,
+};
+
 // Field
 export const $field: CSSProperties = {
     label_margin_right: `${$padding_sm}`,

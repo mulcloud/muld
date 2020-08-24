@@ -1,0 +1,275 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rate gutter prop 1`] = `
+.c1.mul-icon {
+  position: relative;
+  display: inline-block;
+  font-family: 'muld-icon' !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.c1.mul-icon::before {
+  display: inline-block;
+}
+
+.c1.mul-icon .mul-icon__image {
+  width: 1em;
+  height: 1em;
+  object-fit: contain;
+}
+
+.c1.mul-icon-star-o::before {
+  content: '\\F0C3';
+}
+
+.c0.mul-rate {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0.mul-rate .mul-rate__item {
+  position: relative;
+}
+
+.c0.mul-rate .mul-rate__item:not(:last-child) {
+  padding-right: 4px;
+}
+
+.c0.mul-rate .mul-rate__icon {
+  display: block;
+  width: 1em;
+  color: #c8c9cc;
+  font-size: 20px;
+}
+
+.c0.mul-rate .mul-rate__icon--half {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0.5em;
+  overflow: hidden;
+}
+
+.c0.mul-rate .mul-rate__icon--full {
+  color: #fa220a;
+}
+
+.c0.mul-rate .mul-rate__icon--disabled {
+  color: #c8c9cc;
+}
+
+.c0.mul-rate.mul-rate--disabled {
+  cursor: not-allowed;
+}
+
+.c0.mul-rate.mul-rate--readonly {
+  cursor: default;
+}
+
+<div>
+  <div
+    class="c0 mul-rate"
+  >
+    <div
+      class="mul-rate__item"
+      style="padding-right: 10px;"
+    >
+      <i
+        class="c1 mul-icon mul-icon-star-o mul-rate__icon"
+        content="F0C3"
+        name="star-o"
+        style="color: rgb(200, 201, 204); font-size: 20px;"
+      />
+    </div>
+    <div
+      class="mul-rate__item"
+      style="padding-right: 10px;"
+    >
+      <i
+        class="c1 mul-icon mul-icon-star-o mul-rate__icon"
+        content="F0C3"
+        name="star-o"
+        style="color: rgb(200, 201, 204); font-size: 20px;"
+      />
+    </div>
+    <div
+      class="mul-rate__item"
+      style="padding-right: 10px;"
+    >
+      <i
+        class="c1 mul-icon mul-icon-star-o mul-rate__icon"
+        content="F0C3"
+        name="star-o"
+        style="color: rgb(200, 201, 204); font-size: 20px;"
+      />
+    </div>
+    <div
+      class="mul-rate__item"
+      style="padding-right: 10px;"
+    >
+      <i
+        class="c1 mul-icon mul-icon-star-o mul-rate__icon"
+        content="F0C3"
+        name="star-o"
+        style="color: rgb(200, 201, 204); font-size: 20px;"
+      />
+    </div>
+    <div
+      class="mul-rate__item"
+    >
+      <i
+        class="c1 mul-icon mul-icon-star-o mul-rate__icon"
+        content="F0C3"
+        name="star-o"
+        style="color: rgb(200, 201, 204); font-size: 20px;"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Rate size prop 1`] = `
+.c1.mul-icon {
+  position: relative;
+  display: inline-block;
+  font-family: 'muld-icon' !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.c1.mul-icon::before {
+  display: inline-block;
+}
+
+.c1.mul-icon .mul-icon__image {
+  width: 1em;
+  height: 1em;
+  object-fit: contain;
+}
+
+.c1.mul-icon-star-o::before {
+  content: '\\F0C3';
+}
+
+.c0.mul-rate {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0.mul-rate .mul-rate__item {
+  position: relative;
+}
+
+.c0.mul-rate .mul-rate__item:not(:last-child) {
+  padding-right: 4px;
+}
+
+.c0.mul-rate .mul-rate__icon {
+  display: block;
+  width: 1em;
+  color: #c8c9cc;
+  font-size: 20px;
+}
+
+.c0.mul-rate .mul-rate__icon--half {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0.5em;
+  overflow: hidden;
+}
+
+.c0.mul-rate .mul-rate__icon--full {
+  color: #fa220a;
+}
+
+.c0.mul-rate .mul-rate__icon--disabled {
+  color: #c8c9cc;
+}
+
+.c0.mul-rate.mul-rate--disabled {
+  cursor: not-allowed;
+}
+
+.c0.mul-rate.mul-rate--readonly {
+  cursor: default;
+}
+
+<div>
+  <div
+    class="c0 mul-rate"
+  >
+    <div
+      class="mul-rate__item"
+      style="padding-right: 4px;"
+    >
+      <i
+        class="c1 mul-icon mul-icon-star-o mul-rate__icon"
+        content="F0C3"
+        name="star-o"
+        style="color: rgb(200, 201, 204); font-size: 2rem;"
+      />
+    </div>
+    <div
+      class="mul-rate__item"
+      style="padding-right: 4px;"
+    >
+      <i
+        class="c1 mul-icon mul-icon-star-o mul-rate__icon"
+        content="F0C3"
+        name="star-o"
+        style="color: rgb(200, 201, 204); font-size: 2rem;"
+      />
+    </div>
+    <div
+      class="mul-rate__item"
+      style="padding-right: 4px;"
+    >
+      <i
+        class="c1 mul-icon mul-icon-star-o mul-rate__icon"
+        content="F0C3"
+        name="star-o"
+        style="color: rgb(200, 201, 204); font-size: 2rem;"
+      />
+    </div>
+    <div
+      class="mul-rate__item"
+      style="padding-right: 4px;"
+    >
+      <i
+        class="c1 mul-icon mul-icon-star-o mul-rate__icon"
+        content="F0C3"
+        name="star-o"
+        style="color: rgb(200, 201, 204); font-size: 2rem;"
+      />
+    </div>
+    <div
+      class="mul-rate__item"
+    >
+      <i
+        class="c1 mul-icon mul-icon-star-o mul-rate__icon"
+        content="F0C3"
+        name="star-o"
+        style="color: rgb(200, 201, 204); font-size: 2rem;"
+      />
+    </div>
+  </div>
+</div>
+`;
