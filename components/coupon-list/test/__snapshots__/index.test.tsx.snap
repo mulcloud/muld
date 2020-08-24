@@ -1,0 +1,3696 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Coupon empty-image prop 1`] = `
+<DocumentFragment>
+  .c0.mul-coupon-list {
+  position: relative;
+  height: 100%;
+  background-color: #f7f8fa;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__field {
+  padding: 5px 0 5px 16px;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__field .mul-field__body {
+  height: 34px;
+  padding-left: 12px;
+  line-height: 34px;
+  background: #f7f8fa;
+  border-radius: 17px;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__field .mul-field__body::-webkit-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__field .mul-field__body::-moz-placeholder {
+  color: #c8c9cc;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__field .mul-field__body:-ms-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__field .mul-field__body::placeholder {
+  color: #c8c9cc;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__field .mul-field__clear {
+  margin-right: 0;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__exchange-bar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__exchange {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  height: 32px;
+  font-size: 16px;
+  line-height: calc(32px - 2px);
+  border: 0;
+}
+
+.c0.mul-coupon-list .mul-tabs__wrap {
+  box-shadow: 0 6px 12px -12px #969799;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__list {
+  box-sizing: border-box;
+  padding: 16px 0 24px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__list--with-bottom {
+  padding-bottom: calc(16px + 50px);
+}
+
+.c0.mul-coupon-list .mul-coupon-list__bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px 16px;
+  font-weight: 500;
+  background-color: #fff;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__close {
+  height: 40px;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__empty {
+  padding-top: 60px;
+  text-align: center;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__empty p {
+  margin: 16px 0;
+  color: #969799;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__empty img {
+  width: 200px;
+  height: 200px;
+}
+
+.c6.mul-tab__pane-wrapper {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.c6.mul-tab__pane-wrapper--inactive {
+  height: 0;
+  overflow: visible;
+}
+
+.c4.mul-tabs {
+  position: relative;
+}
+
+.c4.mul-tabs .mul-tabs__wrap {
+  overflow: hidden;
+}
+
+.c4.mul-tabs .mul-tabs__wrap--page-top {
+  position: fixed;
+}
+
+.c4.mul-tabs .mul-tabs__wrap--content-bottom {
+  top: auto;
+  bottom: 0;
+}
+
+.c4.mul-tabs .mul-tabs__wrap--scrollable .mul-tab {
+  -webkit-flex: 0 0 22%;
+  -ms-flex: 0 0 22%;
+  flex: 0 0 22%;
+}
+
+.c4.mul-tabs .mul-tabs__wrap--scrollable .mul-tab--complete {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c4.mul-tabs .mul-tabs__wrap--scrollable .mul-tabs__nav {
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.c4.mul-tabs .mul-tabs__wrap--scrollable .mul-tabs__nav::-webkit-scrollbar {
+  display: none;
+}
+
+.c4.mul-tabs .mul-tabs__nav {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c4.mul-tabs .mul-tabs__nav--line {
+  box-sizing: content-box;
+  height: 100%;
+  padding-bottom: 15px;
+}
+
+.c4.mul-tabs .mul-tabs__nav--card {
+  box-sizing: border-box;
+  height: 30px;
+  margin: 0 16px;
+  border: 1px solid #fa220a;
+  border-radius: 2px;
+}
+
+.c4.mul-tabs .mul-tabs__nav--card .mul-tab {
+  color: #fa220a;
+  border-right: 1px solid #fa220a;
+}
+
+.c4.mul-tabs .mul-tabs__nav--card .mul-tab:last-child {
+  border-right: none;
+}
+
+.c4.mul-tabs .mul-tabs__nav--card .mul-tab--active {
+  color: #fff;
+  background-color: #fa220a;
+}
+
+.c4.mul-tabs .mul-tabs__line {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  z-index: 1;
+  height: 3px;
+  background-color: #fa220a;
+  border-radius: 3px;
+}
+
+.c4.mul-tabs .mul-tabs__track {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  will-change: left;
+}
+
+.c4.mul-tabs .mul-tabs__content--animated {
+  overflow: hidden;
+}
+
+.c4.mul-tabs--line .mul-tabs__wrap {
+  height: 44px;
+}
+
+.c4.mul-tabs--card > .mul-tabs__wrap {
+  height: 30px;
+}
+
+.c5.mul-tab {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0 4px;
+  color: #646566;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.c5.mul-tab .mul-tab__pane,
+.c5.mul-tab .mul-tab__pane-wrapper {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.c5.mul-tab .mul-tab__pane-wrapper--inactive {
+  height: 0;
+  overflow: visible;
+}
+
+.c5.mul-tab--active {
+  color: #323233;
+  font-weight: 500;
+}
+
+.c5.mul-tab--disabled {
+  color: #c8c9cc;
+  cursor: not-allowed;
+}
+
+.c5.mul-tab .mul-tab__text--ellipsis {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.c5.mul-tab .mul-tab__text-wrapper {
+  position: relative;
+}
+
+.c1.mul-cell {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 16px;
+  overflow: hidden;
+  color: #323233;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #fff;
+}
+
+.c1.mul-cell:last-child::after,
+.c1.mul-cell--borderless::after {
+  display: none;
+}
+
+.c1.mul-cell::after {
+  position: absolute;
+  box-sizing: border-box;
+  content: ' ';
+  pointer-events: none;
+  right: 16px;
+  bottom: 0;
+  left: 16px;
+  border-bottom: 1px solid #ebedf0;
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.c1.mul-cell .mul-cell__label {
+  margin-top: 4px;
+  color: #969799;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.c1.mul-cell .mul-cell__title,
+.c1.mul-cell .mul-cell__value {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c1.mul-cell .mul-cell__value {
+  position: relative;
+  overflow: hidden;
+  color: #969799;
+  text-align: right;
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+
+.c1.mul-cell .mul-cell__value--alone {
+  color: #323233;
+  text-align: left;
+}
+
+.c1.mul-cell .mul-cell__left-icon,
+.c1.mul-cell .mul-cell__right-icon {
+  min-width: 1em;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c1.mul-cell .mul-cell__left-icon {
+  margin-right: 4px;
+}
+
+.c1.mul-cell .mul-cell__right-icon {
+  margin-left: 4px;
+  color: #969799;
+}
+
+.c1.mul-cell--clickable {
+  cursor: pointer;
+}
+
+.c1.mul-cell--clickable:active {
+  background-color: #f2f3f5;
+}
+
+.c1.mul-cell--required {
+  overflow: visible;
+}
+
+.c1.mul-cell--required::before {
+  position: absolute;
+  left: 8px;
+  color: #fa220a;
+  font-size: 14px;
+  content: '*';
+}
+
+.c1.mul-cell--center {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1.mul-cell--large {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c1.mul-cell--large .mul-cell__title {
+  font-size: 16px;
+}
+
+.c1.mul-cell--large .mul-cell__label {
+  font-size: 14px;
+}
+
+.c3.mul-button {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  height: 44px;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  border-radius: 2px;
+  cursor: pointer;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+  -webkit-appearance: none;
+}
+
+.c3.mul-button::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  border: inherit;
+  border-color: #000;
+  border-radius: inherit;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  opacity: 0;
+  content: ' ';
+}
+
+.c3.mul-button:active::before {
+  opacity: 0.1;
+}
+
+.c3.mul-button--loading::before,
+.c3.mul-button--disabled::before {
+  display: none;
+}
+
+.c3.mul-button--default {
+  color: #323233;
+  background-color: #fff;
+  border: 1px solid #ebedf0;
+}
+
+.c3.mul-button--primary {
+  color: #fff;
+  background-color: #07c160;
+  border: 1px solid #07c160;
+}
+
+.c3.mul-button--info {
+  color: #fff;
+  background-color: #108ee9;
+  border: 1px solid #108ee9;
+}
+
+.c3.mul-button--danger {
+  color: #fff;
+  background-color: #fa220a;
+  border: 1px solid #fa220a;
+}
+
+.c3.mul-button--warning {
+  color: #fff;
+  background-color: #ff976a;
+  border: 1px solid #ff976a;
+}
+
+.c3.mul-button--plain {
+  background-color: #fff;
+}
+
+.c3.mul-button--plain.mul-button--primary {
+  color: #07c160;
+}
+
+.c3.mul-button--plain.mul-button--info {
+  color: #108ee9;
+}
+
+.c3.mul-button--plain.mul-button--danger {
+  color: #fa220a;
+}
+
+.c3.mul-button--plain.mul-button--warning {
+  color: #ff976a;
+}
+
+.c3.mul-button--large {
+  width: 100%;
+  height: 50px;
+}
+
+.c3.mul-button--normal {
+  padding: 0 15px;
+  font-size: 14px;
+}
+
+.c3.mul-button--small {
+  height: 32px;
+  padding: 0 8px;
+  font-size: 12px;
+}
+
+.c3.mul-button__loading {
+  color: inherit;
+  font-size: inherit;
+}
+
+.c3.mul-button--mini {
+  height: 24px;
+  padding: 0 4px;
+  font-size: 10px;
+}
+
+.c3.mul-button--mini + .mul-button--mini {
+  margin-left: 4px;
+}
+
+.c3.mul-button--block {
+  display: block;
+  width: 100%;
+}
+
+.c3.mul-button--disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.c3.mul-button--loading {
+  cursor: default;
+}
+
+.c3.mul-button--round {
+  border-radius: 999px;
+}
+
+.c3.mul-button--square {
+  border-radius: 0;
+}
+
+.c3.mul-button .mul-button__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.c3.mul-button .mul-button__icon {
+  min-width: 1em;
+  font-size: 1.2em;
+  line-height: inherit;
+}
+
+.c3.mul-button .mul-button__icon + .mul-button__text,
+.c3.mul-button .mul-button__loading + .mul-button__text {
+  margin-left: 5px;
+}
+
+.c3.mul-button--hairline {
+  border-width: 0;
+}
+
+.c3.mul-button--hairline::after {
+  border-color: inherit;
+  border-radius: 4px;
+}
+
+.c3.mul-button--hairline.mul-button--round::after {
+  border-radius: 999px;
+}
+
+.c3.mul-button--hairline.mul-button--square::after {
+  border-radius: 0;
+}
+
+.c2 .mul-field__label {
+  -webkit-flex: none !important;
+  -ms-flex: none !important;
+  flex: none !important;
+  box-sizing: border-box;
+  width: 6.2em;
+  margin-right: 12px;
+  color: #646566;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.c2 .mul-field__label--center {
+  text-align: center;
+}
+
+.c2 .mul-field__label--right {
+  padding-right: 16px;
+  text-align: right;
+}
+
+.c2 .mul-field--disabled .mul-field__label {
+  color: #c8c9cc;
+}
+
+.c2 .mul-field__value {
+  overflow: visible;
+}
+
+.c2 .mul-field__body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 .mul-field__control {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  line-height: inherit;
+  text-align: left;
+  background-color: transparent;
+  border: 0;
+  resize: none;
+}
+
+.c2 .mul-field__control::-webkit-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c2 .mul-field__control::-moz-placeholder {
+  color: #c8c9cc;
+}
+
+.c2 .mul-field__control:-ms-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c2 .mul-field__control::placeholder {
+  color: #c8c9cc;
+}
+
+.c2 .mul-field__control:disabled {
+  color: #c8c9cc;
+  background-color: transparent;
+  cursor: not-allowed;
+  opacity: 1;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c2 .mul-field__control:-moz-read-only {
+  cursor: default;
+}
+
+.c2 .mul-field__control:read-only {
+  cursor: default;
+}
+
+.c2 .mul-field__control--center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c2 .mul-field__control--right {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.c2 .mul-field__control--custom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 24px;
+}
+
+.c2 .mul-field__control[type='date'],
+.c2 .mul-field__control[type='time'],
+.c2 .mul-field__control[type='datetime-local'] {
+  min-height: 24px;
+}
+
+.c2 .mul-field__control[type='search'] {
+  -webkit-appearance: none;
+}
+
+.c2 .mul-field__clear,
+.c2 .mul-field__icon,
+.c2 .mul-field__button,
+.c2 .mul-field__right-icon {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c2 .mul-field__clear,
+.c2 .mul-field__right-icon {
+  margin-right: -8px;
+  padding: 0 8px;
+  line-height: inherit;
+}
+
+.c2 .mul-field__clear {
+  color: #c8c9cc;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c2 .mul-field__left-icon .mul-icon,
+.c2 .mul-field__right-icon .mul-icon {
+  display: block;
+  min-width: 1em;
+  font-size: 16px;
+  line-height: inherit;
+}
+
+.c2 .mul-field__left-icon {
+  margin-right: 4px;
+}
+
+.c2 .mul-field__right-icon {
+  color: #969799;
+}
+
+.c2 .mul-field__button {
+  padding-left: 8px;
+}
+
+.c2 .mul-field__error-message {
+  color: #fa220a;
+  font-size: 12px;
+  text-align: left;
+}
+
+.c2 .mul-field__error-message--center {
+  text-align: center;
+}
+
+.c2 .mul-field__error-message--right {
+  text-align: right;
+}
+
+.c2 .mul-field__word-limit {
+  margin-top: 4px;
+  color: #646566;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+}
+
+.c2 .mul-field--error .mul-field__control,
+.c2 .mul-field--error .mul-field__control::-webkit-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c2 .mul-field--error .mul-field__control,
+.c2 .mul-field--error .mul-field__control::-moz-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c2 .mul-field--error .mul-field__control,
+.c2 .mul-field--error .mul-field__control:-ms-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c2 .mul-field--error .mul-field__control,
+.c2 .mul-field--error .mul-field__control::placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c2 .mul-field--min-height .mul-field__control {
+  min-height: 60px;
+}
+
+.c2.mul-field--round {
+  padding: 0px !important;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.c2.mul-field--round__padding {
+  padding-left: 16px !important;
+}
+
+.c2.mul-field--round .mul-field__body--round {
+  background-color: #fff;
+  border: 1px solid #ebedf0;
+  border-radius: 999px;
+  padding: 10px 15px;
+}
+
+.c2.mul-field--round .mul-field__error-message {
+  padding: 0px 16px;
+}
+
+<div
+    class="c0 mul-coupon-list"
+  >
+    <div
+      class="mul-coupon-list__exchange-bar"
+    >
+      <div
+        class="c1 mul-cell c2 mul-field mul-coupon-list__field"
+      >
+        <div
+          class="mul-cell__value mul-cell__value--alone mul-field__value"
+        >
+          <div
+            class="mul-field__body"
+          >
+            <input
+              class="mul-field__control"
+              placeholder="请输入优惠码"
+              rows="3"
+              type="text"
+            />
+          </div>
+        </div>
+      </div>
+      <button
+        class="c3 mul-coupon-list__exchange mul-button mul-button--danger mul-button--normal mul-button--plain mul-button--disabled"
+        disabled=""
+      >
+        <div
+          class="mul-button__content"
+        >
+          <span
+            class="mul-button__text"
+          >
+            兑换
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="c4 mul-tabs mul-tabs--line"
+    >
+      <div
+        class="mul-tabs__wrap"
+      >
+        <div
+          class="mul-tabs__nav mul-tabs__nav--line"
+          role="tablist"
+          style="border-color: #ee0a24; background: white;"
+        >
+          <div
+            aria-selected="true"
+            class="c5 mul-tab mul-tab--active"
+            role="tab"
+          >
+            <span
+              class="mul-tab__text mul-tab__text--ellipsis"
+            >
+              可用 (0)
+            </span>
+          </div>
+          <div
+            aria-selected="false"
+            class="c5 mul-tab"
+            role="tab"
+          >
+            <span
+              class="mul-tab__text mul-tab__text--ellipsis"
+            >
+              不可用 (0)
+            </span>
+          </div>
+          <div
+            class="mul-tabs__line"
+            style="background-color: rgb(238, 10, 36);"
+          />
+        </div>
+      </div>
+      <div
+        class="mul-tabs__content"
+      >
+        <div
+          class="c6 mul-tab__pane"
+          role="tabpanel"
+          style="display: block;"
+        >
+          <div
+            class="mul-coupon-list__list mul-coupon-list__list--with-bottom"
+            style="height: 628px;"
+          >
+            <div
+              class="mul-coupon-list__empty"
+            >
+              <img
+                src="https://img.yzcdn.com/xxx.png"
+              />
+              <p>
+                暂无优惠券
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="c6 mul-tab__pane"
+          role="tabpanel"
+          style="display: none;"
+        >
+          <div
+            class="mul-coupon-list__list mul-coupon-list__list--with-bottom"
+            style="height: 628px;"
+          >
+            <div
+              class="mul-coupon-list__empty"
+            >
+              <img
+                src="https://img.yzcdn.com/xxx.png"
+              />
+              <p>
+                暂无优惠券
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mul-coupon-list__bottom"
+    >
+      <button
+        class="c3 mul-coupon-list__close mul-button mul-button--danger mul-button--normal mul-button--block mul-button--round"
+      >
+        <div
+          class="mul-button__content"
+        >
+          <span
+            class="mul-button__text"
+          >
+            不使用优惠券
+          </span>
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Coupon render coupon list 1`] = `
+<DocumentFragment>
+  .c7.mul-coupon {
+  margin: 0 12px 12px;
+  overflow: hidden;
+  position: relative;
+  background-color: #fee9e6;
+  color: #fa220a;
+}
+
+.c7.mul-coupon:active {
+  background-color: #f2f3f5;
+}
+
+.c7.mul-coupon::before,
+.c7.mul-coupon::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.c7.mul-coupon::before {
+  right: 88px;
+  top: -5px;
+}
+
+.c7.mul-coupon::after {
+  right: 88px;
+  bottom: -5px;
+}
+
+.c7.mul-coupon .mul-coupon__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 84px;
+  padding: 14px 0;
+  padding-right: 32px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c7.mul-coupon .mul-coupon__head {
+  position: relative;
+  min-width: 96px;
+  padding: 0 16px;
+  color: #fa220a;
+}
+
+.c7.mul-coupon .mul-coupon__title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+}
+
+.c7.mul-coupon .mul-coupon__amount,
+.c7.mul-coupon .mul-coupon__condition,
+.c7.mul-coupon .mul-coupon__name,
+.c7.mul-coupon .mul-coupon__valid {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c7.mul-coupon .mul-coupon__amount {
+  margin-bottom: 6px;
+  font-weight: 600;
+  font-size: 35px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c7.mul-coupon .mul-coupon__amount span {
+  font-weight: normal;
+  font-size: 40%;
+}
+
+.c7.mul-coupon .mul-coupon__amount span:not(:empty) {
+  margin-left: 2px;
+}
+
+.c7.mul-coupon .mul-coupon__condition {
+  font-size: 12px;
+  line-height: 16px;
+  white-space: pre-wrap;
+}
+
+.c7.mul-coupon .mul-coupon__currency {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.c7.mul-coupon .mul-coupon__body {
+  position: relative;
+  border-radius: 0 8px 8px 0;
+  border-left-style: dashed;
+  border-width: 1px;
+  padding: 35px 0px 35px 13px;
+}
+
+.c7.mul-coupon .mul-coupon__name {
+  margin-bottom: 6px;
+  margin-left: 5px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.c7.mul-coupon .mul-coupon__valid {
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.c7.mul-coupon .mul-coupon__corner {
+  position: absolute;
+  top: 0;
+  right: 16px;
+  bottom: 0;
+}
+
+.c7.mul-coupon .mul-coupon__description {
+  padding: 8px 16px;
+  font-size: 12px;
+  border-top: 1px dashed #ebedf0;
+}
+
+.c7.mul-coupon .mul-coupon__use {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.c7.mul-coupon--disabled {
+  color: #bbbbbb;
+  background-color: #dddddd;
+}
+
+.c7.mul-coupon--disabled:active {
+  background-color: #dddddd;
+}
+
+.c7.mul-coupon--disabled .mul-coupon-item__content {
+  height: '74px';
+}
+
+.c7.mul-coupon--disabled .mul-coupon__head {
+  color: inherit;
+}
+
+.c0.mul-coupon-list {
+  position: relative;
+  height: 100%;
+  background-color: #f7f8fa;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__field {
+  padding: 5px 0 5px 16px;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__field .mul-field__body {
+  height: 34px;
+  padding-left: 12px;
+  line-height: 34px;
+  background: #f7f8fa;
+  border-radius: 17px;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__field .mul-field__body::-webkit-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__field .mul-field__body::-moz-placeholder {
+  color: #c8c9cc;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__field .mul-field__body:-ms-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__field .mul-field__body::placeholder {
+  color: #c8c9cc;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__field .mul-field__clear {
+  margin-right: 0;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__exchange-bar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__exchange {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  height: 32px;
+  font-size: 16px;
+  line-height: calc(32px - 2px);
+  border: 0;
+}
+
+.c0.mul-coupon-list .mul-tabs__wrap {
+  box-shadow: 0 6px 12px -12px #969799;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__list {
+  box-sizing: border-box;
+  padding: 16px 0 24px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__list--with-bottom {
+  padding-bottom: calc(16px + 50px);
+}
+
+.c0.mul-coupon-list .mul-coupon-list__bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px 16px;
+  font-weight: 500;
+  background-color: #fff;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__close {
+  height: 40px;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__empty {
+  padding-top: 60px;
+  text-align: center;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__empty p {
+  margin: 16px 0;
+  color: #969799;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__empty img {
+  width: 200px;
+  height: 200px;
+}
+
+.c6.mul-tab__pane-wrapper {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.c6.mul-tab__pane-wrapper--inactive {
+  height: 0;
+  overflow: visible;
+}
+
+.c4.mul-tabs {
+  position: relative;
+}
+
+.c4.mul-tabs .mul-tabs__wrap {
+  overflow: hidden;
+}
+
+.c4.mul-tabs .mul-tabs__wrap--page-top {
+  position: fixed;
+}
+
+.c4.mul-tabs .mul-tabs__wrap--content-bottom {
+  top: auto;
+  bottom: 0;
+}
+
+.c4.mul-tabs .mul-tabs__wrap--scrollable .mul-tab {
+  -webkit-flex: 0 0 22%;
+  -ms-flex: 0 0 22%;
+  flex: 0 0 22%;
+}
+
+.c4.mul-tabs .mul-tabs__wrap--scrollable .mul-tab--complete {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c4.mul-tabs .mul-tabs__wrap--scrollable .mul-tabs__nav {
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.c4.mul-tabs .mul-tabs__wrap--scrollable .mul-tabs__nav::-webkit-scrollbar {
+  display: none;
+}
+
+.c4.mul-tabs .mul-tabs__nav {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c4.mul-tabs .mul-tabs__nav--line {
+  box-sizing: content-box;
+  height: 100%;
+  padding-bottom: 15px;
+}
+
+.c4.mul-tabs .mul-tabs__nav--card {
+  box-sizing: border-box;
+  height: 30px;
+  margin: 0 16px;
+  border: 1px solid #fa220a;
+  border-radius: 2px;
+}
+
+.c4.mul-tabs .mul-tabs__nav--card .mul-tab {
+  color: #fa220a;
+  border-right: 1px solid #fa220a;
+}
+
+.c4.mul-tabs .mul-tabs__nav--card .mul-tab:last-child {
+  border-right: none;
+}
+
+.c4.mul-tabs .mul-tabs__nav--card .mul-tab--active {
+  color: #fff;
+  background-color: #fa220a;
+}
+
+.c4.mul-tabs .mul-tabs__line {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  z-index: 1;
+  height: 3px;
+  background-color: #fa220a;
+  border-radius: 3px;
+}
+
+.c4.mul-tabs .mul-tabs__track {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  will-change: left;
+}
+
+.c4.mul-tabs .mul-tabs__content--animated {
+  overflow: hidden;
+}
+
+.c4.mul-tabs--line .mul-tabs__wrap {
+  height: 44px;
+}
+
+.c4.mul-tabs--card > .mul-tabs__wrap {
+  height: 30px;
+}
+
+.c5.mul-tab {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0 4px;
+  color: #646566;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.c5.mul-tab .mul-tab__pane,
+.c5.mul-tab .mul-tab__pane-wrapper {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.c5.mul-tab .mul-tab__pane-wrapper--inactive {
+  height: 0;
+  overflow: visible;
+}
+
+.c5.mul-tab--active {
+  color: #323233;
+  font-weight: 500;
+}
+
+.c5.mul-tab--disabled {
+  color: #c8c9cc;
+  cursor: not-allowed;
+}
+
+.c5.mul-tab .mul-tab__text--ellipsis {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.c5.mul-tab .mul-tab__text-wrapper {
+  position: relative;
+}
+
+.c1.mul-cell {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 16px;
+  overflow: hidden;
+  color: #323233;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #fff;
+}
+
+.c1.mul-cell:last-child::after,
+.c1.mul-cell--borderless::after {
+  display: none;
+}
+
+.c1.mul-cell::after {
+  position: absolute;
+  box-sizing: border-box;
+  content: ' ';
+  pointer-events: none;
+  right: 16px;
+  bottom: 0;
+  left: 16px;
+  border-bottom: 1px solid #ebedf0;
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.c1.mul-cell .mul-cell__label {
+  margin-top: 4px;
+  color: #969799;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.c1.mul-cell .mul-cell__title,
+.c1.mul-cell .mul-cell__value {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c1.mul-cell .mul-cell__value {
+  position: relative;
+  overflow: hidden;
+  color: #969799;
+  text-align: right;
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+
+.c1.mul-cell .mul-cell__value--alone {
+  color: #323233;
+  text-align: left;
+}
+
+.c1.mul-cell .mul-cell__left-icon,
+.c1.mul-cell .mul-cell__right-icon {
+  min-width: 1em;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c1.mul-cell .mul-cell__left-icon {
+  margin-right: 4px;
+}
+
+.c1.mul-cell .mul-cell__right-icon {
+  margin-left: 4px;
+  color: #969799;
+}
+
+.c1.mul-cell--clickable {
+  cursor: pointer;
+}
+
+.c1.mul-cell--clickable:active {
+  background-color: #f2f3f5;
+}
+
+.c1.mul-cell--required {
+  overflow: visible;
+}
+
+.c1.mul-cell--required::before {
+  position: absolute;
+  left: 8px;
+  color: #fa220a;
+  font-size: 14px;
+  content: '*';
+}
+
+.c1.mul-cell--center {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1.mul-cell--large {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c1.mul-cell--large .mul-cell__title {
+  font-size: 16px;
+}
+
+.c1.mul-cell--large .mul-cell__label {
+  font-size: 14px;
+}
+
+.c3.mul-button {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  height: 44px;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  border-radius: 2px;
+  cursor: pointer;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+  -webkit-appearance: none;
+}
+
+.c3.mul-button::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  border: inherit;
+  border-color: #000;
+  border-radius: inherit;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  opacity: 0;
+  content: ' ';
+}
+
+.c3.mul-button:active::before {
+  opacity: 0.1;
+}
+
+.c3.mul-button--loading::before,
+.c3.mul-button--disabled::before {
+  display: none;
+}
+
+.c3.mul-button--default {
+  color: #323233;
+  background-color: #fff;
+  border: 1px solid #ebedf0;
+}
+
+.c3.mul-button--primary {
+  color: #fff;
+  background-color: #07c160;
+  border: 1px solid #07c160;
+}
+
+.c3.mul-button--info {
+  color: #fff;
+  background-color: #108ee9;
+  border: 1px solid #108ee9;
+}
+
+.c3.mul-button--danger {
+  color: #fff;
+  background-color: #fa220a;
+  border: 1px solid #fa220a;
+}
+
+.c3.mul-button--warning {
+  color: #fff;
+  background-color: #ff976a;
+  border: 1px solid #ff976a;
+}
+
+.c3.mul-button--plain {
+  background-color: #fff;
+}
+
+.c3.mul-button--plain.mul-button--primary {
+  color: #07c160;
+}
+
+.c3.mul-button--plain.mul-button--info {
+  color: #108ee9;
+}
+
+.c3.mul-button--plain.mul-button--danger {
+  color: #fa220a;
+}
+
+.c3.mul-button--plain.mul-button--warning {
+  color: #ff976a;
+}
+
+.c3.mul-button--large {
+  width: 100%;
+  height: 50px;
+}
+
+.c3.mul-button--normal {
+  padding: 0 15px;
+  font-size: 14px;
+}
+
+.c3.mul-button--small {
+  height: 32px;
+  padding: 0 8px;
+  font-size: 12px;
+}
+
+.c3.mul-button__loading {
+  color: inherit;
+  font-size: inherit;
+}
+
+.c3.mul-button--mini {
+  height: 24px;
+  padding: 0 4px;
+  font-size: 10px;
+}
+
+.c3.mul-button--mini + .mul-button--mini {
+  margin-left: 4px;
+}
+
+.c3.mul-button--block {
+  display: block;
+  width: 100%;
+}
+
+.c3.mul-button--disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.c3.mul-button--loading {
+  cursor: default;
+}
+
+.c3.mul-button--round {
+  border-radius: 999px;
+}
+
+.c3.mul-button--square {
+  border-radius: 0;
+}
+
+.c3.mul-button .mul-button__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.c3.mul-button .mul-button__icon {
+  min-width: 1em;
+  font-size: 1.2em;
+  line-height: inherit;
+}
+
+.c3.mul-button .mul-button__icon + .mul-button__text,
+.c3.mul-button .mul-button__loading + .mul-button__text {
+  margin-left: 5px;
+}
+
+.c3.mul-button--hairline {
+  border-width: 0;
+}
+
+.c3.mul-button--hairline::after {
+  border-color: inherit;
+  border-radius: 4px;
+}
+
+.c3.mul-button--hairline.mul-button--round::after {
+  border-radius: 999px;
+}
+
+.c3.mul-button--hairline.mul-button--square::after {
+  border-radius: 0;
+}
+
+.c2 .mul-field__label {
+  -webkit-flex: none !important;
+  -ms-flex: none !important;
+  flex: none !important;
+  box-sizing: border-box;
+  width: 6.2em;
+  margin-right: 12px;
+  color: #646566;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.c2 .mul-field__label--center {
+  text-align: center;
+}
+
+.c2 .mul-field__label--right {
+  padding-right: 16px;
+  text-align: right;
+}
+
+.c2 .mul-field--disabled .mul-field__label {
+  color: #c8c9cc;
+}
+
+.c2 .mul-field__value {
+  overflow: visible;
+}
+
+.c2 .mul-field__body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 .mul-field__control {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  line-height: inherit;
+  text-align: left;
+  background-color: transparent;
+  border: 0;
+  resize: none;
+}
+
+.c2 .mul-field__control::-webkit-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c2 .mul-field__control::-moz-placeholder {
+  color: #c8c9cc;
+}
+
+.c2 .mul-field__control:-ms-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c2 .mul-field__control::placeholder {
+  color: #c8c9cc;
+}
+
+.c2 .mul-field__control:disabled {
+  color: #c8c9cc;
+  background-color: transparent;
+  cursor: not-allowed;
+  opacity: 1;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c2 .mul-field__control:-moz-read-only {
+  cursor: default;
+}
+
+.c2 .mul-field__control:read-only {
+  cursor: default;
+}
+
+.c2 .mul-field__control--center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c2 .mul-field__control--right {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.c2 .mul-field__control--custom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 24px;
+}
+
+.c2 .mul-field__control[type='date'],
+.c2 .mul-field__control[type='time'],
+.c2 .mul-field__control[type='datetime-local'] {
+  min-height: 24px;
+}
+
+.c2 .mul-field__control[type='search'] {
+  -webkit-appearance: none;
+}
+
+.c2 .mul-field__clear,
+.c2 .mul-field__icon,
+.c2 .mul-field__button,
+.c2 .mul-field__right-icon {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c2 .mul-field__clear,
+.c2 .mul-field__right-icon {
+  margin-right: -8px;
+  padding: 0 8px;
+  line-height: inherit;
+}
+
+.c2 .mul-field__clear {
+  color: #c8c9cc;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c2 .mul-field__left-icon .mul-icon,
+.c2 .mul-field__right-icon .mul-icon {
+  display: block;
+  min-width: 1em;
+  font-size: 16px;
+  line-height: inherit;
+}
+
+.c2 .mul-field__left-icon {
+  margin-right: 4px;
+}
+
+.c2 .mul-field__right-icon {
+  color: #969799;
+}
+
+.c2 .mul-field__button {
+  padding-left: 8px;
+}
+
+.c2 .mul-field__error-message {
+  color: #fa220a;
+  font-size: 12px;
+  text-align: left;
+}
+
+.c2 .mul-field__error-message--center {
+  text-align: center;
+}
+
+.c2 .mul-field__error-message--right {
+  text-align: right;
+}
+
+.c2 .mul-field__word-limit {
+  margin-top: 4px;
+  color: #646566;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+}
+
+.c2 .mul-field--error .mul-field__control,
+.c2 .mul-field--error .mul-field__control::-webkit-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c2 .mul-field--error .mul-field__control,
+.c2 .mul-field--error .mul-field__control::-moz-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c2 .mul-field--error .mul-field__control,
+.c2 .mul-field--error .mul-field__control:-ms-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c2 .mul-field--error .mul-field__control,
+.c2 .mul-field--error .mul-field__control::placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c2 .mul-field--min-height .mul-field__control {
+  min-height: 60px;
+}
+
+.c2.mul-field--round {
+  padding: 0px !important;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.c2.mul-field--round__padding {
+  padding-left: 16px !important;
+}
+
+.c2.mul-field--round .mul-field__body--round {
+  background-color: #fff;
+  border: 1px solid #ebedf0;
+  border-radius: 999px;
+  padding: 10px 15px;
+}
+
+.c2.mul-field--round .mul-field__error-message {
+  padding: 0px 16px;
+}
+
+<div
+    class="c0 mul-coupon-list"
+  >
+    <div
+      class="mul-coupon-list__exchange-bar"
+    >
+      <div
+        class="c1 mul-cell c2 mul-field mul-coupon-list__field"
+      >
+        <div
+          class="mul-cell__value mul-cell__value--alone mul-field__value"
+        >
+          <div
+            class="mul-field__body"
+          >
+            <input
+              class="mul-field__control"
+              placeholder="请输入优惠码"
+              rows="3"
+              type="text"
+            />
+          </div>
+        </div>
+      </div>
+      <button
+        class="c3 mul-coupon-list__exchange mul-button mul-button--danger mul-button--normal mul-button--plain mul-button--disabled"
+        disabled=""
+      >
+        <div
+          class="mul-button__content"
+        >
+          <span
+            class="mul-button__text"
+          >
+            兑换
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="c4 mul-tabs mul-tabs--line"
+    >
+      <div
+        class="mul-tabs__wrap"
+      >
+        <div
+          class="mul-tabs__nav mul-tabs__nav--line"
+          role="tablist"
+          style="border-color: #ee0a24; background: white;"
+        >
+          <div
+            aria-selected="true"
+            class="c5 mul-tab mul-tab--active"
+            role="tab"
+          >
+            <span
+              class="mul-tab__text mul-tab__text--ellipsis"
+            >
+              可用 (6)
+            </span>
+          </div>
+          <div
+            aria-selected="false"
+            class="c5 mul-tab"
+            role="tab"
+          >
+            <span
+              class="mul-tab__text mul-tab__text--ellipsis"
+            >
+              不可用 (2)
+            </span>
+          </div>
+          <div
+            class="mul-tabs__line"
+            style="background-color: rgb(238, 10, 36);"
+          />
+        </div>
+      </div>
+      <div
+        class="mul-tabs__content"
+      >
+        <div
+          class="c6 mul-tab__pane"
+          role="tabpanel"
+          style="display: block;"
+        >
+          <div
+            class="mul-coupon-list__list mul-coupon-list__list--with-bottom"
+            style="height: 628px;"
+          >
+            <div
+              class="c7 mul-coupon"
+            >
+              <div
+                class="mul-coupon__content"
+              >
+                <div
+                  class="mul-coupon__head"
+                >
+                  <div
+                    class="mul-coupon__title"
+                  >
+                    <h2
+                      class="mul-coupon__amount"
+                    />
+                    <p
+                      class="mul-coupon__name"
+                    />
+                  </div>
+                  <p
+                    class="mul-coupon__condition"
+                  />
+                  <p
+                    class="mul-coupon__valid"
+                  >
+                    2017.03.10-2017.12.30
+                  </p>
+                </div>
+                <div
+                  class="mul-coupon__body"
+                  style="border-color: #fa220a;"
+                >
+                  已领取
+                </div>
+              </div>
+            </div>
+            <div
+              class="c7 mul-coupon"
+            >
+              <div
+                class="mul-coupon__content"
+              >
+                <div
+                  class="mul-coupon__head"
+                >
+                  <div
+                    class="mul-coupon__title"
+                  >
+                    <h2
+                      class="mul-coupon__amount"
+                    >
+                      <div>
+                        <span>
+                           ¥
+                        </span>
+                         1.5
+                      </div>
+                    </h2>
+                    <p
+                      class="mul-coupon__name"
+                    >
+                      name
+                    </p>
+                  </div>
+                  <p
+                    class="mul-coupon__condition"
+                  />
+                  <p
+                    class="mul-coupon__valid"
+                  >
+                    2017.03.10-2017.12.30
+                  </p>
+                </div>
+                <div
+                  class="mul-coupon__body"
+                  style="border-color: #fa220a;"
+                >
+                  已领取
+                </div>
+              </div>
+              <p
+                class="mul-coupon__description"
+              >
+                description
+              </p>
+            </div>
+            <div
+              class="c7 mul-coupon"
+            >
+              <div
+                class="mul-coupon__content"
+              >
+                <div
+                  class="mul-coupon__head"
+                >
+                  <div
+                    class="mul-coupon__title"
+                  >
+                    <h2
+                      class="mul-coupon__amount"
+                    >
+                      <div>
+                        <span>
+                           ¥
+                        </span>
+                         1
+                      </div>
+                    </h2>
+                    <p
+                      class="mul-coupon__name"
+                    >
+                      name
+                    </p>
+                  </div>
+                  <p
+                    class="mul-coupon__condition"
+                  />
+                  <p
+                    class="mul-coupon__valid"
+                  >
+                    2017.03.10-2017.12.30
+                  </p>
+                </div>
+                <div
+                  class="mul-coupon__body"
+                  style="border-color: #fa220a;"
+                >
+                  已领取
+                </div>
+              </div>
+              <p
+                class="mul-coupon__description"
+              >
+                description
+              </p>
+            </div>
+            <div
+              class="c7 mul-coupon"
+            >
+              <div
+                class="mul-coupon__content"
+              >
+                <div
+                  class="mul-coupon__head"
+                >
+                  <div
+                    class="mul-coupon__title"
+                  >
+                    <h2
+                      class="mul-coupon__amount"
+                    >
+                      <div>
+                        <span>
+                           ¥
+                        </span>
+                         1.23
+                      </div>
+                    </h2>
+                    <p
+                      class="mul-coupon__name"
+                    >
+                      name
+                    </p>
+                  </div>
+                  <p
+                    class="mul-coupon__condition"
+                  />
+                  <p
+                    class="mul-coupon__valid"
+                  >
+                    2017.03.10-2017.12.30
+                  </p>
+                </div>
+                <div
+                  class="mul-coupon__body"
+                  style="border-color: #fa220a;"
+                >
+                  已领取
+                </div>
+              </div>
+              <p
+                class="mul-coupon__description"
+              >
+                description
+              </p>
+            </div>
+            <div
+              class="c7 mul-coupon"
+            >
+              <div
+                class="mul-coupon__content"
+              >
+                <div
+                  class="mul-coupon__head"
+                >
+                  <div
+                    class="mul-coupon__title"
+                  >
+                    <h2
+                      class="mul-coupon__amount"
+                    >
+                      8.8折
+                    </h2>
+                    <p
+                      class="mul-coupon__name"
+                    >
+                      name
+                    </p>
+                  </div>
+                  <p
+                    class="mul-coupon__condition"
+                  />
+                  <p
+                    class="mul-coupon__valid"
+                  >
+                    2017.03.10-2017.12.30
+                  </p>
+                </div>
+                <div
+                  class="mul-coupon__body"
+                  style="border-color: #fa220a;"
+                >
+                  已领取
+                </div>
+              </div>
+            </div>
+            <div
+              class="c7 mul-coupon"
+            >
+              <div
+                class="mul-coupon__content"
+              >
+                <div
+                  class="mul-coupon__head"
+                >
+                  <div
+                    class="mul-coupon__title"
+                  >
+                    <h2
+                      class="mul-coupon__amount"
+                    >
+                      9折
+                    </h2>
+                    <p
+                      class="mul-coupon__name"
+                    >
+                      name
+                    </p>
+                  </div>
+                  <p
+                    class="mul-coupon__condition"
+                  />
+                  <p
+                    class="mul-coupon__valid"
+                  >
+                    2017.03.10-2017.12.30
+                  </p>
+                </div>
+                <div
+                  class="mul-coupon__body"
+                  style="border-color: #fa220a;"
+                >
+                  已领取
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="c6 mul-tab__pane"
+          role="tabpanel"
+          style="display: none;"
+        >
+          <div
+            class="mul-coupon-list__list mul-coupon-list__list--with-bottom"
+            style="height: 628px;"
+          >
+            <div
+              class="c7 mul-coupon mul-coupon--disabled"
+            >
+              <div
+                class="mul-coupon__content"
+              >
+                <div
+                  class="mul-coupon__head"
+                >
+                  <div
+                    class="mul-coupon__title"
+                  >
+                    <h2
+                      class="mul-coupon__amount"
+                    >
+                      <div>
+                        <span>
+                           ¥
+                        </span>
+                         1.5
+                      </div>
+                    </h2>
+                    <p
+                      class="mul-coupon__name"
+                    >
+                      name
+                    </p>
+                  </div>
+                  <p
+                    class="mul-coupon__condition"
+                  />
+                  <p
+                    class="mul-coupon__valid"
+                  >
+                    2017.03.10-2017.12.30
+                  </p>
+                </div>
+                <div
+                  class="mul-coupon__body"
+                  style="border-color: #bbbbbb;"
+                >
+                  已领取
+                </div>
+              </div>
+              <p
+                class="mul-coupon__description"
+              >
+                reason
+              </p>
+            </div>
+            <div
+              class="c7 mul-coupon mul-coupon--disabled"
+            >
+              <div
+                class="mul-coupon__content"
+              >
+                <div
+                  class="mul-coupon__head"
+                >
+                  <div
+                    class="mul-coupon__title"
+                  >
+                    <h2
+                      class="mul-coupon__amount"
+                    >
+                      1折
+                    </h2>
+                    <p
+                      class="mul-coupon__name"
+                    >
+                      name
+                    </p>
+                  </div>
+                  <p
+                    class="mul-coupon__condition"
+                  />
+                  <p
+                    class="mul-coupon__valid"
+                  >
+                    2017.03.10-2017.12.30
+                  </p>
+                </div>
+                <div
+                  class="mul-coupon__body"
+                  style="border-color: #bbbbbb;"
+                >
+                  已领取
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mul-coupon-list__bottom"
+    >
+      <button
+        class="c3 mul-coupon-list__close mul-button mul-button--danger mul-button--normal mul-button--block mul-button--round"
+      >
+        <div
+          class="mul-button__content"
+        >
+          <span
+            class="mul-button__text"
+          >
+            不使用优惠券
+          </span>
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Coupon render disabled coupon 1`] = `
+<DocumentFragment>
+  .c0.mul-coupon {
+  margin: 0 12px 12px;
+  overflow: hidden;
+  position: relative;
+  background-color: #fee9e6;
+  color: #fa220a;
+}
+
+.c0.mul-coupon:active {
+  background-color: #f2f3f5;
+}
+
+.c0.mul-coupon::before,
+.c0.mul-coupon::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.c0.mul-coupon::before {
+  right: 88px;
+  top: -5px;
+}
+
+.c0.mul-coupon::after {
+  right: 88px;
+  bottom: -5px;
+}
+
+.c0.mul-coupon .mul-coupon__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 84px;
+  padding: 14px 0;
+  padding-right: 32px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c0.mul-coupon .mul-coupon__head {
+  position: relative;
+  min-width: 96px;
+  padding: 0 16px;
+  color: #fa220a;
+}
+
+.c0.mul-coupon .mul-coupon__title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+}
+
+.c0.mul-coupon .mul-coupon__amount,
+.c0.mul-coupon .mul-coupon__condition,
+.c0.mul-coupon .mul-coupon__name,
+.c0.mul-coupon .mul-coupon__valid {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c0.mul-coupon .mul-coupon__amount {
+  margin-bottom: 6px;
+  font-weight: 600;
+  font-size: 35px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c0.mul-coupon .mul-coupon__amount span {
+  font-weight: normal;
+  font-size: 40%;
+}
+
+.c0.mul-coupon .mul-coupon__amount span:not(:empty) {
+  margin-left: 2px;
+}
+
+.c0.mul-coupon .mul-coupon__condition {
+  font-size: 12px;
+  line-height: 16px;
+  white-space: pre-wrap;
+}
+
+.c0.mul-coupon .mul-coupon__currency {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.c0.mul-coupon .mul-coupon__body {
+  position: relative;
+  border-radius: 0 8px 8px 0;
+  border-left-style: dashed;
+  border-width: 1px;
+  padding: 35px 0px 35px 13px;
+}
+
+.c0.mul-coupon .mul-coupon__name {
+  margin-bottom: 6px;
+  margin-left: 5px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.c0.mul-coupon .mul-coupon__valid {
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.c0.mul-coupon .mul-coupon__corner {
+  position: absolute;
+  top: 0;
+  right: 16px;
+  bottom: 0;
+}
+
+.c0.mul-coupon .mul-coupon__description {
+  padding: 8px 16px;
+  font-size: 12px;
+  border-top: 1px dashed #ebedf0;
+}
+
+.c0.mul-coupon .mul-coupon__use {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.c0.mul-coupon--disabled {
+  color: #bbbbbb;
+  background-color: #dddddd;
+}
+
+.c0.mul-coupon--disabled:active {
+  background-color: #dddddd;
+}
+
+.c0.mul-coupon--disabled .mul-coupon-item__content {
+  height: '74px';
+}
+
+.c0.mul-coupon--disabled .mul-coupon__head {
+  color: inherit;
+}
+
+<div
+    class="c0 mul-coupon mul-coupon--disabled"
+  >
+    <div
+      class="mul-coupon__content"
+    >
+      <div
+        class="mul-coupon__head"
+      >
+        <div
+          class="mul-coupon__title"
+        >
+          <h2
+            class="mul-coupon__amount"
+          >
+            <div>
+              <span>
+                ¥
+              </span>
+               1.5
+            </div>
+          </h2>
+          <p
+            class="mul-coupon__name"
+          >
+            name
+          </p>
+        </div>
+        <p
+          class="mul-coupon__condition"
+        />
+        <p
+          class="mul-coupon__valid"
+        >
+          2017.03.10-2017.12.30
+        </p>
+      </div>
+      <div
+        class="mul-coupon__body"
+        style="border-color: #bbbbbb;"
+      >
+        已领取
+      </div>
+    </div>
+    <p
+      class="mul-coupon__description"
+    >
+      reason
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Coupon render empty coupon list 1`] = `
+<DocumentFragment>
+  .c0.mul-coupon-list {
+  position: relative;
+  height: 100%;
+  background-color: #f7f8fa;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__field {
+  padding: 5px 0 5px 16px;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__field .mul-field__body {
+  height: 34px;
+  padding-left: 12px;
+  line-height: 34px;
+  background: #f7f8fa;
+  border-radius: 17px;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__field .mul-field__body::-webkit-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__field .mul-field__body::-moz-placeholder {
+  color: #c8c9cc;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__field .mul-field__body:-ms-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__field .mul-field__body::placeholder {
+  color: #c8c9cc;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__field .mul-field__clear {
+  margin-right: 0;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__exchange-bar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__exchange {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  height: 32px;
+  font-size: 16px;
+  line-height: calc(32px - 2px);
+  border: 0;
+}
+
+.c0.mul-coupon-list .mul-tabs__wrap {
+  box-shadow: 0 6px 12px -12px #969799;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__list {
+  box-sizing: border-box;
+  padding: 16px 0 24px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__list--with-bottom {
+  padding-bottom: calc(16px + 50px);
+}
+
+.c0.mul-coupon-list .mul-coupon-list__bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px 16px;
+  font-weight: 500;
+  background-color: #fff;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__close {
+  height: 40px;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__empty {
+  padding-top: 60px;
+  text-align: center;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__empty p {
+  margin: 16px 0;
+  color: #969799;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.c0.mul-coupon-list .mul-coupon-list__empty img {
+  width: 200px;
+  height: 200px;
+}
+
+.c6.mul-tab__pane-wrapper {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.c6.mul-tab__pane-wrapper--inactive {
+  height: 0;
+  overflow: visible;
+}
+
+.c4.mul-tabs {
+  position: relative;
+}
+
+.c4.mul-tabs .mul-tabs__wrap {
+  overflow: hidden;
+}
+
+.c4.mul-tabs .mul-tabs__wrap--page-top {
+  position: fixed;
+}
+
+.c4.mul-tabs .mul-tabs__wrap--content-bottom {
+  top: auto;
+  bottom: 0;
+}
+
+.c4.mul-tabs .mul-tabs__wrap--scrollable .mul-tab {
+  -webkit-flex: 0 0 22%;
+  -ms-flex: 0 0 22%;
+  flex: 0 0 22%;
+}
+
+.c4.mul-tabs .mul-tabs__wrap--scrollable .mul-tab--complete {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c4.mul-tabs .mul-tabs__wrap--scrollable .mul-tabs__nav {
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.c4.mul-tabs .mul-tabs__wrap--scrollable .mul-tabs__nav::-webkit-scrollbar {
+  display: none;
+}
+
+.c4.mul-tabs .mul-tabs__nav {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c4.mul-tabs .mul-tabs__nav--line {
+  box-sizing: content-box;
+  height: 100%;
+  padding-bottom: 15px;
+}
+
+.c4.mul-tabs .mul-tabs__nav--card {
+  box-sizing: border-box;
+  height: 30px;
+  margin: 0 16px;
+  border: 1px solid #fa220a;
+  border-radius: 2px;
+}
+
+.c4.mul-tabs .mul-tabs__nav--card .mul-tab {
+  color: #fa220a;
+  border-right: 1px solid #fa220a;
+}
+
+.c4.mul-tabs .mul-tabs__nav--card .mul-tab:last-child {
+  border-right: none;
+}
+
+.c4.mul-tabs .mul-tabs__nav--card .mul-tab--active {
+  color: #fff;
+  background-color: #fa220a;
+}
+
+.c4.mul-tabs .mul-tabs__line {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  z-index: 1;
+  height: 3px;
+  background-color: #fa220a;
+  border-radius: 3px;
+}
+
+.c4.mul-tabs .mul-tabs__track {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  will-change: left;
+}
+
+.c4.mul-tabs .mul-tabs__content--animated {
+  overflow: hidden;
+}
+
+.c4.mul-tabs--line .mul-tabs__wrap {
+  height: 44px;
+}
+
+.c4.mul-tabs--card > .mul-tabs__wrap {
+  height: 30px;
+}
+
+.c5.mul-tab {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0 4px;
+  color: #646566;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.c5.mul-tab .mul-tab__pane,
+.c5.mul-tab .mul-tab__pane-wrapper {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.c5.mul-tab .mul-tab__pane-wrapper--inactive {
+  height: 0;
+  overflow: visible;
+}
+
+.c5.mul-tab--active {
+  color: #323233;
+  font-weight: 500;
+}
+
+.c5.mul-tab--disabled {
+  color: #c8c9cc;
+  cursor: not-allowed;
+}
+
+.c5.mul-tab .mul-tab__text--ellipsis {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.c5.mul-tab .mul-tab__text-wrapper {
+  position: relative;
+}
+
+.c1.mul-cell {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 16px;
+  overflow: hidden;
+  color: #323233;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #fff;
+}
+
+.c1.mul-cell:last-child::after,
+.c1.mul-cell--borderless::after {
+  display: none;
+}
+
+.c1.mul-cell::after {
+  position: absolute;
+  box-sizing: border-box;
+  content: ' ';
+  pointer-events: none;
+  right: 16px;
+  bottom: 0;
+  left: 16px;
+  border-bottom: 1px solid #ebedf0;
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.c1.mul-cell .mul-cell__label {
+  margin-top: 4px;
+  color: #969799;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.c1.mul-cell .mul-cell__title,
+.c1.mul-cell .mul-cell__value {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c1.mul-cell .mul-cell__value {
+  position: relative;
+  overflow: hidden;
+  color: #969799;
+  text-align: right;
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+
+.c1.mul-cell .mul-cell__value--alone {
+  color: #323233;
+  text-align: left;
+}
+
+.c1.mul-cell .mul-cell__left-icon,
+.c1.mul-cell .mul-cell__right-icon {
+  min-width: 1em;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c1.mul-cell .mul-cell__left-icon {
+  margin-right: 4px;
+}
+
+.c1.mul-cell .mul-cell__right-icon {
+  margin-left: 4px;
+  color: #969799;
+}
+
+.c1.mul-cell--clickable {
+  cursor: pointer;
+}
+
+.c1.mul-cell--clickable:active {
+  background-color: #f2f3f5;
+}
+
+.c1.mul-cell--required {
+  overflow: visible;
+}
+
+.c1.mul-cell--required::before {
+  position: absolute;
+  left: 8px;
+  color: #fa220a;
+  font-size: 14px;
+  content: '*';
+}
+
+.c1.mul-cell--center {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1.mul-cell--large {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c1.mul-cell--large .mul-cell__title {
+  font-size: 16px;
+}
+
+.c1.mul-cell--large .mul-cell__label {
+  font-size: 14px;
+}
+
+.c3.mul-button {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  height: 44px;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  border-radius: 2px;
+  cursor: pointer;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+  -webkit-appearance: none;
+}
+
+.c3.mul-button::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  border: inherit;
+  border-color: #000;
+  border-radius: inherit;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  opacity: 0;
+  content: ' ';
+}
+
+.c3.mul-button:active::before {
+  opacity: 0.1;
+}
+
+.c3.mul-button--loading::before,
+.c3.mul-button--disabled::before {
+  display: none;
+}
+
+.c3.mul-button--default {
+  color: #323233;
+  background-color: #fff;
+  border: 1px solid #ebedf0;
+}
+
+.c3.mul-button--primary {
+  color: #fff;
+  background-color: #07c160;
+  border: 1px solid #07c160;
+}
+
+.c3.mul-button--info {
+  color: #fff;
+  background-color: #108ee9;
+  border: 1px solid #108ee9;
+}
+
+.c3.mul-button--danger {
+  color: #fff;
+  background-color: #fa220a;
+  border: 1px solid #fa220a;
+}
+
+.c3.mul-button--warning {
+  color: #fff;
+  background-color: #ff976a;
+  border: 1px solid #ff976a;
+}
+
+.c3.mul-button--plain {
+  background-color: #fff;
+}
+
+.c3.mul-button--plain.mul-button--primary {
+  color: #07c160;
+}
+
+.c3.mul-button--plain.mul-button--info {
+  color: #108ee9;
+}
+
+.c3.mul-button--plain.mul-button--danger {
+  color: #fa220a;
+}
+
+.c3.mul-button--plain.mul-button--warning {
+  color: #ff976a;
+}
+
+.c3.mul-button--large {
+  width: 100%;
+  height: 50px;
+}
+
+.c3.mul-button--normal {
+  padding: 0 15px;
+  font-size: 14px;
+}
+
+.c3.mul-button--small {
+  height: 32px;
+  padding: 0 8px;
+  font-size: 12px;
+}
+
+.c3.mul-button__loading {
+  color: inherit;
+  font-size: inherit;
+}
+
+.c3.mul-button--mini {
+  height: 24px;
+  padding: 0 4px;
+  font-size: 10px;
+}
+
+.c3.mul-button--mini + .mul-button--mini {
+  margin-left: 4px;
+}
+
+.c3.mul-button--block {
+  display: block;
+  width: 100%;
+}
+
+.c3.mul-button--disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.c3.mul-button--loading {
+  cursor: default;
+}
+
+.c3.mul-button--round {
+  border-radius: 999px;
+}
+
+.c3.mul-button--square {
+  border-radius: 0;
+}
+
+.c3.mul-button .mul-button__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.c3.mul-button .mul-button__icon {
+  min-width: 1em;
+  font-size: 1.2em;
+  line-height: inherit;
+}
+
+.c3.mul-button .mul-button__icon + .mul-button__text,
+.c3.mul-button .mul-button__loading + .mul-button__text {
+  margin-left: 5px;
+}
+
+.c3.mul-button--hairline {
+  border-width: 0;
+}
+
+.c3.mul-button--hairline::after {
+  border-color: inherit;
+  border-radius: 4px;
+}
+
+.c3.mul-button--hairline.mul-button--round::after {
+  border-radius: 999px;
+}
+
+.c3.mul-button--hairline.mul-button--square::after {
+  border-radius: 0;
+}
+
+.c2 .mul-field__label {
+  -webkit-flex: none !important;
+  -ms-flex: none !important;
+  flex: none !important;
+  box-sizing: border-box;
+  width: 6.2em;
+  margin-right: 12px;
+  color: #646566;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.c2 .mul-field__label--center {
+  text-align: center;
+}
+
+.c2 .mul-field__label--right {
+  padding-right: 16px;
+  text-align: right;
+}
+
+.c2 .mul-field--disabled .mul-field__label {
+  color: #c8c9cc;
+}
+
+.c2 .mul-field__value {
+  overflow: visible;
+}
+
+.c2 .mul-field__body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 .mul-field__control {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  color: #323233;
+  line-height: inherit;
+  text-align: left;
+  background-color: transparent;
+  border: 0;
+  resize: none;
+}
+
+.c2 .mul-field__control::-webkit-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c2 .mul-field__control::-moz-placeholder {
+  color: #c8c9cc;
+}
+
+.c2 .mul-field__control:-ms-input-placeholder {
+  color: #c8c9cc;
+}
+
+.c2 .mul-field__control::placeholder {
+  color: #c8c9cc;
+}
+
+.c2 .mul-field__control:disabled {
+  color: #c8c9cc;
+  background-color: transparent;
+  cursor: not-allowed;
+  opacity: 1;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c2 .mul-field__control:-moz-read-only {
+  cursor: default;
+}
+
+.c2 .mul-field__control:read-only {
+  cursor: default;
+}
+
+.c2 .mul-field__control--center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c2 .mul-field__control--right {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.c2 .mul-field__control--custom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 24px;
+}
+
+.c2 .mul-field__control[type='date'],
+.c2 .mul-field__control[type='time'],
+.c2 .mul-field__control[type='datetime-local'] {
+  min-height: 24px;
+}
+
+.c2 .mul-field__control[type='search'] {
+  -webkit-appearance: none;
+}
+
+.c2 .mul-field__clear,
+.c2 .mul-field__icon,
+.c2 .mul-field__button,
+.c2 .mul-field__right-icon {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c2 .mul-field__clear,
+.c2 .mul-field__right-icon {
+  margin-right: -8px;
+  padding: 0 8px;
+  line-height: inherit;
+}
+
+.c2 .mul-field__clear {
+  color: #c8c9cc;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c2 .mul-field__left-icon .mul-icon,
+.c2 .mul-field__right-icon .mul-icon {
+  display: block;
+  min-width: 1em;
+  font-size: 16px;
+  line-height: inherit;
+}
+
+.c2 .mul-field__left-icon {
+  margin-right: 4px;
+}
+
+.c2 .mul-field__right-icon {
+  color: #969799;
+}
+
+.c2 .mul-field__button {
+  padding-left: 8px;
+}
+
+.c2 .mul-field__error-message {
+  color: #fa220a;
+  font-size: 12px;
+  text-align: left;
+}
+
+.c2 .mul-field__error-message--center {
+  text-align: center;
+}
+
+.c2 .mul-field__error-message--right {
+  text-align: right;
+}
+
+.c2 .mul-field__word-limit {
+  margin-top: 4px;
+  color: #646566;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+}
+
+.c2 .mul-field--error .mul-field__control,
+.c2 .mul-field--error .mul-field__control::-webkit-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c2 .mul-field--error .mul-field__control,
+.c2 .mul-field--error .mul-field__control::-moz-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c2 .mul-field--error .mul-field__control,
+.c2 .mul-field--error .mul-field__control:-ms-input-placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c2 .mul-field--error .mul-field__control,
+.c2 .mul-field--error .mul-field__control::placeholder {
+  color: #fa220a;
+  -webkit-text-fill-color: currentColor;
+}
+
+.c2 .mul-field--min-height .mul-field__control {
+  min-height: 60px;
+}
+
+.c2.mul-field--round {
+  padding: 0px !important;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.c2.mul-field--round__padding {
+  padding-left: 16px !important;
+}
+
+.c2.mul-field--round .mul-field__body--round {
+  background-color: #fff;
+  border: 1px solid #ebedf0;
+  border-radius: 999px;
+  padding: 10px 15px;
+}
+
+.c2.mul-field--round .mul-field__error-message {
+  padding: 0px 16px;
+}
+
+<div
+    class="c0 mul-coupon-list"
+  >
+    <div
+      class="mul-coupon-list__exchange-bar"
+    >
+      <div
+        class="c1 mul-cell c2 mul-field mul-coupon-list__field"
+      >
+        <div
+          class="mul-cell__value mul-cell__value--alone mul-field__value"
+        >
+          <div
+            class="mul-field__body"
+          >
+            <input
+              class="mul-field__control"
+              placeholder="请输入优惠码"
+              rows="3"
+              type="text"
+            />
+          </div>
+        </div>
+      </div>
+      <button
+        class="c3 mul-coupon-list__exchange mul-button mul-button--danger mul-button--normal mul-button--plain mul-button--disabled"
+        disabled=""
+      >
+        <div
+          class="mul-button__content"
+        >
+          <span
+            class="mul-button__text"
+          >
+            兑换
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="c4 mul-tabs mul-tabs--line"
+    >
+      <div
+        class="mul-tabs__wrap"
+      >
+        <div
+          class="mul-tabs__nav mul-tabs__nav--line"
+          role="tablist"
+          style="border-color: #ee0a24; background: white;"
+        >
+          <div
+            aria-selected="true"
+            class="c5 mul-tab mul-tab--active"
+            role="tab"
+          >
+            <span
+              class="mul-tab__text mul-tab__text--ellipsis"
+            >
+              可用 (0)
+            </span>
+          </div>
+          <div
+            aria-selected="false"
+            class="c5 mul-tab"
+            role="tab"
+          >
+            <span
+              class="mul-tab__text mul-tab__text--ellipsis"
+            >
+              不可用 (0)
+            </span>
+          </div>
+          <div
+            class="mul-tabs__line"
+            style="background-color: rgb(238, 10, 36);"
+          />
+        </div>
+      </div>
+      <div
+        class="mul-tabs__content"
+      >
+        <div
+          class="c6 mul-tab__pane"
+          role="tabpanel"
+          style="display: block;"
+        >
+          <div
+            class="mul-coupon-list__list mul-coupon-list__list--with-bottom"
+            style="height: 628px;"
+          >
+            <div
+              class="mul-coupon-list__empty"
+            >
+              <img
+                src="https://img.yzcdn.cn/vant/coupon-empty.png"
+              />
+              <p>
+                暂无优惠券
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="c6 mul-tab__pane"
+          role="tabpanel"
+          style="display: none;"
+        >
+          <div
+            class="mul-coupon-list__list mul-coupon-list__list--with-bottom"
+            style="height: 628px;"
+          >
+            <div
+              class="mul-coupon-list__empty"
+            >
+              <img
+                src="https://img.yzcdn.cn/vant/coupon-empty.png"
+              />
+              <p>
+                暂无优惠券
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mul-coupon-list__bottom"
+    >
+      <button
+        class="c3 mul-coupon-list__close mul-button mul-button--danger mul-button--normal mul-button--block mul-button--round"
+      >
+        <div
+          class="mul-button__content"
+        >
+          <span
+            class="mul-button__text"
+          >
+            不使用优惠券
+          </span>
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

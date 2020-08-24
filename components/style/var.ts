@@ -489,6 +489,7 @@ export const $search: CSSProperties = {
     action_text_color: $text_color,
     action_font_size: $font_size_md,
 };
+
 // SubmitBar
 
 export const $submit_bar: CSSProperties = {
@@ -526,4 +527,43 @@ export const $dropdown_menu: CSSProperties = {
     title_active_text_color: `${$red}`,
     option_active_color: `${$red}`,
     content_max_height: '80%',
+};
+
+// Coupon
+export const $coupon: CSSProperties = {
+    margin: `0 ${$padding_sm} ${$padding_sm}`,
+    content_height: '84px',
+    content_padding: '14px 0',
+    background_color: '#fee9e6',
+    disabled_background_color: '#dddddd',
+    disabled_color: '#bbbbbb',
+    active_background_color: $active_color,
+    border_radius: $border_radius_lg,
+    box_shadow: `0 0 4px rgba(0, 0, 0, 0.1)`,
+    head_width: '96px',
+    amount_color: $red,
+    amount_font_size: '35px',
+    currency_font_size: '40%',
+    name_font_size: $font_size_md,
+    disabled_text_color: $gray6,
+    description_padding: `${$padding_xs} ${$padding_md}`,
+    description_border_color: $border_color,
+    font_weight_bold: 600,
+};
+
+// CouponCell
+export const $coupon_cell: CSSProperties = {
+    selected_text_color: $text_color,
+};
+
+// CouponList
+export const $coupon_list: CSSProperties = {
+    background_color: $background_color,
+    field_padding: `5px 0 5px ${$padding_md}`,
+    exchange_button_height: '32px',
+    close_button_height: '40px',
+    empty_image_size: '200px',
+    empty_tip_color: $gray6,
+    empty_tip_font_size: $font_size_md,
+    empty_tip_line_height: $line_height_md,
 };
