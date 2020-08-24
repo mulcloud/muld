@@ -39,7 +39,7 @@ export default function EmptyDemo(): React.ReactElement {
 
             <DemoBlock title="搜索提示">
                 <div className="demo-empty-row">
-                    <Empty image="network" description="描述文字" />
+                    <Empty image="search" description="描述文字" />
                 </div>
             </DemoBlock>
 

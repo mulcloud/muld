@@ -3,7 +3,7 @@
 ### Install
 
 ```js
-import { Empty } from'@trillion/muld';
+import { Empty } from '@trillion/muld';
 ```
 
 ## Usage
