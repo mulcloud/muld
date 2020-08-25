@@ -1,11 +1,40 @@
 import * as React from 'react';
-import classnames from 'classnames';
 import Icon from '../icon';
 import { View } from './style';
 import { $rate } from '../style/var';
 import { addUnit, createNS, withDefaultProps } from '../utils';
 import { on, off } from '../utils/dom/event';
 
+interface Props {
+    value: number;
+    count?: number;
+    allowHalf?: boolean;
+    onChange?: (value: number) => void;
+    icon?: string;
+    voidIcon?: string;
+    color?: string;
+    voidColor?: string;
+    disabled?: boolean;
+    disabledColor?: string;
+    readonly?: boolean;
+    gutter?: number | string;
+    touchable?: boolean;
+    size?: number | string;
+}
+const defaultProps = {
+    count: 5,
+    allowHalf: false,
+    icon: 'star',
+    voidIcon: 'star-o',
+    color: `${$rate.icon_full_color}`,
+    voidColor: `${$rate.icon_void_color}`,
+    disabled: false,
+    disabledColor: `${$rate.icon_void_color}`,
+    readonly: false,
+    gutter: 4,
+    touchable: true,
+};
+type RateProps = Props & typeof defaultProps;
 enum Status {
     Full = 'full',
     Half = 'half',
@@ -41,41 +70,12 @@ const getStarRanges = (nodeList: HTMLCollection, allowHalf: boolean) => {
     return ranges;
 };
 const [bem] = createNS('rate');
-interface props {
-    value: number;
-    count: number;
-    allowHalf: boolean;
-    change?: (value: number) => void;
-    icon: string;
-    voidIcon: string;
-    color: string;
-    voidColor: string;
-    disabled: boolean;
-    disabledColor: string;
-    readonly: boolean;
-    gutter: number | string;
-    size: number | string;
-    touchable: boolean;
-}
-const defaultProps = {
-    count: 5,
-    allowHalf: false,
-    icon: 'star',
-    voidIcon: 'star-o',
-    color: `${$rate.rate_icon_full_color}`,
-    voidColor: `${$rate.rate_icon_void_color}`,
-    disabled: false,
-    disabledColor: `${$rate.rate_icon_void_color}`,
-    readonly: false,
-    gutter: 4,
-    touchable: true,
-};
-const Rate = (props: props) => {
+const Rate: React.FC<RateProps> = (props: RateProps) => {
     const {
         value,
         count,
         allowHalf,
-        change,
+        onChange,
         icon,
         voidIcon,
         color,
@@ -91,8 +91,7 @@ const Rate = (props: props) => {
     const [isTouching, setIsTouching] = React.useState<boolean>(false);
     const [starRanges, setStarRanges] = React.useState<{ score: number; left: number }[]>([]);
     const [touchPosition, setTouchPosition] = React.useState<number>(0);
-    const wrapperRef = React.useRef<HTMLDivElement | null>(null);
-    const starRef = React.useRef<HTMLDivElement | null>(null);
+    const wrapperRef = React.useRef<HTMLDivElement>(null);
 
     const setRanges = () => {
         if (wrapperRef.current) {
@@ -117,7 +116,7 @@ const Rate = (props: props) => {
 
     const onSelect = (newValue: number) => {
         if (wrapperRef.current && !disabled && !readonly && value !== newValue) {
-            change && change(newValue);
+            onChange && onChange(newValue);
         }
     };
 
@@ -128,14 +127,22 @@ const Rate = (props: props) => {
         const isVoid = status === Status.Void;
         const style = gutter && score !== +count ? { paddingRight: addUnit(gutter) } : {};
         const sizeWithUnit = addUnit(size);
+        let iconColor: string;
+        let halfIconColor: string;
+        if (disabled) {
+            iconColor = disabledColor;
+            halfIconColor = disabledColor;
+        } else {
+            iconColor = isFull ? color : voidColor;
+            halfIconColor = isVoid ? voidColor : color;
+        }
         return (
-            <div key={index} style={style} ref={starRef} className={bem('item')}>
+            <div key={index} style={style} className={bem('item')}>
                 <Icon
                     size={sizeWithUnit}
                     name={isFull ? icon : voidIcon}
                     className={bem('icon', { disabled, full: isFull })}
-                    color={disabled ? disabledColor : isFull ? color : voidColor}
-                    data-source={score}
+                    color={iconColor}
                     onClick={() => {
                         onSelect(score);
                     }}
@@ -145,8 +152,7 @@ const Rate = (props: props) => {
                         size={sizeWithUnit}
                         name={isVoid ? voidIcon : icon}
                         className={bem('icon', ['half', { disabled, full: !isVoid }])}
-                        color={disabled ? disabledColor : isVoid ? voidColor : color}
-                        data-source={score - 0.5}
+                        color={halfIconColor}
                         onClick={() => {
                             onSelect(score - 0.5);
                         }}
@@ -162,15 +168,7 @@ const Rate = (props: props) => {
             starList.push(renderStar(i));
         }
         return (
-            <View
-                ref={wrapperRef}
-                className={classnames(
-                    bem({
-                        readonly,
-                        disabled,
-                    }),
-                )}
-            >
+            <View ref={wrapperRef} className={bem({ readonly, disabled })}>
                 {starList}
             </View>
         );

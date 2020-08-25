@@ -20,13 +20,13 @@ const NewRate = (props: any) => {
         jestFn(v);
         setValue(v);
     };
-    return <Rate value={value} change={onChange} {...others}></Rate>;
+    return <Rate value={value} onChange={onChange} {...others}></Rate>;
 };
 
 describe('Rate', () => {
     afterEach(cleanup);
 
-    it('change event', () => {
+    it('onChange event', () => {
         const jestFn = jest.fn();
         const { container } = render(<NewRate initValue={1} jestFn={jestFn} />);
         const fourthIcon = container.querySelectorAll('.mul-rate__icon')[3];

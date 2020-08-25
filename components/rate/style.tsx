@@ -10,15 +10,15 @@ export const View = styled.div`
         .mul-rate__item {
             position: relative;
             &:not(:last-child) {
-                padding-right: ${$rate.rate_icon_gutter};
+                padding-right: ${$rate.icon_gutter};
             }
         }
 
         .mul-rate__icon {
             display: block;
             width: 1em;
-            color: ${$rate.rate_icon_void_color};
-            font-size: ${$rate.rate_icon_size};
+            color: ${$rate.icon_void_color};
+            font-size: ${$rate.icon_size};
 
             &--half {
                 position: absolute;
@@ -29,11 +29,11 @@ export const View = styled.div`
             }
 
             &--full {
-                color: ${$rate.rate_icon_full_color};
+                color: ${$rate.icon_full_color};
             }
 
             &--disabled {
-                color: ${$rate.rate_icon_disabled_color};
+                color: ${$rate.icon_disabled_color};
             }
         }
 

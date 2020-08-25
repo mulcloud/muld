@@ -10,47 +10,56 @@ import { Rate } from '@trillion/rate';
 
 ### Basic Usage
 
-```html
+```js
 const [basic, setBasic] = React.useState(3);
-<Rate value={basic} change={setBasic} />
+```
+```html
+<Rate value={basic} onChange={setBasic} />
 ```
 
 ### Custom Icon
 
-```html
+```js
 const [customIcon, setCustomIcon] = React.useState(3);
-<Rate value={customIcon} change={setCustomIcon} icon='like' voidIcon="like-o"/>
-
+```
+```html
+<Rate value={customIcon} onChange={setCustomIcon} icon='like' voidIcon="like-o"/>
 ```
 
 ### Custom Style
 
-```html
+```js
 const [customStyle, setCustomStyle] = React.useState(3);
-<Rate value={customStyle} change={setCustomStyle} color='#ffd21e' voidColor="#eee" voidIcon='star' />
+```
+```html
+<Rate value={customStyle} onChange={setCustomStyle} color='#ffd21e' voidColor="#eee" voidIcon='star' />
 ```
 
 ### Half Star
 
-```html
+```js
 const [halfStar, setHalfStar] = React.useState(3.5);
-<Rate value={halfStar} change={setHalfStar} allowHalf={true} />
+```
+```html
+<Rate value={halfStar} onChange={setHalfStar} allowHalf={true} />
 ```
 
 ### Custom Count
 
-```html
+```js
 const [customCount, setCustomCount] = React.useState(3);
-<Rate value={customCount} change={setCustomCount} count={6} />
+```
+```html
+<Rate value={customCount} onChange={setCustomCount} count={6} />
 ```
 
-### Readonly
+### Disabled
 
 ```html
 <Rate value={3} disabled={true} />
 ```
 
-### Change Event
+### Readonly
 
 ```html
 <Rate value={3} readonly={true} />
@@ -64,15 +73,15 @@ const [customCount, setCustomCount] = React.useState(3);
 | --- | --- | --- | --- |
 | value | Current rate | number | - |
 | count | Count | number | 5 |
-| size | Icon size | number |  |
-| gutter | Icon gutter | number |  |
+| size | Icon size | number | 20px |
+| gutter | Icon gutter | number | 4px |
 | color | Selected color | string | `#ee0a24` |
-| void-color | Void color | string | `#c8c9cc` |
-| disabled-color | Disabled color | string | `#c8c9cc` |
+| voidColor | Void color | string | `#c8c9cc` |
+| disabledColor | Disabled color | string | `#c8c9cc` |
 | icon | Selected icon | string | star |
-| void-icon | Void icon | string | star-0 |
-| allow-half | Weather to allow half star | boolean | false |
+| voidIcon | Void icon | string | star-0 |
+| allowHalf | Weather to allow half star | boolean | false |
 | readonly | Weather to be readonly | boolean | false |
 | disabled | Weather to disable rate | boolean | false |
 | touchable | Weather to allow select rate by touch gesture | boolean | true |
-| change | Triggered when rate changed | (event) => void |
+| onChange | Triggered when rate changed | (event) => void |

@@ -10,38 +10,47 @@ import { Rate } from '@trillion/rate';
 
 ### 基础用法
 
-```html
+```js
 const [basic, setBasic] = React.useState(3);
-<Rate value={basic} change={setBasic} />
+```
+```html
+<Rate value={basic} onChange={setBasic} />
 ```
 
 ### 自定义图标
 
-```html
+```js
 const [customIcon, setCustomIcon] = React.useState(3);
-<Rate value={customIcon} change={setCustomIcon} icon='like' voidIcon="like-o"/>
-
+```
+```html
+<Rate value={customIcon} onChange={setCustomIcon} icon='like' voidIcon="like-o"/>
 ```
 
 ### 自定义样式
 
-```html
+```js
 const [customStyle, setCustomStyle] = React.useState(3);
-<Rate value={customStyle} change={setCustomStyle} color='#ffd21e' voidColor="#eee" voidIcon='star' />
+```
+```html
+<Rate value={customStyle} onChange={setCustomStyle} color='#ffd21e' voidColor="#eee" voidIcon='star' />
 ```
 
 ### 半星
 
-```html
+```js
 const [halfStar, setHalfStar] = React.useState(3.5);
-<Rate value={halfStar} change={setHalfStar} allowHalf={true} />
+```
+```html
+<Rate value={halfStar} onChange={setHalfStar} allowHalf={true} />
 ```
 
 ### 自定义数量
 
-```html
+```js
 const [customCount, setCustomCount] = React.useState(3);
-<Rate value={customCount} change={setCustomCount} count={6} />
+```
+```html
+<Rate value={customCount} onChange={setCustomCount} count={6} />
 ```
 
 ### 禁用状态
@@ -64,15 +73,15 @@ const [customCount, setCustomCount] = React.useState(3);
 | --- | --- | --- | --- |
 | value | 当前分值 | number | - |
 | count | 图标总数 | number | 5 |
-| size | 图标大小，默认单位为`px` | number |  |
-| gutter | 图标间距，默认单位为`px` | number |  |
+| size | 图标大小，默认单位为`px` | number | 20px |
+| gutter | 图标间距，默认单位为`px` | number | 4px |
 | color | 选中时的颜色 | string | `#ee0a24` |
-| void-color | 未选中时的颜色 | string | `#c8c9cc` |
-| disabled-color | 禁用时的颜色 | string | `#c8c9cc` |
+| voidColor | 未选中时的颜色 | string | `#c8c9cc` |
+| disabledColor | 禁用时的颜色 | string | `#c8c9cc` |
 | icon | 选中时的[图标名称](#/zh-CN/icon)或图片链接 | string | star |
-| void-icon | 未选中时的[图标名称](#/zh-CN/icon)或图片链接 | string | star-0 |
-| allow-half | 是否允许半选 | boolean | false |
+| voidIcon | 未选中时的[图标名称](#/zh-CN/icon)或图片链接 | string | star-0 |
+| allowHalf | 是否允许半选 | boolean | false |
 | readonly | 是否为只读状态 | boolean | false |
 | disabled | 是否禁用评分 | boolean | false |
 | touchable | 是否可以通过滑动手势选择评分 | boolean | true |
-| change | 当前分值变化时触发的事件 | (event) => void |
+| onChange | 当前分值变化时触发的事件 | (event) => void |

@@ -415,11 +415,11 @@ export const $progress: CSSProperties = {
 
 // Rate
 export const $rate: CSSProperties = {
-    rate_icon_size: `20px`,
-    rate_icon_gutter: `${$padding_base}`,
-    rate_icon_void_color: `${$gray5}`,
-    rate_icon_full_color: `${$red}`,
-    rate_icon_disabled_color: `${$gray5}`,
+    icon_size: `20px`,
+    icon_gutter: `${$padding_base}`,
+    icon_void_color: `${$gray5}`,
+    icon_full_color: `${$red}`,
+    icon_disabled_color: `${$gray5}`,
 };
 
 // Field
