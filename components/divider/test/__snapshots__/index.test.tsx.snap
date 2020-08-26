@@ -1,0 +1,303 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Divider contentPosition prop 1`] = `
+<DocumentFragment>
+  .c0.mul-divider {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 16px 0;
+  color: #969799;
+  font-size: 14px;
+  line-height: 24px;
+  border-color: #ebedf0;
+  border-style: solid;
+  border-width: 0;
+}
+
+.c0.mul-divider::before,
+.c0.mul-divider::after {
+  display: block;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  box-sizing: border-box;
+  height: 1px;
+  border-color: inherit;
+  border-style: inherit;
+  border-width: 1px 0 0;
+}
+
+.c0.mul-divider::before {
+  content: '';
+}
+
+.c0.mul-divider--hairline::before,
+.c0.mul-divider--hairline::after {
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.c0.mul-divider--dashed {
+  border-style: dashed;
+}
+
+.c0.mul-divider--content-center::before,
+.c0.mul-divider--content-left::before,
+.c0.mul-divider--content-right::before {
+  margin-right: 16px;
+}
+
+.c0.mul-divider--content-center::after,
+.c0.mul-divider--content-left::after,
+.c0.mul-divider--content-right::after {
+  margin-left: 16px;
+  content: '';
+}
+
+.c0.mul-divider--content-left::before {
+  max-width: 10%;
+}
+
+.c0.mul-divider--content-right::after {
+  max-width: 10%;
+}
+
+<div
+    class="c0 mul-divider mul-divider--hairline"
+  />
+</DocumentFragment>
+`;
+
+exports[`Divider prop dashed 1`] = `
+<DocumentFragment>
+  .c0.mul-divider {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 16px 0;
+  color: #969799;
+  font-size: 14px;
+  line-height: 24px;
+  border-color: #ebedf0;
+  border-style: solid;
+  border-width: 0;
+}
+
+.c0.mul-divider::before,
+.c0.mul-divider::after {
+  display: block;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  box-sizing: border-box;
+  height: 1px;
+  border-color: inherit;
+  border-style: inherit;
+  border-width: 1px 0 0;
+}
+
+.c0.mul-divider::before {
+  content: '';
+}
+
+.c0.mul-divider--hairline::before,
+.c0.mul-divider--hairline::after {
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.c0.mul-divider--dashed {
+  border-style: dashed;
+}
+
+.c0.mul-divider--content-center::before,
+.c0.mul-divider--content-left::before,
+.c0.mul-divider--content-right::before {
+  margin-right: 16px;
+}
+
+.c0.mul-divider--content-center::after,
+.c0.mul-divider--content-left::after,
+.c0.mul-divider--content-right::after {
+  margin-left: 16px;
+  content: '';
+}
+
+.c0.mul-divider--content-left::before {
+  max-width: 10%;
+}
+
+.c0.mul-divider--content-right::after {
+  max-width: 10%;
+}
+
+<div
+    class="c0 mul-divider mul-divider--dashed mul-divider--hairline"
+  />
+</DocumentFragment>
+`;
+
+exports[`Divider prop hairline 1`] = `
+<DocumentFragment>
+  .c0.mul-divider {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 16px 0;
+  color: #969799;
+  font-size: 14px;
+  line-height: 24px;
+  border-color: #ebedf0;
+  border-style: solid;
+  border-width: 0;
+}
+
+.c0.mul-divider::before,
+.c0.mul-divider::after {
+  display: block;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  box-sizing: border-box;
+  height: 1px;
+  border-color: inherit;
+  border-style: inherit;
+  border-width: 1px 0 0;
+}
+
+.c0.mul-divider::before {
+  content: '';
+}
+
+.c0.mul-divider--hairline::before,
+.c0.mul-divider--hairline::after {
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.c0.mul-divider--dashed {
+  border-style: dashed;
+}
+
+.c0.mul-divider--content-center::before,
+.c0.mul-divider--content-left::before,
+.c0.mul-divider--content-right::before {
+  margin-right: 16px;
+}
+
+.c0.mul-divider--content-center::after,
+.c0.mul-divider--content-left::after,
+.c0.mul-divider--content-right::after {
+  margin-left: 16px;
+  content: '';
+}
+
+.c0.mul-divider--content-left::before {
+  max-width: 10%;
+}
+
+.c0.mul-divider--content-right::after {
+  max-width: 10%;
+}
+
+<div
+    class="c0 mul-divider mul-divider--hairline"
+  />
+</DocumentFragment>
+`;
+
+exports[`Divider render slot 1`] = `
+<DocumentFragment>
+  .c0.mul-divider {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 16px 0;
+  color: #969799;
+  font-size: 14px;
+  line-height: 24px;
+  border-color: #ebedf0;
+  border-style: solid;
+  border-width: 0;
+}
+
+.c0.mul-divider::before,
+.c0.mul-divider::after {
+  display: block;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  box-sizing: border-box;
+  height: 1px;
+  border-color: inherit;
+  border-style: inherit;
+  border-width: 1px 0 0;
+}
+
+.c0.mul-divider::before {
+  content: '';
+}
+
+.c0.mul-divider--hairline::before,
+.c0.mul-divider--hairline::after {
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.c0.mul-divider--dashed {
+  border-style: dashed;
+}
+
+.c0.mul-divider--content-center::before,
+.c0.mul-divider--content-left::before,
+.c0.mul-divider--content-right::before {
+  margin-right: 16px;
+}
+
+.c0.mul-divider--content-center::after,
+.c0.mul-divider--content-left::after,
+.c0.mul-divider--content-right::after {
+  margin-left: 16px;
+  content: '';
+}
+
+.c0.mul-divider--content-left::before {
+  max-width: 10%;
+}
+
+.c0.mul-divider--content-right::after {
+  max-width: 10%;
+}
+
+<div
+    class="c0 mul-divider mul-divider--hairline mul-divider--content-center"
+  >
+    content
+  </div>
+</DocumentFragment>
+`;
