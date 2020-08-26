@@ -39,3 +39,5 @@ export { default as Tabs } from './tabs';
 export { default as Checkbox } from './checkbox';
 export { default as CheckboxGroup } from './checkbox-group';
 export { default as CountDown } from './count-down';
+export { default as DropdownMenu } from './dropdown-menu';
+export { default as DropdownItem } from './dropdown-item';
