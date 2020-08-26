@@ -21,7 +21,7 @@ import { Divider } from '@trillion/muld';
 通过插槽在可以分割线中间插入内容
 
 ```html
-<Divider>文字</Divider>
+<Divider>文本</Divider>
 ```
 
 ### 内容位置
@@ -29,8 +29,8 @@ import { Divider } from '@trillion/muld';
 通过`contentPosition`指定内容所在位置
 
 ```html
-<Divider contentPosition="left">文字</Divider>
-<Divider contentPosition="right">文字</Divider>
+<Divider contentPosition="left">文本</Divider>
+<Divider contentPosition="right">文本</Divider>
 ```
 
 ### 虚线
@@ -38,7 +38,7 @@ import { Divider } from '@trillion/muld';
 添加`dashed`属性使分割线渲染为虚线
 
 ```html
-<Divider dashed>文字</Divider>
+<Divider dashed>文本</Divider>
 ```
 
 ### 自定义样式
@@ -49,7 +49,7 @@ import { Divider } from '@trillion/muld';
 <Divider
   style={{ color: '#1989fa', borderColor: '#1989fa', padding: '16px' }}
 >
-  文字
+  文本
 </Divider>
 ```
 
