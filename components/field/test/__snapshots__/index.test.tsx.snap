@@ -10,11 +10,11 @@ exports[`Field arrow-direction prop 1`] = `
   display: flex;
   box-sizing: border-box;
   width: 100%;
-  padding: 10px 16px;
+  padding: 0.625rem 1rem;
   overflow: hidden;
   color: #323233;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
   background-color: #fff;
 }
 
@@ -28,9 +28,9 @@ exports[`Field arrow-direction prop 1`] = `
   box-sizing: border-box;
   content: ' ';
   pointer-events: none;
-  right: 16px;
+  right: 1rem;
   bottom: 0;
-  left: 16px;
+  left: 1rem;
   border-bottom: 1px solid #ebedf0;
   -webkit-transform: scaleY(0.5);
   -ms-transform: scaleY(0.5);
@@ -38,10 +38,10 @@ exports[`Field arrow-direction prop 1`] = `
 }
 
 .c0.mul-cell .mul-cell__label {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #969799;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
 }
 
 .c0.mul-cell .mul-cell__title,
@@ -68,17 +68,17 @@ exports[`Field arrow-direction prop 1`] = `
 .c0.mul-cell .mul-cell__left-icon,
 .c0.mul-cell .mul-cell__right-icon {
   min-width: 1em;
-  height: 24px;
-  font-size: 16px;
-  line-height: 24px;
+  height: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .c0.mul-cell .mul-cell__left-icon {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 
 .c0.mul-cell .mul-cell__right-icon {
-  margin-left: 4px;
+  margin-left: 0.25rem;
   color: #969799;
 }
 
@@ -96,9 +96,9 @@ exports[`Field arrow-direction prop 1`] = `
 
 .c0.mul-cell--required::before {
   position: absolute;
-  left: 8px;
+  left: 0.5rem;
   color: #fa220a;
-  font-size: 14px;
+  font-size: 0.875rem;
   content: '*';
 }
 
@@ -110,16 +110,16 @@ exports[`Field arrow-direction prop 1`] = `
 }
 
 .c0.mul-cell--large {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .c0.mul-cell--large .mul-cell__title {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .c0.mul-cell--large .mul-cell__label {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .c2.mul-icon {
@@ -151,7 +151,7 @@ exports[`Field arrow-direction prop 1`] = `
   flex: none !important;
   box-sizing: border-box;
   width: 6.2em;
-  margin-right: 12px;
+  margin-right: 0.75rem;
   color: #646566;
   text-align: left;
   word-wrap: break-word;
@@ -162,7 +162,7 @@ exports[`Field arrow-direction prop 1`] = `
 }
 
 .c1 .mul-field__label--right {
-  padding-right: 16px;
+  padding-right: 1rem;
   text-align: right;
 }
 
@@ -255,13 +255,13 @@ exports[`Field arrow-direction prop 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  min-height: 24px;
+  min-height: 1.5rem;
 }
 
 .c1 .mul-field__control[type='date'],
 .c1 .mul-field__control[type='time'],
 .c1 .mul-field__control[type='datetime-local'] {
-  min-height: 24px;
+  min-height: 1.5rem;
 }
 
 .c1 .mul-field__control[type='search'] {
@@ -279,14 +279,14 @@ exports[`Field arrow-direction prop 1`] = `
 
 .c1 .mul-field__clear,
 .c1 .mul-field__right-icon {
-  margin-right: -8px;
-  padding: 0 8px;
+  margin-right: -0.5rem;
+  padding: 0 0.5rem;
   line-height: inherit;
 }
 
 .c1 .mul-field__clear {
   color: #c8c9cc;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
 }
 
@@ -294,12 +294,12 @@ exports[`Field arrow-direction prop 1`] = `
 .c1 .mul-field__right-icon .mul-icon {
   display: block;
   min-width: 1em;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: inherit;
 }
 
 .c1 .mul-field__left-icon {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 
 .c1 .mul-field__right-icon {
@@ -307,12 +307,12 @@ exports[`Field arrow-direction prop 1`] = `
 }
 
 .c1 .mul-field__button {
-  padding-left: 8px;
+  padding-left: 0.5rem;
 }
 
 .c1 .mul-field__error-message {
   color: #fa220a;
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: left;
 }
 
@@ -325,10 +325,10 @@ exports[`Field arrow-direction prop 1`] = `
 }
 
 .c1 .mul-field__word-limit {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #646566;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 0.75rem;
+  line-height: 1rem;
   text-align: right;
 }
 
@@ -357,11 +357,11 @@ exports[`Field arrow-direction prop 1`] = `
 }
 
 .c1 .mul-field--min-height .mul-field__control {
-  min-height: 60px;
+  min-height: 3.75rem;
 }
 
 .c1.mul-field--round {
-  padding: 0px !important;
+  padding: 0rem !important;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -370,18 +370,18 @@ exports[`Field arrow-direction prop 1`] = `
 }
 
 .c1.mul-field--round__padding {
-  padding-left: 16px !important;
+  padding-left: 1rem !important;
 }
 
 .c1.mul-field--round .mul-field__body--round {
   background-color: #fff;
-  border: 1px solid #ebedf0;
-  border-radius: 999px;
-  padding: 10px 15px;
+  border: 0.0625rem solid #ebedf0;
+  border-radius: 62.4375rem;
+  padding: 0.625rem 0.9375rem;
 }
 
 .c1.mul-field--round .mul-field__error-message {
-  padding: 0px 16px;
+  padding: 0rem 1rem;
 }
 
 <div
@@ -406,7 +406,7 @@ exports[`Field arrow-direction prop 1`] = `
       class="c2 mul-icon mul-icon-arrow-up mul-cell__right-icon"
       content="F009"
       name="arrow-up"
-      style="font-size: 20px;"
+      style="font-size: 1.25rem;"
     />
   </div>
 </DocumentFragment>
@@ -422,11 +422,11 @@ exports[`Field clearable prop 1`] = `
   display: flex;
   box-sizing: border-box;
   width: 100%;
-  padding: 10px 16px;
+  padding: 0.625rem 1rem;
   overflow: hidden;
   color: #323233;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
   background-color: #fff;
 }
 
@@ -440,9 +440,9 @@ exports[`Field clearable prop 1`] = `
   box-sizing: border-box;
   content: ' ';
   pointer-events: none;
-  right: 16px;
+  right: 1rem;
   bottom: 0;
-  left: 16px;
+  left: 1rem;
   border-bottom: 1px solid #ebedf0;
   -webkit-transform: scaleY(0.5);
   -ms-transform: scaleY(0.5);
@@ -450,10 +450,10 @@ exports[`Field clearable prop 1`] = `
 }
 
 .c0.mul-cell .mul-cell__label {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #969799;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
 }
 
 .c0.mul-cell .mul-cell__title,
@@ -480,17 +480,17 @@ exports[`Field clearable prop 1`] = `
 .c0.mul-cell .mul-cell__left-icon,
 .c0.mul-cell .mul-cell__right-icon {
   min-width: 1em;
-  height: 24px;
-  font-size: 16px;
-  line-height: 24px;
+  height: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .c0.mul-cell .mul-cell__left-icon {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 
 .c0.mul-cell .mul-cell__right-icon {
-  margin-left: 4px;
+  margin-left: 0.25rem;
   color: #969799;
 }
 
@@ -508,9 +508,9 @@ exports[`Field clearable prop 1`] = `
 
 .c0.mul-cell--required::before {
   position: absolute;
-  left: 8px;
+  left: 0.5rem;
   color: #fa220a;
-  font-size: 14px;
+  font-size: 0.875rem;
   content: '*';
 }
 
@@ -522,16 +522,16 @@ exports[`Field clearable prop 1`] = `
 }
 
 .c0.mul-cell--large {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .c0.mul-cell--large .mul-cell__title {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .c0.mul-cell--large .mul-cell__label {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .c1 .mul-field__label {
@@ -540,7 +540,7 @@ exports[`Field clearable prop 1`] = `
   flex: none !important;
   box-sizing: border-box;
   width: 6.2em;
-  margin-right: 12px;
+  margin-right: 0.75rem;
   color: #646566;
   text-align: left;
   word-wrap: break-word;
@@ -551,7 +551,7 @@ exports[`Field clearable prop 1`] = `
 }
 
 .c1 .mul-field__label--right {
-  padding-right: 16px;
+  padding-right: 1rem;
   text-align: right;
 }
 
@@ -644,13 +644,13 @@ exports[`Field clearable prop 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  min-height: 24px;
+  min-height: 1.5rem;
 }
 
 .c1 .mul-field__control[type='date'],
 .c1 .mul-field__control[type='time'],
 .c1 .mul-field__control[type='datetime-local'] {
-  min-height: 24px;
+  min-height: 1.5rem;
 }
 
 .c1 .mul-field__control[type='search'] {
@@ -668,14 +668,14 @@ exports[`Field clearable prop 1`] = `
 
 .c1 .mul-field__clear,
 .c1 .mul-field__right-icon {
-  margin-right: -8px;
-  padding: 0 8px;
+  margin-right: -0.5rem;
+  padding: 0 0.5rem;
   line-height: inherit;
 }
 
 .c1 .mul-field__clear {
   color: #c8c9cc;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
 }
 
@@ -683,12 +683,12 @@ exports[`Field clearable prop 1`] = `
 .c1 .mul-field__right-icon .mul-icon {
   display: block;
   min-width: 1em;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: inherit;
 }
 
 .c1 .mul-field__left-icon {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 
 .c1 .mul-field__right-icon {
@@ -696,12 +696,12 @@ exports[`Field clearable prop 1`] = `
 }
 
 .c1 .mul-field__button {
-  padding-left: 8px;
+  padding-left: 0.5rem;
 }
 
 .c1 .mul-field__error-message {
   color: #fa220a;
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: left;
 }
 
@@ -714,10 +714,10 @@ exports[`Field clearable prop 1`] = `
 }
 
 .c1 .mul-field__word-limit {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #646566;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 0.75rem;
+  line-height: 1rem;
   text-align: right;
 }
 
@@ -746,11 +746,11 @@ exports[`Field clearable prop 1`] = `
 }
 
 .c1 .mul-field--min-height .mul-field__control {
-  min-height: 60px;
+  min-height: 3.75rem;
 }
 
 .c1.mul-field--round {
-  padding: 0px !important;
+  padding: 0rem !important;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -759,18 +759,18 @@ exports[`Field clearable prop 1`] = `
 }
 
 .c1.mul-field--round__padding {
-  padding-left: 16px !important;
+  padding-left: 1rem !important;
 }
 
 .c1.mul-field--round .mul-field__body--round {
   background-color: #fff;
-  border: 1px solid #ebedf0;
-  border-radius: 999px;
-  padding: 10px 15px;
+  border: 0.0625rem solid #ebedf0;
+  border-radius: 62.4375rem;
+  padding: 0.625rem 0.9375rem;
 }
 
 .c1.mul-field--round .mul-field__error-message {
-  padding: 0px 16px;
+  padding: 0rem 1rem;
 }
 
 <div
@@ -803,11 +803,11 @@ exports[`Field clearable prop 2`] = `
   display: flex;
   box-sizing: border-box;
   width: 100%;
-  padding: 10px 16px;
+  padding: 0.625rem 1rem;
   overflow: hidden;
   color: #323233;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
   background-color: #fff;
 }
 
@@ -821,9 +821,9 @@ exports[`Field clearable prop 2`] = `
   box-sizing: border-box;
   content: ' ';
   pointer-events: none;
-  right: 16px;
+  right: 1rem;
   bottom: 0;
-  left: 16px;
+  left: 1rem;
   border-bottom: 1px solid #ebedf0;
   -webkit-transform: scaleY(0.5);
   -ms-transform: scaleY(0.5);
@@ -831,10 +831,10 @@ exports[`Field clearable prop 2`] = `
 }
 
 .c0.mul-cell .mul-cell__label {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #969799;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
 }
 
 .c0.mul-cell .mul-cell__title,
@@ -861,17 +861,17 @@ exports[`Field clearable prop 2`] = `
 .c0.mul-cell .mul-cell__left-icon,
 .c0.mul-cell .mul-cell__right-icon {
   min-width: 1em;
-  height: 24px;
-  font-size: 16px;
-  line-height: 24px;
+  height: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .c0.mul-cell .mul-cell__left-icon {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 
 .c0.mul-cell .mul-cell__right-icon {
-  margin-left: 4px;
+  margin-left: 0.25rem;
   color: #969799;
 }
 
@@ -889,9 +889,9 @@ exports[`Field clearable prop 2`] = `
 
 .c0.mul-cell--required::before {
   position: absolute;
-  left: 8px;
+  left: 0.5rem;
   color: #fa220a;
-  font-size: 14px;
+  font-size: 0.875rem;
   content: '*';
 }
 
@@ -903,16 +903,16 @@ exports[`Field clearable prop 2`] = `
 }
 
 .c0.mul-cell--large {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .c0.mul-cell--large .mul-cell__title {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .c0.mul-cell--large .mul-cell__label {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .c2.mul-icon {
@@ -944,7 +944,7 @@ exports[`Field clearable prop 2`] = `
   flex: none !important;
   box-sizing: border-box;
   width: 6.2em;
-  margin-right: 12px;
+  margin-right: 0.75rem;
   color: #646566;
   text-align: left;
   word-wrap: break-word;
@@ -955,7 +955,7 @@ exports[`Field clearable prop 2`] = `
 }
 
 .c1 .mul-field__label--right {
-  padding-right: 16px;
+  padding-right: 1rem;
   text-align: right;
 }
 
@@ -1048,13 +1048,13 @@ exports[`Field clearable prop 2`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  min-height: 24px;
+  min-height: 1.5rem;
 }
 
 .c1 .mul-field__control[type='date'],
 .c1 .mul-field__control[type='time'],
 .c1 .mul-field__control[type='datetime-local'] {
-  min-height: 24px;
+  min-height: 1.5rem;
 }
 
 .c1 .mul-field__control[type='search'] {
@@ -1072,14 +1072,14 @@ exports[`Field clearable prop 2`] = `
 
 .c1 .mul-field__clear,
 .c1 .mul-field__right-icon {
-  margin-right: -8px;
-  padding: 0 8px;
+  margin-right: -0.5rem;
+  padding: 0 0.5rem;
   line-height: inherit;
 }
 
 .c1 .mul-field__clear {
   color: #c8c9cc;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
 }
 
@@ -1087,12 +1087,12 @@ exports[`Field clearable prop 2`] = `
 .c1 .mul-field__right-icon .mul-icon {
   display: block;
   min-width: 1em;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: inherit;
 }
 
 .c1 .mul-field__left-icon {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 
 .c1 .mul-field__right-icon {
@@ -1100,12 +1100,12 @@ exports[`Field clearable prop 2`] = `
 }
 
 .c1 .mul-field__button {
-  padding-left: 8px;
+  padding-left: 0.5rem;
 }
 
 .c1 .mul-field__error-message {
   color: #fa220a;
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: left;
 }
 
@@ -1118,10 +1118,10 @@ exports[`Field clearable prop 2`] = `
 }
 
 .c1 .mul-field__word-limit {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #646566;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 0.75rem;
+  line-height: 1rem;
   text-align: right;
 }
 
@@ -1150,11 +1150,11 @@ exports[`Field clearable prop 2`] = `
 }
 
 .c1 .mul-field--min-height .mul-field__control {
-  min-height: 60px;
+  min-height: 3.75rem;
 }
 
 .c1.mul-field--round {
-  padding: 0px !important;
+  padding: 0rem !important;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1163,18 +1163,18 @@ exports[`Field clearable prop 2`] = `
 }
 
 .c1.mul-field--round__padding {
-  padding-left: 16px !important;
+  padding-left: 1rem !important;
 }
 
 .c1.mul-field--round .mul-field__body--round {
   background-color: #fff;
-  border: 1px solid #ebedf0;
-  border-radius: 999px;
-  padding: 10px 15px;
+  border: 0.0625rem solid #ebedf0;
+  border-radius: 62.4375rem;
+  padding: 0.625rem 0.9375rem;
 }
 
 .c1.mul-field--round .mul-field__error-message {
-  padding: 0px 16px;
+  padding: 0rem 1rem;
 }
 
 <div
@@ -1195,7 +1195,7 @@ exports[`Field clearable prop 2`] = `
           class="c2 mul-icon mul-icon-clear mul-field__clear"
           content="F031"
           name="clear"
-          style="font-size: 14px;"
+          style="font-size: 0.875rem;"
         />
       </div>
     </div>
@@ -1213,11 +1213,11 @@ exports[`Field colon prop 1`] = `
   display: flex;
   box-sizing: border-box;
   width: 100%;
-  padding: 10px 16px;
+  padding: 0.625rem 1rem;
   overflow: hidden;
   color: #323233;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
   background-color: #fff;
 }
 
@@ -1231,9 +1231,9 @@ exports[`Field colon prop 1`] = `
   box-sizing: border-box;
   content: ' ';
   pointer-events: none;
-  right: 16px;
+  right: 1rem;
   bottom: 0;
-  left: 16px;
+  left: 1rem;
   border-bottom: 1px solid #ebedf0;
   -webkit-transform: scaleY(0.5);
   -ms-transform: scaleY(0.5);
@@ -1241,10 +1241,10 @@ exports[`Field colon prop 1`] = `
 }
 
 .c0.mul-cell .mul-cell__label {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #969799;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
 }
 
 .c0.mul-cell .mul-cell__title,
@@ -1271,17 +1271,17 @@ exports[`Field colon prop 1`] = `
 .c0.mul-cell .mul-cell__left-icon,
 .c0.mul-cell .mul-cell__right-icon {
   min-width: 1em;
-  height: 24px;
-  font-size: 16px;
-  line-height: 24px;
+  height: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .c0.mul-cell .mul-cell__left-icon {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 
 .c0.mul-cell .mul-cell__right-icon {
-  margin-left: 4px;
+  margin-left: 0.25rem;
   color: #969799;
 }
 
@@ -1299,9 +1299,9 @@ exports[`Field colon prop 1`] = `
 
 .c0.mul-cell--required::before {
   position: absolute;
-  left: 8px;
+  left: 0.5rem;
   color: #fa220a;
-  font-size: 14px;
+  font-size: 0.875rem;
   content: '*';
 }
 
@@ -1313,16 +1313,16 @@ exports[`Field colon prop 1`] = `
 }
 
 .c0.mul-cell--large {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .c0.mul-cell--large .mul-cell__title {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .c0.mul-cell--large .mul-cell__label {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .c1 .mul-field__label {
@@ -1331,7 +1331,7 @@ exports[`Field colon prop 1`] = `
   flex: none !important;
   box-sizing: border-box;
   width: 6.2em;
-  margin-right: 12px;
+  margin-right: 0.75rem;
   color: #646566;
   text-align: left;
   word-wrap: break-word;
@@ -1342,7 +1342,7 @@ exports[`Field colon prop 1`] = `
 }
 
 .c1 .mul-field__label--right {
-  padding-right: 16px;
+  padding-right: 1rem;
   text-align: right;
 }
 
@@ -1435,13 +1435,13 @@ exports[`Field colon prop 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  min-height: 24px;
+  min-height: 1.5rem;
 }
 
 .c1 .mul-field__control[type='date'],
 .c1 .mul-field__control[type='time'],
 .c1 .mul-field__control[type='datetime-local'] {
-  min-height: 24px;
+  min-height: 1.5rem;
 }
 
 .c1 .mul-field__control[type='search'] {
@@ -1459,14 +1459,14 @@ exports[`Field colon prop 1`] = `
 
 .c1 .mul-field__clear,
 .c1 .mul-field__right-icon {
-  margin-right: -8px;
-  padding: 0 8px;
+  margin-right: -0.5rem;
+  padding: 0 0.5rem;
   line-height: inherit;
 }
 
 .c1 .mul-field__clear {
   color: #c8c9cc;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
 }
 
@@ -1474,12 +1474,12 @@ exports[`Field colon prop 1`] = `
 .c1 .mul-field__right-icon .mul-icon {
   display: block;
   min-width: 1em;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: inherit;
 }
 
 .c1 .mul-field__left-icon {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 
 .c1 .mul-field__right-icon {
@@ -1487,12 +1487,12 @@ exports[`Field colon prop 1`] = `
 }
 
 .c1 .mul-field__button {
-  padding-left: 8px;
+  padding-left: 0.5rem;
 }
 
 .c1 .mul-field__error-message {
   color: #fa220a;
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: left;
 }
 
@@ -1505,10 +1505,10 @@ exports[`Field colon prop 1`] = `
 }
 
 .c1 .mul-field__word-limit {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #646566;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 0.75rem;
+  line-height: 1rem;
   text-align: right;
 }
 
@@ -1537,11 +1537,11 @@ exports[`Field colon prop 1`] = `
 }
 
 .c1 .mul-field--min-height .mul-field__control {
-  min-height: 60px;
+  min-height: 3.75rem;
 }
 
 .c1.mul-field--round {
-  padding: 0px !important;
+  padding: 0rem !important;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1550,18 +1550,18 @@ exports[`Field colon prop 1`] = `
 }
 
 .c1.mul-field--round__padding {
-  padding-left: 16px !important;
+  padding-left: 1rem !important;
 }
 
 .c1.mul-field--round .mul-field__body--round {
   background-color: #fff;
-  border: 1px solid #ebedf0;
-  border-radius: 999px;
-  padding: 10px 15px;
+  border: 0.0625rem solid #ebedf0;
+  border-radius: 62.4375rem;
+  padding: 0.625rem 0.9375rem;
 }
 
 .c1.mul-field--round .mul-field__error-message {
-  padding: 0px 16px;
+  padding: 0rem 1rem;
 }
 
 <div
@@ -1601,11 +1601,11 @@ exports[`Field label-class prop 1`] = `
   display: flex;
   box-sizing: border-box;
   width: 100%;
-  padding: 10px 16px;
+  padding: 0.625rem 1rem;
   overflow: hidden;
   color: #323233;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
   background-color: #fff;
 }
 
@@ -1619,9 +1619,9 @@ exports[`Field label-class prop 1`] = `
   box-sizing: border-box;
   content: ' ';
   pointer-events: none;
-  right: 16px;
+  right: 1rem;
   bottom: 0;
-  left: 16px;
+  left: 1rem;
   border-bottom: 1px solid #ebedf0;
   -webkit-transform: scaleY(0.5);
   -ms-transform: scaleY(0.5);
@@ -1629,10 +1629,10 @@ exports[`Field label-class prop 1`] = `
 }
 
 .c0.mul-cell .mul-cell__label {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #969799;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
 }
 
 .c0.mul-cell .mul-cell__title,
@@ -1659,17 +1659,17 @@ exports[`Field label-class prop 1`] = `
 .c0.mul-cell .mul-cell__left-icon,
 .c0.mul-cell .mul-cell__right-icon {
   min-width: 1em;
-  height: 24px;
-  font-size: 16px;
-  line-height: 24px;
+  height: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .c0.mul-cell .mul-cell__left-icon {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 
 .c0.mul-cell .mul-cell__right-icon {
-  margin-left: 4px;
+  margin-left: 0.25rem;
   color: #969799;
 }
 
@@ -1687,9 +1687,9 @@ exports[`Field label-class prop 1`] = `
 
 .c0.mul-cell--required::before {
   position: absolute;
-  left: 8px;
+  left: 0.5rem;
   color: #fa220a;
-  font-size: 14px;
+  font-size: 0.875rem;
   content: '*';
 }
 
@@ -1701,16 +1701,16 @@ exports[`Field label-class prop 1`] = `
 }
 
 .c0.mul-cell--large {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .c0.mul-cell--large .mul-cell__title {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .c0.mul-cell--large .mul-cell__label {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .c1 .mul-field__label {
@@ -1719,7 +1719,7 @@ exports[`Field label-class prop 1`] = `
   flex: none !important;
   box-sizing: border-box;
   width: 6.2em;
-  margin-right: 12px;
+  margin-right: 0.75rem;
   color: #646566;
   text-align: left;
   word-wrap: break-word;
@@ -1730,7 +1730,7 @@ exports[`Field label-class prop 1`] = `
 }
 
 .c1 .mul-field__label--right {
-  padding-right: 16px;
+  padding-right: 1rem;
   text-align: right;
 }
 
@@ -1823,13 +1823,13 @@ exports[`Field label-class prop 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  min-height: 24px;
+  min-height: 1.5rem;
 }
 
 .c1 .mul-field__control[type='date'],
 .c1 .mul-field__control[type='time'],
 .c1 .mul-field__control[type='datetime-local'] {
-  min-height: 24px;
+  min-height: 1.5rem;
 }
 
 .c1 .mul-field__control[type='search'] {
@@ -1847,14 +1847,14 @@ exports[`Field label-class prop 1`] = `
 
 .c1 .mul-field__clear,
 .c1 .mul-field__right-icon {
-  margin-right: -8px;
-  padding: 0 8px;
+  margin-right: -0.5rem;
+  padding: 0 0.5rem;
   line-height: inherit;
 }
 
 .c1 .mul-field__clear {
   color: #c8c9cc;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
 }
 
@@ -1862,12 +1862,12 @@ exports[`Field label-class prop 1`] = `
 .c1 .mul-field__right-icon .mul-icon {
   display: block;
   min-width: 1em;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: inherit;
 }
 
 .c1 .mul-field__left-icon {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 
 .c1 .mul-field__right-icon {
@@ -1875,12 +1875,12 @@ exports[`Field label-class prop 1`] = `
 }
 
 .c1 .mul-field__button {
-  padding-left: 8px;
+  padding-left: 0.5rem;
 }
 
 .c1 .mul-field__error-message {
   color: #fa220a;
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: left;
 }
 
@@ -1893,10 +1893,10 @@ exports[`Field label-class prop 1`] = `
 }
 
 .c1 .mul-field__word-limit {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #646566;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 0.75rem;
+  line-height: 1rem;
   text-align: right;
 }
 
@@ -1925,11 +1925,11 @@ exports[`Field label-class prop 1`] = `
 }
 
 .c1 .mul-field--min-height .mul-field__control {
-  min-height: 60px;
+  min-height: 3.75rem;
 }
 
 .c1.mul-field--round {
-  padding: 0px !important;
+  padding: 0rem !important;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1938,18 +1938,18 @@ exports[`Field label-class prop 1`] = `
 }
 
 .c1.mul-field--round__padding {
-  padding-left: 16px !important;
+  padding-left: 1rem !important;
 }
 
 .c1.mul-field--round .mul-field__body--round {
   background-color: #fff;
-  border: 1px solid #ebedf0;
-  border-radius: 999px;
-  padding: 10px 15px;
+  border: 0.0625rem solid #ebedf0;
+  border-radius: 62.4375rem;
+  padding: 0.625rem 0.9375rem;
 }
 
 .c1.mul-field--round .mul-field__error-message {
-  padding: 0px 16px;
+  padding: 0rem 1rem;
 }
 
 <div
@@ -1989,11 +1989,11 @@ exports[`Field label-width prop with unit 1`] = `
   display: flex;
   box-sizing: border-box;
   width: 100%;
-  padding: 10px 16px;
+  padding: 0.625rem 1rem;
   overflow: hidden;
   color: #323233;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
   background-color: #fff;
 }
 
@@ -2007,9 +2007,9 @@ exports[`Field label-width prop with unit 1`] = `
   box-sizing: border-box;
   content: ' ';
   pointer-events: none;
-  right: 16px;
+  right: 1rem;
   bottom: 0;
-  left: 16px;
+  left: 1rem;
   border-bottom: 1px solid #ebedf0;
   -webkit-transform: scaleY(0.5);
   -ms-transform: scaleY(0.5);
@@ -2017,10 +2017,10 @@ exports[`Field label-width prop with unit 1`] = `
 }
 
 .c0.mul-cell .mul-cell__label {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #969799;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
 }
 
 .c0.mul-cell .mul-cell__title,
@@ -2047,17 +2047,17 @@ exports[`Field label-width prop with unit 1`] = `
 .c0.mul-cell .mul-cell__left-icon,
 .c0.mul-cell .mul-cell__right-icon {
   min-width: 1em;
-  height: 24px;
-  font-size: 16px;
-  line-height: 24px;
+  height: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .c0.mul-cell .mul-cell__left-icon {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 
 .c0.mul-cell .mul-cell__right-icon {
-  margin-left: 4px;
+  margin-left: 0.25rem;
   color: #969799;
 }
 
@@ -2075,9 +2075,9 @@ exports[`Field label-width prop with unit 1`] = `
 
 .c0.mul-cell--required::before {
   position: absolute;
-  left: 8px;
+  left: 0.5rem;
   color: #fa220a;
-  font-size: 14px;
+  font-size: 0.875rem;
   content: '*';
 }
 
@@ -2089,16 +2089,16 @@ exports[`Field label-width prop with unit 1`] = `
 }
 
 .c0.mul-cell--large {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .c0.mul-cell--large .mul-cell__title {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .c0.mul-cell--large .mul-cell__label {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .c1 .mul-field__label {
@@ -2107,7 +2107,7 @@ exports[`Field label-width prop with unit 1`] = `
   flex: none !important;
   box-sizing: border-box;
   width: 6.2em;
-  margin-right: 12px;
+  margin-right: 0.75rem;
   color: #646566;
   text-align: left;
   word-wrap: break-word;
@@ -2118,7 +2118,7 @@ exports[`Field label-width prop with unit 1`] = `
 }
 
 .c1 .mul-field__label--right {
-  padding-right: 16px;
+  padding-right: 1rem;
   text-align: right;
 }
 
@@ -2211,13 +2211,13 @@ exports[`Field label-width prop with unit 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  min-height: 24px;
+  min-height: 1.5rem;
 }
 
 .c1 .mul-field__control[type='date'],
 .c1 .mul-field__control[type='time'],
 .c1 .mul-field__control[type='datetime-local'] {
-  min-height: 24px;
+  min-height: 1.5rem;
 }
 
 .c1 .mul-field__control[type='search'] {
@@ -2235,14 +2235,14 @@ exports[`Field label-width prop with unit 1`] = `
 
 .c1 .mul-field__clear,
 .c1 .mul-field__right-icon {
-  margin-right: -8px;
-  padding: 0 8px;
+  margin-right: -0.5rem;
+  padding: 0 0.5rem;
   line-height: inherit;
 }
 
 .c1 .mul-field__clear {
   color: #c8c9cc;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
 }
 
@@ -2250,12 +2250,12 @@ exports[`Field label-width prop with unit 1`] = `
 .c1 .mul-field__right-icon .mul-icon {
   display: block;
   min-width: 1em;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: inherit;
 }
 
 .c1 .mul-field__left-icon {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 
 .c1 .mul-field__right-icon {
@@ -2263,12 +2263,12 @@ exports[`Field label-width prop with unit 1`] = `
 }
 
 .c1 .mul-field__button {
-  padding-left: 8px;
+  padding-left: 0.5rem;
 }
 
 .c1 .mul-field__error-message {
   color: #fa220a;
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: left;
 }
 
@@ -2281,10 +2281,10 @@ exports[`Field label-width prop with unit 1`] = `
 }
 
 .c1 .mul-field__word-limit {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #646566;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 0.75rem;
+  line-height: 1rem;
   text-align: right;
 }
 
@@ -2313,11 +2313,11 @@ exports[`Field label-width prop with unit 1`] = `
 }
 
 .c1 .mul-field--min-height .mul-field__control {
-  min-height: 60px;
+  min-height: 3.75rem;
 }
 
 .c1.mul-field--round {
-  padding: 0px !important;
+  padding: 0rem !important;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -2326,18 +2326,18 @@ exports[`Field label-width prop with unit 1`] = `
 }
 
 .c1.mul-field--round__padding {
-  padding-left: 16px !important;
+  padding-left: 1rem !important;
 }
 
 .c1.mul-field--round .mul-field__body--round {
   background-color: #fff;
-  border: 1px solid #ebedf0;
-  border-radius: 999px;
-  padding: 10px 15px;
+  border: 0.0625rem solid #ebedf0;
+  border-radius: 62.4375rem;
+  padding: 0.625rem 0.9375rem;
 }
 
 .c1.mul-field--round .mul-field__error-message {
-  padding: 0px 16px;
+  padding: 0rem 1rem;
 }
 
 <div
@@ -2378,11 +2378,11 @@ exports[`Field label-width prop without unit 1`] = `
   display: flex;
   box-sizing: border-box;
   width: 100%;
-  padding: 10px 16px;
+  padding: 0.625rem 1rem;
   overflow: hidden;
   color: #323233;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
   background-color: #fff;
 }
 
@@ -2396,9 +2396,9 @@ exports[`Field label-width prop without unit 1`] = `
   box-sizing: border-box;
   content: ' ';
   pointer-events: none;
-  right: 16px;
+  right: 1rem;
   bottom: 0;
-  left: 16px;
+  left: 1rem;
   border-bottom: 1px solid #ebedf0;
   -webkit-transform: scaleY(0.5);
   -ms-transform: scaleY(0.5);
@@ -2406,10 +2406,10 @@ exports[`Field label-width prop without unit 1`] = `
 }
 
 .c0.mul-cell .mul-cell__label {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #969799;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
 }
 
 .c0.mul-cell .mul-cell__title,
@@ -2436,17 +2436,17 @@ exports[`Field label-width prop without unit 1`] = `
 .c0.mul-cell .mul-cell__left-icon,
 .c0.mul-cell .mul-cell__right-icon {
   min-width: 1em;
-  height: 24px;
-  font-size: 16px;
-  line-height: 24px;
+  height: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .c0.mul-cell .mul-cell__left-icon {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 
 .c0.mul-cell .mul-cell__right-icon {
-  margin-left: 4px;
+  margin-left: 0.25rem;
   color: #969799;
 }
 
@@ -2464,9 +2464,9 @@ exports[`Field label-width prop without unit 1`] = `
 
 .c0.mul-cell--required::before {
   position: absolute;
-  left: 8px;
+  left: 0.5rem;
   color: #fa220a;
-  font-size: 14px;
+  font-size: 0.875rem;
   content: '*';
 }
 
@@ -2478,16 +2478,16 @@ exports[`Field label-width prop without unit 1`] = `
 }
 
 .c0.mul-cell--large {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .c0.mul-cell--large .mul-cell__title {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .c0.mul-cell--large .mul-cell__label {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .c1 .mul-field__label {
@@ -2496,7 +2496,7 @@ exports[`Field label-width prop without unit 1`] = `
   flex: none !important;
   box-sizing: border-box;
   width: 6.2em;
-  margin-right: 12px;
+  margin-right: 0.75rem;
   color: #646566;
   text-align: left;
   word-wrap: break-word;
@@ -2507,7 +2507,7 @@ exports[`Field label-width prop without unit 1`] = `
 }
 
 .c1 .mul-field__label--right {
-  padding-right: 16px;
+  padding-right: 1rem;
   text-align: right;
 }
 
@@ -2600,13 +2600,13 @@ exports[`Field label-width prop without unit 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  min-height: 24px;
+  min-height: 1.5rem;
 }
 
 .c1 .mul-field__control[type='date'],
 .c1 .mul-field__control[type='time'],
 .c1 .mul-field__control[type='datetime-local'] {
-  min-height: 24px;
+  min-height: 1.5rem;
 }
 
 .c1 .mul-field__control[type='search'] {
@@ -2624,14 +2624,14 @@ exports[`Field label-width prop without unit 1`] = `
 
 .c1 .mul-field__clear,
 .c1 .mul-field__right-icon {
-  margin-right: -8px;
-  padding: 0 8px;
+  margin-right: -0.5rem;
+  padding: 0 0.5rem;
   line-height: inherit;
 }
 
 .c1 .mul-field__clear {
   color: #c8c9cc;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
 }
 
@@ -2639,12 +2639,12 @@ exports[`Field label-width prop without unit 1`] = `
 .c1 .mul-field__right-icon .mul-icon {
   display: block;
   min-width: 1em;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: inherit;
 }
 
 .c1 .mul-field__left-icon {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 
 .c1 .mul-field__right-icon {
@@ -2652,12 +2652,12 @@ exports[`Field label-width prop without unit 1`] = `
 }
 
 .c1 .mul-field__button {
-  padding-left: 8px;
+  padding-left: 0.5rem;
 }
 
 .c1 .mul-field__error-message {
   color: #fa220a;
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: left;
 }
 
@@ -2670,10 +2670,10 @@ exports[`Field label-width prop without unit 1`] = `
 }
 
 .c1 .mul-field__word-limit {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #646566;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 0.75rem;
+  line-height: 1rem;
   text-align: right;
 }
 
@@ -2702,11 +2702,11 @@ exports[`Field label-width prop without unit 1`] = `
 }
 
 .c1 .mul-field--min-height .mul-field__control {
-  min-height: 60px;
+  min-height: 3.75rem;
 }
 
 .c1.mul-field--round {
-  padding: 0px !important;
+  padding: 0rem !important;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -2715,18 +2715,18 @@ exports[`Field label-width prop without unit 1`] = `
 }
 
 .c1.mul-field--round__padding {
-  padding-left: 16px !important;
+  padding-left: 1rem !important;
 }
 
 .c1.mul-field--round .mul-field__body--round {
   background-color: #fff;
-  border: 1px solid #ebedf0;
-  border-radius: 999px;
-  padding: 10px 15px;
+  border: 0.0625rem solid #ebedf0;
+  border-radius: 62.4375rem;
+  padding: 0.625rem 0.9375rem;
 }
 
 .c1.mul-field--round .mul-field__error-message {
-  padding: 0px 16px;
+  padding: 0rem 1rem;
 }
 
 <div
@@ -2734,7 +2734,7 @@ exports[`Field label-width prop without unit 1`] = `
   >
     <div
       class="mul-cell__title mul-field__label"
-      style="width: 100px;"
+      style="width: 6.25rem;"
     >
       <span>
         Label
@@ -2767,11 +2767,11 @@ exports[`Field name prop 1`] = `
   display: flex;
   box-sizing: border-box;
   width: 100%;
-  padding: 10px 16px;
+  padding: 0.625rem 1rem;
   overflow: hidden;
   color: #323233;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
   background-color: #fff;
 }
 
@@ -2785,9 +2785,9 @@ exports[`Field name prop 1`] = `
   box-sizing: border-box;
   content: ' ';
   pointer-events: none;
-  right: 16px;
+  right: 1rem;
   bottom: 0;
-  left: 16px;
+  left: 1rem;
   border-bottom: 1px solid #ebedf0;
   -webkit-transform: scaleY(0.5);
   -ms-transform: scaleY(0.5);
@@ -2795,10 +2795,10 @@ exports[`Field name prop 1`] = `
 }
 
 .c0.mul-cell .mul-cell__label {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #969799;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
 }
 
 .c0.mul-cell .mul-cell__title,
@@ -2825,17 +2825,17 @@ exports[`Field name prop 1`] = `
 .c0.mul-cell .mul-cell__left-icon,
 .c0.mul-cell .mul-cell__right-icon {
   min-width: 1em;
-  height: 24px;
-  font-size: 16px;
-  line-height: 24px;
+  height: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .c0.mul-cell .mul-cell__left-icon {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 
 .c0.mul-cell .mul-cell__right-icon {
-  margin-left: 4px;
+  margin-left: 0.25rem;
   color: #969799;
 }
 
@@ -2853,9 +2853,9 @@ exports[`Field name prop 1`] = `
 
 .c0.mul-cell--required::before {
   position: absolute;
-  left: 8px;
+  left: 0.5rem;
   color: #fa220a;
-  font-size: 14px;
+  font-size: 0.875rem;
   content: '*';
 }
 
@@ -2867,16 +2867,16 @@ exports[`Field name prop 1`] = `
 }
 
 .c0.mul-cell--large {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .c0.mul-cell--large .mul-cell__title {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .c0.mul-cell--large .mul-cell__label {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .c1 .mul-field__label {
@@ -2885,7 +2885,7 @@ exports[`Field name prop 1`] = `
   flex: none !important;
   box-sizing: border-box;
   width: 6.2em;
-  margin-right: 12px;
+  margin-right: 0.75rem;
   color: #646566;
   text-align: left;
   word-wrap: break-word;
@@ -2896,7 +2896,7 @@ exports[`Field name prop 1`] = `
 }
 
 .c1 .mul-field__label--right {
-  padding-right: 16px;
+  padding-right: 1rem;
   text-align: right;
 }
 
@@ -2989,13 +2989,13 @@ exports[`Field name prop 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  min-height: 24px;
+  min-height: 1.5rem;
 }
 
 .c1 .mul-field__control[type='date'],
 .c1 .mul-field__control[type='time'],
 .c1 .mul-field__control[type='datetime-local'] {
-  min-height: 24px;
+  min-height: 1.5rem;
 }
 
 .c1 .mul-field__control[type='search'] {
@@ -3013,14 +3013,14 @@ exports[`Field name prop 1`] = `
 
 .c1 .mul-field__clear,
 .c1 .mul-field__right-icon {
-  margin-right: -8px;
-  padding: 0 8px;
+  margin-right: -0.5rem;
+  padding: 0 0.5rem;
   line-height: inherit;
 }
 
 .c1 .mul-field__clear {
   color: #c8c9cc;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
 }
 
@@ -3028,12 +3028,12 @@ exports[`Field name prop 1`] = `
 .c1 .mul-field__right-icon .mul-icon {
   display: block;
   min-width: 1em;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: inherit;
 }
 
 .c1 .mul-field__left-icon {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 
 .c1 .mul-field__right-icon {
@@ -3041,12 +3041,12 @@ exports[`Field name prop 1`] = `
 }
 
 .c1 .mul-field__button {
-  padding-left: 8px;
+  padding-left: 0.5rem;
 }
 
 .c1 .mul-field__error-message {
   color: #fa220a;
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: left;
 }
 
@@ -3059,10 +3059,10 @@ exports[`Field name prop 1`] = `
 }
 
 .c1 .mul-field__word-limit {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #646566;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 0.75rem;
+  line-height: 1rem;
   text-align: right;
 }
 
@@ -3091,11 +3091,11 @@ exports[`Field name prop 1`] = `
 }
 
 .c1 .mul-field--min-height .mul-field__control {
-  min-height: 60px;
+  min-height: 3.75rem;
 }
 
 .c1.mul-field--round {
-  padding: 0px !important;
+  padding: 0rem !important;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -3104,18 +3104,18 @@ exports[`Field name prop 1`] = `
 }
 
 .c1.mul-field--round__padding {
-  padding-left: 16px !important;
+  padding-left: 1rem !important;
 }
 
 .c1.mul-field--round .mul-field__body--round {
   background-color: #fff;
-  border: 1px solid #ebedf0;
-  border-radius: 999px;
-  padding: 10px 15px;
+  border: 0.0625rem solid #ebedf0;
+  border-radius: 62.4375rem;
+  padding: 0.625rem 0.9375rem;
 }
 
 .c1.mul-field--round .mul-field__error-message {
-  padding: 0px 16px;
+  padding: 0rem 1rem;
 }
 
 <div
@@ -3149,11 +3149,11 @@ exports[`Field reach max word-limit 1`] = `
   display: flex;
   box-sizing: border-box;
   width: 100%;
-  padding: 10px 16px;
+  padding: 0.625rem 1rem;
   overflow: hidden;
   color: #323233;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
   background-color: #fff;
 }
 
@@ -3167,9 +3167,9 @@ exports[`Field reach max word-limit 1`] = `
   box-sizing: border-box;
   content: ' ';
   pointer-events: none;
-  right: 16px;
+  right: 1rem;
   bottom: 0;
-  left: 16px;
+  left: 1rem;
   border-bottom: 1px solid #ebedf0;
   -webkit-transform: scaleY(0.5);
   -ms-transform: scaleY(0.5);
@@ -3177,10 +3177,10 @@ exports[`Field reach max word-limit 1`] = `
 }
 
 .c0.mul-cell .mul-cell__label {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #969799;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
 }
 
 .c0.mul-cell .mul-cell__title,
@@ -3207,17 +3207,17 @@ exports[`Field reach max word-limit 1`] = `
 .c0.mul-cell .mul-cell__left-icon,
 .c0.mul-cell .mul-cell__right-icon {
   min-width: 1em;
-  height: 24px;
-  font-size: 16px;
-  line-height: 24px;
+  height: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .c0.mul-cell .mul-cell__left-icon {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 
 .c0.mul-cell .mul-cell__right-icon {
-  margin-left: 4px;
+  margin-left: 0.25rem;
   color: #969799;
 }
 
@@ -3235,9 +3235,9 @@ exports[`Field reach max word-limit 1`] = `
 
 .c0.mul-cell--required::before {
   position: absolute;
-  left: 8px;
+  left: 0.5rem;
   color: #fa220a;
-  font-size: 14px;
+  font-size: 0.875rem;
   content: '*';
 }
 
@@ -3249,16 +3249,16 @@ exports[`Field reach max word-limit 1`] = `
 }
 
 .c0.mul-cell--large {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .c0.mul-cell--large .mul-cell__title {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .c0.mul-cell--large .mul-cell__label {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .c1 .mul-field__label {
@@ -3267,7 +3267,7 @@ exports[`Field reach max word-limit 1`] = `
   flex: none !important;
   box-sizing: border-box;
   width: 6.2em;
-  margin-right: 12px;
+  margin-right: 0.75rem;
   color: #646566;
   text-align: left;
   word-wrap: break-word;
@@ -3278,7 +3278,7 @@ exports[`Field reach max word-limit 1`] = `
 }
 
 .c1 .mul-field__label--right {
-  padding-right: 16px;
+  padding-right: 1rem;
   text-align: right;
 }
 
@@ -3371,13 +3371,13 @@ exports[`Field reach max word-limit 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  min-height: 24px;
+  min-height: 1.5rem;
 }
 
 .c1 .mul-field__control[type='date'],
 .c1 .mul-field__control[type='time'],
 .c1 .mul-field__control[type='datetime-local'] {
-  min-height: 24px;
+  min-height: 1.5rem;
 }
 
 .c1 .mul-field__control[type='search'] {
@@ -3395,14 +3395,14 @@ exports[`Field reach max word-limit 1`] = `
 
 .c1 .mul-field__clear,
 .c1 .mul-field__right-icon {
-  margin-right: -8px;
-  padding: 0 8px;
+  margin-right: -0.5rem;
+  padding: 0 0.5rem;
   line-height: inherit;
 }
 
 .c1 .mul-field__clear {
   color: #c8c9cc;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
 }
 
@@ -3410,12 +3410,12 @@ exports[`Field reach max word-limit 1`] = `
 .c1 .mul-field__right-icon .mul-icon {
   display: block;
   min-width: 1em;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: inherit;
 }
 
 .c1 .mul-field__left-icon {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 
 .c1 .mul-field__right-icon {
@@ -3423,12 +3423,12 @@ exports[`Field reach max word-limit 1`] = `
 }
 
 .c1 .mul-field__button {
-  padding-left: 8px;
+  padding-left: 0.5rem;
 }
 
 .c1 .mul-field__error-message {
   color: #fa220a;
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: left;
 }
 
@@ -3441,10 +3441,10 @@ exports[`Field reach max word-limit 1`] = `
 }
 
 .c1 .mul-field__word-limit {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #646566;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 0.75rem;
+  line-height: 1rem;
   text-align: right;
 }
 
@@ -3473,11 +3473,11 @@ exports[`Field reach max word-limit 1`] = `
 }
 
 .c1 .mul-field--min-height .mul-field__control {
-  min-height: 60px;
+  min-height: 3.75rem;
 }
 
 .c1.mul-field--round {
-  padding: 0px !important;
+  padding: 0rem !important;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -3486,18 +3486,18 @@ exports[`Field reach max word-limit 1`] = `
 }
 
 .c1.mul-field--round__padding {
-  padding-left: 16px !important;
+  padding-left: 1rem !important;
 }
 
 .c1.mul-field--round .mul-field__body--round {
   background-color: #fff;
-  border: 1px solid #ebedf0;
-  border-radius: 999px;
-  padding: 10px 15px;
+  border: 0.0625rem solid #ebedf0;
+  border-radius: 62.4375rem;
+  padding: 0.625rem 0.9375rem;
 }
 
 .c1.mul-field--round .mul-field__error-message {
-  padding: 0px 16px;
+  padding: 0rem 1rem;
 }
 
 <div
@@ -3540,11 +3540,11 @@ exports[`Field reach max word-limit null 1`] = `
   display: flex;
   box-sizing: border-box;
   width: 100%;
-  padding: 10px 16px;
+  padding: 0.625rem 1rem;
   overflow: hidden;
   color: #323233;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
   background-color: #fff;
 }
 
@@ -3558,9 +3558,9 @@ exports[`Field reach max word-limit null 1`] = `
   box-sizing: border-box;
   content: ' ';
   pointer-events: none;
-  right: 16px;
+  right: 1rem;
   bottom: 0;
-  left: 16px;
+  left: 1rem;
   border-bottom: 1px solid #ebedf0;
   -webkit-transform: scaleY(0.5);
   -ms-transform: scaleY(0.5);
@@ -3568,10 +3568,10 @@ exports[`Field reach max word-limit null 1`] = `
 }
 
 .c0.mul-cell .mul-cell__label {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #969799;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
 }
 
 .c0.mul-cell .mul-cell__title,
@@ -3598,17 +3598,17 @@ exports[`Field reach max word-limit null 1`] = `
 .c0.mul-cell .mul-cell__left-icon,
 .c0.mul-cell .mul-cell__right-icon {
   min-width: 1em;
-  height: 24px;
-  font-size: 16px;
-  line-height: 24px;
+  height: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .c0.mul-cell .mul-cell__left-icon {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 
 .c0.mul-cell .mul-cell__right-icon {
-  margin-left: 4px;
+  margin-left: 0.25rem;
   color: #969799;
 }
 
@@ -3626,9 +3626,9 @@ exports[`Field reach max word-limit null 1`] = `
 
 .c0.mul-cell--required::before {
   position: absolute;
-  left: 8px;
+  left: 0.5rem;
   color: #fa220a;
-  font-size: 14px;
+  font-size: 0.875rem;
   content: '*';
 }
 
@@ -3640,16 +3640,16 @@ exports[`Field reach max word-limit null 1`] = `
 }
 
 .c0.mul-cell--large {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .c0.mul-cell--large .mul-cell__title {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .c0.mul-cell--large .mul-cell__label {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .c1 .mul-field__label {
@@ -3658,7 +3658,7 @@ exports[`Field reach max word-limit null 1`] = `
   flex: none !important;
   box-sizing: border-box;
   width: 6.2em;
-  margin-right: 12px;
+  margin-right: 0.75rem;
   color: #646566;
   text-align: left;
   word-wrap: break-word;
@@ -3669,7 +3669,7 @@ exports[`Field reach max word-limit null 1`] = `
 }
 
 .c1 .mul-field__label--right {
-  padding-right: 16px;
+  padding-right: 1rem;
   text-align: right;
 }
 
@@ -3762,13 +3762,13 @@ exports[`Field reach max word-limit null 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  min-height: 24px;
+  min-height: 1.5rem;
 }
 
 .c1 .mul-field__control[type='date'],
 .c1 .mul-field__control[type='time'],
 .c1 .mul-field__control[type='datetime-local'] {
-  min-height: 24px;
+  min-height: 1.5rem;
 }
 
 .c1 .mul-field__control[type='search'] {
@@ -3786,14 +3786,14 @@ exports[`Field reach max word-limit null 1`] = `
 
 .c1 .mul-field__clear,
 .c1 .mul-field__right-icon {
-  margin-right: -8px;
-  padding: 0 8px;
+  margin-right: -0.5rem;
+  padding: 0 0.5rem;
   line-height: inherit;
 }
 
 .c1 .mul-field__clear {
   color: #c8c9cc;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
 }
 
@@ -3801,12 +3801,12 @@ exports[`Field reach max word-limit null 1`] = `
 .c1 .mul-field__right-icon .mul-icon {
   display: block;
   min-width: 1em;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: inherit;
 }
 
 .c1 .mul-field__left-icon {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 
 .c1 .mul-field__right-icon {
@@ -3814,12 +3814,12 @@ exports[`Field reach max word-limit null 1`] = `
 }
 
 .c1 .mul-field__button {
-  padding-left: 8px;
+  padding-left: 0.5rem;
 }
 
 .c1 .mul-field__error-message {
   color: #fa220a;
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: left;
 }
 
@@ -3832,10 +3832,10 @@ exports[`Field reach max word-limit null 1`] = `
 }
 
 .c1 .mul-field__word-limit {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #646566;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 0.75rem;
+  line-height: 1rem;
   text-align: right;
 }
 
@@ -3864,11 +3864,11 @@ exports[`Field reach max word-limit null 1`] = `
 }
 
 .c1 .mul-field--min-height .mul-field__control {
-  min-height: 60px;
+  min-height: 3.75rem;
 }
 
 .c1.mul-field--round {
-  padding: 0px !important;
+  padding: 0rem !important;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -3877,18 +3877,18 @@ exports[`Field reach max word-limit null 1`] = `
 }
 
 .c1.mul-field--round__padding {
-  padding-left: 16px !important;
+  padding-left: 1rem !important;
 }
 
 .c1.mul-field--round .mul-field__body--round {
   background-color: #fff;
-  border: 1px solid #ebedf0;
-  border-radius: 999px;
-  padding: 10px 15px;
+  border: 0.0625rem solid #ebedf0;
+  border-radius: 62.4375rem;
+  padding: 0.625rem 0.9375rem;
 }
 
 .c1.mul-field--round .mul-field__error-message {
-  padding: 0px 16px;
+  padding: 0rem 1rem;
 }
 
 <div
@@ -3931,11 +3931,11 @@ exports[`Field reach max word-limit undefined 1`] = `
   display: flex;
   box-sizing: border-box;
   width: 100%;
-  padding: 10px 16px;
+  padding: 0.625rem 1rem;
   overflow: hidden;
   color: #323233;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
   background-color: #fff;
 }
 
@@ -3949,9 +3949,9 @@ exports[`Field reach max word-limit undefined 1`] = `
   box-sizing: border-box;
   content: ' ';
   pointer-events: none;
-  right: 16px;
+  right: 1rem;
   bottom: 0;
-  left: 16px;
+  left: 1rem;
   border-bottom: 1px solid #ebedf0;
   -webkit-transform: scaleY(0.5);
   -ms-transform: scaleY(0.5);
@@ -3959,10 +3959,10 @@ exports[`Field reach max word-limit undefined 1`] = `
 }
 
 .c0.mul-cell .mul-cell__label {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #969799;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
 }
 
 .c0.mul-cell .mul-cell__title,
@@ -3989,17 +3989,17 @@ exports[`Field reach max word-limit undefined 1`] = `
 .c0.mul-cell .mul-cell__left-icon,
 .c0.mul-cell .mul-cell__right-icon {
   min-width: 1em;
-  height: 24px;
-  font-size: 16px;
-  line-height: 24px;
+  height: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .c0.mul-cell .mul-cell__left-icon {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 
 .c0.mul-cell .mul-cell__right-icon {
-  margin-left: 4px;
+  margin-left: 0.25rem;
   color: #969799;
 }
 
@@ -4017,9 +4017,9 @@ exports[`Field reach max word-limit undefined 1`] = `
 
 .c0.mul-cell--required::before {
   position: absolute;
-  left: 8px;
+  left: 0.5rem;
   color: #fa220a;
-  font-size: 14px;
+  font-size: 0.875rem;
   content: '*';
 }
 
@@ -4031,16 +4031,16 @@ exports[`Field reach max word-limit undefined 1`] = `
 }
 
 .c0.mul-cell--large {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .c0.mul-cell--large .mul-cell__title {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .c0.mul-cell--large .mul-cell__label {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .c1 .mul-field__label {
@@ -4049,7 +4049,7 @@ exports[`Field reach max word-limit undefined 1`] = `
   flex: none !important;
   box-sizing: border-box;
   width: 6.2em;
-  margin-right: 12px;
+  margin-right: 0.75rem;
   color: #646566;
   text-align: left;
   word-wrap: break-word;
@@ -4060,7 +4060,7 @@ exports[`Field reach max word-limit undefined 1`] = `
 }
 
 .c1 .mul-field__label--right {
-  padding-right: 16px;
+  padding-right: 1rem;
   text-align: right;
 }
 
@@ -4153,13 +4153,13 @@ exports[`Field reach max word-limit undefined 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  min-height: 24px;
+  min-height: 1.5rem;
 }
 
 .c1 .mul-field__control[type='date'],
 .c1 .mul-field__control[type='time'],
 .c1 .mul-field__control[type='datetime-local'] {
-  min-height: 24px;
+  min-height: 1.5rem;
 }
 
 .c1 .mul-field__control[type='search'] {
@@ -4177,14 +4177,14 @@ exports[`Field reach max word-limit undefined 1`] = `
 
 .c1 .mul-field__clear,
 .c1 .mul-field__right-icon {
-  margin-right: -8px;
-  padding: 0 8px;
+  margin-right: -0.5rem;
+  padding: 0 0.5rem;
   line-height: inherit;
 }
 
 .c1 .mul-field__clear {
   color: #c8c9cc;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
 }
 
@@ -4192,12 +4192,12 @@ exports[`Field reach max word-limit undefined 1`] = `
 .c1 .mul-field__right-icon .mul-icon {
   display: block;
   min-width: 1em;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: inherit;
 }
 
 .c1 .mul-field__left-icon {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 
 .c1 .mul-field__right-icon {
@@ -4205,12 +4205,12 @@ exports[`Field reach max word-limit undefined 1`] = `
 }
 
 .c1 .mul-field__button {
-  padding-left: 8px;
+  padding-left: 0.5rem;
 }
 
 .c1 .mul-field__error-message {
   color: #fa220a;
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: left;
 }
 
@@ -4223,10 +4223,10 @@ exports[`Field reach max word-limit undefined 1`] = `
 }
 
 .c1 .mul-field__word-limit {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #646566;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 0.75rem;
+  line-height: 1rem;
   text-align: right;
 }
 
@@ -4255,11 +4255,11 @@ exports[`Field reach max word-limit undefined 1`] = `
 }
 
 .c1 .mul-field--min-height .mul-field__control {
-  min-height: 60px;
+  min-height: 3.75rem;
 }
 
 .c1.mul-field--round {
-  padding: 0px !important;
+  padding: 0rem !important;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -4268,18 +4268,18 @@ exports[`Field reach max word-limit undefined 1`] = `
 }
 
 .c1.mul-field--round__padding {
-  padding-left: 16px !important;
+  padding-left: 1rem !important;
 }
 
 .c1.mul-field--round .mul-field__body--round {
   background-color: #fff;
-  border: 1px solid #ebedf0;
-  border-radius: 999px;
-  padding: 10px 15px;
+  border: 0.0625rem solid #ebedf0;
+  border-radius: 62.4375rem;
+  padding: 0.625rem 0.9375rem;
 }
 
 .c1.mul-field--round .mul-field__error-message {
-  padding: 0px 16px;
+  padding: 0rem 1rem;
 }
 
 <div
@@ -4322,11 +4322,11 @@ exports[`Field render field has children 1`] = `
   display: flex;
   box-sizing: border-box;
   width: 100%;
-  padding: 10px 16px;
+  padding: 0.625rem 1rem;
   overflow: hidden;
   color: #323233;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
   background-color: #fff;
 }
 
@@ -4340,9 +4340,9 @@ exports[`Field render field has children 1`] = `
   box-sizing: border-box;
   content: ' ';
   pointer-events: none;
-  right: 16px;
+  right: 1rem;
   bottom: 0;
-  left: 16px;
+  left: 1rem;
   border-bottom: 1px solid #ebedf0;
   -webkit-transform: scaleY(0.5);
   -ms-transform: scaleY(0.5);
@@ -4350,10 +4350,10 @@ exports[`Field render field has children 1`] = `
 }
 
 .c0.mul-cell .mul-cell__label {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #969799;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
 }
 
 .c0.mul-cell .mul-cell__title,
@@ -4380,17 +4380,17 @@ exports[`Field render field has children 1`] = `
 .c0.mul-cell .mul-cell__left-icon,
 .c0.mul-cell .mul-cell__right-icon {
   min-width: 1em;
-  height: 24px;
-  font-size: 16px;
-  line-height: 24px;
+  height: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .c0.mul-cell .mul-cell__left-icon {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 
 .c0.mul-cell .mul-cell__right-icon {
-  margin-left: 4px;
+  margin-left: 0.25rem;
   color: #969799;
 }
 
@@ -4408,9 +4408,9 @@ exports[`Field render field has children 1`] = `
 
 .c0.mul-cell--required::before {
   position: absolute;
-  left: 8px;
+  left: 0.5rem;
   color: #fa220a;
-  font-size: 14px;
+  font-size: 0.875rem;
   content: '*';
 }
 
@@ -4422,16 +4422,16 @@ exports[`Field render field has children 1`] = `
 }
 
 .c0.mul-cell--large {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .c0.mul-cell--large .mul-cell__title {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .c0.mul-cell--large .mul-cell__label {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .c1 .mul-field__label {
@@ -4440,7 +4440,7 @@ exports[`Field render field has children 1`] = `
   flex: none !important;
   box-sizing: border-box;
   width: 6.2em;
-  margin-right: 12px;
+  margin-right: 0.75rem;
   color: #646566;
   text-align: left;
   word-wrap: break-word;
@@ -4451,7 +4451,7 @@ exports[`Field render field has children 1`] = `
 }
 
 .c1 .mul-field__label--right {
-  padding-right: 16px;
+  padding-right: 1rem;
   text-align: right;
 }
 
@@ -4544,13 +4544,13 @@ exports[`Field render field has children 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  min-height: 24px;
+  min-height: 1.5rem;
 }
 
 .c1 .mul-field__control[type='date'],
 .c1 .mul-field__control[type='time'],
 .c1 .mul-field__control[type='datetime-local'] {
-  min-height: 24px;
+  min-height: 1.5rem;
 }
 
 .c1 .mul-field__control[type='search'] {
@@ -4568,14 +4568,14 @@ exports[`Field render field has children 1`] = `
 
 .c1 .mul-field__clear,
 .c1 .mul-field__right-icon {
-  margin-right: -8px;
-  padding: 0 8px;
+  margin-right: -0.5rem;
+  padding: 0 0.5rem;
   line-height: inherit;
 }
 
 .c1 .mul-field__clear {
   color: #c8c9cc;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
 }
 
@@ -4583,12 +4583,12 @@ exports[`Field render field has children 1`] = `
 .c1 .mul-field__right-icon .mul-icon {
   display: block;
   min-width: 1em;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: inherit;
 }
 
 .c1 .mul-field__left-icon {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 
 .c1 .mul-field__right-icon {
@@ -4596,12 +4596,12 @@ exports[`Field render field has children 1`] = `
 }
 
 .c1 .mul-field__button {
-  padding-left: 8px;
+  padding-left: 0.5rem;
 }
 
 .c1 .mul-field__error-message {
   color: #fa220a;
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: left;
 }
 
@@ -4614,10 +4614,10 @@ exports[`Field render field has children 1`] = `
 }
 
 .c1 .mul-field__word-limit {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #646566;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 0.75rem;
+  line-height: 1rem;
   text-align: right;
 }
 
@@ -4646,11 +4646,11 @@ exports[`Field render field has children 1`] = `
 }
 
 .c1 .mul-field--min-height .mul-field__control {
-  min-height: 60px;
+  min-height: 3.75rem;
 }
 
 .c1.mul-field--round {
-  padding: 0px !important;
+  padding: 0rem !important;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -4659,18 +4659,18 @@ exports[`Field render field has children 1`] = `
 }
 
 .c1.mul-field--round__padding {
-  padding-left: 16px !important;
+  padding-left: 1rem !important;
 }
 
 .c1.mul-field--round .mul-field__body--round {
   background-color: #fff;
-  border: 1px solid #ebedf0;
-  border-radius: 999px;
-  padding: 10px 15px;
+  border: 0.0625rem solid #ebedf0;
+  border-radius: 62.4375rem;
+  padding: 0.625rem 0.9375rem;
 }
 
 .c1.mul-field--round .mul-field__error-message {
-  padding: 0px 16px;
+  padding: 0rem 1rem;
 }
 
 <div
@@ -4705,11 +4705,11 @@ exports[`Field render label 1`] = `
   display: flex;
   box-sizing: border-box;
   width: 100%;
-  padding: 10px 16px;
+  padding: 0.625rem 1rem;
   overflow: hidden;
   color: #323233;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
   background-color: #fff;
 }
 
@@ -4723,9 +4723,9 @@ exports[`Field render label 1`] = `
   box-sizing: border-box;
   content: ' ';
   pointer-events: none;
-  right: 16px;
+  right: 1rem;
   bottom: 0;
-  left: 16px;
+  left: 1rem;
   border-bottom: 1px solid #ebedf0;
   -webkit-transform: scaleY(0.5);
   -ms-transform: scaleY(0.5);
@@ -4733,10 +4733,10 @@ exports[`Field render label 1`] = `
 }
 
 .c0.mul-cell .mul-cell__label {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #969799;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
 }
 
 .c0.mul-cell .mul-cell__title,
@@ -4763,17 +4763,17 @@ exports[`Field render label 1`] = `
 .c0.mul-cell .mul-cell__left-icon,
 .c0.mul-cell .mul-cell__right-icon {
   min-width: 1em;
-  height: 24px;
-  font-size: 16px;
-  line-height: 24px;
+  height: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .c0.mul-cell .mul-cell__left-icon {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 
 .c0.mul-cell .mul-cell__right-icon {
-  margin-left: 4px;
+  margin-left: 0.25rem;
   color: #969799;
 }
 
@@ -4791,9 +4791,9 @@ exports[`Field render label 1`] = `
 
 .c0.mul-cell--required::before {
   position: absolute;
-  left: 8px;
+  left: 0.5rem;
   color: #fa220a;
-  font-size: 14px;
+  font-size: 0.875rem;
   content: '*';
 }
 
@@ -4805,16 +4805,16 @@ exports[`Field render label 1`] = `
 }
 
 .c0.mul-cell--large {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .c0.mul-cell--large .mul-cell__title {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .c0.mul-cell--large .mul-cell__label {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .c1 .mul-field__label {
@@ -4823,7 +4823,7 @@ exports[`Field render label 1`] = `
   flex: none !important;
   box-sizing: border-box;
   width: 6.2em;
-  margin-right: 12px;
+  margin-right: 0.75rem;
   color: #646566;
   text-align: left;
   word-wrap: break-word;
@@ -4834,7 +4834,7 @@ exports[`Field render label 1`] = `
 }
 
 .c1 .mul-field__label--right {
-  padding-right: 16px;
+  padding-right: 1rem;
   text-align: right;
 }
 
@@ -4927,13 +4927,13 @@ exports[`Field render label 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  min-height: 24px;
+  min-height: 1.5rem;
 }
 
 .c1 .mul-field__control[type='date'],
 .c1 .mul-field__control[type='time'],
 .c1 .mul-field__control[type='datetime-local'] {
-  min-height: 24px;
+  min-height: 1.5rem;
 }
 
 .c1 .mul-field__control[type='search'] {
@@ -4951,14 +4951,14 @@ exports[`Field render label 1`] = `
 
 .c1 .mul-field__clear,
 .c1 .mul-field__right-icon {
-  margin-right: -8px;
-  padding: 0 8px;
+  margin-right: -0.5rem;
+  padding: 0 0.5rem;
   line-height: inherit;
 }
 
 .c1 .mul-field__clear {
   color: #c8c9cc;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
 }
 
@@ -4966,12 +4966,12 @@ exports[`Field render label 1`] = `
 .c1 .mul-field__right-icon .mul-icon {
   display: block;
   min-width: 1em;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: inherit;
 }
 
 .c1 .mul-field__left-icon {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 
 .c1 .mul-field__right-icon {
@@ -4979,12 +4979,12 @@ exports[`Field render label 1`] = `
 }
 
 .c1 .mul-field__button {
-  padding-left: 8px;
+  padding-left: 0.5rem;
 }
 
 .c1 .mul-field__error-message {
   color: #fa220a;
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: left;
 }
 
@@ -4997,10 +4997,10 @@ exports[`Field render label 1`] = `
 }
 
 .c1 .mul-field__word-limit {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #646566;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 0.75rem;
+  line-height: 1rem;
   text-align: right;
 }
 
@@ -5029,11 +5029,11 @@ exports[`Field render label 1`] = `
 }
 
 .c1 .mul-field--min-height .mul-field__control {
-  min-height: 60px;
+  min-height: 3.75rem;
 }
 
 .c1.mul-field--round {
-  padding: 0px !important;
+  padding: 0rem !important;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -5042,18 +5042,18 @@ exports[`Field render label 1`] = `
 }
 
 .c1.mul-field--round__padding {
-  padding-left: 16px !important;
+  padding-left: 1rem !important;
 }
 
 .c1.mul-field--round .mul-field__body--round {
   background-color: #fff;
-  border: 1px solid #ebedf0;
-  border-radius: 999px;
-  padding: 10px 15px;
+  border: 0.0625rem solid #ebedf0;
+  border-radius: 62.4375rem;
+  padding: 0.625rem 0.9375rem;
 }
 
 .c1.mul-field--round .mul-field__error-message {
-  padding: 0px 16px;
+  padding: 0rem 1rem;
 }
 
 <div
@@ -5093,11 +5093,11 @@ exports[`Field render textarea 1`] = `
   display: flex;
   box-sizing: border-box;
   width: 100%;
-  padding: 10px 16px;
+  padding: 0.625rem 1rem;
   overflow: hidden;
   color: #323233;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
   background-color: #fff;
 }
 
@@ -5111,9 +5111,9 @@ exports[`Field render textarea 1`] = `
   box-sizing: border-box;
   content: ' ';
   pointer-events: none;
-  right: 16px;
+  right: 1rem;
   bottom: 0;
-  left: 16px;
+  left: 1rem;
   border-bottom: 1px solid #ebedf0;
   -webkit-transform: scaleY(0.5);
   -ms-transform: scaleY(0.5);
@@ -5121,10 +5121,10 @@ exports[`Field render textarea 1`] = `
 }
 
 .c0.mul-cell .mul-cell__label {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #969799;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
 }
 
 .c0.mul-cell .mul-cell__title,
@@ -5151,17 +5151,17 @@ exports[`Field render textarea 1`] = `
 .c0.mul-cell .mul-cell__left-icon,
 .c0.mul-cell .mul-cell__right-icon {
   min-width: 1em;
-  height: 24px;
-  font-size: 16px;
-  line-height: 24px;
+  height: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .c0.mul-cell .mul-cell__left-icon {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 
 .c0.mul-cell .mul-cell__right-icon {
-  margin-left: 4px;
+  margin-left: 0.25rem;
   color: #969799;
 }
 
@@ -5179,9 +5179,9 @@ exports[`Field render textarea 1`] = `
 
 .c0.mul-cell--required::before {
   position: absolute;
-  left: 8px;
+  left: 0.5rem;
   color: #fa220a;
-  font-size: 14px;
+  font-size: 0.875rem;
   content: '*';
 }
 
@@ -5193,16 +5193,16 @@ exports[`Field render textarea 1`] = `
 }
 
 .c0.mul-cell--large {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .c0.mul-cell--large .mul-cell__title {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .c0.mul-cell--large .mul-cell__label {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .c1 .mul-field__label {
@@ -5211,7 +5211,7 @@ exports[`Field render textarea 1`] = `
   flex: none !important;
   box-sizing: border-box;
   width: 6.2em;
-  margin-right: 12px;
+  margin-right: 0.75rem;
   color: #646566;
   text-align: left;
   word-wrap: break-word;
@@ -5222,7 +5222,7 @@ exports[`Field render textarea 1`] = `
 }
 
 .c1 .mul-field__label--right {
-  padding-right: 16px;
+  padding-right: 1rem;
   text-align: right;
 }
 
@@ -5315,13 +5315,13 @@ exports[`Field render textarea 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  min-height: 24px;
+  min-height: 1.5rem;
 }
 
 .c1 .mul-field__control[type='date'],
 .c1 .mul-field__control[type='time'],
 .c1 .mul-field__control[type='datetime-local'] {
-  min-height: 24px;
+  min-height: 1.5rem;
 }
 
 .c1 .mul-field__control[type='search'] {
@@ -5339,14 +5339,14 @@ exports[`Field render textarea 1`] = `
 
 .c1 .mul-field__clear,
 .c1 .mul-field__right-icon {
-  margin-right: -8px;
-  padding: 0 8px;
+  margin-right: -0.5rem;
+  padding: 0 0.5rem;
   line-height: inherit;
 }
 
 .c1 .mul-field__clear {
   color: #c8c9cc;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
 }
 
@@ -5354,12 +5354,12 @@ exports[`Field render textarea 1`] = `
 .c1 .mul-field__right-icon .mul-icon {
   display: block;
   min-width: 1em;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: inherit;
 }
 
 .c1 .mul-field__left-icon {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 
 .c1 .mul-field__right-icon {
@@ -5367,12 +5367,12 @@ exports[`Field render textarea 1`] = `
 }
 
 .c1 .mul-field__button {
-  padding-left: 8px;
+  padding-left: 0.5rem;
 }
 
 .c1 .mul-field__error-message {
   color: #fa220a;
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: left;
 }
 
@@ -5385,10 +5385,10 @@ exports[`Field render textarea 1`] = `
 }
 
 .c1 .mul-field__word-limit {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #646566;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 0.75rem;
+  line-height: 1rem;
   text-align: right;
 }
 
@@ -5417,11 +5417,11 @@ exports[`Field render textarea 1`] = `
 }
 
 .c1 .mul-field--min-height .mul-field__control {
-  min-height: 60px;
+  min-height: 3.75rem;
 }
 
 .c1.mul-field--round {
-  padding: 0px !important;
+  padding: 0rem !important;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -5430,18 +5430,18 @@ exports[`Field render textarea 1`] = `
 }
 
 .c1.mul-field--round__padding {
-  padding-left: 16px !important;
+  padding-left: 1rem !important;
 }
 
 .c1.mul-field--round .mul-field__body--round {
   background-color: #fff;
-  border: 1px solid #ebedf0;
-  border-radius: 999px;
-  padding: 10px 15px;
+  border: 0.0625rem solid #ebedf0;
+  border-radius: 62.4375rem;
+  padding: 0.625rem 0.9375rem;
 }
 
 .c1.mul-field--round .mul-field__error-message {
-  padding: 0px 16px;
+  padding: 0rem 1rem;
 }
 
 <div
@@ -5474,11 +5474,11 @@ exports[`Field size prop 1`] = `
   display: flex;
   box-sizing: border-box;
   width: 100%;
-  padding: 10px 16px;
+  padding: 0.625rem 1rem;
   overflow: hidden;
   color: #323233;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
   background-color: #fff;
 }
 
@@ -5492,9 +5492,9 @@ exports[`Field size prop 1`] = `
   box-sizing: border-box;
   content: ' ';
   pointer-events: none;
-  right: 16px;
+  right: 1rem;
   bottom: 0;
-  left: 16px;
+  left: 1rem;
   border-bottom: 1px solid #ebedf0;
   -webkit-transform: scaleY(0.5);
   -ms-transform: scaleY(0.5);
@@ -5502,10 +5502,10 @@ exports[`Field size prop 1`] = `
 }
 
 .c0.mul-cell .mul-cell__label {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #969799;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
 }
 
 .c0.mul-cell .mul-cell__title,
@@ -5532,17 +5532,17 @@ exports[`Field size prop 1`] = `
 .c0.mul-cell .mul-cell__left-icon,
 .c0.mul-cell .mul-cell__right-icon {
   min-width: 1em;
-  height: 24px;
-  font-size: 16px;
-  line-height: 24px;
+  height: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .c0.mul-cell .mul-cell__left-icon {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 
 .c0.mul-cell .mul-cell__right-icon {
-  margin-left: 4px;
+  margin-left: 0.25rem;
   color: #969799;
 }
 
@@ -5560,9 +5560,9 @@ exports[`Field size prop 1`] = `
 
 .c0.mul-cell--required::before {
   position: absolute;
-  left: 8px;
+  left: 0.5rem;
   color: #fa220a;
-  font-size: 14px;
+  font-size: 0.875rem;
   content: '*';
 }
 
@@ -5574,16 +5574,16 @@ exports[`Field size prop 1`] = `
 }
 
 .c0.mul-cell--large {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .c0.mul-cell--large .mul-cell__title {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .c0.mul-cell--large .mul-cell__label {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .c1 .mul-field__label {
@@ -5592,7 +5592,7 @@ exports[`Field size prop 1`] = `
   flex: none !important;
   box-sizing: border-box;
   width: 6.2em;
-  margin-right: 12px;
+  margin-right: 0.75rem;
   color: #646566;
   text-align: left;
   word-wrap: break-word;
@@ -5603,7 +5603,7 @@ exports[`Field size prop 1`] = `
 }
 
 .c1 .mul-field__label--right {
-  padding-right: 16px;
+  padding-right: 1rem;
   text-align: right;
 }
 
@@ -5696,13 +5696,13 @@ exports[`Field size prop 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  min-height: 24px;
+  min-height: 1.5rem;
 }
 
 .c1 .mul-field__control[type='date'],
 .c1 .mul-field__control[type='time'],
 .c1 .mul-field__control[type='datetime-local'] {
-  min-height: 24px;
+  min-height: 1.5rem;
 }
 
 .c1 .mul-field__control[type='search'] {
@@ -5720,14 +5720,14 @@ exports[`Field size prop 1`] = `
 
 .c1 .mul-field__clear,
 .c1 .mul-field__right-icon {
-  margin-right: -8px;
-  padding: 0 8px;
+  margin-right: -0.5rem;
+  padding: 0 0.5rem;
   line-height: inherit;
 }
 
 .c1 .mul-field__clear {
   color: #c8c9cc;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
 }
 
@@ -5735,12 +5735,12 @@ exports[`Field size prop 1`] = `
 .c1 .mul-field__right-icon .mul-icon {
   display: block;
   min-width: 1em;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: inherit;
 }
 
 .c1 .mul-field__left-icon {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 
 .c1 .mul-field__right-icon {
@@ -5748,12 +5748,12 @@ exports[`Field size prop 1`] = `
 }
 
 .c1 .mul-field__button {
-  padding-left: 8px;
+  padding-left: 0.5rem;
 }
 
 .c1 .mul-field__error-message {
   color: #fa220a;
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: left;
 }
 
@@ -5766,10 +5766,10 @@ exports[`Field size prop 1`] = `
 }
 
 .c1 .mul-field__word-limit {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #646566;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 0.75rem;
+  line-height: 1rem;
   text-align: right;
 }
 
@@ -5798,11 +5798,11 @@ exports[`Field size prop 1`] = `
 }
 
 .c1 .mul-field--min-height .mul-field__control {
-  min-height: 60px;
+  min-height: 3.75rem;
 }
 
 .c1.mul-field--round {
-  padding: 0px !important;
+  padding: 0rem !important;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -5811,18 +5811,18 @@ exports[`Field size prop 1`] = `
 }
 
 .c1.mul-field--round__padding {
-  padding-left: 16px !important;
+  padding-left: 1rem !important;
 }
 
 .c1.mul-field--round .mul-field__body--round {
   background-color: #fff;
-  border: 1px solid #ebedf0;
-  border-radius: 999px;
-  padding: 10px 15px;
+  border: 0.0625rem solid #ebedf0;
+  border-radius: 62.4375rem;
+  padding: 0.625rem 0.9375rem;
 }
 
 .c1.mul-field--round .mul-field__error-message {
-  padding: 0px 16px;
+  padding: 0rem 1rem;
 }
 
 <div

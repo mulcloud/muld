@@ -180,7 +180,7 @@ const View = styled.div`
         background: ${$white};
 
         .mul-checkbox {
-            margin: 0 0 8px 20px;
+            margin: 0 0 0.5rem 1.25rem;
         }
 
         .mul-cell {
@@ -198,7 +198,7 @@ const View = styled.div`
         }
 
         .mul-doc-demo-block__title {
-            margin-top: -8px;
+            margin-top: -0.5rem;
         }
     }
 `;

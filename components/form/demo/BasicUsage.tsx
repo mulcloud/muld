@@ -31,7 +31,7 @@ export default function BasicUsage() {
                     placeholder="密码"
                     rules={[{ required: true, message: '请填写密码' }]}
                 />
-                <div style={{ margin: '16px 16px 0' }}>
+                <div style={{ margin: '1rem 1rem 0' }}>
                     <Button round block type="info" nativeType="submit">
                         提交
                     </Button>

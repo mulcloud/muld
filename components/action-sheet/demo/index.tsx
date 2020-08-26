@@ -127,7 +127,7 @@ export default function ActionSheetDemo() {
                         setVisible5(false);
                     }}
                 >
-                    <div style={{ padding: '16px 16px 160px' }}>这是内容</div>
+                    <div style={{ padding: '1rem 1rem 10rem' }}>这是内容</div>
                 </ActionSheet>
             </DemoBlock>
         </DemoSection>

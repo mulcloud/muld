@@ -3,7 +3,7 @@
 exports[`sidebar & sidebar-item disabled prop 1`] = `
 <DocumentFragment>
   .c0.mul-sidebar {
-  width: 80px;
+  width: 5rem;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 }
@@ -12,11 +12,11 @@ exports[`sidebar & sidebar-item disabled prop 1`] = `
   position: relative;
   display: block;
   box-sizing: border-box;
-  padding: 20px 12px;
+  padding: 1.25rem 0.75rem;
   overflow: hidden;
   color: #323233;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
   word-wrap: break-word;
   background-color: #f7f8fa;
   cursor: pointer;
@@ -31,7 +31,7 @@ exports[`sidebar & sidebar-item disabled prop 1`] = `
 }
 
 .c1.mul-sidebar-item:not(:last-child)::after {
-  border-bottom-width: 1px;
+  border-bottom-width: 0.0625rem;
 }
 
 .c1.mul-sidebar-item .mul-sidebar-item__text {
@@ -53,8 +53,8 @@ exports[`sidebar & sidebar-item disabled prop 1`] = `
   position: absolute;
   top: 50%;
   left: 0;
-  width: 4px;
-  height: 16px;
+  width: 0.25rem;
+  height: 1rem;
   background-color: #fa220a;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);

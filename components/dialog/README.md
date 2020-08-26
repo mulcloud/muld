@@ -47,7 +47,7 @@ Used to confirm some messages, including a confirm button and a cancel button.
 | --- | --- | --- | --- |
 | visible | Whether to show dialog | _boolean_ | - |
 | title | Title | _string_ | - |
-| width | Width | _number \| string_ | `320px` |
+| width | Width | _number \| string_ | `20rem` |
 | messageAlign | Message align，can be set to `left` `right` | _string_ | `center` |
 | showConfirmButton | Whether to show confirm button | _boolean_ | `true` |
 | showCancelButton | Whether to show cancel button | _boolean_ | `false` |

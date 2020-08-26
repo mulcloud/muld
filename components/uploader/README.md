@@ -120,9 +120,9 @@ const onOversize = (file: FileType, detail: Record<string, any>) => {
     box-sizing: border-box;
     bottom: 0;
     width: 100%;
-    padding: 4px;
+    padding: 0.25rem;
     color: #fff;
-    font-size: 12px;
+    font-size: 0.75rem;
     text-align: center;
     background: rgba(0, 0, 0, 0.3);
   }
@@ -177,7 +177,7 @@ Use `disabled` prop to disable uploader.
 | fileList | List of uploaded files | _FileListItem[]_ | - |
 | accept | Accepted [file type](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file#Unique_file_type_specifiers) | _string_ | `image/*` |
 | name | Input name | _number \| string_ | - |
-| previewSize | Size of preview image | _number \| string_ | `80px` |
+| previewSize | Size of preview image | _number \| string_ | `5rem` |
 | previewImage | Whether to show image preview | _boolean_ | `true` |
 | previewFullImage(TODO) | Whethe to show full screen image preview when click image | _boolean_ | `true` |
 | previewOptions(TODO)  | Options of full screen image preview，see [ImagePreview](#/en-US/image-preview) | _object_ | - |

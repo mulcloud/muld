@@ -53,5 +53,5 @@ const [show, setSkeletonState] = React.useState(false);
 | animate | 是否开启动画 | _boolean_ | `true` |
 | round | 是否将标题和段落显示为圆角风格 | _boolean_ | `false` |
 | titleWidth | 标题占位图宽度 | _number \| string_ | `40%` |
-| avatarSize | 头像占位图大小 | _number \| string_ | `32px` |
+| avatarSize | 头像占位图大小 | _number \| string_ | `2rem` |
 | avatarShape | 头像占位图形状，可选值为`square` | _string_ | `round` |

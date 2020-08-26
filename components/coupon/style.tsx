@@ -26,20 +26,20 @@ export const View = styled.div`
         &::after {
             content: '';
             position: absolute;
-            width: 10px;
-            height: 10px;
-            border-radius: 5px;
+            width: 0.625rem;
+            height: 0.625rem;
+            border-radius: 0.3125rem;
             background: ${$white};
         }
 
         &::before {
-            right: 88px;
-            top: -5px;
+            right: 5.5rem;
+            top: -0.3125rem;
         }
 
         &::after {
-            right: 88px;
-            bottom: -5px;
+            right: 5.5rem;
+            bottom: -0.3125rem;
         }
 
         .mul-coupon__content {
@@ -72,7 +72,7 @@ export const View = styled.div`
         }
 
         .mul-coupon__amount {
-            margin-bottom: 6px;
+            margin-bottom: 0.375rem;
             font-weight: ${$coupon.font_weight_bold};
             font-size: ${$coupon.amount_font_size};
             ${ellipsis()}
@@ -82,14 +82,14 @@ export const View = styled.div`
                 font-size: ${$coupon.currency_font_size};
 
                 &:not(:empty) {
-                    margin-left: 2px;
+                    margin-left: 0.125rem;
                 }
             }
         }
 
         .mul-coupon__condition {
             font-size: ${$font_size_sm};
-            line-height: 16px;
+            line-height: 1rem;
             white-space: pre-wrap;
         }
         .mul-coupon__currency {
@@ -101,13 +101,13 @@ export const View = styled.div`
             position: relative;
             border-radius: 0 ${$coupon.border_radius} ${$coupon.border_radius} 0;
             border-left-style: dashed;
-            border-width: 1px;
-            padding: 35px 0px 35px 13px;
+            border-width: 0.0625rem;
+            padding: 2.1875rem 0rem 2.1875rem 0.8125rem;
         }
 
         .mul-coupon__name {
-            margin-bottom: 6px;
-            margin-left: 5px;
+            margin-bottom: 0.375rem;
+            margin-left: 0.3125rem;
             font-weight: 600;
             font-size: ${$coupon.name_font_size};
             line-height: ${$line_height_md};
@@ -115,7 +115,7 @@ export const View = styled.div`
 
         .mul-coupon__valid {
             font-size: ${$font_size_sm};
-            margin-top: 4px;
+            margin-top: 0.25rem;
         }
 
         .mul-coupon__corner {
@@ -128,7 +128,7 @@ export const View = styled.div`
         .mul-coupon__description {
             padding: ${$coupon.description_padding};
             font-size: ${$font_size_sm};
-            border-top: 1px dashed ${$coupon.description_border_color};
+            border-top: 0.0625rem dashed ${$coupon.description_border_color};
         }
 
         .mul-coupon__use {
@@ -145,7 +145,7 @@ export const View = styled.div`
             }
 
             .mul-coupon-item__content {
-                height: '74px';
+                height: '4.625rem';
             }
 
             .mul-coupon__head {

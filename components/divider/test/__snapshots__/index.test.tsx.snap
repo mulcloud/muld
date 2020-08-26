@@ -11,10 +11,10 @@ exports[`Divider contentPosition prop 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin: 16px 0;
+  margin: 1rem 0;
   color: #969799;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
   border-color: #ebedf0;
   border-style: solid;
   border-width: 0;
@@ -30,7 +30,7 @@ exports[`Divider contentPosition prop 1`] = `
   height: 1px;
   border-color: inherit;
   border-style: inherit;
-  border-width: 1px 0 0;
+  border-width: 0.0625rem 0 0;
 }
 
 .c0.mul-divider::before {
@@ -51,13 +51,13 @@ exports[`Divider contentPosition prop 1`] = `
 .c0.mul-divider--content-center::before,
 .c0.mul-divider--content-left::before,
 .c0.mul-divider--content-right::before {
-  margin-right: 16px;
+  margin-right: 1rem;
 }
 
 .c0.mul-divider--content-center::after,
 .c0.mul-divider--content-left::after,
 .c0.mul-divider--content-right::after {
-  margin-left: 16px;
+  margin-left: 1rem;
   content: '';
 }
 
@@ -86,10 +86,10 @@ exports[`Divider prop dashed 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin: 16px 0;
+  margin: 1rem 0;
   color: #969799;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
   border-color: #ebedf0;
   border-style: solid;
   border-width: 0;
@@ -105,7 +105,7 @@ exports[`Divider prop dashed 1`] = `
   height: 1px;
   border-color: inherit;
   border-style: inherit;
-  border-width: 1px 0 0;
+  border-width: 0.0625rem 0 0;
 }
 
 .c0.mul-divider::before {
@@ -126,13 +126,13 @@ exports[`Divider prop dashed 1`] = `
 .c0.mul-divider--content-center::before,
 .c0.mul-divider--content-left::before,
 .c0.mul-divider--content-right::before {
-  margin-right: 16px;
+  margin-right: 1rem;
 }
 
 .c0.mul-divider--content-center::after,
 .c0.mul-divider--content-left::after,
 .c0.mul-divider--content-right::after {
-  margin-left: 16px;
+  margin-left: 1rem;
   content: '';
 }
 
@@ -161,10 +161,10 @@ exports[`Divider prop hairline 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin: 16px 0;
+  margin: 1rem 0;
   color: #969799;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
   border-color: #ebedf0;
   border-style: solid;
   border-width: 0;
@@ -180,7 +180,7 @@ exports[`Divider prop hairline 1`] = `
   height: 1px;
   border-color: inherit;
   border-style: inherit;
-  border-width: 1px 0 0;
+  border-width: 0.0625rem 0 0;
 }
 
 .c0.mul-divider::before {
@@ -201,13 +201,13 @@ exports[`Divider prop hairline 1`] = `
 .c0.mul-divider--content-center::before,
 .c0.mul-divider--content-left::before,
 .c0.mul-divider--content-right::before {
-  margin-right: 16px;
+  margin-right: 1rem;
 }
 
 .c0.mul-divider--content-center::after,
 .c0.mul-divider--content-left::after,
 .c0.mul-divider--content-right::after {
-  margin-left: 16px;
+  margin-left: 1rem;
   content: '';
 }
 
@@ -236,10 +236,10 @@ exports[`Divider render slot 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin: 16px 0;
+  margin: 1rem 0;
   color: #969799;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
   border-color: #ebedf0;
   border-style: solid;
   border-width: 0;
@@ -255,7 +255,7 @@ exports[`Divider render slot 1`] = `
   height: 1px;
   border-color: inherit;
   border-style: inherit;
-  border-width: 1px 0 0;
+  border-width: 0.0625rem 0 0;
 }
 
 .c0.mul-divider::before {
@@ -276,13 +276,13 @@ exports[`Divider render slot 1`] = `
 .c0.mul-divider--content-center::before,
 .c0.mul-divider--content-left::before,
 .c0.mul-divider--content-right::before {
-  margin-right: 16px;
+  margin-right: 1rem;
 }
 
 .c0.mul-divider--content-center::after,
 .c0.mul-divider--content-left::after,
 .c0.mul-divider--content-right::after {
-  margin-left: 16px;
+  margin-left: 1rem;
   content: '';
 }
 

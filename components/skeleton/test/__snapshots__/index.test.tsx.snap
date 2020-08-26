@@ -7,19 +7,19 @@ exports[`Skeleton animate prop 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 0 16px;
+  padding: 0 1rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__avatar {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  margin-right: 16px;
+  margin-right: 1rem;
   background-color: #f2f3f5;
 }
 
 .c0.mul-skeleton .mul-skeleton__avatar--round {
-  border-radius: 999px;
+  border-radius: 62.4375rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__content {
@@ -27,12 +27,12 @@ exports[`Skeleton animate prop 1`] = `
 }
 
 .c0.mul-skeleton .mul-skeleton__avatar + .mul-skeleton__content {
-  padding-top: 8px;
+  padding-top: 0.5rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__row,
 .c0.mul-skeleton .mul-skeleton__title {
-  height: 16px;
+  height: 1rem;
   background-color: #f2f3f5;
 }
 
@@ -41,11 +41,11 @@ exports[`Skeleton animate prop 1`] = `
 }
 
 .c0.mul-skeleton .mul-skeleton__row:not(:first-child) {
-  margin-top: 12px;
+  margin-top: 0.75rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__title + .mul-skeleton__row {
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .c0.mul-skeleton--animate {
@@ -55,7 +55,7 @@ exports[`Skeleton animate prop 1`] = `
 
 .c0.mul-skeleton--round .mul-skeleton__row,
 .c0.mul-skeleton--round .mul-skeleton__title {
-  border-radius: 999px;
+  border-radius: 62.4375rem;
 }
 
 <div
@@ -75,19 +75,19 @@ exports[`Skeleton avatar prop 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 0 16px;
+  padding: 0 1rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__avatar {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  margin-right: 16px;
+  margin-right: 1rem;
   background-color: #f2f3f5;
 }
 
 .c0.mul-skeleton .mul-skeleton__avatar--round {
-  border-radius: 999px;
+  border-radius: 62.4375rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__content {
@@ -95,12 +95,12 @@ exports[`Skeleton avatar prop 1`] = `
 }
 
 .c0.mul-skeleton .mul-skeleton__avatar + .mul-skeleton__content {
-  padding-top: 8px;
+  padding-top: 0.5rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__row,
 .c0.mul-skeleton .mul-skeleton__title {
-  height: 16px;
+  height: 1rem;
   background-color: #f2f3f5;
 }
 
@@ -109,11 +109,11 @@ exports[`Skeleton avatar prop 1`] = `
 }
 
 .c0.mul-skeleton .mul-skeleton__row:not(:first-child) {
-  margin-top: 12px;
+  margin-top: 0.75rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__title + .mul-skeleton__row {
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .c0.mul-skeleton--animate {
@@ -123,7 +123,7 @@ exports[`Skeleton avatar prop 1`] = `
 
 .c0.mul-skeleton--round .mul-skeleton__row,
 .c0.mul-skeleton--round .mul-skeleton__title {
-  border-radius: 999px;
+  border-radius: 62.4375rem;
 }
 
 <div
@@ -131,7 +131,7 @@ exports[`Skeleton avatar prop 1`] = `
   >
     <div
       class="mul-skeleton__avatar mul-skeleton__avatar--round"
-      style="width: 30px; height: 30px;"
+      style="width: 1.875rem; height: 1.875rem;"
     />
     <div
       class="mul-skeleton__content"
@@ -147,19 +147,19 @@ exports[`Skeleton avatarShape prop 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 0 16px;
+  padding: 0 1rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__avatar {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  margin-right: 16px;
+  margin-right: 1rem;
   background-color: #f2f3f5;
 }
 
 .c0.mul-skeleton .mul-skeleton__avatar--round {
-  border-radius: 999px;
+  border-radius: 62.4375rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__content {
@@ -167,12 +167,12 @@ exports[`Skeleton avatarShape prop 1`] = `
 }
 
 .c0.mul-skeleton .mul-skeleton__avatar + .mul-skeleton__content {
-  padding-top: 8px;
+  padding-top: 0.5rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__row,
 .c0.mul-skeleton .mul-skeleton__title {
-  height: 16px;
+  height: 1rem;
   background-color: #f2f3f5;
 }
 
@@ -181,11 +181,11 @@ exports[`Skeleton avatarShape prop 1`] = `
 }
 
 .c0.mul-skeleton .mul-skeleton__row:not(:first-child) {
-  margin-top: 12px;
+  margin-top: 0.75rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__title + .mul-skeleton__row {
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .c0.mul-skeleton--animate {
@@ -195,7 +195,7 @@ exports[`Skeleton avatarShape prop 1`] = `
 
 .c0.mul-skeleton--round .mul-skeleton__row,
 .c0.mul-skeleton--round .mul-skeleton__title {
-  border-radius: 999px;
+  border-radius: 62.4375rem;
 }
 
 <div
@@ -203,7 +203,7 @@ exports[`Skeleton avatarShape prop 1`] = `
   >
     <div
       class="mul-skeleton__avatar mul-skeleton__avatar--square"
-      style="width: 32px; height: 32px;"
+      style="width: 2rem; height: 2rem;"
     />
     <div
       class="mul-skeleton__content"
@@ -219,19 +219,19 @@ exports[`Skeleton avatarSize prop 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 0 16px;
+  padding: 0 1rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__avatar {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  margin-right: 16px;
+  margin-right: 1rem;
   background-color: #f2f3f5;
 }
 
 .c0.mul-skeleton .mul-skeleton__avatar--round {
-  border-radius: 999px;
+  border-radius: 62.4375rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__content {
@@ -239,12 +239,12 @@ exports[`Skeleton avatarSize prop 1`] = `
 }
 
 .c0.mul-skeleton .mul-skeleton__avatar + .mul-skeleton__content {
-  padding-top: 8px;
+  padding-top: 0.5rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__row,
 .c0.mul-skeleton .mul-skeleton__title {
-  height: 16px;
+  height: 1rem;
   background-color: #f2f3f5;
 }
 
@@ -253,11 +253,11 @@ exports[`Skeleton avatarSize prop 1`] = `
 }
 
 .c0.mul-skeleton .mul-skeleton__row:not(:first-child) {
-  margin-top: 12px;
+  margin-top: 0.75rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__title + .mul-skeleton__row {
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .c0.mul-skeleton--animate {
@@ -267,7 +267,7 @@ exports[`Skeleton avatarSize prop 1`] = `
 
 .c0.mul-skeleton--round .mul-skeleton__row,
 .c0.mul-skeleton--round .mul-skeleton__title {
-  border-radius: 999px;
+  border-radius: 62.4375rem;
 }
 
 <div
@@ -275,7 +275,7 @@ exports[`Skeleton avatarSize prop 1`] = `
   >
     <div
       class="mul-skeleton__avatar mul-skeleton__avatar--round"
-      style="width: 30px; height: 30px;"
+      style="width: 1.875rem; height: 1.875rem;"
     />
     <div
       class="mul-skeleton__content"
@@ -291,19 +291,19 @@ exports[`Skeleton loading prop 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 0 16px;
+  padding: 0 1rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__avatar {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  margin-right: 16px;
+  margin-right: 1rem;
   background-color: #f2f3f5;
 }
 
 .c0.mul-skeleton .mul-skeleton__avatar--round {
-  border-radius: 999px;
+  border-radius: 62.4375rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__content {
@@ -311,12 +311,12 @@ exports[`Skeleton loading prop 1`] = `
 }
 
 .c0.mul-skeleton .mul-skeleton__avatar + .mul-skeleton__content {
-  padding-top: 8px;
+  padding-top: 0.5rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__row,
 .c0.mul-skeleton .mul-skeleton__title {
-  height: 16px;
+  height: 1rem;
   background-color: #f2f3f5;
 }
 
@@ -325,11 +325,11 @@ exports[`Skeleton loading prop 1`] = `
 }
 
 .c0.mul-skeleton .mul-skeleton__row:not(:first-child) {
-  margin-top: 12px;
+  margin-top: 0.75rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__title + .mul-skeleton__row {
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .c0.mul-skeleton--animate {
@@ -339,7 +339,7 @@ exports[`Skeleton loading prop 1`] = `
 
 .c0.mul-skeleton--round .mul-skeleton__row,
 .c0.mul-skeleton--round .mul-skeleton__title {
-  border-radius: 999px;
+  border-radius: 62.4375rem;
 }
 
 <div
@@ -359,19 +359,19 @@ exports[`Skeleton round prop 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 0 16px;
+  padding: 0 1rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__avatar {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  margin-right: 16px;
+  margin-right: 1rem;
   background-color: #f2f3f5;
 }
 
 .c0.mul-skeleton .mul-skeleton__avatar--round {
-  border-radius: 999px;
+  border-radius: 62.4375rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__content {
@@ -379,12 +379,12 @@ exports[`Skeleton round prop 1`] = `
 }
 
 .c0.mul-skeleton .mul-skeleton__avatar + .mul-skeleton__content {
-  padding-top: 8px;
+  padding-top: 0.5rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__row,
 .c0.mul-skeleton .mul-skeleton__title {
-  height: 16px;
+  height: 1rem;
   background-color: #f2f3f5;
 }
 
@@ -393,11 +393,11 @@ exports[`Skeleton round prop 1`] = `
 }
 
 .c0.mul-skeleton .mul-skeleton__row:not(:first-child) {
-  margin-top: 12px;
+  margin-top: 0.75rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__title + .mul-skeleton__row {
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .c0.mul-skeleton--animate {
@@ -407,7 +407,7 @@ exports[`Skeleton round prop 1`] = `
 
 .c0.mul-skeleton--round .mul-skeleton__row,
 .c0.mul-skeleton--round .mul-skeleton__title {
-  border-radius: 999px;
+  border-radius: 62.4375rem;
 }
 
 <div
@@ -427,19 +427,19 @@ exports[`Skeleton row & rowWidth & titleWidth prop number 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 0 16px;
+  padding: 0 1rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__avatar {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  margin-right: 16px;
+  margin-right: 1rem;
   background-color: #f2f3f5;
 }
 
 .c0.mul-skeleton .mul-skeleton__avatar--round {
-  border-radius: 999px;
+  border-radius: 62.4375rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__content {
@@ -447,12 +447,12 @@ exports[`Skeleton row & rowWidth & titleWidth prop number 1`] = `
 }
 
 .c0.mul-skeleton .mul-skeleton__avatar + .mul-skeleton__content {
-  padding-top: 8px;
+  padding-top: 0.5rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__row,
 .c0.mul-skeleton .mul-skeleton__title {
-  height: 16px;
+  height: 1rem;
   background-color: #f2f3f5;
 }
 
@@ -461,11 +461,11 @@ exports[`Skeleton row & rowWidth & titleWidth prop number 1`] = `
 }
 
 .c0.mul-skeleton .mul-skeleton__row:not(:first-child) {
-  margin-top: 12px;
+  margin-top: 0.75rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__title + .mul-skeleton__row {
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .c0.mul-skeleton--animate {
@@ -475,7 +475,7 @@ exports[`Skeleton row & rowWidth & titleWidth prop number 1`] = `
 
 .c0.mul-skeleton--round .mul-skeleton__row,
 .c0.mul-skeleton--round .mul-skeleton__title {
-  border-radius: 999px;
+  border-radius: 62.4375rem;
 }
 
 <div
@@ -486,23 +486,23 @@ exports[`Skeleton row & rowWidth & titleWidth prop number 1`] = `
     >
       <div
         class="mul-skeleton__row"
-        style="width: 30px;"
+        style="width: 1.875rem;"
       />
       <div
         class="mul-skeleton__row"
-        style="width: 30px;"
+        style="width: 1.875rem;"
       />
       <div
         class="mul-skeleton__row"
-        style="width: 30px;"
+        style="width: 1.875rem;"
       />
       <div
         class="mul-skeleton__row"
-        style="width: 30px;"
+        style="width: 1.875rem;"
       />
       <div
         class="mul-skeleton__row"
-        style="width: 30px;"
+        style="width: 1.875rem;"
       />
     </div>
   </div>
@@ -516,19 +516,19 @@ exports[`Skeleton row & rowWidth & titleWidth prop string 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 0 16px;
+  padding: 0 1rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__avatar {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  margin-right: 16px;
+  margin-right: 1rem;
   background-color: #f2f3f5;
 }
 
 .c0.mul-skeleton .mul-skeleton__avatar--round {
-  border-radius: 999px;
+  border-radius: 62.4375rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__content {
@@ -536,12 +536,12 @@ exports[`Skeleton row & rowWidth & titleWidth prop string 1`] = `
 }
 
 .c0.mul-skeleton .mul-skeleton__avatar + .mul-skeleton__content {
-  padding-top: 8px;
+  padding-top: 0.5rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__row,
 .c0.mul-skeleton .mul-skeleton__title {
-  height: 16px;
+  height: 1rem;
   background-color: #f2f3f5;
 }
 
@@ -550,11 +550,11 @@ exports[`Skeleton row & rowWidth & titleWidth prop string 1`] = `
 }
 
 .c0.mul-skeleton .mul-skeleton__row:not(:first-child) {
-  margin-top: 12px;
+  margin-top: 0.75rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__title + .mul-skeleton__row {
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .c0.mul-skeleton--animate {
@@ -564,7 +564,7 @@ exports[`Skeleton row & rowWidth & titleWidth prop string 1`] = `
 
 .c0.mul-skeleton--round .mul-skeleton__row,
 .c0.mul-skeleton--round .mul-skeleton__title {
-  border-radius: 999px;
+  border-radius: 62.4375rem;
 }
 
 <div
@@ -575,43 +575,43 @@ exports[`Skeleton row & rowWidth & titleWidth prop string 1`] = `
     >
       <div
         class="mul-skeleton__row"
-        style="width: 20px;"
+        style="width: 1.25rem;"
       />
       <div
         class="mul-skeleton__row"
-        style="width: 20px;"
+        style="width: 1.25rem;"
       />
       <div
         class="mul-skeleton__row"
-        style="width: 20px;"
+        style="width: 1.25rem;"
       />
       <div
         class="mul-skeleton__row"
-        style="width: 20px;"
+        style="width: 1.25rem;"
       />
       <div
         class="mul-skeleton__row"
-        style="width: 20px;"
+        style="width: 1.25rem;"
       />
       <div
         class="mul-skeleton__row"
-        style="width: 20px;"
+        style="width: 1.25rem;"
       />
       <div
         class="mul-skeleton__row"
-        style="width: 20px;"
+        style="width: 1.25rem;"
       />
       <div
         class="mul-skeleton__row"
-        style="width: 20px;"
+        style="width: 1.25rem;"
       />
       <div
         class="mul-skeleton__row"
-        style="width: 20px;"
+        style="width: 1.25rem;"
       />
       <div
         class="mul-skeleton__row"
-        style="width: 20px;"
+        style="width: 1.25rem;"
       />
     </div>
   </div>
@@ -625,19 +625,19 @@ exports[`Skeleton rowWidth prop Array 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 0 16px;
+  padding: 0 1rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__avatar {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  margin-right: 16px;
+  margin-right: 1rem;
   background-color: #f2f3f5;
 }
 
 .c0.mul-skeleton .mul-skeleton__avatar--round {
-  border-radius: 999px;
+  border-radius: 62.4375rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__content {
@@ -645,12 +645,12 @@ exports[`Skeleton rowWidth prop Array 1`] = `
 }
 
 .c0.mul-skeleton .mul-skeleton__avatar + .mul-skeleton__content {
-  padding-top: 8px;
+  padding-top: 0.5rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__row,
 .c0.mul-skeleton .mul-skeleton__title {
-  height: 16px;
+  height: 1rem;
   background-color: #f2f3f5;
 }
 
@@ -659,11 +659,11 @@ exports[`Skeleton rowWidth prop Array 1`] = `
 }
 
 .c0.mul-skeleton .mul-skeleton__row:not(:first-child) {
-  margin-top: 12px;
+  margin-top: 0.75rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__title + .mul-skeleton__row {
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .c0.mul-skeleton--animate {
@@ -673,7 +673,7 @@ exports[`Skeleton rowWidth prop Array 1`] = `
 
 .c0.mul-skeleton--round .mul-skeleton__row,
 .c0.mul-skeleton--round .mul-skeleton__title {
-  border-radius: 999px;
+  border-radius: 62.4375rem;
 }
 
 <div
@@ -693,19 +693,19 @@ exports[`Skeleton title prop 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 0 16px;
+  padding: 0 1rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__avatar {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  margin-right: 16px;
+  margin-right: 1rem;
   background-color: #f2f3f5;
 }
 
 .c0.mul-skeleton .mul-skeleton__avatar--round {
-  border-radius: 999px;
+  border-radius: 62.4375rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__content {
@@ -713,12 +713,12 @@ exports[`Skeleton title prop 1`] = `
 }
 
 .c0.mul-skeleton .mul-skeleton__avatar + .mul-skeleton__content {
-  padding-top: 8px;
+  padding-top: 0.5rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__row,
 .c0.mul-skeleton .mul-skeleton__title {
-  height: 16px;
+  height: 1rem;
   background-color: #f2f3f5;
 }
 
@@ -727,11 +727,11 @@ exports[`Skeleton title prop 1`] = `
 }
 
 .c0.mul-skeleton .mul-skeleton__row:not(:first-child) {
-  margin-top: 12px;
+  margin-top: 0.75rem;
 }
 
 .c0.mul-skeleton .mul-skeleton__title + .mul-skeleton__row {
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .c0.mul-skeleton--animate {
@@ -741,7 +741,7 @@ exports[`Skeleton title prop 1`] = `
 
 .c0.mul-skeleton--round .mul-skeleton__row,
 .c0.mul-skeleton--round .mul-skeleton__title {
-  border-radius: 999px;
+  border-radius: 62.4375rem;
 }
 
 <div

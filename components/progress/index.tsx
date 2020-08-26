@@ -65,13 +65,13 @@ const Progress: React.FC<React.PropsWithChildren<ProgressProps>> = (props: Progr
 
     const pivotStyle = {
         color: textColor,
-        left: `${((progressWidth - pivotWidth) * percentage) / 100}px`,
+        left: `${((progressWidth - pivotWidth) * percentage) / 100 / 16}rem`,
         background: pivotColor || background,
     };
 
     const portionStyle: CSSProperties = {
         background,
-        width: `${(progressWidth * percentage) / 100}px`,
+        width: `${(progressWidth * percentage) / 100 / 16}rem`,
     };
 
     const wrapperStyle: CSSProperties = {

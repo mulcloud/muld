@@ -28,7 +28,7 @@ export default function PopupDemo() {
     const [showGetContainer, setGetContainer] = React.useState(false);
 
     const basicStyle = {
-        padding: '30px 50px',
+        padding: '1.875rem 3.125rem',
     };
     const heightStyle = {
         height: '30%',

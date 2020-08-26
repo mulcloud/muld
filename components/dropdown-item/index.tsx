@@ -190,9 +190,9 @@ const DropdownItem: React.FC<React.PropsWithChildren<Props>> = (props) => {
         style.zIndex = Number(zIndex);
     }
     if (direction === 'down') {
-        style.top = `${offset}px`;
+        style.top = `${offset! / 16}rem`;
     } else {
-        style.bottom = `${offset}px`;
+        style.bottom = `${offset! / 16}rem`;
     }
 
     function onClickDropdownItemOverlay() {

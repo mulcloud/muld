@@ -104,13 +104,11 @@ describe('Count Down', () => {
     it('finish event', () => {
         jest.useFakeTimers();
         act(() => {
-            const onFinish = () => {
-                // eslint-disable-next-line no-console
-                console.log('finished');
-            };
+            const onFinish = jest.fn();
             const { asFragment } = render(<EventDemo time={1000} onFinish={onFinish} />);
             jest.runAllTimers();
             expect(asFragment()).toMatchSnapshot();
+            expect(onFinish).toHaveBeenCalled();
         });
     });
 });

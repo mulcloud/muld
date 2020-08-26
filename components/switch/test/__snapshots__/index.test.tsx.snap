@@ -8,9 +8,9 @@ exports[`Switch color prop 1`] = `
   box-sizing: content-box;
   width: 2em;
   height: 1em;
-  font-size: 30px;
+  font-size: 1.875rem;
   background-color: #fff;
-  border: 1px solid rgba(0,0,0,0.1);
+  border: 0.0625rem solid rgba(0,0,0,0.1);
   border-radius: 1em;
   cursor: pointer;
   -webkit-transition: background-color 0.3s;
@@ -26,7 +26,7 @@ exports[`Switch color prop 1`] = `
   height: 1em;
   background-color: #fff;
   border-radius: 100%;
-  box-shadow: 0 3px 1px 0 rgba(0,0,0,0.05),0 2px 2px 0 rgba(0,0,0,0.1), 0 3px 3px 0 rgba(0,0,0,0.05);
+  box-shadow: 0 0.1875rem 0.0625rem 0 rgba(0,0,0,0.05), 0 0.125rem 0.125rem 0 rgba(0,0,0,0.1), 0 0.1875rem 0.1875rem 0 rgba(0,0,0,0.05);
   -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.3,1.05,0.4,1.05);
   -webkit-transition: transform 0.3s cubic-bezier(0.3,1.05,0.4,1.05);
   transition: transform 0.3s cubic-bezier(0.3,1.05,0.4,1.05);
@@ -83,9 +83,9 @@ exports[`Switch disabled prop 1`] = `
   box-sizing: content-box;
   width: 2em;
   height: 1em;
-  font-size: 30px;
+  font-size: 1.875rem;
   background-color: #fff;
-  border: 1px solid rgba(0,0,0,0.1);
+  border: 0.0625rem solid rgba(0,0,0,0.1);
   border-radius: 1em;
   cursor: pointer;
   -webkit-transition: background-color 0.3s;
@@ -101,7 +101,7 @@ exports[`Switch disabled prop 1`] = `
   height: 1em;
   background-color: #fff;
   border-radius: 100%;
-  box-shadow: 0 3px 1px 0 rgba(0,0,0,0.05),0 2px 2px 0 rgba(0,0,0,0.1), 0 3px 3px 0 rgba(0,0,0,0.05);
+  box-shadow: 0 0.1875rem 0.0625rem 0 rgba(0,0,0,0.05), 0 0.125rem 0.125rem 0 rgba(0,0,0,0.1), 0 0.1875rem 0.1875rem 0 rgba(0,0,0,0.05);
   -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.3,1.05,0.4,1.05);
   -webkit-transition: transform 0.3s cubic-bezier(0.3,1.05,0.4,1.05);
   transition: transform 0.3s cubic-bezier(0.3,1.05,0.4,1.05);
@@ -158,9 +158,9 @@ exports[`Switch loading prop 1`] = `
   box-sizing: content-box;
   width: 2em;
   height: 1em;
-  font-size: 30px;
+  font-size: 1.875rem;
   background-color: #fff;
-  border: 1px solid rgba(0,0,0,0.1);
+  border: 0.0625rem solid rgba(0,0,0,0.1);
   border-radius: 1em;
   cursor: pointer;
   -webkit-transition: background-color 0.3s;
@@ -176,7 +176,7 @@ exports[`Switch loading prop 1`] = `
   height: 1em;
   background-color: #fff;
   border-radius: 100%;
-  box-shadow: 0 3px 1px 0 rgba(0,0,0,0.05),0 2px 2px 0 rgba(0,0,0,0.1), 0 3px 3px 0 rgba(0,0,0,0.05);
+  box-shadow: 0 0.1875rem 0.0625rem 0 rgba(0,0,0,0.05), 0 0.125rem 0.125rem 0 rgba(0,0,0,0.1), 0 0.1875rem 0.1875rem 0 rgba(0,0,0,0.05);
   -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.3,1.05,0.4,1.05);
   -webkit-transition: transform 0.3s cubic-bezier(0.3,1.05,0.4,1.05);
   transition: transform 0.3s cubic-bezier(0.3,1.05,0.4,1.05);
@@ -223,9 +223,9 @@ exports[`Switch loading prop 1`] = `
 .c1.mul-loading .mul-loading__spinner {
   position: relative;
   display: inline-block;
-  width: 30px;
+  width: 1.875rem;
   max-width: 100%;
-  height: 30px;
+  height: 1.875rem;
   max-height: 100%;
   vertical-align: middle;
   -webkit-animation: mul-rotate 0.8s linear infinite;
@@ -247,7 +247,7 @@ exports[`Switch loading prop 1`] = `
 
 .c1.mul-loading .mul-loading__spinner--spinner i::before {
   display: block;
-  width: 2px;
+  width: 0.125rem;
   height: 25%;
   margin: 0 auto;
   background-color: currentColor;
@@ -360,9 +360,9 @@ exports[`Switch loading prop 1`] = `
 
 .c1.mul-loading .mul-loading__text {
   display: inline-block;
-  margin-left: 8px;
+  margin-left: 0.5rem;
   color: #969799;
-  font-size: 14px;
+  font-size: 0.875rem;
   vertical-align: middle;
 }
 
@@ -381,7 +381,7 @@ exports[`Switch loading prop 1`] = `
 }
 
 .c1.mul-loading .mul-loading--vertical .mul-loading__text {
-  margin: 8px 0 0;
+  margin: 0.5rem 0 0;
 }
 
 <div

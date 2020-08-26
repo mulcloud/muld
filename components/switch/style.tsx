@@ -24,8 +24,9 @@ export const View = styled.div`
             height: ${$switch.node_size};
             background-color: ${$white};
             border-radius: 100%;
-            box-shadow: 0 3px 1px 0 rgba(0, 0, 0, 0.05), 0 2px 2px 0 rgba(0, 0, 0, 0.1),
-                0 3px 3px 0 rgba(0, 0, 0, 0.05);
+            box-shadow: 0 0.1875rem 0.0625rem 0 rgba(0, 0, 0, 0.05),
+                0 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.1),
+                0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.05);
             transition: transform 0.3s cubic-bezier(0.3, 1.05, 0.4, 1.05);
         }
 

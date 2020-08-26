@@ -21,7 +21,7 @@ export const View = styled.a`
 		}
 
 		&:not(:last-child)::after {
-			border-bottom-width: 1px;
+			border-bottom-width: 0.0625rem;
 		}
 
 		.mul-sidebar-item__text {

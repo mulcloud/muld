@@ -41,7 +41,7 @@ const [$value, setValue] = React.useState(true);
 通过`size`属性自定义开关的大小
 
 ```html
-<Switch value={true} size="24px" />
+<Switch value={true} size="1.5rem" />
 ```
 
 ### 自定义颜色
@@ -112,7 +112,7 @@ const [shwDialog, setShowDialog] = useState(false);
 | value        | 开关选中状态             | _number \| string \| boolean_              | `false`   |
 | loading        | 是否为加载状态           | _boolean_          | `false`   |
 | disabled       | 是否为禁用状态           | _boolean_          | `false`   |
-| size | 开关尺寸，默认单位为`px` | _number \| string_ | `30px`    |
+| size | 开关尺寸，默认单位为`px` | _number \| string_ | `1.875rem`    |
 | activeColor   | 打开时的背景色           | _string_           | `#1989fa` |
 | inactiveColor | 关闭时的背景色           | _string_           | `white`   |
 | activeValue   | 打开时对应的值           | _number \| string \| boolean_              | `true`    |

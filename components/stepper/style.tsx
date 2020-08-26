@@ -22,11 +22,11 @@ export const View = styled.div`
 
 			&::before {
 				width: 50%;
-				height: 1px;
+				height: 0.0625rem;
 			}
 
 			&::after {
-				width: 1px;
+				width: 0.0625rem;
 				height: 50%;
 			}
 
@@ -71,7 +71,7 @@ export const View = styled.div`
 			box-sizing: border-box;
 			width: ${$stepper.stepper_input_width};
 			height: ${$stepper.stepper_input_height};
-			margin: 0 2px;
+			margin: 0 0.125rem;
 			padding: 0;
 			color: ${$stepper.stepper_input_text_color};
 			font-size: ${$stepper.stepper_input_font_size};
@@ -80,7 +80,7 @@ export const View = styled.div`
 			vertical-align: middle;
 			background-color: ${$stepper.stepper_background_color};
 			border: 0;
-			border-width: 1px 0;
+			border-width: 0.0625rem 0;
 			border-radius: 0;
 			-webkit-appearance: none;
 
@@ -125,7 +125,7 @@ export const View = styled.div`
 			.mul-stepper__minus {
 				color: ${$stepper.stepper_button_round_theme_color};
 				background-color: ${$stepper.stepper_button_round_color};
-				border: 1px solid ${$stepper.stepper_button_round_theme_color};
+				border: 0.0625rem solid ${$stepper.stepper_button_round_theme_color};
 			}
 		}
 	}

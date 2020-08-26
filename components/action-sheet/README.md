@@ -110,7 +110,7 @@ const onCancel = () => { setVisible(false); }
 </ActionSheet>
 <style>
   .content {
-    padding: 16px 16px 160px;
+    padding: 1rem 1rem 10rem;
   }
 </style>
 ```

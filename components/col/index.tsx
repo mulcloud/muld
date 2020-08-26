@@ -22,7 +22,7 @@ const Col: React.FC<React.PropsWithChildren<ColProps>> = (props: ColProps) => {
     const { span, offset, tag, className, children } = props;
     const style: { paddingLeft: string; paddingRight: string } = {} as any;
     if (gutter) {
-        style.paddingLeft = `${Number(gutter) / 2}px`;
+        style.paddingLeft = `${Number(gutter) / 32}rem`;
         style.paddingRight = style.paddingLeft;
     }
 

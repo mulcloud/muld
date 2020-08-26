@@ -25,11 +25,11 @@ export default function LoadingDemo() {
                 </DemoBlock>
 
                 <DemoBlock title="加载文案">
-                    <Loading size="24px">加载中</Loading>
+                    <Loading size="1.5rem">加载中</Loading>
                 </DemoBlock>
 
                 <DemoBlock title="垂直排列">
-                    <Loading size="24px" vertical>
+                    <Loading size="1.5rem" vertical>
                         加载中
                     </Loading>
                 </DemoBlock>
@@ -44,7 +44,7 @@ const View = styled(DemoSection)`
 
         .mul-loading {
             display: inline-block;
-            margin: 5px 0 5px 20px;
+            margin: 0.3125rem 0 0.3125rem 1.25rem;
 
             &--vertical {
                 display: inline-flex;

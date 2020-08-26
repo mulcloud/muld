@@ -34,7 +34,7 @@ const defaultProps = {
     tag: 'button',
     type: 'default' as ButtonType,
     size: 'normal' as ButtonSize,
-    loadingSize: '20px',
+    loadingSize: '1.25rem',
 };
 type NativeAttrs = Omit<React.ButtonHTMLAttributes<any>, keyof Props>;
 export type ButtonProps = Props & typeof defaultProps & NativeAttrs;

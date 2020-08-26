@@ -29,7 +29,7 @@ import { Loading } from '@trillion/muld';
 通过`size`属性设置加载图标的大小，默认单位为`px`
 
 ```html
-<Loading size="24" /> <Loading type="spinner" size="24px" />
+<Loading size="24" /> <Loading type="spinner" size="1.5rem" />
 ```
 
 ### 加载文案
@@ -37,7 +37,7 @@ import { Loading } from '@trillion/muld';
 可以使用默认插槽在图标的右侧插入加载文案
 
 ```html
-<Loading size="24px">加载中...</Loading>
+<Loading size="1.5rem">加载中...</Loading>
 ```
 
 ### 垂直排列
@@ -45,7 +45,7 @@ import { Loading } from '@trillion/muld';
 设置`vertical`属性后，图标和文案会垂直排列
 
 ```html
-<Loading size="24px" vertical>加载中...</Loading>
+<Loading size="1.5rem" vertical>加载中...</Loading>
 ```
 
 ## API
@@ -56,8 +56,8 @@ import { Loading } from '@trillion/muld';
 | --------- | ---------------------------- | ------------------ | ---------- |
 | color     | 颜色                         | _string_           | `#c9c9c9`  |
 | type      | 类型，可选值为 `spinner`     | _string_           | `circular` |
-| size      | 加载图标大小，默认单位为`px` | _number \| string_ | `30px`     |
-| text-size | 文字大小，默认单位为`px`     | _number \| string_ | `14px`     |
+| size      | 加载图标大小，默认单位为`px` | _number \| string_ | `1.875rem`     |
+| text-size | 文字大小，默认单位为`px`     | _number \| string_ | `0.875rem`     |
 | vertical  | 是否垂直排列图标和文字内容   | _boolean_          | `false`    |
 
 ### Slots

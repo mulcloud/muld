@@ -62,7 +62,7 @@ export const View = styled(CSSTransition)`
                 right: 0;
                 bottom: 0;
                 left: 0;
-                border: 1px solid currentColor;
+                border: 0.0625rem solid currentColor;
                 border-radius: inherit;
                 content: '';
                 pointer-events: none;
@@ -84,7 +84,7 @@ export const View = styled(CSSTransition)`
 
             &::after {
                 display: block;
-                width: 2px;
+                width: 0.125rem;
                 content: '';
             }
         }
@@ -95,7 +95,7 @@ export const View = styled(CSSTransition)`
 
         .mul-tag__close {
             min-width: 1em;
-            margin-left: 2px;
+            margin-left: 0.125rem;
             cursor: pointer;
         }
     }

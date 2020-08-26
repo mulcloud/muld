@@ -47,5 +47,5 @@ const [show, setSkeletonState] = React.useState(false);
 | animate | Whether to enable animation | _boolean_ | `true` |
 | round  | Whether to show round title and row | _boolean_ | `false` |
 | titleWidth | Title width | _number \| string_ | `40%` |
-| avatarSize | Size of avatar placeholder | _number \| string_ | `32px` |
+| avatarSize | Size of avatar placeholder | _number \| string_ | `2rem` |
 | avatarShape | Shape of avatar placeholder，can be set to `square` | _string_ | `round` |

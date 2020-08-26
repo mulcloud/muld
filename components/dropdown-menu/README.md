@@ -51,7 +51,7 @@ function CustomContent() {
             <DropdownItem value={0} options={option} />
             <DropdownItem title="custom" visible={visible} onVisibleChange={onVisibleChange}>
                 <div style={{ margin: 30, textAlign: 'center' }}>custom content</div>
-                <div style={{ padding: '20px' }}>
+                <div style={{ padding: '1.25rem' }}>
                     <Button type="danger" block round onClick={onConfirm}>
                         Confirm
                     </Button>

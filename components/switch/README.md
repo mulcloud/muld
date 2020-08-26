@@ -33,7 +33,7 @@ const [$value, setValue] = React.useState(true);
 ### Custom Size
 
 ```html
-<Switch value={true} size="24px" />
+<Switch value={true} size="1.5rem" />
 ```
 
 ### Custom Color
@@ -101,7 +101,7 @@ const [shwDialog, setShowDialog] = useState(false);
 | value | Check status of Switch | _ActiveValue \| InactiveValue_ | `false` |
 | loading | Whether to show loading icon | _boolean_ | `false` |
 | disabled | Whether to disable switch | _boolean_ | `false` |
-| size  | Size of switch | _number \| string_ | `30px` |
+| size  | Size of switch | _number \| string_ | `1.875rem` |
 | activeColor | Background color when active | _string_ | `#1989fa` |
 | inactiveColor | Background color when inactive | _string_ | `white` |
 | activeValue | Value when active | _number \| string \| boolean_ | `true` |

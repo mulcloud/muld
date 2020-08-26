@@ -44,14 +44,14 @@ export default function StyleDemo() {
 const View = styled(DemoSection)`
     &.demo-style {
         background-color: ${$white};
-        padding: 20px;
+        padding: 1.25rem;
 
         .mul-ellipsis,
         .mul-multi-ellipsis--l2 {
-            max-width: 300px;
+            max-width: 18.75rem;
             margin-left: ${$padding_md};
-            font-size: 14px;
-            line-height: 18px;
+            font-size: 0.875rem;
+            line-height: 1.125rem;
         }
 
         .mul-ellipsis {
@@ -59,11 +59,11 @@ const View = styled(DemoSection)`
         }
 
         .mul-hairline--top {
-            height: 30px;
+            height: 1.875rem;
             background-color: ${$white};
 
             &::after {
-                top: 5px;
+                top: 0.3125rem;
             }
         }
 
@@ -71,20 +71,20 @@ const View = styled(DemoSection)`
             position: fixed;
             top: 50%;
             left: 50%;
-            width: 100px;
-            height: 100px;
-            margin: -50px 0 0 -50px;
+            width: 6.25rem;
+            height: 6.25rem;
+            margin: -3.125rem 0 0 -3.125rem;
             background-color: ${$blue};
-            border-radius: 3px;
+            border-radius: 0.1875rem;
         }
         p {
-            margin-bottom: 10px;
-            padding-left: 20px;
+            margin-bottom: 0.625rem;
+            padding-left: 1.25rem;
         }
 
         [class*='mul-bg'] {
-            padding: 10px;
-            margin: 0px 0px 10px 20px;
+            padding: 0.625rem;
+            margin: 0rem 0rem 0.625rem 1.25rem;
         }
     }
 `;

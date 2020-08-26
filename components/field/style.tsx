@@ -175,24 +175,24 @@ export const View = styled(Cell as any)`
     }
 
     &.mul-field--round {
-        padding: 0px !important;
+        padding: 0rem !important;
         align-items: center;
         background-color: transparent;
 
         &__padding {
-            padding-left: 16px !important;
+            padding-left: 1rem !important;
         }
 
         .mul-field__body {
             &--round {
                 background-color: #fff;
-                border: 1px solid ${$field.cell_border_color};
-                border-radius: 999px;
-                padding: 10px 15px;
+                border: 0.0625rem solid ${$field.cell_border_color};
+                border-radius: 62.4375rem;
+                padding: 0.625rem 0.9375rem;
             }
         }
         .mul-field__error-message {
-            padding: 0px 16px;
+            padding: 0rem 1rem;
         }
     }
 `;

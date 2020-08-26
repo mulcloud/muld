@@ -193,7 +193,7 @@ export const PickerColumn: React.FC<Props> = (props) => {
 
     const genOptions = () => {
         const optionStyle = {
-            height: `${itemHeight}px`,
+            height: `${itemHeight}rem`,
         };
 
         return options.map((option: any, index: number) => {
@@ -288,7 +288,7 @@ export const PickerColumn: React.FC<Props> = (props) => {
     };
 
     const wrapperStyle = {
-        transform: `translate3d(0, ${offset + baseOffset()}px, 0)`,
+        transform: `translate3d(0, ${offset + baseOffset()}rem, 0)`,
         transitionDuration: `${duration}ms`,
         transitionProperty: duration ? 'all' : 'none',
     };

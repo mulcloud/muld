@@ -46,8 +46,8 @@ const View = styled(DemoSection)`
         }
 
         .block {
-            width: 120px;
-            height: 120px;
+            width: 7.5rem;
+            height: 7.5rem;
             background-color: ${$white};
         }
     }

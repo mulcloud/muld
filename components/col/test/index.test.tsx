@@ -35,11 +35,11 @@ describe('Layout', () => {
         const firstChild = getByText('24');
         const lastChiild = getByText('2');
         expect(root).toBeTruthy();
-        expect(root).toHaveStyle({ marginLeft: '-12px', marginRight: '-12px' });
+        expect(root).toHaveStyle({ marginLeft: '-0.75rem', marginRight: '-0.75rem' });
         expect(firstChild.tagName).toBe('DIV');
         expect(lastChiild.tagName).toBe('P');
-        expect(firstChild).toHaveStyle({ paddingLeft: '12px', paddingRight: '12px' });
-        expect(lastChiild).toHaveStyle({ paddingLeft: '12px', paddingRight: '12px' });
+        expect(firstChild).toHaveStyle({ paddingLeft: '0.75rem', paddingRight: '0.75rem' });
+        expect(lastChiild).toHaveStyle({ paddingLeft: '0.75rem', paddingRight: '0.75rem' });
         expect(firstChild).toHaveClass('mul-col mul-col--24');
         expect(lastChiild).toHaveClass('mul-col mul-col--2');
     });

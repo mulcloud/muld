@@ -19,7 +19,7 @@ export const View = styled(Popup)`
 		.mul-action-sheet__cancel {
 			display: block;
 			width: 100%;
-			padding: 14px ${$padding_md};
+			padding: 0.875rem ${$padding_md};
 			font-size: ${$action_sheet.item_font_size};
 			background-color: ${$action_sheet.item_background};
 			border: none;
@@ -77,7 +77,7 @@ export const View = styled(Popup)`
 
 		.mul-action-sheet__description {
 			position: relative;
-			padding: 20px ${$padding_md};
+			padding: 1.25rem ${$padding_md};
 			color: ${$action_sheet.description_color};
 			font-size: ${$action_sheet.description_font_size};
 			line-height: ${$action_sheet.description_line_height};

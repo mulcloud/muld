@@ -39,10 +39,10 @@ const View = styled(DemoSection)`
         background: ${$white};
 
         .mul-progress {
-            margin: 20px;
+            margin: 1.25rem;
 
             &:first-of-type {
-                margin-top: 5px;
+                margin-top: 0.3125rem;
             }
         }
     }

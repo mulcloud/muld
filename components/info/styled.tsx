@@ -15,7 +15,7 @@ export const View = styled.div`
         right: 0;
         box-sizing: border-box;
         min-width: ${$font_size_lg};
-        padding: 0 3px;
+        padding: 0 0.1875rem;
         color: ${$white};
         font-weight: ${$font_weight_bold};
         font-size: ${$font_size_sm};
@@ -28,9 +28,9 @@ export const View = styled.div`
         transform: translate(50%, -50%);
         transform-origin: 100%;
         &.mul-info--dot {
-            width: 8px;
+            width: 0.5rem;
             min-width: 0;
-            height: 8px;
+            height: 0.5rem;
             background-color: #ee0a24;
             border-radius: 100%;
         }

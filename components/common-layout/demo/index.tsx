@@ -214,65 +214,65 @@ export default function ButtonDemo() {
 
 const View = styled(DemoSection)`
     &.demo-common-layout {
-        font-size: 14px;
+        font-size: 0.875rem;
         box-sizing: border-box;
         .img-placeholder {
-            height: 80px;
-            width: 80px;
-            border-radius: 4px;
+            height: 5rem;
+            width: 5rem;
+            border-radius: 0.25rem;
             background-color: #fff;
-            box-shadow: 0 2px 4px #ebedf0;
+            box-shadow: 0 0.125rem 0.25rem #ebedf0;
         }
 
         .goods-title {
-            height: 18px;
+            height: 1.125rem;
             background-color: #fff;
         }
 
         .goods-description {
-            height: 20px;
+            height: 1.25rem;
             background-color: #fff;
         }
 
         .goods-other-info {
-            height: 16px;
+            height: 1rem;
             width: 50%;
             background-color: #fff;
         }
 
         .chart-placeholder {
-            height: 100px;
-            border-radius: 4px;
+            height: 6.25rem;
+            border-radius: 0.25rem;
             background-color: #fff;
-            box-shadow: 0 2px 4px #ebedf0;
+            box-shadow: 0 0.125rem 0.25rem #ebedf0;
         }
 
         .table-placeholder {
-            height: 100px;
-            border-radius: 4px;
+            height: 6.25rem;
+            border-radius: 0.25rem;
             background-color: #fff;
-            box-shadow: 0 2px 4px #ebedf0;
+            box-shadow: 0 0.125rem 0.25rem #ebedf0;
         }
 
         .img-placeholder-card {
-            height: 100px;
-            border-radius: 4px;
+            height: 6.25rem;
+            border-radius: 0.25rem;
             background-color: #fff;
-            box-shadow: 0 2px 4px #ebedf0;
+            box-shadow: 0 0.125rem 0.25rem #ebedf0;
         }
 
         .mb10 {
-            margin-bottom: 10px;
+            margin-bottom: 0.625rem;
         }
 
         .mb20 {
-            margin-bottom: 20px;
+            margin-bottom: 1.25rem;
         }
         .pd20 {
-            padding: 20px;
+            padding: 1.25rem;
         }
         .pl10 {
-            padding-right: 10px;
+            padding-right: 0.625rem;
         }
 
         .width100 {

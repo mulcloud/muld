@@ -108,7 +108,7 @@ import { Button } from '@trillion/muld';
 | loading | Whether show loading status | _boolean_ | `false` |
 | loadingText | Loading text | _string_ | - |
 | loadingType | Loading type, can be set to `spinner` | _string_ | `circular` |
-| loadingSize | Loading icon size | _string_ | `20px` |
+| loadingSize | Loading icon size | _string_ | `1.25rem`|
 
 ### Events
 

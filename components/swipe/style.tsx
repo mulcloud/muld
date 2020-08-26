@@ -35,20 +35,20 @@ export const View = styled.div`
                 transform: translateY(-50%);
             }
             .mul-swipe__indicator:not(:last-child) {
-                margin-bottom: 6px;
+                margin-bottom: 0.375rem;
             }
         }
 
         .mul-swipe__indicator {
-            width: 6px;
-            height: 6px;
+            width: 0.375rem;
+            height: 0.375rem;
             background-color: ${$border_color};
             border-radius: 100%;
             opacity: 0.3;
             transition: opacity 0.2s;
 
             &:not(:last-child) {
-                margin-right: 6px;
+                margin-right: 0.375rem;
             }
 
             &--active {

@@ -40,7 +40,7 @@ export default function DropdownMenuDemo(): React.ReactNode {
                     <DropdownItem value={0} options={option1} />
                     <DropdownItem title="筛选" visible={visible} onVisibleChange={onVisibleChange}>
                         <div style={{ margin: 30, textAlign: 'center' }}>自定义内容</div>
-                        <div style={{ padding: '20px' }}>
+                        <div style={{ padding: '1.25rem' }}>
                             <Button type="danger" block round onClick={onConfirm}>
                                 确认
                             </Button>

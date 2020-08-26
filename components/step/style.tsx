@@ -40,7 +40,7 @@ export const View = styled.div`
 
             &:last-child {
                 position: absolute;
-                right: 1px;
+                right: 0.0625rem;
                 width: auto;
 
                 .mul-step__title {
@@ -49,14 +49,14 @@ export const View = styled.div`
                 }
 
                 .mul-step__circle-container {
-                    right: -9px;
+                    right: -0.5625rem;
                     left: auto;
                 }
             }
 
             .mul-step__circle-container {
                 position: absolute;
-                top: 30px;
+                top: 1.875rem;
                 left: -${$padding_xs};
                 z-index: 1;
                 padding: 0 ${$padding_xs};
@@ -66,20 +66,20 @@ export const View = styled.div`
 
             .mul-step__title {
                 display: inline-block;
-                margin-left: 3px;
+                margin-left: 0.1875rem;
                 font-size: ${$step.step_horizontal_title_font_size};
                 transform: translateX(-50%);
 
-                @media (max-width: 321px) {
-                    font-size: ${$step.step_horizontal_title_font_size} - 1px;
+                @media (max-width: 20.0625rem) {
+                    font-size: ${$step.step_horizontal_title_font_size} - 0.0625rem;
                 }
             }
 
             .mul-step__line {
-                top: 30px;
+                top: 1.875rem;
                 left: 0;
                 width: 100%;
-                height: 1px;
+                height: 0.0625rem;
             }
 
             .mul-step--process {
@@ -95,21 +95,21 @@ export const View = styled.div`
         &.mul-step--vertical {
             display: block;
             float: none;
-            padding: 10px 10px 10px 0;
+            padding: 0.625rem 0.625rem 0.625rem 0;
             line-height: ${$line_height_sm};
 
             &:not(:last-child)::after {
-                border-bottom-width: 1px;
+                border-bottom-width: 0.0625rem;
             }
 
             &:first-child {
                 &::before {
                     position: absolute;
                     top: 0;
-                    left: -15px;
+                    left: -0.9375rem;
                     z-index: 1;
-                    width: 1px;
-                    height: 20px;
+                    width: 0.0625rem;
+                    height: 1.25rem;
                     background-color: ${$white};
                     content: '';
                 }
@@ -117,8 +117,8 @@ export const View = styled.div`
 
             .mul-step__circle-container {
                 position: absolute;
-                top: 19px;
-                left: -15px;
+                top: 1.1875rem;
+                left: -0.9375rem;
                 z-index: 2;
                 font-size: ${$step.step_icon_size}!important;
                 line-height: 1;
@@ -126,9 +126,9 @@ export const View = styled.div`
             }
 
             .mul-step__line {
-                top: 16px;
-                left: -15px;
-                width: 1px;
+                top: 1rem;
+                left: -0.9375rem;
+                width: 0.0625rem;
                 height: 100%;
             }
         }

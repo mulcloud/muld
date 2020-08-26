@@ -22,7 +22,7 @@ import { CouponCell, CouponList } from '@trillion/muld';
   visible={showList}
   round
   position="bottom"
-  style={{height: 90%; paddingTop: 4px;}}
+  style={{height: 90%; paddingTop: 0.25rem;}}
   onCancel={() => setShowList(false)}
 >
   <CouponList

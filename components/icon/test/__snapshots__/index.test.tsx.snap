@@ -7,17 +7,17 @@ exports[`Icon prop badge 1`] = `
   top: 0;
   right: 0;
   box-sizing: border-box;
-  min-width: 16px;
-  padding: 0 3px;
+  min-width: 1rem;
+  padding: 0 0.1875rem;
   color: #fff;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-family: Avenir-Heavy,PingFang SC,Helvetica Neue,Arial, sans-serif;
-  line-height: calc(16px - 1px * 2);
+  line-height: calc(1rem - 0.0625rem * 2);
   text-align: center;
   background-color: #ee0a24;
-  border: 1px solid #fff;
-  border-radius: 16px;
+  border: 0.0625rem solid #fff;
+  border-radius: 1rem;
   -webkit-transform: translate(50%,-50%);
   -ms-transform: translate(50%,-50%);
   transform: translate(50%,-50%);
@@ -27,9 +27,9 @@ exports[`Icon prop badge 1`] = `
 }
 
 .c1.mul-info.mul-info--dot {
-  width: 8px;
+  width: 0.5rem;
   min-width: 0;
-  height: 8px;
+  height: 0.5rem;
   background-color: #ee0a24;
   border-radius: 100%;
 }
@@ -61,7 +61,7 @@ exports[`Icon prop badge 1`] = `
     class="c0 mul-icon mul-icon-chat-o"
     content="F02D"
     name="chat-o"
-    style="font-size: 20px;"
+    style="font-size: 1.25rem;"
   >
     <div
       class="c1 mul-info"
@@ -79,17 +79,17 @@ exports[`Icon prop dot 1`] = `
   top: 0;
   right: 0;
   box-sizing: border-box;
-  min-width: 16px;
-  padding: 0 3px;
+  min-width: 1rem;
+  padding: 0 0.1875rem;
   color: #fff;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-family: Avenir-Heavy,PingFang SC,Helvetica Neue,Arial, sans-serif;
-  line-height: calc(16px - 1px * 2);
+  line-height: calc(1rem - 0.0625rem * 2);
   text-align: center;
   background-color: #ee0a24;
-  border: 1px solid #fff;
-  border-radius: 16px;
+  border: 0.0625rem solid #fff;
+  border-radius: 1rem;
   -webkit-transform: translate(50%,-50%);
   -ms-transform: translate(50%,-50%);
   transform: translate(50%,-50%);
@@ -99,9 +99,9 @@ exports[`Icon prop dot 1`] = `
 }
 
 .c1.mul-info.mul-info--dot {
-  width: 8px;
+  width: 0.5rem;
   min-width: 0;
-  height: 8px;
+  height: 0.5rem;
   background-color: #ee0a24;
   border-radius: 100%;
 }
@@ -133,7 +133,7 @@ exports[`Icon prop dot 1`] = `
     class="c0 mul-icon mul-icon-chat-o"
     content="F02D"
     name="chat-o"
-    style="font-size: 20px;"
+    style="font-size: 1.25rem;"
   >
     <div
       class="c1 mul-info mul-info--dot"
@@ -170,7 +170,7 @@ exports[`Icon prop name url 1`] = `
 <i
     class="c0 mul-icon"
     name="https://avatar.chengfayun.com.cn/chengfayun-avatar/6ce849b003c18744b54d1a9913db75e9.png"
-    style="font-size: 20px;"
+    style="font-size: 1.25rem;"
   >
     <img
       class="mul-icon__image"
@@ -209,7 +209,7 @@ exports[`Icon prop size 1`] = `
     class="c0 mul-icon mul-icon-chat-o"
     content="F02D"
     name="chat-o"
-    style="font-size: 30px;"
+    style="font-size: 1.875rem;"
   />
 </DocumentFragment>
 `;

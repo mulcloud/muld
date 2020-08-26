@@ -133,7 +133,7 @@ const TabTitles = styled.div`
 const TabBody = styled.div`
     display: flex;
     flex-wrap: wrap;
-    margin: 20px;
+    margin: 1.25rem;
     background: ${$white};
     border-radius: ${$border_radius_lg};
     .icons {

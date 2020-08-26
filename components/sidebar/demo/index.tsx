@@ -48,7 +48,7 @@ const View = styled(DemoSection)`
     &.demo-sidebar {
         background-color: ${$white};
         display: flex;
-        padding: 20px;
+        padding: 1.25rem;
         flex-wrap: wrap;
         height: 100vh;
 
@@ -59,8 +59,8 @@ const View = styled(DemoSection)`
         .mul-doc-demo-block {
             width: 50%;
             &__title {
-                padding: 20px 10px 10px !important;
-                line-height: 28px;
+                padding: 1.25rem 0.625rem 0.625rem !important;
+                line-height: 1.75rem;
             }
         }
     }

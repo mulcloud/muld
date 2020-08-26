@@ -120,23 +120,23 @@ const View = styled(DemoSection)`
 
   .colon {
     display: inline-block;
-    margin: 0 4px;
+    margin: 0 0.25rem;
     color: ${$red};
   }
 
   .block {
     display: inline-block;
-    width: 22px;
-    line-height: 20px;
-    height: 20px;
+    width: 1.375rem;
+    line-height: 1.25rem;
+    height: 1.25rem;
     color: #fff;
-    font-size: 12px;
+    font-size: 0.75rem;
     text-align: center;
     background-color: ${$red};
-    border-radius: 4px;
+    border-radius: 0.25rem;
   }
 
   .mul-grid {
-    margin-top: 10px;
+    margin-top: 0.625rem;
   }
 `;

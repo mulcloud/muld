@@ -81,15 +81,15 @@ export const View = styled.div`
                 width: ${$uploader.delete_icon_size};
                 height: ${$uploader.delete_icon_size};
                 background-color: ${$uploader.delete_background_color};
-                border-radius: 0 0 0 12px;
+                border-radius: 0 0 0 0.75rem;
 
                 .mul-uploader__preview-delete-icon {
                     position: absolute;
-                    top: -2px;
-                    right: -2px;
+                    top: -0.125rem;
+                    right: -0.125rem;
                     color: #fff;
                     color: ${$uploader.delete_color};
-                    font-size: 16px;
+                    font-size: 1rem;
                     transform: scale(0.5);
                 }
             }
@@ -121,7 +121,7 @@ export const View = styled.div`
             }
 
             &-message {
-                margin-top: 6px;
+                margin-top: 0.375rem;
                 padding: 0 $padding_base;
                 font-size: ${$uploader.mask_message_font_size};
                 line-height: ${$uploader.mask_message_line_height};

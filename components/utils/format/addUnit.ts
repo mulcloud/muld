@@ -7,7 +7,7 @@ export function addUnit(value?: string | number): string | undefined {
     }
 
     const newValue = String(value);
-    return isNumeric(newValue) ? `${newValue}px` : newValue;
+    return isNumeric(newValue) ? `${parseInt(newValue, 10) / 16}rem` : newValue;
 }
 
 // cache
@@ -24,14 +24,24 @@ function getRootFontSize(): number {
     return rootFontSize;
 }
 
-function convertRem(value: string): number {
+function convertRemToPx(value: string): number {
     const newValue = value.replace(/rem/g, '');
     return +newValue * getRootFontSize();
 }
 
-function convertVw(value: string): number {
+function convertVwToPx(value: string): number {
     const newValue = value.replace(/vw/g, '');
     return (+newValue * window.innerWidth) / 100;
+}
+
+function convertPxToRem(value: string): number {
+    const newValue = value.replace(/px/g, '');
+    return +newValue / getRootFontSize();
+}
+
+function convertVwToRem(value: string): number {
+    const newValue = value.replace(/vw/g, '');
+    return (+newValue * window.innerWidth) / 100 / getRootFontSize();
 }
 
 export function unitToPx(value: string | number): number {
@@ -40,11 +50,27 @@ export function unitToPx(value: string | number): number {
     }
 
     if (value.indexOf('rem') !== -1) {
-        return convertRem(value);
+        return convertRemToPx(value);
     }
 
     if (value.indexOf('vw') !== -1) {
-        return convertVw(value);
+        return convertVwToPx(value);
+    }
+
+    return parseFloat(value);
+}
+
+export function unitToRem(value: string | number): number {
+    if (typeof value === 'number') {
+        return value;
+    }
+
+    if (value.indexOf('px') !== -1) {
+        return convertPxToRem(value);
+    }
+
+    if (value.indexOf('vw') !== -1) {
+        return convertVwToRem(value);
     }
 
     return parseFloat(value);

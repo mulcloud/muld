@@ -44,8 +44,8 @@ Empty 组件内置了多种占位图片类型，可以在不同业务场景下�
 
 <style>
   .custom-image .van-empty__image {
-    width: 90px;
-    height: 90px;
+    width: 5.625rem;
+    height: 5.625rem;
   }
 </style>
 ```

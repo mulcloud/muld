@@ -11,7 +11,7 @@ import { Box } from '@trillion/muld';
 ### 基础用法
 
 ```html
-<Box p="20px" fontSize="16px" width="200px" height="100px" color="#fff" bg="#66a8ef">
+<Box p="1.25rem" fontSize="1rem" width="12.5rem" height="6.25rem" color="#fff" bg="#66a8ef">
     Box
 </Box>
 ```
@@ -20,10 +20,10 @@ import { Box } from '@trillion/muld';
 
 ```html
 <Box
-    p="20px"
-    fontSize="16px"
-    width="200px"
-    height="100px"
+    p="1.25rem"
+    fontSize="1rem"
+    width="12.5rem"
+    height="6.25rem"
     className="mul-bg--primary mul-text--white"
 >
     Box
