@@ -37,3 +37,5 @@ export { default as Empty } from './empty';
 export { default as Tab } from './tab';
 export { default as Tabs } from './tabs';
 export { default as CountDown } from './count-down';
+export { default as Swipe } from './swipe';
+export { default as SwipeItem } from './swipe-item';

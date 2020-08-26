@@ -1,0 +1,398 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Swipe prop autoplay 1`] = `
+<DocumentFragment>
+  .c0.mul-swipe {
+  position: relative;
+  overflow: hidden;
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: grab;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 100%;
+  height: 100%;
+}
+
+.c0.mul-swipe .mul-swipe__track {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.c0.mul-swipe .mul-swipe__track--vertical {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0.mul-swipe .mul-swipe__indicators {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.c0.mul-swipe .mul-swipe__indicators--vertical {
+  top: 50%;
+  bottom: auto;
+  left: 12px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.c0.mul-swipe .mul-swipe__indicators .mul-swipe__indicator:not(:last-child) {
+  margin-bottom: 6px;
+}
+
+.c0.mul-swipe .mul-swipe__indicator {
+  width: 6px;
+  height: 6px;
+  background-color: #ebedf0;
+  border-radius: 100%;
+  opacity: 0.3;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+
+.c0.mul-swipe .mul-swipe__indicator:not(:last-child) {
+  margin-right: 6px;
+}
+
+.c0.mul-swipe .mul-swipe__indicator--active {
+  background-color: #108ee9;
+  opacity: 1;
+}
+
+.c1.mul-swipe-item {
+  position: relative;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+}
+
+<div
+    class="c0 mul-swipe"
+  >
+    <div
+      class="mul-swipe__track"
+      style="width: 100%; height: 100%; transition-duration: 0ms; transform: translateX(0px);"
+    >
+      <div
+        class="c1 mul-swipe-item"
+        style="width: 100%;"
+      >
+        1
+      </div>
+      <div
+        class="c1 mul-swipe-item"
+        style="width: 100%;"
+      >
+        2
+      </div>
+      <div
+        class="c1 mul-swipe-item"
+        style="width: 100%;"
+      >
+        3
+      </div>
+    </div>
+    <div
+      class="mul-swipe__indicators"
+    >
+      <i
+        class="mul-swipe__indicator mul-swipe__indicator--active"
+        style="background-color: rgb(25, 137, 250);"
+      />
+      <i
+        class="mul-swipe__indicator"
+      />
+      <i
+        class="mul-swipe__indicator"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Swipe prop initialSwipe 1`] = `
+<DocumentFragment>
+  .c0.mul-swipe {
+  position: relative;
+  overflow: hidden;
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: grab;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 100%;
+  height: 100%;
+}
+
+.c0.mul-swipe .mul-swipe__track {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.c0.mul-swipe .mul-swipe__track--vertical {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0.mul-swipe .mul-swipe__indicators {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.c0.mul-swipe .mul-swipe__indicators--vertical {
+  top: 50%;
+  bottom: auto;
+  left: 12px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.c0.mul-swipe .mul-swipe__indicators .mul-swipe__indicator:not(:last-child) {
+  margin-bottom: 6px;
+}
+
+.c0.mul-swipe .mul-swipe__indicator {
+  width: 6px;
+  height: 6px;
+  background-color: #ebedf0;
+  border-radius: 100%;
+  opacity: 0.3;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+
+.c0.mul-swipe .mul-swipe__indicator:not(:last-child) {
+  margin-right: 6px;
+}
+
+.c0.mul-swipe .mul-swipe__indicator--active {
+  background-color: #108ee9;
+  opacity: 1;
+}
+
+.c1.mul-swipe-item {
+  position: relative;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+}
+
+<div
+    class="c0 mul-swipe"
+  >
+    <div
+      class="mul-swipe__track"
+      style="width: 100%; height: 100%; transition-duration: 0ms; transform: translateX(0px);"
+    >
+      <div
+        class="c1 mul-swipe-item"
+        style="width: 100%;"
+      >
+        1
+      </div>
+      <div
+        class="c1 mul-swipe-item"
+        style="width: 100%;"
+      >
+        2
+      </div>
+      <div
+        class="c1 mul-swipe-item"
+        style="width: 100%;"
+      >
+        3
+      </div>
+    </div>
+    <div
+      class="mul-swipe__indicators"
+    >
+      <i
+        class="mul-swipe__indicator"
+        style=""
+      />
+      <i
+        class="mul-swipe__indicator"
+      />
+      <i
+        class="mul-swipe__indicator mul-swipe__indicator--active"
+        style="background-color: rgb(25, 137, 250);"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Swipe prop width 1`] = `
+<DocumentFragment>
+  .c0.mul-swipe {
+  position: relative;
+  overflow: hidden;
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: grab;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 100%;
+  height: 100%;
+}
+
+.c0.mul-swipe .mul-swipe__track {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.c0.mul-swipe .mul-swipe__track--vertical {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0.mul-swipe .mul-swipe__indicators {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.c0.mul-swipe .mul-swipe__indicators--vertical {
+  top: 50%;
+  bottom: auto;
+  left: 12px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.c0.mul-swipe .mul-swipe__indicators .mul-swipe__indicator:not(:last-child) {
+  margin-bottom: 6px;
+}
+
+.c0.mul-swipe .mul-swipe__indicator {
+  width: 6px;
+  height: 6px;
+  background-color: #ebedf0;
+  border-radius: 100%;
+  opacity: 0.3;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+
+.c0.mul-swipe .mul-swipe__indicator:not(:last-child) {
+  margin-right: 6px;
+}
+
+.c0.mul-swipe .mul-swipe__indicator--active {
+  background-color: #108ee9;
+  opacity: 1;
+}
+
+.c1.mul-swipe-item {
+  position: relative;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+}
+
+<div
+    class="c0 mul-swipe"
+  >
+    <div
+      class="mul-swipe__track"
+      style="width: 900px; height: 100%; transition-duration: 0ms; transform: translateX(0px);"
+    >
+      <div
+        class="c1 mul-swipe-item"
+        style="width: 300px;"
+      >
+        1
+      </div>
+      <div
+        class="c1 mul-swipe-item"
+        style="width: 300px;"
+      >
+        2
+      </div>
+      <div
+        class="c1 mul-swipe-item"
+        style="width: 300px;"
+      >
+        3
+      </div>
+    </div>
+    <div
+      class="mul-swipe__indicators"
+    >
+      <i
+        class="mul-swipe__indicator mul-swipe__indicator--active"
+        style="background-color: rgb(25, 137, 250);"
+      />
+      <i
+        class="mul-swipe__indicator"
+      />
+      <i
+        class="mul-swipe__indicator"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

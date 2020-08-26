@@ -190,8 +190,6 @@ exports[`Field arrow-direction prop 1`] = `
   box-sizing: border-box;
   width: 100%;
   min-width: 0;
-  margin: 0;
-  padding: 0;
   color: #323233;
   line-height: inherit;
   text-align: left;
@@ -581,8 +579,6 @@ exports[`Field clearable prop 1`] = `
   box-sizing: border-box;
   width: 100%;
   min-width: 0;
-  margin: 0;
-  padding: 0;
   color: #323233;
   line-height: inherit;
   text-align: left;
@@ -987,8 +983,6 @@ exports[`Field clearable prop 2`] = `
   box-sizing: border-box;
   width: 100%;
   min-width: 0;
-  margin: 0;
-  padding: 0;
   color: #323233;
   line-height: inherit;
   text-align: left;
@@ -1376,8 +1370,6 @@ exports[`Field colon prop 1`] = `
   box-sizing: border-box;
   width: 100%;
   min-width: 0;
-  margin: 0;
-  padding: 0;
   color: #323233;
   line-height: inherit;
   text-align: left;
@@ -1766,8 +1758,6 @@ exports[`Field label-class prop 1`] = `
   box-sizing: border-box;
   width: 100%;
   min-width: 0;
-  margin: 0;
-  padding: 0;
   color: #323233;
   line-height: inherit;
   text-align: left;
@@ -2156,8 +2146,6 @@ exports[`Field label-width prop with unit 1`] = `
   box-sizing: border-box;
   width: 100%;
   min-width: 0;
-  margin: 0;
-  padding: 0;
   color: #323233;
   line-height: inherit;
   text-align: left;
@@ -2547,8 +2535,6 @@ exports[`Field label-width prop without unit 1`] = `
   box-sizing: border-box;
   width: 100%;
   min-width: 0;
-  margin: 0;
-  padding: 0;
   color: #323233;
   line-height: inherit;
   text-align: left;
@@ -2938,8 +2924,6 @@ exports[`Field name prop 1`] = `
   box-sizing: border-box;
   width: 100%;
   min-width: 0;
-  margin: 0;
-  padding: 0;
   color: #323233;
   line-height: inherit;
   text-align: left;
@@ -3322,8 +3306,6 @@ exports[`Field reach max word-limit 1`] = `
   box-sizing: border-box;
   width: 100%;
   min-width: 0;
-  margin: 0;
-  padding: 0;
   color: #323233;
   line-height: inherit;
   text-align: left;
@@ -3715,8 +3697,6 @@ exports[`Field reach max word-limit null 1`] = `
   box-sizing: border-box;
   width: 100%;
   min-width: 0;
-  margin: 0;
-  padding: 0;
   color: #323233;
   line-height: inherit;
   text-align: left;
@@ -4108,8 +4088,6 @@ exports[`Field reach max word-limit undefined 1`] = `
   box-sizing: border-box;
   width: 100%;
   min-width: 0;
-  margin: 0;
-  padding: 0;
   color: #323233;
   line-height: inherit;
   text-align: left;
@@ -4501,8 +4479,6 @@ exports[`Field render field has children 1`] = `
   box-sizing: border-box;
   width: 100%;
   min-width: 0;
-  margin: 0;
-  padding: 0;
   color: #323233;
   line-height: inherit;
   text-align: left;
@@ -4886,8 +4862,6 @@ exports[`Field render label 1`] = `
   box-sizing: border-box;
   width: 100%;
   min-width: 0;
-  margin: 0;
-  padding: 0;
   color: #323233;
   line-height: inherit;
   text-align: left;
@@ -5276,8 +5250,6 @@ exports[`Field render textarea 1`] = `
   box-sizing: border-box;
   width: 100%;
   min-width: 0;
-  margin: 0;
-  padding: 0;
   color: #323233;
   line-height: inherit;
   text-align: left;
@@ -5659,8 +5631,6 @@ exports[`Field size prop 1`] = `
   box-sizing: border-box;
   width: 100%;
   min-width: 0;
-  margin: 0;
-  padding: 0;
   color: #323233;
   line-height: inherit;
   text-align: left;

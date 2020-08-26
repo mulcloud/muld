@@ -15,7 +15,7 @@ export interface DialogProps {
     width?: number | string;
     messageAlign?: string;
     theme?: string;
-    className?: any;
+    className?: string;
     showConfirmButton?: boolean;
     showCancelButton?: boolean;
     confirmButtonText?: string;
@@ -33,7 +33,6 @@ export interface DialogProps {
     onCancel?: () => void;
     cancelLoading?: boolean;
     confirmLoading?: boolean;
-    [key: string]: any;
 }
 
 const defaultProps = {
