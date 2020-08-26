@@ -144,10 +144,10 @@ module.exports = {
                             //     path: 'radio',
                             //     title: 'Radio 单选框',
                             // },
-                            // {
-                            //     path: 'rate',
-                            //     title: 'Rate 评分',
-                            // },
+                            {
+                                path: 'rate',
+                                title: 'Rate 评分',
+                            },
                             {
                                 path: 'search',
                                 title: 'Search 搜索',
