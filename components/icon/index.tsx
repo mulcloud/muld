@@ -28,7 +28,7 @@ const [bem] = createNS('icon');
 const defaultProps = {
     classPrefix: bem(''),
     tag: 'i',
-    size: 20,
+    size: 20 as number | string,
 };
 export type IconProps = Props & typeof defaultProps;
 

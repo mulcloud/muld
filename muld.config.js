@@ -108,9 +108,13 @@ module.exports = {
                             //     path: 'calendar',
                             //     title: 'Calendar 日历',
                             // },
+                            {
+                                path: 'checkbox',
+                                title: 'Checkbox 复选框',
+                            },
                             // {
-                            //     path: 'checkbox',
-                            //     title: 'Checkbox 复选框',
+                            //     path: 'datetime-picker',
+                            //     title: 'DatetimePicker 时间选择',
                             // },
                             {
                                 path: 'field',
@@ -140,10 +144,10 @@ module.exports = {
                             //     path: 'radio',
                             //     title: 'Radio 单选框',
                             // },
-                            // {
-                            //     path: 'rate',
-                            //     title: 'Rate 评分',
-                            // },
+                            {
+                                path: 'rate',
+                                title: 'Rate 评分',
+                            },
                             {
                                 path: 'search',
                                 title: 'Search 搜索',
@@ -185,10 +189,10 @@ module.exports = {
                             //     path: 'dialog',
                             //     title: 'Dialog 弹出框',
                             // },
-                            // {
-                            //     path: 'dropdown-menu',
-                            //     title: 'DropdownMenu 下拉菜单',
-                            // },
+                            {
+                                path: 'dropdown-menu',
+                                title: 'DropdownMenu 下拉菜单',
+                            },
                             {
                                 path: 'loading',
                                 title: 'Loading 加载',

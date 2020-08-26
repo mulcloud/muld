@@ -1,0 +1,344 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox prop: checkedColor 1`] = `
+.c0.mul-icon {
+  position: relative;
+  display: inline-block;
+  font-family: 'muld-icon' !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.c0.mul-icon::before {
+  display: inline-block;
+}
+
+.c0.mul-icon .mul-icon__image {
+  width: 1em;
+  height: 1em;
+  object-fit: contain;
+}
+
+.c0.mul-icon-success::before {
+  content: '\\F0C8';
+}
+
+<div
+  class="mul-checkbox__icon mul-checkbox__icon--round"
+>
+  <i
+    class="c0 mul-icon mul-icon-success"
+    content="F0C8"
+    name="success"
+    style="font-size: 0.8em;"
+  />
+</div>
+`;
+
+exports[`Checkbox prop: iconSize 1`] = `
+.c0.mul-icon {
+  position: relative;
+  display: inline-block;
+  font-family: 'muld-icon' !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.c0.mul-icon::before {
+  display: inline-block;
+}
+
+.c0.mul-icon .mul-icon__image {
+  width: 1em;
+  height: 1em;
+  object-fit: contain;
+}
+
+.c0.mul-icon-success::before {
+  content: '\\F0C8';
+}
+
+<div
+  class="mul-checkbox__icon mul-checkbox__icon--round"
+  style="font-size: 100px;"
+>
+  <i
+    class="c0 mul-icon mul-icon-success"
+    content="F0C8"
+    name="success"
+    style="font-size: 0.8em;"
+  />
+</div>
+`;
+
+exports[`Checkbox prop: label position 1`] = `
+.c0.mul-checkbox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0.mul-checkbox--disabled {
+  cursor: not-allowed;
+}
+
+.c0.mul-checkbox--horizontal {
+  margin-right: 12px;
+}
+
+.c0.mul-checkbox .mul-checkbox--label-disabled {
+  cursor: default;
+}
+
+.c0.mul-checkbox .mul-checkbox__icon {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  height: 1em;
+  font-size: 20px;
+  line-height: 1em;
+  cursor: pointer;
+}
+
+.c0.mul-checkbox .mul-checkbox__icon .mul-icon {
+  display: block;
+  box-sizing: border-box;
+  width: 1.25em;
+  height: 1.25em;
+  color: transparent;
+  font-size: 0.8em;
+  line-height: 1.25;
+  text-align: center;
+  border: 1px solid #c8c9cc;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: color,border-color,background-color;
+  transition-property: color,border-color,background-color;
+}
+
+.c0.mul-checkbox .mul-checkbox__icon--round .mul-icon {
+  border-radius: 100%;
+}
+
+.c0.mul-checkbox .mul-checkbox__icon--checked .mul-icon {
+  color: #fff;
+  background-color: #108ee9;
+  border-color: #108ee9;
+}
+
+.c0.mul-checkbox .mul-checkbox__icon--disabled {
+  cursor: not-allowed;
+}
+
+.c0.mul-checkbox .mul-checkbox__icon--disabled .mul-icon {
+  background-color: #ebedf0;
+  border-color: #c8c9cc;
+}
+
+.c0.mul-checkbox .mul-checkbox__icon--disabled.mul-checkbox__icon--checked .mul-icon {
+  color: #c8c9cc;
+}
+
+.c0.mul-checkbox .mul-checkbox__label {
+  margin-left: 8px;
+  color: #323233;
+  line-height: 20px;
+}
+
+.c0.mul-checkbox .mul-checkbox__label--left {
+  margin: 0 8px 0 0;
+}
+
+.c0.mul-checkbox .mul-checkbox__label--disabled {
+  color: #c8c9cc;
+}
+
+.c1.mul-icon {
+  position: relative;
+  display: inline-block;
+  font-family: 'muld-icon' !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.c1.mul-icon::before {
+  display: inline-block;
+}
+
+.c1.mul-icon .mul-icon__image {
+  width: 1em;
+  height: 1em;
+  object-fit: contain;
+}
+
+.c1.mul-icon-success::before {
+  content: '\\F0C8';
+}
+
+<div
+  class="c0 mul-checkbox"
+>
+  <span
+    class="mul-checkbox__label mul-checkbox__label--left"
+  />
+  <div
+    class="mul-checkbox__icon mul-checkbox__icon--round"
+  >
+    <i
+      class="c1 mul-icon mul-icon-success"
+      content="F0C8"
+      name="success"
+      style="font-size: 0.8em;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Checkbox prop: shape 1`] = `
+.c0.mul-checkbox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0.mul-checkbox--disabled {
+  cursor: not-allowed;
+}
+
+.c0.mul-checkbox--horizontal {
+  margin-right: 12px;
+}
+
+.c0.mul-checkbox .mul-checkbox--label-disabled {
+  cursor: default;
+}
+
+.c0.mul-checkbox .mul-checkbox__icon {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  height: 1em;
+  font-size: 20px;
+  line-height: 1em;
+  cursor: pointer;
+}
+
+.c0.mul-checkbox .mul-checkbox__icon .mul-icon {
+  display: block;
+  box-sizing: border-box;
+  width: 1.25em;
+  height: 1.25em;
+  color: transparent;
+  font-size: 0.8em;
+  line-height: 1.25;
+  text-align: center;
+  border: 1px solid #c8c9cc;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: color,border-color,background-color;
+  transition-property: color,border-color,background-color;
+}
+
+.c0.mul-checkbox .mul-checkbox__icon--round .mul-icon {
+  border-radius: 100%;
+}
+
+.c0.mul-checkbox .mul-checkbox__icon--checked .mul-icon {
+  color: #fff;
+  background-color: #108ee9;
+  border-color: #108ee9;
+}
+
+.c0.mul-checkbox .mul-checkbox__icon--disabled {
+  cursor: not-allowed;
+}
+
+.c0.mul-checkbox .mul-checkbox__icon--disabled .mul-icon {
+  background-color: #ebedf0;
+  border-color: #c8c9cc;
+}
+
+.c0.mul-checkbox .mul-checkbox__icon--disabled.mul-checkbox__icon--checked .mul-icon {
+  color: #c8c9cc;
+}
+
+.c0.mul-checkbox .mul-checkbox__label {
+  margin-left: 8px;
+  color: #323233;
+  line-height: 20px;
+}
+
+.c0.mul-checkbox .mul-checkbox__label--left {
+  margin: 0 8px 0 0;
+}
+
+.c0.mul-checkbox .mul-checkbox__label--disabled {
+  color: #c8c9cc;
+}
+
+.c1.mul-icon {
+  position: relative;
+  display: inline-block;
+  font-family: 'muld-icon' !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.c1.mul-icon::before {
+  display: inline-block;
+}
+
+.c1.mul-icon .mul-icon__image {
+  width: 1em;
+  height: 1em;
+  object-fit: contain;
+}
+
+.c1.mul-icon-success::before {
+  content: '\\F0C8';
+}
+
+<div
+  class="c0 mul-checkbox"
+>
+  <div
+    class="mul-checkbox__icon mul-checkbox__icon--square"
+  >
+    <i
+      class="c1 mul-icon mul-icon-success"
+      content="F0C8"
+      name="success"
+      style="font-size: 0.8em;"
+    />
+  </div>
+  <span
+    class="mul-checkbox__label mul-checkbox__label--right"
+  />
+</div>
+`;

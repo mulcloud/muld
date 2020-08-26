@@ -413,6 +413,15 @@ export const $progress: CSSProperties = {
     pivot_background_color: `${$blue}`,
 };
 
+// Rate
+export const $rate: CSSProperties = {
+    icon_size: `20px`,
+    icon_gutter: `${$padding_base}`,
+    icon_void_color: `${$gray5}`,
+    icon_full_color: `${$red}`,
+    icon_disabled_color: `${$gray5}`,
+};
+
 // Field
 export const $field: CSSProperties = {
     label_margin_right: `${$padding_sm}`,
@@ -502,4 +511,19 @@ export const $submit_bar: CSSProperties = {
     padding: `0 ${$padding_md}`,
     price_integer_font_size: '20px',
     price_font_family: $price_integer_font_family,
+};
+
+// DropdownMenu
+export const $dropdown_menu: CSSProperties = {
+    height: '48px',
+    background_color: `${$white}`,
+    z_index: 10,
+    title_disabled_text_color: `${$gray6}`,
+    title_padding: `0 ${$padding_xs}`,
+    title_text_color: `${$text_color}`,
+    title_font_size: '15px',
+    title_line_height: `${$line_height_lg}`,
+    title_active_text_color: `${$red}`,
+    option_active_color: `${$red}`,
+    content_max_height: '80%',
 };
