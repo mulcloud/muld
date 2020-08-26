@@ -39,3 +39,6 @@ export { default as Tabs } from './tabs';
 export { default as Checkbox } from './checkbox';
 export { default as CheckboxGroup } from './checkbox-group';
 export { default as CountDown } from './count-down';
+export { default as Divider } from './divider';
+export { default as Switch } from './switch';
+export { default as Skeleton } from './skeleton';
