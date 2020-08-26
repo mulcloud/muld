@@ -476,7 +476,6 @@ export const $uploader: CSSProperties = {
 };
 
 // Search
-
 export const $search: CSSProperties = {
     padding: `0.625rem ${$padding_sm}`,
     background_color: $white,
@@ -492,7 +491,6 @@ export const $search: CSSProperties = {
 };
 
 // SubmitBar
-
 export const $submit_bar: CSSProperties = {
     height: '3.125rem',
     z_index: 100,
@@ -596,4 +594,21 @@ export const $switch: CSSProperties = {
     node_size: '1em',
     font_size: '1.875rem',
     border: '0.0625rem solid rgba(0, 0, 0, 0.1)',
+}
+
+// TabbarItem
+export const $tabbar_item: CSSProperties = {
+    font_size: $font_size_sm,
+    text_color: $gray7,
+    active_color: $blue,
+    line_height: 1,
+    icon_size: '1.375rem',
+    margin_bottom: '0.25rem',
+};
+
+// Tabbar
+export const $tabbar: CSSProperties = {
+    height: '3.125rem',
+    z_index: 1,
+    background_color: $white,
 };
