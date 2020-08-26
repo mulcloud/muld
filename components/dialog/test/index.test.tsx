@@ -36,10 +36,10 @@ describe('Dialog', () => {
     });
 
     it('prop width', () => {
-        render(<EventDemo visible={true} width="300px" />);
+        render(<EventDemo visible={true} width="18.75rem" />);
         const dialog = document.querySelector('.mul-dialog');
         expect(dialog).toHaveStyle({
-            width: '300px',
+            width: '18.75rem',
         });
     });
 });

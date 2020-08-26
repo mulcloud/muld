@@ -122,12 +122,12 @@ const View = styled(DemoSection)`
         margin-bottom: 80vh;
 
         .mul-tab .mul-icon {
-            margin-right: 5px;
-            vertical-align: -2px;
+            margin-right: 0.3125rem;
+            vertical-align: -0.125rem;
         }
 
         .mul-tab__pane {
-            padding: 25px 20px;
+            padding: 1.5625rem 1.25rem;
             background-color: ${$white};
         }
 

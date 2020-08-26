@@ -312,7 +312,7 @@ const formatter = (type: string, value: string) => {
 | filter | 选项过滤函数 | _(type, vals) => vals_ | - |
 | formatter | 选项格式化函数 | _(type, val) => val_ | - |
 | columnsOrder  | 自定义列排序数组, 子项可选值为<br> `year`、`month`、`day`、`hour`、`minute` | _string[]_ | - |
-| itemHeight  | 选项高度，支持 `px` `vw` `rem` 单位，默认 `px` | _number \| string_ | `44` |
+| itemHeight  | 选项高度，支持 `px` `vw` `rem` 单位，默认 `rem` | _number \| string_ | `2.75` |
 | visibleItemCount | 可见的选项个数 | _number \| string_ | `6` |
 | swipeDuration  | 快速滑动时惯性滚动的时长，单位`ms` | _number \| string_ | `1000` |
 

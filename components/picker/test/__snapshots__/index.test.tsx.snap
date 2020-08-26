@@ -24,14 +24,14 @@ exports[`render columns-bottom slot 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  height: 44px;
+  height: 2.75rem;
 }
 
 .c0.mul-picker .mul-picker__cancel,
 .c0.mul-picker .mul-picker__confirm {
   height: 100%;
-  padding: 16px;
-  font-size: 14px;
+  padding: 1rem;
+  font-size: 0.875rem;
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -53,8 +53,8 @@ exports[`render columns-bottom slot 1`] = `
 .c0.mul-picker .mul-picker__title {
   max-width: 50%;
   font-weight: $font_weight_bold;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 1rem;
+  line-height: 1.25rem;
   text-align: center;
 }
 
@@ -95,8 +95,8 @@ exports[`render columns-bottom slot 1`] = `
 .c0.mul-picker .mul-picker__frame {
   position: absolute;
   top: 50%;
-  right: 16px;
-  left: 16px;
+  right: 1rem;
+  left: 1rem;
   z-index: 3;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -124,7 +124,7 @@ exports[`render columns-bottom slot 1`] = `
   -ms-flex: 1;
   flex: 1;
   overflow: hidden;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .c0.mul-picker .mul-picker-column .mul-picker__wrapper {
@@ -169,19 +169,19 @@ exports[`render columns-bottom slot 1`] = `
     </div>
     <div
       class="mul-picker__columns"
-      style="height: 264px;"
+      style="height: 16.5rem;"
     >
       <div
         class="mul-picker-column"
       >
         <ul
-          style="transform: translate3d(0, 110px, 0); transition-duration: 200ms; transition-property: all;"
+          style="transform: translate3d(0, 6.875rem, 0); transition-duration: 200ms; transition-property: all;"
         >
           <div>
             <li
               class="mul-picker-column__item mul-picker-column__item--selected"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -195,7 +195,7 @@ exports[`render columns-bottom slot 1`] = `
             <li
               class="mul-picker-column__item"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -209,7 +209,7 @@ exports[`render columns-bottom slot 1`] = `
             <li
               class="mul-picker-column__item"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -223,7 +223,7 @@ exports[`render columns-bottom slot 1`] = `
             <li
               class="mul-picker-column__item"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -237,7 +237,7 @@ exports[`render columns-bottom slot 1`] = `
             <li
               class="mul-picker-column__item"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -251,7 +251,7 @@ exports[`render columns-bottom slot 1`] = `
             <li
               class="mul-picker-column__item"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -265,11 +265,11 @@ exports[`render columns-bottom slot 1`] = `
       </div>
       <div
         class="mul-picker__mask"
-        style="background-size: 100% 110px;"
+        style="background-size: 100% 6.875rem;"
       />
       <div
         class="mul-hairline-unset--top-bottom mul-picker__frame"
-        style="height: 44px;"
+        style="height: 2.75rem;"
       />
     </div>
   </div>
@@ -300,14 +300,14 @@ exports[`render columns-top slot 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  height: 44px;
+  height: 2.75rem;
 }
 
 .c0.mul-picker .mul-picker__cancel,
 .c0.mul-picker .mul-picker__confirm {
   height: 100%;
-  padding: 16px;
-  font-size: 14px;
+  padding: 1rem;
+  font-size: 0.875rem;
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -329,8 +329,8 @@ exports[`render columns-top slot 1`] = `
 .c0.mul-picker .mul-picker__title {
   max-width: 50%;
   font-weight: $font_weight_bold;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 1rem;
+  line-height: 1.25rem;
   text-align: center;
 }
 
@@ -371,8 +371,8 @@ exports[`render columns-top slot 1`] = `
 .c0.mul-picker .mul-picker__frame {
   position: absolute;
   top: 50%;
-  right: 16px;
-  left: 16px;
+  right: 1rem;
+  left: 1rem;
   z-index: 3;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -400,7 +400,7 @@ exports[`render columns-top slot 1`] = `
   -ms-flex: 1;
   flex: 1;
   overflow: hidden;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .c0.mul-picker .mul-picker-column .mul-picker__wrapper {
@@ -445,19 +445,19 @@ exports[`render columns-top slot 1`] = `
     </div>
     <div
       class="mul-picker__columns"
-      style="height: 264px;"
+      style="height: 16.5rem;"
     >
       <div
         class="mul-picker-column"
       >
         <ul
-          style="transform: translate3d(0, 110px, 0); transition-duration: 200ms; transition-property: all;"
+          style="transform: translate3d(0, 6.875rem, 0); transition-duration: 200ms; transition-property: all;"
         >
           <div>
             <li
               class="mul-picker-column__item mul-picker-column__item--selected"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -471,7 +471,7 @@ exports[`render columns-top slot 1`] = `
             <li
               class="mul-picker-column__item"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -485,7 +485,7 @@ exports[`render columns-top slot 1`] = `
             <li
               class="mul-picker-column__item"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -499,7 +499,7 @@ exports[`render columns-top slot 1`] = `
             <li
               class="mul-picker-column__item"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -513,7 +513,7 @@ exports[`render columns-top slot 1`] = `
             <li
               class="mul-picker-column__item"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -527,7 +527,7 @@ exports[`render columns-top slot 1`] = `
             <li
               class="mul-picker-column__item"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -541,11 +541,11 @@ exports[`render columns-top slot 1`] = `
       </div>
       <div
         class="mul-picker__mask"
-        style="background-size: 100% 110px;"
+        style="background-size: 100% 6.875rem;"
       />
       <div
         class="mul-hairline-unset--top-bottom mul-picker__frame"
-        style="height: 44px;"
+        style="height: 2.75rem;"
       />
     </div>
   </div>
@@ -576,14 +576,14 @@ exports[`render default index 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  height: 44px;
+  height: 2.75rem;
 }
 
 .c0.mul-picker .mul-picker__cancel,
 .c0.mul-picker .mul-picker__confirm {
   height: 100%;
-  padding: 16px;
-  font-size: 14px;
+  padding: 1rem;
+  font-size: 0.875rem;
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -605,8 +605,8 @@ exports[`render default index 1`] = `
 .c0.mul-picker .mul-picker__title {
   max-width: 50%;
   font-weight: $font_weight_bold;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 1rem;
+  line-height: 1.25rem;
   text-align: center;
 }
 
@@ -647,8 +647,8 @@ exports[`render default index 1`] = `
 .c0.mul-picker .mul-picker__frame {
   position: absolute;
   top: 50%;
-  right: 16px;
-  left: 16px;
+  right: 1rem;
+  left: 1rem;
   z-index: 3;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -676,7 +676,7 @@ exports[`render default index 1`] = `
   -ms-flex: 1;
   flex: 1;
   overflow: hidden;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .c0.mul-picker .mul-picker-column .mul-picker__wrapper {
@@ -732,19 +732,19 @@ exports[`render default index 1`] = `
     </div>
     <div
       class="mul-picker__columns"
-      style="height: 264px;"
+      style="height: 16.5rem;"
     >
       <div
         class="mul-picker-column"
       >
         <ul
-          style="transform: translate3d(0, 22px, 0); transition-duration: 200ms; transition-property: all;"
+          style="transform: translate3d(0, 1.375rem, 0); transition-duration: 200ms; transition-property: all;"
         >
           <div>
             <li
               class="mul-picker-column__item"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -758,7 +758,7 @@ exports[`render default index 1`] = `
             <li
               class="mul-picker-column__item"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -772,7 +772,7 @@ exports[`render default index 1`] = `
             <li
               class="mul-picker-column__item mul-picker-column__item--selected"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -786,7 +786,7 @@ exports[`render default index 1`] = `
             <li
               class="mul-picker-column__item"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -800,7 +800,7 @@ exports[`render default index 1`] = `
             <li
               class="mul-picker-column__item"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -814,7 +814,7 @@ exports[`render default index 1`] = `
             <li
               class="mul-picker-column__item"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -828,11 +828,11 @@ exports[`render default index 1`] = `
       </div>
       <div
         class="mul-picker__mask"
-        style="background-size: 100% 110px;"
+        style="background-size: 100% 6.875rem;"
       />
       <div
         class="mul-hairline-unset--top-bottom mul-picker__frame"
-        style="height: 44px;"
+        style="height: 2.75rem;"
       />
     </div>
   </div>
@@ -863,14 +863,14 @@ exports[`render default slot 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  height: 44px;
+  height: 2.75rem;
 }
 
 .c0.mul-picker .mul-picker__cancel,
 .c0.mul-picker .mul-picker__confirm {
   height: 100%;
-  padding: 16px;
-  font-size: 14px;
+  padding: 1rem;
+  font-size: 0.875rem;
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -892,8 +892,8 @@ exports[`render default slot 1`] = `
 .c0.mul-picker .mul-picker__title {
   max-width: 50%;
   font-weight: $font_weight_bold;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 1rem;
+  line-height: 1.25rem;
   text-align: center;
 }
 
@@ -934,8 +934,8 @@ exports[`render default slot 1`] = `
 .c0.mul-picker .mul-picker__frame {
   position: absolute;
   top: 50%;
-  right: 16px;
-  left: 16px;
+  right: 1rem;
+  left: 1rem;
   z-index: 3;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -963,7 +963,7 @@ exports[`render default slot 1`] = `
   -ms-flex: 1;
   flex: 1;
   overflow: hidden;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .c0.mul-picker .mul-picker-column .mul-picker__wrapper {
@@ -1001,19 +1001,19 @@ exports[`render default slot 1`] = `
     </div>
     <div
       class="mul-picker__columns"
-      style="height: 264px;"
+      style="height: 16.5rem;"
     >
       <div
         class="mul-picker-column"
       >
         <ul
-          style="transform: translate3d(0, 110px, 0); transition-duration: 200ms; transition-property: all;"
+          style="transform: translate3d(0, 6.875rem, 0); transition-duration: 200ms; transition-property: all;"
         >
           <div>
             <li
               class="mul-picker-column__item mul-picker-column__item--selected"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -1027,7 +1027,7 @@ exports[`render default slot 1`] = `
             <li
               class="mul-picker-column__item"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -1041,7 +1041,7 @@ exports[`render default slot 1`] = `
             <li
               class="mul-picker-column__item"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -1055,7 +1055,7 @@ exports[`render default slot 1`] = `
             <li
               class="mul-picker-column__item"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -1069,7 +1069,7 @@ exports[`render default slot 1`] = `
             <li
               class="mul-picker-column__item"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -1083,7 +1083,7 @@ exports[`render default slot 1`] = `
             <li
               class="mul-picker-column__item"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -1097,11 +1097,11 @@ exports[`render default slot 1`] = `
       </div>
       <div
         class="mul-picker__mask"
-        style="background-size: 100% 110px;"
+        style="background-size: 100% 6.875rem;"
       />
       <div
         class="mul-hairline-unset--top-bottom mul-picker__frame"
-        style="height: 44px;"
+        style="height: 2.75rem;"
       />
     </div>
   </div>
@@ -1132,14 +1132,14 @@ exports[`render mul options 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  height: 44px;
+  height: 2.75rem;
 }
 
 .c0.mul-picker .mul-picker__cancel,
 .c0.mul-picker .mul-picker__confirm {
   height: 100%;
-  padding: 16px;
-  font-size: 14px;
+  padding: 1rem;
+  font-size: 0.875rem;
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -1161,8 +1161,8 @@ exports[`render mul options 1`] = `
 .c0.mul-picker .mul-picker__title {
   max-width: 50%;
   font-weight: $font_weight_bold;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 1rem;
+  line-height: 1.25rem;
   text-align: center;
 }
 
@@ -1203,8 +1203,8 @@ exports[`render mul options 1`] = `
 .c0.mul-picker .mul-picker__frame {
   position: absolute;
   top: 50%;
-  right: 16px;
-  left: 16px;
+  right: 1rem;
+  left: 1rem;
   z-index: 3;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -1232,7 +1232,7 @@ exports[`render mul options 1`] = `
   -ms-flex: 1;
   flex: 1;
   overflow: hidden;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .c0.mul-picker .mul-picker-column .mul-picker__wrapper {
@@ -1288,19 +1288,19 @@ exports[`render mul options 1`] = `
     </div>
     <div
       class="mul-picker__columns"
-      style="height: 264px;"
+      style="height: 16.5rem;"
     >
       <div
         class="mul-picker-column"
       >
         <ul
-          style="transform: translate3d(0, 22px, 0); transition-duration: 200ms; transition-property: all;"
+          style="transform: translate3d(0, 1.375rem, 0); transition-duration: 200ms; transition-property: all;"
         >
           <div>
             <li
               class="mul-picker-column__item"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -1314,7 +1314,7 @@ exports[`render mul options 1`] = `
             <li
               class="mul-picker-column__item"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -1328,7 +1328,7 @@ exports[`render mul options 1`] = `
             <li
               class="mul-picker-column__item mul-picker-column__item--selected"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -1342,7 +1342,7 @@ exports[`render mul options 1`] = `
             <li
               class="mul-picker-column__item"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -1356,7 +1356,7 @@ exports[`render mul options 1`] = `
             <li
               class="mul-picker-column__item"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -1370,7 +1370,7 @@ exports[`render mul options 1`] = `
             <li
               class="mul-picker-column__item"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -1384,11 +1384,11 @@ exports[`render mul options 1`] = `
       </div>
       <div
         class="mul-picker__mask"
-        style="background-size: 100% 110px;"
+        style="background-size: 100% 6.875rem;"
       />
       <div
         class="mul-hairline-unset--top-bottom mul-picker__frame"
-        style="height: 44px;"
+        style="height: 2.75rem;"
       />
     </div>
   </div>
@@ -1419,14 +1419,14 @@ exports[`render title slot 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  height: 44px;
+  height: 2.75rem;
 }
 
 .c0.mul-picker .mul-picker__cancel,
 .c0.mul-picker .mul-picker__confirm {
   height: 100%;
-  padding: 16px;
-  font-size: 14px;
+  padding: 1rem;
+  font-size: 0.875rem;
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -1448,8 +1448,8 @@ exports[`render title slot 1`] = `
 .c0.mul-picker .mul-picker__title {
   max-width: 50%;
   font-weight: $font_weight_bold;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 1rem;
+  line-height: 1.25rem;
   text-align: center;
 }
 
@@ -1490,8 +1490,8 @@ exports[`render title slot 1`] = `
 .c0.mul-picker .mul-picker__frame {
   position: absolute;
   top: 50%;
-  right: 16px;
-  left: 16px;
+  right: 1rem;
+  left: 1rem;
   z-index: 3;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -1519,7 +1519,7 @@ exports[`render title slot 1`] = `
   -ms-flex: 1;
   flex: 1;
   overflow: hidden;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .c0.mul-picker .mul-picker-column .mul-picker__wrapper {
@@ -1559,19 +1559,19 @@ exports[`render title slot 1`] = `
     </div>
     <div
       class="mul-picker__columns"
-      style="height: 264px;"
+      style="height: 16.5rem;"
     >
       <div
         class="mul-picker-column"
       >
         <ul
-          style="transform: translate3d(0, 110px, 0); transition-duration: 200ms; transition-property: all;"
+          style="transform: translate3d(0, 6.875rem, 0); transition-duration: 200ms; transition-property: all;"
         >
           <div>
             <li
               class="mul-picker-column__item mul-picker-column__item--selected"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -1585,7 +1585,7 @@ exports[`render title slot 1`] = `
             <li
               class="mul-picker-column__item"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -1599,7 +1599,7 @@ exports[`render title slot 1`] = `
             <li
               class="mul-picker-column__item"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -1613,7 +1613,7 @@ exports[`render title slot 1`] = `
             <li
               class="mul-picker-column__item"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -1627,7 +1627,7 @@ exports[`render title slot 1`] = `
             <li
               class="mul-picker-column__item"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -1641,7 +1641,7 @@ exports[`render title slot 1`] = `
             <li
               class="mul-picker-column__item"
               role="button"
-              style="height: 44px;"
+              style="height: 2.75rem;"
               tabindex="0"
             >
               <div
@@ -1655,11 +1655,11 @@ exports[`render title slot 1`] = `
       </div>
       <div
         class="mul-picker__mask"
-        style="background-size: 100% 110px;"
+        style="background-size: 100% 6.875rem;"
       />
       <div
         class="mul-hairline-unset--top-bottom mul-picker__frame"
-        style="height: 44px;"
+        style="height: 2.75rem;"
       />
     </div>
   </div>

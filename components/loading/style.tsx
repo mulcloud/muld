@@ -45,7 +45,7 @@ export const View = styled.div`
 
                     &::before {
                         display: block;
-                        width: 2px;
+                        width: 0.125rem;
                         height: 25%;
                         margin: 0 auto;
                         background-color: currentColor;

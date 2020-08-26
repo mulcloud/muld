@@ -41,7 +41,7 @@ export default function Switchemo() {
             <DemoBlock title="自定义大小">
                 <Switch
                     value={diySize}
-                    size="24px"
+                    size="1.5rem"
                     onClick={() => {
                         setDiySize(!diySize);
                     }}

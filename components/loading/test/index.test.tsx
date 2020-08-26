@@ -16,12 +16,12 @@ describe('Loading', () => {
 
     it('icon size prop', () => {
         const { container } = render(<Loading size="20" />);
-        expect(loading_spinner(container).style._values['width']).toBe('20px');
+        expect(loading_spinner(container).style._values['width']).toBe('1.25rem');
     });
 
     it('text size props', () => {
         const { container } = render(<Loading textSize="14">loading...</Loading>);
         expect(loading__text(container).textContent).toBe('loading...');
-        expect(loading__text(container).style._values['font-size']).toBe('14px');
+        expect(loading__text(container).style._values['font-size']).toBe('0.875rem');
     });
 });

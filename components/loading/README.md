@@ -23,19 +23,19 @@ import { Loading } from '@trillion/muld';
 ### Size
 
 ```html
-<Loading size="24" /> <Loading type="spinner" size="24px" />
+<Loading size="24" /> <Loading type="spinner" size="1.5rem" />
 ```
 
 ### Text
 
 ```html
-<Loading size="24px">Loading...</Loading>
+<Loading size="1.5rem">Loading...</Loading>
 ```
 
 ### Vertical
 
 ```html
-<Loading size="24px" vertical>Loading...</Loading>
+<Loading size="1.5rem" vertical>Loading...</Loading>
 ```
 
 ## API
@@ -46,8 +46,8 @@ import { Loading } from '@trillion/muld';
 | --- | --- | --- | --- |
 | color | Loading color | _string_ | `#c9c9c9` |
 | type | Can be set to `spinner` | _string_ | `circular` |
-| size | Icon size | _number \| string_ | `30px` |
-| text-size | Text font size | _number \| string_ | `14px` |
+| size | Icon size | _number \| string_ | `1.875rem` |
+| text-size | Text font size | _number \| string_ | `0.875rem` |
 | vertical | Whether to arrange icons and text content vertically | _boolean_ | `false` |
 
 ### Slots

@@ -5,7 +5,6 @@ import { createNS, isDef, withDefaultProps } from '../utils';
 
 import { BORDER_UNSET_TOP_BOTTOM } from '../utils/constant';
 
-import { unitToPx } from '../utils/format/addUnit';
 import { View } from './style';
 
 import Loading from '../loading';
@@ -154,8 +153,8 @@ const Picker: React.FC<PickerPropsType> = (props: PickerPropsType) => {
         updateColumn();
     }, [columns]);
 
-    function itemPxHeight(): number {
-        return itemHeight ? unitToPx(itemHeight) : DEFAULT_ITEM_HEIGHT;
+    function itemRemHeight(): number {
+        return itemHeight ? itemHeight / 16 : DEFAULT_ITEM_HEIGHT / 16;
     }
 
     function dataType() {
@@ -367,7 +366,7 @@ const Picker: React.FC<PickerPropsType> = (props: PickerPropsType) => {
                 valueKey={valueKey}
                 className={item.className}
                 allowHtml={allowHtml}
-                itemHeight={itemPxHeight()}
+                itemHeight={itemRemHeight()}
                 defaultIndex={item.defaultIndex || +defaultIndex}
                 swipeDuration={swipeDuration}
                 visibleItemCount={visibleItemCount}
@@ -379,12 +378,12 @@ const Picker: React.FC<PickerPropsType> = (props: PickerPropsType) => {
     };
 
     const genColumns = () => {
-        const wrapHeight = itemPxHeight() * visibleItemCount;
+        const wrapHeight = itemRemHeight() * visibleItemCount;
 
-        const frameStyle = { height: `${itemPxHeight()}px` };
-        const columnsStyle = { height: `${wrapHeight}px` };
+        const frameStyle = { height: `${itemRemHeight()}rem` };
+        const columnsStyle = { height: `${wrapHeight}rem` };
         const maskStyle = {
-            backgroundSize: `100% ${(wrapHeight - itemPxHeight()) / 2}px`,
+            backgroundSize: `100% ${(wrapHeight - itemRemHeight()) / 2}rem`,
         };
 
         return (

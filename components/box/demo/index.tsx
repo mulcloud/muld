@@ -10,10 +10,10 @@ export default function BoxDemo(): React.ReactNode {
         <View className="demo-box">
             <DemoBlock title="基础用法">
                 <Box
-                    p="20px"
-                    fontSize="16px"
-                    width="200px"
-                    height="100px"
+                    p="1.25rem"
+                    fontSize="1rem"
+                    width="12.5rem"
+                    height="6.25rem"
                     color="#fff"
                     bg="#66a8ef"
                 >
@@ -22,11 +22,11 @@ export default function BoxDemo(): React.ReactNode {
             </DemoBlock>
             <DemoBlock title="使用 mul-bg、mul-text">
                 <Box
-                    p="20px"
-                    ml="10px"
-                    fontSize="16px"
-                    width="200px"
-                    height="100px"
+                    p="1.25rem"
+                    ml="0.625rem"
+                    fontSize="1rem"
+                    width="12.5rem"
+                    height="6.25rem"
                     className="mul-bg--primary mul-text--white"
                 >
                     Box
@@ -38,7 +38,7 @@ export default function BoxDemo(): React.ReactNode {
 
 const View = styled(DemoSection)`
     &.demo-box {
-        padding: 20px;
+        padding: 1.25rem;
         background-color: ${$white};
     }
 `;

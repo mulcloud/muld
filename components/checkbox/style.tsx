@@ -37,7 +37,7 @@ export const View = styled.div`
                 font-size: 0.8em;
                 line-height: 1.25;
                 text-align: center;
-                border: 1px solid ${$checkbox.border_color};
+                border: 0.0625rem solid ${$checkbox.border_color};
                 transition-duration: ${$checkbox.transition_duration};
                 transition-property: color, border-color, background-color;
             }

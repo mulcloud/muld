@@ -22,11 +22,11 @@ export const View = styled.div`
             padding: ${$coupon_list.field_padding};
 
             .mul-field__body {
-                height: 34px;
+                height: 2.125rem;
                 padding-left: ${$padding_sm};
-                line-height: 34px;
+                line-height: 2.125rem;
                 background: ${$gray1};
-                border-radius: 17px;
+                border-radius: 1.0625rem;
 
                 &::placeholder {
                     color: ${$gray5};
@@ -48,12 +48,12 @@ export const View = styled.div`
             flex: none;
             height: ${$coupon_list.exchange_button_height};
             font-size: ${$font_size_lg};
-            line-height: calc(${$coupon_list.exchange_button_height} - 2px);
+            line-height: calc(${$coupon_list.exchange_button_height} - 0.125rem);
             border: 0;
         }
 
         .mul-tabs__wrap {
-            box-shadow: 0 6px 12px -12px ${$gray6};
+            box-shadow: 0 0.375rem 0.75rem -0.75rem ${$gray6};
         }
 
         .mul-coupon-list__list {
@@ -63,7 +63,7 @@ export const View = styled.div`
             -webkit-overflow-scrolling: touch;
 
             &--with-bottom {
-                padding-bottom: calc(${$padding_md} + 50px);
+                padding-bottom: calc(${$padding_md} + 3.125rem);
             }
         }
 
@@ -74,7 +74,7 @@ export const View = styled.div`
             z-index: 999;
             box-sizing: border-box;
             width: 100%;
-            padding: 5px ${$padding_md};
+            padding: 0.3125rem ${$padding_md};
             font-weight: ${$font_weight_bold};
             background-color: ${$white};
         }
@@ -84,7 +84,7 @@ export const View = styled.div`
         }
 
         .mul-coupon-list__empty {
-            padding-top: 60px;
+            padding-top: 3.75rem;
             text-align: center;
 
             p {

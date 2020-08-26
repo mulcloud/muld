@@ -36,7 +36,7 @@ export interface DialogProps {
 }
 
 const defaultProps = {
-    width: '320px',
+    width: '20rem',
     theme: 'default',
     messageAlign: 'center',
     showConfirmButton: true,

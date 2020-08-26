@@ -225,7 +225,7 @@ function customsDemo() {
 | showToolbar             | 是否显示顶部栏                                 | _boolean_          | `false` |
 | allowHtml      | 是否允许选项内容中渲染 HTML                    | _boolean_          | `true`  |
 | defaultIndex            | 单列选择时，默认选中项的索引                   | _number \| string_ | `0`     |
-| itemHeight     | 选项高度，支持 `px` `vw` `rem` 单位，默认 `px` | _number \| string_ | `44`    |
+| itemHeight     | 选项高度, 默认 `px` | _number_ | `44`    |
 | visibleItemCount       | 可见的选项个数                                 | _number \| string_ | `6`     |
 | swipeDuration | 快速滑动时惯性滚动的时长，单位 `ms`            | _number \| string_ | `1000`  |
 

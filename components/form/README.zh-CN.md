@@ -33,7 +33,7 @@ import { Form } from '@trillion/muld';
         placeholder="密码"
         rules={[{ required: true, message: '请填写密码' }]}
     />
-    <div style={{ margin: '16px 16px 0' }}>
+    <div style={{ margin: '1rem 1rem 0' }}>
         <Button round block type="info" nativeType="submit">
             提交
         </Button>
@@ -81,7 +81,7 @@ function onFailed(errorInfo: any) {
       placeholder="异步函数校验"
       rules={[{ validator: asyncValidator, message: '请输入正确内容' }]}
   />
-  <div style="margin: 16px;">
+  <div style="margin: 1rem;">
     <Button round block type="info" nativeType="submit">
         提交
     </Button>

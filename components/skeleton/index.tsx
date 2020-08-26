@@ -25,7 +25,7 @@ const defaultProps = {
     row: 0 as NumOrStr,
     loading: true,
     animate: true,
-    avatarSize: '32px',
+    avatarSize: '2rem',
     avatarShape: 'round' as SkeAvatarShape,
     titleWidth: '40%' as NumOrStr,
     rowWidth: DEFAULT_ROW_WIDTH as SkeRowWidth,

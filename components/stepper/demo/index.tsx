@@ -55,22 +55,22 @@ const View = styled(DemoSection)`
 
         .mul-doc-demo-block {
             display: flex;
-            padding: 10px 16px;
+            padding: 10px 1rem;
             position: relative;
             justify-content: space-between;
-            line-height: 28px;
+            line-height: 1.75rem;
             &__title {
                 padding: 0px !important;
-                line-height: 28px;
+                line-height: 1.75rem;
             }
             &::after {
                 position: absolute;
                 box-sizing: border-box;
                 content: ' ';
                 pointer-events: none;
-                right: 16px;
+                right: 1rem;
                 bottom: 0;
-                left: 16px;
+                left: 1rem;
                 border-bottom: 1px solid #ebedf0;
                 -webkit-transform: scaleY(0.5);
                 transform: scaleY(0.5);

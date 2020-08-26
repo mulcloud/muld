@@ -58,9 +58,9 @@ exports[`Uploader disable preview image 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   box-sizing: border-box;
-  width: 80px;
-  height: 80px;
-  margin: 0 8px 8px 0;
+  width: 5rem;
+  height: 5rem;
+  margin: 0 0.5rem 0.5rem 0;
   background-color: #f7f8fa;
 }
 
@@ -70,25 +70,25 @@ exports[`Uploader disable preview image 1`] = `
 
 .c0.mul-uploader .mul-uploader__upload-icon {
   color: #dcdee0;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .c0.mul-uploader .mul-uploader__upload-text {
-  margin-top: 8px;
+  margin-top: 0.5rem;
   color: #969799;
-  font-size: 10px;
+  font-size: 0.625rem;
 }
 
 .c0.mul-uploader .mul-uploader__preview {
   position: relative;
-  margin: 0 8px 8px 0;
+  margin: 0 0.5rem 0.5rem 0;
   cursor: pointer;
 }
 
 .c0.mul-uploader .mul-uploader__preview-image {
   display: block;
-  width: 80px;
-  height: 80px;
+  width: 5rem;
+  height: 5rem;
   overflow: hidden;
 }
 
@@ -96,19 +96,19 @@ exports[`Uploader disable preview image 1`] = `
   position: absolute;
   top: 0;
   right: 0;
-  width: 14px;
-  height: 14px;
+  width: 0.875rem;
+  height: 0.875rem;
   background-color: rgba(0,0,0,0.7);
-  border-radius: 0 0 0 12px;
+  border-radius: 0 0 0 0.75rem;
 }
 
 .c0.mul-uploader .mul-uploader__preview .mul-uploader__preview-delete .mul-uploader__preview-delete-icon {
   position: absolute;
-  top: -2px;
-  right: -2px;
+  top: -0.125rem;
+  right: -0.125rem;
   color: #fff;
   color: #fff;
-  font-size: 16px;
+  font-size: 1rem;
   -webkit-transform: scale(0.5);
   -ms-transform: scale(0.5);
   transform: scale(0.5);
@@ -148,19 +148,19 @@ exports[`Uploader disable preview image 1`] = `
 }
 
 .c0.mul-uploader .mul-uploader__mask-icon {
-  font-size: 22px;
+  font-size: 1.375rem;
 }
 
 .c0.mul-uploader .mul-uploader__mask-message {
-  margin-top: 6px;
+  margin-top: 0.375rem;
   padding: 0 $padding_base;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 0.75rem;
+  line-height: 0.875rem;
 }
 
 .c0.mul-uploader__loading {
-  width: 22px;
-  height: 22px;
+  width: 1.375rem;
+  height: 1.375rem;
   color: #fff;
 }
 
@@ -180,23 +180,23 @@ exports[`Uploader disable preview image 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 80px;
-  height: 80px;
+  width: 5rem;
+  height: 5rem;
   background-color: #f7f8fa;
 }
 
 .c0.mul-uploader__file-icon {
   color: #646566;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .c0.mul-uploader__file-name {
   box-sizing: border-box;
   width: 100%;
-  margin-top: 8px;
-  padding: 0 4px;
+  margin-top: 0.5rem;
+  padding: 0 0.25rem;
   color: #646566;
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: center;
 }
 
@@ -236,7 +236,7 @@ exports[`Uploader disable preview image 1`] = `
           class="c1 mul-icon mul-icon-photograph mul-uploader__upload-icon"
           content="F09E"
           name="photograph"
-          style="font-size: 20px;"
+          style="font-size: 1.25rem;"
         />
         <input
           accept="image/*"
@@ -307,9 +307,9 @@ exports[`Uploader preview-cover slot 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   box-sizing: border-box;
-  width: 80px;
-  height: 80px;
-  margin: 0 8px 8px 0;
+  width: 5rem;
+  height: 5rem;
+  margin: 0 0.5rem 0.5rem 0;
   background-color: #f7f8fa;
 }
 
@@ -319,25 +319,25 @@ exports[`Uploader preview-cover slot 1`] = `
 
 .c0.mul-uploader .mul-uploader__upload-icon {
   color: #dcdee0;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .c0.mul-uploader .mul-uploader__upload-text {
-  margin-top: 8px;
+  margin-top: 0.5rem;
   color: #969799;
-  font-size: 10px;
+  font-size: 0.625rem;
 }
 
 .c0.mul-uploader .mul-uploader__preview {
   position: relative;
-  margin: 0 8px 8px 0;
+  margin: 0 0.5rem 0.5rem 0;
   cursor: pointer;
 }
 
 .c0.mul-uploader .mul-uploader__preview-image {
   display: block;
-  width: 80px;
-  height: 80px;
+  width: 5rem;
+  height: 5rem;
   overflow: hidden;
 }
 
@@ -345,19 +345,19 @@ exports[`Uploader preview-cover slot 1`] = `
   position: absolute;
   top: 0;
   right: 0;
-  width: 14px;
-  height: 14px;
+  width: 0.875rem;
+  height: 0.875rem;
   background-color: rgba(0,0,0,0.7);
-  border-radius: 0 0 0 12px;
+  border-radius: 0 0 0 0.75rem;
 }
 
 .c0.mul-uploader .mul-uploader__preview .mul-uploader__preview-delete .mul-uploader__preview-delete-icon {
   position: absolute;
-  top: -2px;
-  right: -2px;
+  top: -0.125rem;
+  right: -0.125rem;
   color: #fff;
   color: #fff;
-  font-size: 16px;
+  font-size: 1rem;
   -webkit-transform: scale(0.5);
   -ms-transform: scale(0.5);
   transform: scale(0.5);
@@ -397,19 +397,19 @@ exports[`Uploader preview-cover slot 1`] = `
 }
 
 .c0.mul-uploader .mul-uploader__mask-icon {
-  font-size: 22px;
+  font-size: 1.375rem;
 }
 
 .c0.mul-uploader .mul-uploader__mask-message {
-  margin-top: 6px;
+  margin-top: 0.375rem;
   padding: 0 $padding_base;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 0.75rem;
+  line-height: 0.875rem;
 }
 
 .c0.mul-uploader__loading {
-  width: 22px;
-  height: 22px;
+  width: 1.375rem;
+  height: 1.375rem;
   color: #fff;
 }
 
@@ -429,23 +429,23 @@ exports[`Uploader preview-cover slot 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 80px;
-  height: 80px;
+  width: 5rem;
+  height: 5rem;
   background-color: #f7f8fa;
 }
 
 .c0.mul-uploader__file-icon {
   color: #646566;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .c0.mul-uploader__file-name {
   box-sizing: border-box;
   width: 100%;
-  margin-top: 8px;
-  padding: 0 4px;
+  margin-top: 0.5rem;
+  padding: 0 0.25rem;
   color: #646566;
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: center;
 }
 
@@ -492,16 +492,16 @@ exports[`Uploader preview-cover slot 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   color: #969799;
-  font-size: 14px;
+  font-size: 0.875rem;
   background-color: #f7f8fa;
 }
 
 .c1.mul-image .mul-image__loading-icon {
-  font-size: 22px;
+  font-size: 1.375rem;
 }
 
 .c1.mul-image .mul-image__error-icon {
-  font-size: 22px;
+  font-size: 1.375rem;
 }
 
 .c2.mul-icon {
@@ -597,7 +597,7 @@ exports[`Uploader preview-cover slot 1`] = `
               class="c2 mul-image__loading-icon mul-image__loading-icon-photo"
               content="F09D"
               name="photo"
-              style="font-size: 20px;"
+              style="font-size: 1.25rem;"
             />
           </div>
           <div
@@ -621,7 +621,7 @@ exports[`Uploader preview-cover slot 1`] = `
             class="c3 mul-icon mul-icon-cross mul-uploader__preview-delete-icon"
             content="F042"
             name="cross"
-            style="font-size: 16px;"
+            style="font-size: 1rem;"
           />
         </div>
       </div>
@@ -632,7 +632,7 @@ exports[`Uploader preview-cover slot 1`] = `
           class="c4 mul-icon mul-icon-photograph mul-uploader__upload-icon"
           content="F09E"
           name="photograph"
-          style="font-size: 20px;"
+          style="font-size: 1.25rem;"
         />
         <input
           accept="image/*"
@@ -703,9 +703,9 @@ exports[`Uploader render preview image with image-fit prop 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   box-sizing: border-box;
-  width: 80px;
-  height: 80px;
-  margin: 0 8px 8px 0;
+  width: 5rem;
+  height: 5rem;
+  margin: 0 0.5rem 0.5rem 0;
   background-color: #f7f8fa;
 }
 
@@ -715,25 +715,25 @@ exports[`Uploader render preview image with image-fit prop 1`] = `
 
 .c0.mul-uploader .mul-uploader__upload-icon {
   color: #dcdee0;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .c0.mul-uploader .mul-uploader__upload-text {
-  margin-top: 8px;
+  margin-top: 0.5rem;
   color: #969799;
-  font-size: 10px;
+  font-size: 0.625rem;
 }
 
 .c0.mul-uploader .mul-uploader__preview {
   position: relative;
-  margin: 0 8px 8px 0;
+  margin: 0 0.5rem 0.5rem 0;
   cursor: pointer;
 }
 
 .c0.mul-uploader .mul-uploader__preview-image {
   display: block;
-  width: 80px;
-  height: 80px;
+  width: 5rem;
+  height: 5rem;
   overflow: hidden;
 }
 
@@ -741,19 +741,19 @@ exports[`Uploader render preview image with image-fit prop 1`] = `
   position: absolute;
   top: 0;
   right: 0;
-  width: 14px;
-  height: 14px;
+  width: 0.875rem;
+  height: 0.875rem;
   background-color: rgba(0,0,0,0.7);
-  border-radius: 0 0 0 12px;
+  border-radius: 0 0 0 0.75rem;
 }
 
 .c0.mul-uploader .mul-uploader__preview .mul-uploader__preview-delete .mul-uploader__preview-delete-icon {
   position: absolute;
-  top: -2px;
-  right: -2px;
+  top: -0.125rem;
+  right: -0.125rem;
   color: #fff;
   color: #fff;
-  font-size: 16px;
+  font-size: 1rem;
   -webkit-transform: scale(0.5);
   -ms-transform: scale(0.5);
   transform: scale(0.5);
@@ -793,19 +793,19 @@ exports[`Uploader render preview image with image-fit prop 1`] = `
 }
 
 .c0.mul-uploader .mul-uploader__mask-icon {
-  font-size: 22px;
+  font-size: 1.375rem;
 }
 
 .c0.mul-uploader .mul-uploader__mask-message {
-  margin-top: 6px;
+  margin-top: 0.375rem;
   padding: 0 $padding_base;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 0.75rem;
+  line-height: 0.875rem;
 }
 
 .c0.mul-uploader__loading {
-  width: 22px;
-  height: 22px;
+  width: 1.375rem;
+  height: 1.375rem;
   color: #fff;
 }
 
@@ -825,23 +825,23 @@ exports[`Uploader render preview image with image-fit prop 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 80px;
-  height: 80px;
+  width: 5rem;
+  height: 5rem;
   background-color: #f7f8fa;
 }
 
 .c0.mul-uploader__file-icon {
   color: #646566;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .c0.mul-uploader__file-name {
   box-sizing: border-box;
   width: 100%;
-  margin-top: 8px;
-  padding: 0 4px;
+  margin-top: 0.5rem;
+  padding: 0 0.25rem;
   color: #646566;
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: center;
 }
 
@@ -888,16 +888,16 @@ exports[`Uploader render preview image with image-fit prop 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   color: #969799;
-  font-size: 14px;
+  font-size: 0.875rem;
   background-color: #f7f8fa;
 }
 
 .c1.mul-image .mul-image__loading-icon {
-  font-size: 22px;
+  font-size: 1.375rem;
 }
 
 .c1.mul-image .mul-image__error-icon {
-  font-size: 22px;
+  font-size: 1.375rem;
 }
 
 .c2.mul-icon {
@@ -993,7 +993,7 @@ exports[`Uploader render preview image with image-fit prop 1`] = `
               class="c2 mul-image__loading-icon mul-image__loading-icon-photo"
               content="F09D"
               name="photo"
-              style="font-size: 20px;"
+              style="font-size: 1.25rem;"
             />
           </div>
         </div>
@@ -1004,7 +1004,7 @@ exports[`Uploader render preview image with image-fit prop 1`] = `
             class="c3 mul-icon mul-icon-cross mul-uploader__preview-delete-icon"
             content="F042"
             name="cross"
-            style="font-size: 16px;"
+            style="font-size: 1rem;"
           />
         </div>
       </div>
@@ -1015,7 +1015,7 @@ exports[`Uploader render preview image with image-fit prop 1`] = `
           class="c4 mul-icon mul-icon-photograph mul-uploader__upload-icon"
           content="F09E"
           name="photograph"
-          style="font-size: 20px;"
+          style="font-size: 1.25rem;"
         />
         <input
           accept="image/*"
@@ -1086,9 +1086,9 @@ exports[`Uploader upload-icon prop 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   box-sizing: border-box;
-  width: 80px;
-  height: 80px;
-  margin: 0 8px 8px 0;
+  width: 5rem;
+  height: 5rem;
+  margin: 0 0.5rem 0.5rem 0;
   background-color: #f7f8fa;
 }
 
@@ -1098,25 +1098,25 @@ exports[`Uploader upload-icon prop 1`] = `
 
 .c0.mul-uploader .mul-uploader__upload-icon {
   color: #dcdee0;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .c0.mul-uploader .mul-uploader__upload-text {
-  margin-top: 8px;
+  margin-top: 0.5rem;
   color: #969799;
-  font-size: 10px;
+  font-size: 0.625rem;
 }
 
 .c0.mul-uploader .mul-uploader__preview {
   position: relative;
-  margin: 0 8px 8px 0;
+  margin: 0 0.5rem 0.5rem 0;
   cursor: pointer;
 }
 
 .c0.mul-uploader .mul-uploader__preview-image {
   display: block;
-  width: 80px;
-  height: 80px;
+  width: 5rem;
+  height: 5rem;
   overflow: hidden;
 }
 
@@ -1124,19 +1124,19 @@ exports[`Uploader upload-icon prop 1`] = `
   position: absolute;
   top: 0;
   right: 0;
-  width: 14px;
-  height: 14px;
+  width: 0.875rem;
+  height: 0.875rem;
   background-color: rgba(0,0,0,0.7);
-  border-radius: 0 0 0 12px;
+  border-radius: 0 0 0 0.75rem;
 }
 
 .c0.mul-uploader .mul-uploader__preview .mul-uploader__preview-delete .mul-uploader__preview-delete-icon {
   position: absolute;
-  top: -2px;
-  right: -2px;
+  top: -0.125rem;
+  right: -0.125rem;
   color: #fff;
   color: #fff;
-  font-size: 16px;
+  font-size: 1rem;
   -webkit-transform: scale(0.5);
   -ms-transform: scale(0.5);
   transform: scale(0.5);
@@ -1176,19 +1176,19 @@ exports[`Uploader upload-icon prop 1`] = `
 }
 
 .c0.mul-uploader .mul-uploader__mask-icon {
-  font-size: 22px;
+  font-size: 1.375rem;
 }
 
 .c0.mul-uploader .mul-uploader__mask-message {
-  margin-top: 6px;
+  margin-top: 0.375rem;
   padding: 0 $padding_base;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 0.75rem;
+  line-height: 0.875rem;
 }
 
 .c0.mul-uploader__loading {
-  width: 22px;
-  height: 22px;
+  width: 1.375rem;
+  height: 1.375rem;
   color: #fff;
 }
 
@@ -1208,23 +1208,23 @@ exports[`Uploader upload-icon prop 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 80px;
-  height: 80px;
+  width: 5rem;
+  height: 5rem;
   background-color: #f7f8fa;
 }
 
 .c0.mul-uploader__file-icon {
   color: #646566;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .c0.mul-uploader__file-name {
   box-sizing: border-box;
   width: 100%;
-  margin-top: 8px;
-  padding: 0 4px;
+  margin-top: 0.5rem;
+  padding: 0 0.25rem;
   color: #646566;
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: center;
 }
 
@@ -1271,16 +1271,16 @@ exports[`Uploader upload-icon prop 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   color: #969799;
-  font-size: 14px;
+  font-size: 0.875rem;
   background-color: #f7f8fa;
 }
 
 .c1.mul-image .mul-image__loading-icon {
-  font-size: 22px;
+  font-size: 1.375rem;
 }
 
 .c1.mul-image .mul-image__error-icon {
-  font-size: 22px;
+  font-size: 1.375rem;
 }
 
 .c2.mul-icon {
@@ -1376,7 +1376,7 @@ exports[`Uploader upload-icon prop 1`] = `
               class="c2 mul-image__loading-icon mul-image__loading-icon-photo"
               content="F09D"
               name="photo"
-              style="font-size: 20px;"
+              style="font-size: 1.25rem;"
             />
           </div>
         </div>
@@ -1387,7 +1387,7 @@ exports[`Uploader upload-icon prop 1`] = `
             class="c3 mul-icon mul-icon-cross mul-uploader__preview-delete-icon"
             content="F042"
             name="cross"
-            style="font-size: 16px;"
+            style="font-size: 1rem;"
           />
         </div>
       </div>
@@ -1398,7 +1398,7 @@ exports[`Uploader upload-icon prop 1`] = `
           class="c4 mul-icon mul-icon-add mul-uploader__upload-icon"
           content="F002"
           name="add"
-          style="font-size: 20px;"
+          style="font-size: 1.25rem;"
         />
         <input
           accept="image/*"

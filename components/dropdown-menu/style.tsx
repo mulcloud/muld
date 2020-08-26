@@ -9,7 +9,7 @@ export const View = styled.div`
 			display: flex;
 			height: ${$dropdown_menu.height};
 			background-color: ${$dropdown_menu.background_color};
-			box-shadow: 0 2px 12px fade(${$gray7}, 8);
+			box-shadow: 0 0.125rem 0.75rem fade(${$gray7}, 8);
 
 			&--opened {
 				z-index: ${$dropdown_menu.z_index} + 1;
@@ -51,9 +51,9 @@ export const View = styled.div`
 			&::after {
 				position: absolute;
 				top: 50%;
-				right: -4px;
-				margin-top: -5px;
-				border: 3px solid;
+				right: -0.25rem;
+				margin-top: -0.3125rem;
+				border: 0.1875rem solid;
 				border-color: transparent transparent ${$gray4} ${$gray4};
 				transform: rotate(-45deg);
 				opacity: 0.8;
@@ -70,7 +70,7 @@ export const View = styled.div`
 
 			&--down {
 				&::after {
-					margin-top: -1px;
+					margin-top: -0.0625rem;
 					transform: rotate(135deg);
 				}
 			}

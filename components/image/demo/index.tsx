@@ -48,13 +48,13 @@ const View = styled(DemoSection)`
         }
 
         .mul-col {
-            margin-bottom: 20px;
+            margin-bottom: 1.25rem;
         }
 
         .text {
-            margin-top: 5px;
+            margin-top: 0.3125rem;
             color: ${$gray7};
-            font-size: 14px;
+            font-size: 0.875rem;
             text-align: center;
         }
     }

@@ -61,7 +61,7 @@ import { Dialog } from '@trillion/muld';
 | --- | --- | --- | --- |
 | visible | 是否显示弹窗 | _boolean_ | - |
 | title | 标题 | _string_ | - |
-| width | 弹窗宽度，默认单位为`px` | _number \| string_ | `320px` |
+| width | 弹窗宽度，默认单位为`px` | _number \| string_ | `20rem` |
 | messageAlign | 内容对齐方式，可选值为`left` `right` | _string_ | `center` |
 | showConfirmButton | 是否展示确认按钮 | _boolean_ | `true` |
 | showCancelButton | 是否展示取消按钮 | _boolean_ | `false` |

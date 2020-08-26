@@ -103,7 +103,7 @@ export const View = styled.button`
         }
 
         &--normal {
-            padding: 0 15px;
+            padding: 0 0.9375rem;
             font-size: ${$button.button_normal_font_size};
         }
 
@@ -168,7 +168,7 @@ export const View = styled.button`
 
         .mul-button__icon + .mul-button__text,
         .mul-button__loading + .mul-button__text {
-            margin-left: 5px;
+            margin-left: 0.3125rem;
         }
 
         &--hairline {
@@ -176,7 +176,7 @@ export const View = styled.button`
 
             &::after {
                 border-color: inherit;
-                border-radius: 4px;
+                border-radius: 0.25rem;
             }
 
             &.mul-button--round::after {

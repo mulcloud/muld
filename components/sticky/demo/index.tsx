@@ -50,15 +50,15 @@ const View = styled(DemoSection)`
         }
 
         .xs {
-            margin-left: 15px;
+            margin-left: 0.9375rem;
         }
 
         .sm {
-            margin-left: 115px;
+            margin-left: 7.1875rem;
         }
 
         .lg {
-            margin-left: 215px;
+            margin-left: 13.4375rem;
         }
     }
 `;

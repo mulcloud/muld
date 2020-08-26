@@ -88,10 +88,10 @@ const View = styled(DemoSection)`
         }
 
         .mul-col {
-            margin-bottom: 10px;
+            margin-bottom: 0.625rem;
             color: ${style.$white};
-            font-size: 13px;
-            line-height: 30px;
+            font-size: 0.8125rem;
+            line-height: 1.875rem;
             text-align: center;
             background-clip: content-box;
 

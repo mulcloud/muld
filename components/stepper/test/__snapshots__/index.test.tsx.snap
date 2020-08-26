@@ -14,8 +14,8 @@ exports[`Stepper button-size prop 1`] = `
 .c0.mul-stepper .mul-stepper__minus {
   position: relative;
   box-sizing: border-box;
-  width: 28px;
-  height: 28px;
+  width: 1.75rem;
+  height: 1.75rem;
   margin: 0;
   padding: 0;
   color: #323233;
@@ -28,12 +28,12 @@ exports[`Stepper button-size prop 1`] = `
 .c0.mul-stepper .mul-stepper__plus::before,
 .c0.mul-stepper .mul-stepper__minus::before {
   width: 50%;
-  height: 1px;
+  height: 0.0625rem;
 }
 
 .c0.mul-stepper .mul-stepper__plus::after,
 .c0.mul-stepper .mul-stepper__minus::after {
-  width: 1px;
+  width: 0.0625rem;
   height: 50%;
 }
 
@@ -69,7 +69,7 @@ exports[`Stepper button-size prop 1`] = `
 }
 
 .c0.mul-stepper .mul-stepper__minus {
-  border-radius: 4px 0 0 4px;
+  border-radius: 0.25rem 0 0 0.25rem;
 }
 
 .c0.mul-stepper .mul-stepper__minus::after {
@@ -77,23 +77,23 @@ exports[`Stepper button-size prop 1`] = `
 }
 
 .c0.mul-stepper .mul-stepper__plus {
-  border-radius: 0 4px 4px 0;
+  border-radius: 0 0.25rem 0.25rem 0;
 }
 
 .c0.mul-stepper .mul-stepper__input {
   box-sizing: border-box;
-  width: 32px;
-  height: 28px;
-  margin: 0 2px;
+  width: 2rem;
+  height: 1.75rem;
+  margin: 0 0.125rem;
   padding: 0;
   color: #323233;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: normal;
   text-align: center;
   vertical-align: middle;
   background-color: #f2f3f5;
   border: 0;
-  border-width: 1px 0;
+  border-width: 0.0625rem 0;
   border-radius: 0;
   -webkit-appearance: none;
 }
@@ -142,7 +142,7 @@ exports[`Stepper button-size prop 1`] = `
 .c0.mul-stepper--round .mul-stepper__minus {
   color: #fa220a;
   background-color: #fff;
-  border: 1px solid #fa220a;
+  border: 0.0625rem solid #fa220a;
 }
 
 <div
@@ -159,7 +159,7 @@ exports[`Stepper button-size prop 1`] = `
       aria-valuenow="1"
       class="mul-stepper__input"
       inputmode="decimal"
-      style="width: 32px; height: 10rem;"
+      style="width: 2rem; height: 10rem;"
       type="text"
       value="1"
     />
@@ -186,8 +186,8 @@ exports[`Stepper disable stepper input 1`] = `
 .c0.mul-stepper .mul-stepper__minus {
   position: relative;
   box-sizing: border-box;
-  width: 28px;
-  height: 28px;
+  width: 1.75rem;
+  height: 1.75rem;
   margin: 0;
   padding: 0;
   color: #323233;
@@ -200,12 +200,12 @@ exports[`Stepper disable stepper input 1`] = `
 .c0.mul-stepper .mul-stepper__plus::before,
 .c0.mul-stepper .mul-stepper__minus::before {
   width: 50%;
-  height: 1px;
+  height: 0.0625rem;
 }
 
 .c0.mul-stepper .mul-stepper__plus::after,
 .c0.mul-stepper .mul-stepper__minus::after {
-  width: 1px;
+  width: 0.0625rem;
   height: 50%;
 }
 
@@ -241,7 +241,7 @@ exports[`Stepper disable stepper input 1`] = `
 }
 
 .c0.mul-stepper .mul-stepper__minus {
-  border-radius: 4px 0 0 4px;
+  border-radius: 0.25rem 0 0 0.25rem;
 }
 
 .c0.mul-stepper .mul-stepper__minus::after {
@@ -249,23 +249,23 @@ exports[`Stepper disable stepper input 1`] = `
 }
 
 .c0.mul-stepper .mul-stepper__plus {
-  border-radius: 0 4px 4px 0;
+  border-radius: 0 0.25rem 0.25rem 0;
 }
 
 .c0.mul-stepper .mul-stepper__input {
   box-sizing: border-box;
-  width: 32px;
-  height: 28px;
-  margin: 0 2px;
+  width: 2rem;
+  height: 1.75rem;
+  margin: 0 0.125rem;
   padding: 0;
   color: #323233;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: normal;
   text-align: center;
   vertical-align: middle;
   background-color: #f2f3f5;
   border: 0;
-  border-width: 1px 0;
+  border-width: 0.0625rem 0;
   border-radius: 0;
   -webkit-appearance: none;
 }
@@ -314,7 +314,7 @@ exports[`Stepper disable stepper input 1`] = `
 .c0.mul-stepper--round .mul-stepper__minus {
   color: #fa220a;
   background-color: #fff;
-  border: 1px solid #fa220a;
+  border: 0.0625rem solid #fa220a;
 }
 
 <div
@@ -322,7 +322,7 @@ exports[`Stepper disable stepper input 1`] = `
   >
     <button
       class="mul-stepper__minus mul-stepper__minus--disabled"
-      style="width: 28px; height: 28px;"
+      style="width: 1.75rem; height: 1.75rem;"
       type="button"
     />
     <input
@@ -332,13 +332,13 @@ exports[`Stepper disable stepper input 1`] = `
       class="mul-stepper__input"
       inputmode="decimal"
       readonly=""
-      style="width: 32px; height: 28px;"
+      style="width: 2rem; height: 1.75rem;"
       type="text"
       value="1"
     />
     <button
       class="mul-stepper__plus"
-      style="width: 28px; height: 28px;"
+      style="width: 1.75rem; height: 1.75rem;"
       type="button"
     />
   </div>
@@ -359,8 +359,8 @@ exports[`Stepper disabled stepper 1`] = `
 .c0.mul-stepper .mul-stepper__minus {
   position: relative;
   box-sizing: border-box;
-  width: 28px;
-  height: 28px;
+  width: 1.75rem;
+  height: 1.75rem;
   margin: 0;
   padding: 0;
   color: #323233;
@@ -373,12 +373,12 @@ exports[`Stepper disabled stepper 1`] = `
 .c0.mul-stepper .mul-stepper__plus::before,
 .c0.mul-stepper .mul-stepper__minus::before {
   width: 50%;
-  height: 1px;
+  height: 0.0625rem;
 }
 
 .c0.mul-stepper .mul-stepper__plus::after,
 .c0.mul-stepper .mul-stepper__minus::after {
-  width: 1px;
+  width: 0.0625rem;
   height: 50%;
 }
 
@@ -414,7 +414,7 @@ exports[`Stepper disabled stepper 1`] = `
 }
 
 .c0.mul-stepper .mul-stepper__minus {
-  border-radius: 4px 0 0 4px;
+  border-radius: 0.25rem 0 0 0.25rem;
 }
 
 .c0.mul-stepper .mul-stepper__minus::after {
@@ -422,23 +422,23 @@ exports[`Stepper disabled stepper 1`] = `
 }
 
 .c0.mul-stepper .mul-stepper__plus {
-  border-radius: 0 4px 4px 0;
+  border-radius: 0 0.25rem 0.25rem 0;
 }
 
 .c0.mul-stepper .mul-stepper__input {
   box-sizing: border-box;
-  width: 32px;
-  height: 28px;
-  margin: 0 2px;
+  width: 2rem;
+  height: 1.75rem;
+  margin: 0 0.125rem;
   padding: 0;
   color: #323233;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: normal;
   text-align: center;
   vertical-align: middle;
   background-color: #f2f3f5;
   border: 0;
-  border-width: 1px 0;
+  border-width: 0.0625rem 0;
   border-radius: 0;
   -webkit-appearance: none;
 }
@@ -487,7 +487,7 @@ exports[`Stepper disabled stepper 1`] = `
 .c0.mul-stepper--round .mul-stepper__minus {
   color: #fa220a;
   background-color: #fff;
-  border: 1px solid #fa220a;
+  border: 0.0625rem solid #fa220a;
 }
 
 <div
@@ -495,7 +495,7 @@ exports[`Stepper disabled stepper 1`] = `
   >
     <button
       class="mul-stepper__minus mul-stepper__minus--disabled"
-      style="width: 28px; height: 28px;"
+      style="width: 1.75rem; height: 1.75rem;"
       type="button"
     />
     <input
@@ -505,13 +505,13 @@ exports[`Stepper disabled stepper 1`] = `
       class="mul-stepper__input"
       disabled=""
       inputmode="decimal"
-      style="width: 32px; height: 28px;"
+      style="width: 2rem; height: 1.75rem;"
       type="text"
       value="1"
     />
     <button
       class="mul-stepper__plus mul-stepper__plus--disabled"
-      style="width: 28px; height: 28px;"
+      style="width: 1.75rem; height: 1.75rem;"
       type="button"
     />
   </div>
@@ -532,8 +532,8 @@ exports[`Stepper input-width prop 1`] = `
 .c0.mul-stepper .mul-stepper__minus {
   position: relative;
   box-sizing: border-box;
-  width: 28px;
-  height: 28px;
+  width: 1.75rem;
+  height: 1.75rem;
   margin: 0;
   padding: 0;
   color: #323233;
@@ -546,12 +546,12 @@ exports[`Stepper input-width prop 1`] = `
 .c0.mul-stepper .mul-stepper__plus::before,
 .c0.mul-stepper .mul-stepper__minus::before {
   width: 50%;
-  height: 1px;
+  height: 0.0625rem;
 }
 
 .c0.mul-stepper .mul-stepper__plus::after,
 .c0.mul-stepper .mul-stepper__minus::after {
-  width: 1px;
+  width: 0.0625rem;
   height: 50%;
 }
 
@@ -587,7 +587,7 @@ exports[`Stepper input-width prop 1`] = `
 }
 
 .c0.mul-stepper .mul-stepper__minus {
-  border-radius: 4px 0 0 4px;
+  border-radius: 0.25rem 0 0 0.25rem;
 }
 
 .c0.mul-stepper .mul-stepper__minus::after {
@@ -595,23 +595,23 @@ exports[`Stepper input-width prop 1`] = `
 }
 
 .c0.mul-stepper .mul-stepper__plus {
-  border-radius: 0 4px 4px 0;
+  border-radius: 0 0.25rem 0.25rem 0;
 }
 
 .c0.mul-stepper .mul-stepper__input {
   box-sizing: border-box;
-  width: 32px;
-  height: 28px;
-  margin: 0 2px;
+  width: 2rem;
+  height: 1.75rem;
+  margin: 0 0.125rem;
   padding: 0;
   color: #323233;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: normal;
   text-align: center;
   vertical-align: middle;
   background-color: #f2f3f5;
   border: 0;
-  border-width: 1px 0;
+  border-width: 0.0625rem 0;
   border-radius: 0;
   -webkit-appearance: none;
 }
@@ -660,7 +660,7 @@ exports[`Stepper input-width prop 1`] = `
 .c0.mul-stepper--round .mul-stepper__minus {
   color: #fa220a;
   background-color: #fff;
-  border: 1px solid #fa220a;
+  border: 0.0625rem solid #fa220a;
 }
 
 <div
@@ -668,7 +668,7 @@ exports[`Stepper input-width prop 1`] = `
   >
     <button
       class="mul-stepper__minus mul-stepper__minus--disabled"
-      style="width: 28px; height: 28px;"
+      style="width: 1.75rem; height: 1.75rem;"
       type="button"
     />
     <input
@@ -677,13 +677,13 @@ exports[`Stepper input-width prop 1`] = `
       aria-valuenow="1"
       class="mul-stepper__input"
       inputmode="decimal"
-      style="width: 10rem; height: 28px;"
+      style="width: 10rem; height: 1.75rem;"
       type="text"
       value="1"
     />
     <button
       class="mul-stepper__plus"
-      style="width: 28px; height: 28px;"
+      style="width: 1.75rem; height: 1.75rem;"
       type="button"
     />
   </div>
@@ -704,8 +704,8 @@ exports[`Stepper placeholder prop 1`] = `
 .c0.mul-stepper .mul-stepper__minus {
   position: relative;
   box-sizing: border-box;
-  width: 28px;
-  height: 28px;
+  width: 1.75rem;
+  height: 1.75rem;
   margin: 0;
   padding: 0;
   color: #323233;
@@ -718,12 +718,12 @@ exports[`Stepper placeholder prop 1`] = `
 .c0.mul-stepper .mul-stepper__plus::before,
 .c0.mul-stepper .mul-stepper__minus::before {
   width: 50%;
-  height: 1px;
+  height: 0.0625rem;
 }
 
 .c0.mul-stepper .mul-stepper__plus::after,
 .c0.mul-stepper .mul-stepper__minus::after {
-  width: 1px;
+  width: 0.0625rem;
   height: 50%;
 }
 
@@ -759,7 +759,7 @@ exports[`Stepper placeholder prop 1`] = `
 }
 
 .c0.mul-stepper .mul-stepper__minus {
-  border-radius: 4px 0 0 4px;
+  border-radius: 0.25rem 0 0 0.25rem;
 }
 
 .c0.mul-stepper .mul-stepper__minus::after {
@@ -767,23 +767,23 @@ exports[`Stepper placeholder prop 1`] = `
 }
 
 .c0.mul-stepper .mul-stepper__plus {
-  border-radius: 0 4px 4px 0;
+  border-radius: 0 0.25rem 0.25rem 0;
 }
 
 .c0.mul-stepper .mul-stepper__input {
   box-sizing: border-box;
-  width: 32px;
-  height: 28px;
-  margin: 0 2px;
+  width: 2rem;
+  height: 1.75rem;
+  margin: 0 0.125rem;
   padding: 0;
   color: #323233;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: normal;
   text-align: center;
   vertical-align: middle;
   background-color: #f2f3f5;
   border: 0;
-  border-width: 1px 0;
+  border-width: 0.0625rem 0;
   border-radius: 0;
   -webkit-appearance: none;
 }
@@ -832,7 +832,7 @@ exports[`Stepper placeholder prop 1`] = `
 .c0.mul-stepper--round .mul-stepper__minus {
   color: #fa220a;
   background-color: #fff;
-  border: 1px solid #fa220a;
+  border: 0.0625rem solid #fa220a;
 }
 
 <div
@@ -840,7 +840,7 @@ exports[`Stepper placeholder prop 1`] = `
   >
     <button
       class="mul-stepper__minus"
-      style="width: 28px; height: 28px;"
+      style="width: 1.75rem; height: 1.75rem;"
       type="button"
     />
     <input
@@ -850,13 +850,13 @@ exports[`Stepper placeholder prop 1`] = `
       class="mul-stepper__input"
       inputmode="decimal"
       placeholder="stepper input"
-      style="width: 32px; height: 28px;"
+      style="width: 2rem; height: 1.75rem;"
       type="text"
       value="1.33"
     />
     <button
       class="mul-stepper__plus"
-      style="width: 28px; height: 28px;"
+      style="width: 1.75rem; height: 1.75rem;"
       type="button"
     />
   </div>
@@ -877,8 +877,8 @@ exports[`Stepper show-plus & show-minus props 1`] = `
 .c0.mul-stepper .mul-stepper__minus {
   position: relative;
   box-sizing: border-box;
-  width: 28px;
-  height: 28px;
+  width: 1.75rem;
+  height: 1.75rem;
   margin: 0;
   padding: 0;
   color: #323233;
@@ -891,12 +891,12 @@ exports[`Stepper show-plus & show-minus props 1`] = `
 .c0.mul-stepper .mul-stepper__plus::before,
 .c0.mul-stepper .mul-stepper__minus::before {
   width: 50%;
-  height: 1px;
+  height: 0.0625rem;
 }
 
 .c0.mul-stepper .mul-stepper__plus::after,
 .c0.mul-stepper .mul-stepper__minus::after {
-  width: 1px;
+  width: 0.0625rem;
   height: 50%;
 }
 
@@ -932,7 +932,7 @@ exports[`Stepper show-plus & show-minus props 1`] = `
 }
 
 .c0.mul-stepper .mul-stepper__minus {
-  border-radius: 4px 0 0 4px;
+  border-radius: 0.25rem 0 0 0.25rem;
 }
 
 .c0.mul-stepper .mul-stepper__minus::after {
@@ -940,23 +940,23 @@ exports[`Stepper show-plus & show-minus props 1`] = `
 }
 
 .c0.mul-stepper .mul-stepper__plus {
-  border-radius: 0 4px 4px 0;
+  border-radius: 0 0.25rem 0.25rem 0;
 }
 
 .c0.mul-stepper .mul-stepper__input {
   box-sizing: border-box;
-  width: 32px;
-  height: 28px;
-  margin: 0 2px;
+  width: 2rem;
+  height: 1.75rem;
+  margin: 0 0.125rem;
   padding: 0;
   color: #323233;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: normal;
   text-align: center;
   vertical-align: middle;
   background-color: #f2f3f5;
   border: 0;
-  border-width: 1px 0;
+  border-width: 0.0625rem 0;
   border-radius: 0;
   -webkit-appearance: none;
 }
@@ -1005,7 +1005,7 @@ exports[`Stepper show-plus & show-minus props 1`] = `
 .c0.mul-stepper--round .mul-stepper__minus {
   color: #fa220a;
   background-color: #fff;
-  border: 1px solid #fa220a;
+  border: 0.0625rem solid #fa220a;
 }
 
 <div
@@ -1017,7 +1017,7 @@ exports[`Stepper show-plus & show-minus props 1`] = `
       aria-valuenow="1"
       class="mul-stepper__input"
       inputmode="decimal"
-      style="width: 32px; height: 28px;"
+      style="width: 2rem; height: 1.75rem;"
       type="text"
       value="1"
     />

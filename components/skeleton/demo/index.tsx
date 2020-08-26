@@ -44,7 +44,7 @@ export default function SkeletonDemo() {
 
 const View = styled(DemoSection)`
     &.demo-skeleton {
-        padding-bottom: 20px;
+        padding-bottom: 1.25rem;
         background-color: ${style.$white};
 
         .mul-switch {
@@ -56,25 +56,25 @@ const View = styled(DemoSection)`
             padding: 0 ${style.$padding_md};
 
             .demo-content {
-                padding-top: 6px;
+                padding-top: 0.375rem;
 
                 h3 {
                     margin: 0;
-                    font-size: 18px;
-                    line-height: 20px;
+                    font-size: 1.125rem;
+                    line-height: 1.25rem;
                 }
 
                 p {
-                    margin: 13px 0 0;
-                    font-size: 14px;
-                    line-height: 20px;
+                    margin: 0.8125rem 0 0;
+                    font-size: 0.875rem;
+                    line-height: 1.25rem;
                 }
             }
 
             img {
                 flex-shrink: 0;
-                width: 32px;
-                height: 32px;
+                width: 2rem;
+                height: 2rem;
                 margin-right: ${style.$padding_md};
             }
         }

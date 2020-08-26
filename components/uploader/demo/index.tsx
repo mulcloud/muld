@@ -210,9 +210,9 @@ const View = styled(DemoSection)`
             bottom: 0;
             box-sizing: border-box;
             width: 100%;
-            padding: 4px;
+            padding: 0.25rem;
             color: #fff;
-            font-size: 12px;
+            font-size: 0.75rem;
             text-align: center;
             background: rgba(0, 0, 0, 0.3);
         }

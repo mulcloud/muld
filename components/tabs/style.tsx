@@ -47,7 +47,7 @@ export const View = styled.div`
             &--line {
                 box-sizing: content-box;
                 height: 100%;
-                padding-bottom: 15px; /* 15px padding to hide scrollbar in mobile safari */
+                padding-bottom: 0.9375rem; /* 0.9375rem padding to hide scrollbar in mobile safari */
             }
 
             &--card {
@@ -79,7 +79,7 @@ export const View = styled.div`
 
         .mul-tabs__line {
             position: absolute;
-            bottom: 15px;
+            bottom: 0.9375rem;
             left: 0;
             z-index: 1;
             height: ${$tabs.$tabs_bottom_bar_height};

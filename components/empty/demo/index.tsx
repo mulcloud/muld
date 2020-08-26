@@ -62,14 +62,14 @@ const View = styled(DemoSection)`
 
         .custom-image {
             .mul-empty__image {
-                width: 90px;
-                height: 90px;
+                width: 5.625rem;
+                height: 5.625rem;
             }
         }
 
         .bottom-button {
-            width: 160px;
-            height: 40px;
+            width: 10rem;
+            height: 2.5rem;
         }
     }
 `;

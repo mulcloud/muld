@@ -26,7 +26,7 @@ const Row: React.FC<React.PropsWithChildren<RowProps>> = (props: RowProps) => {
     const flex = type === 'flex';
     const style: { marginLeft: string; marginRight: string } = {} as any;
     if (gutter) {
-        style.marginLeft = `-${Number(gutter) / 2}px`;
+        style.marginLeft = `-${Number(gutter) / 32}rem`;
         style.marginRight = style.marginLeft;
     }
 

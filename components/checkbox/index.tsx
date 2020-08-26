@@ -129,7 +129,7 @@ class Checkbox extends React.Component<CheckboxProps, CheckboxState> {
         if (typeof iconSize === 'string') {
             iconWrapperStyle = { fontSize: iconSize };
         } else if (typeof iconSize === 'number') {
-            iconWrapperStyle = { fontSize: `${iconSize}px` };
+            iconWrapperStyle = { fontSize: `${iconSize / 16}rem` };
         } else {
             iconWrapperStyle = {};
         }

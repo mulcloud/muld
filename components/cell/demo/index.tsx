@@ -65,12 +65,12 @@ export default function CellDemo() {
 const View = styled(DemoSection)`
     &.demo-cell {
         .custom-title {
-            margin-right: 4px;
+            margin-right: 0.25rem;
             vertical-align: middle;
         }
 
         .search-icon {
-            font-size: 16px;
+            font-size: 1rem;
             line-height: inherit;
         }
     }

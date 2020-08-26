@@ -47,7 +47,7 @@ import { Divider } from '@trillion/muld';
 
 ```html
 <Divider
-  style={{ color: '#1989fa', borderColor: '#1989fa', padding: '16px' }}
+  style={{ color: '#1989fa', borderColor: '#1989fa', padding: '1rem' }}
 >
   文本
 </Divider>

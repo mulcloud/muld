@@ -33,11 +33,11 @@ exports[`Cell arrow direction 1`] = `
   display: flex;
   box-sizing: border-box;
   width: 100%;
-  padding: 10px 16px;
+  padding: 0.625rem 1rem;
   overflow: hidden;
   color: #323233;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
   background-color: #fff;
 }
 
@@ -51,9 +51,9 @@ exports[`Cell arrow direction 1`] = `
   box-sizing: border-box;
   content: ' ';
   pointer-events: none;
-  right: 16px;
+  right: 1rem;
   bottom: 0;
-  left: 16px;
+  left: 1rem;
   border-bottom: 1px solid #ebedf0;
   -webkit-transform: scaleY(0.5);
   -ms-transform: scaleY(0.5);
@@ -61,10 +61,10 @@ exports[`Cell arrow direction 1`] = `
 }
 
 .c0.mul-cell .mul-cell__label {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #969799;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
 }
 
 .c0.mul-cell .mul-cell__title,
@@ -91,17 +91,17 @@ exports[`Cell arrow direction 1`] = `
 .c0.mul-cell .mul-cell__left-icon,
 .c0.mul-cell .mul-cell__right-icon {
   min-width: 1em;
-  height: 24px;
-  font-size: 16px;
-  line-height: 24px;
+  height: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .c0.mul-cell .mul-cell__left-icon {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 
 .c0.mul-cell .mul-cell__right-icon {
-  margin-left: 4px;
+  margin-left: 0.25rem;
   color: #969799;
 }
 
@@ -119,9 +119,9 @@ exports[`Cell arrow direction 1`] = `
 
 .c0.mul-cell--required::before {
   position: absolute;
-  left: 8px;
+  left: 0.5rem;
   color: #fa220a;
-  font-size: 14px;
+  font-size: 0.875rem;
   content: '*';
 }
 
@@ -133,16 +133,16 @@ exports[`Cell arrow direction 1`] = `
 }
 
 .c0.mul-cell--large {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .c0.mul-cell--large .mul-cell__title {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .c0.mul-cell--large .mul-cell__label {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 <div
@@ -159,7 +159,7 @@ exports[`Cell arrow direction 1`] = `
       class="c1 mul-icon mul-icon-arrow-down mul-cell__right-icon"
       content="F007"
       name="arrow-down"
-      style="font-size: 20px;"
+      style="font-size: 1.25rem;"
     />
   </div>
 </DocumentFragment>
@@ -198,11 +198,11 @@ exports[`Cell icon-prefix prop 1`] = `
   display: flex;
   box-sizing: border-box;
   width: 100%;
-  padding: 10px 16px;
+  padding: 0.625rem 1rem;
   overflow: hidden;
   color: #323233;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
   background-color: #fff;
 }
 
@@ -216,9 +216,9 @@ exports[`Cell icon-prefix prop 1`] = `
   box-sizing: border-box;
   content: ' ';
   pointer-events: none;
-  right: 16px;
+  right: 1rem;
   bottom: 0;
-  left: 16px;
+  left: 1rem;
   border-bottom: 1px solid #ebedf0;
   -webkit-transform: scaleY(0.5);
   -ms-transform: scaleY(0.5);
@@ -226,10 +226,10 @@ exports[`Cell icon-prefix prop 1`] = `
 }
 
 .c0.mul-cell .mul-cell__label {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #969799;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
 }
 
 .c0.mul-cell .mul-cell__title,
@@ -256,17 +256,17 @@ exports[`Cell icon-prefix prop 1`] = `
 .c0.mul-cell .mul-cell__left-icon,
 .c0.mul-cell .mul-cell__right-icon {
   min-width: 1em;
-  height: 24px;
-  font-size: 16px;
-  line-height: 24px;
+  height: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .c0.mul-cell .mul-cell__left-icon {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 
 .c0.mul-cell .mul-cell__right-icon {
-  margin-left: 4px;
+  margin-left: 0.25rem;
   color: #969799;
 }
 
@@ -284,9 +284,9 @@ exports[`Cell icon-prefix prop 1`] = `
 
 .c0.mul-cell--required::before {
   position: absolute;
-  left: 8px;
+  left: 0.5rem;
   color: #fa220a;
-  font-size: 14px;
+  font-size: 0.875rem;
   content: '*';
 }
 
@@ -298,16 +298,16 @@ exports[`Cell icon-prefix prop 1`] = `
 }
 
 .c0.mul-cell--large {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .c0.mul-cell--large .mul-cell__title {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .c0.mul-cell--large .mul-cell__label {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 <div
@@ -317,7 +317,7 @@ exports[`Cell icon-prefix prop 1`] = `
       class="c1 my-icon my-icon-success mul-cell__left-icon"
       content="F0C8"
       name="success"
-      style="font-size: 20px;"
+      style="font-size: 1.25rem;"
     />
     <div
       class="mul-cell__value mul-cell__value--alone"
@@ -361,11 +361,11 @@ exports[`Cell render slot 1`] = `
   display: flex;
   box-sizing: border-box;
   width: 100%;
-  padding: 10px 16px;
+  padding: 0.625rem 1rem;
   overflow: hidden;
   color: #323233;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
   background-color: #fff;
 }
 
@@ -379,9 +379,9 @@ exports[`Cell render slot 1`] = `
   box-sizing: border-box;
   content: ' ';
   pointer-events: none;
-  right: 16px;
+  right: 1rem;
   bottom: 0;
-  left: 16px;
+  left: 1rem;
   border-bottom: 1px solid #ebedf0;
   -webkit-transform: scaleY(0.5);
   -ms-transform: scaleY(0.5);
@@ -389,10 +389,10 @@ exports[`Cell render slot 1`] = `
 }
 
 .c0.mul-cell .mul-cell__label {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #969799;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
 }
 
 .c0.mul-cell .mul-cell__title,
@@ -419,17 +419,17 @@ exports[`Cell render slot 1`] = `
 .c0.mul-cell .mul-cell__left-icon,
 .c0.mul-cell .mul-cell__right-icon {
   min-width: 1em;
-  height: 24px;
-  font-size: 16px;
-  line-height: 24px;
+  height: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .c0.mul-cell .mul-cell__left-icon {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 
 .c0.mul-cell .mul-cell__right-icon {
-  margin-left: 4px;
+  margin-left: 0.25rem;
   color: #969799;
 }
 
@@ -447,9 +447,9 @@ exports[`Cell render slot 1`] = `
 
 .c0.mul-cell--required::before {
   position: absolute;
-  left: 8px;
+  left: 0.5rem;
   color: #fa220a;
-  font-size: 14px;
+  font-size: 0.875rem;
   content: '*';
 }
 
@@ -461,16 +461,16 @@ exports[`Cell render slot 1`] = `
 }
 
 .c0.mul-cell--large {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .c0.mul-cell--large .mul-cell__title {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .c0.mul-cell--large .mul-cell__label {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 <div
@@ -479,7 +479,7 @@ exports[`Cell render slot 1`] = `
     <i
       class="c1 mul-icon mul-icon-custom icon mul-cell__left-icon"
       name="custom icon"
-      style="font-size: 20px;"
+      style="font-size: 1.25rem;"
     />
     <div
       class="mul-cell__title"
@@ -512,11 +512,11 @@ exports[`Cell title-style prop 1`] = `
   display: flex;
   box-sizing: border-box;
   width: 100%;
-  padding: 10px 16px;
+  padding: 0.625rem 1rem;
   overflow: hidden;
   color: #323233;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
   background-color: #fff;
 }
 
@@ -530,9 +530,9 @@ exports[`Cell title-style prop 1`] = `
   box-sizing: border-box;
   content: ' ';
   pointer-events: none;
-  right: 16px;
+  right: 1rem;
   bottom: 0;
-  left: 16px;
+  left: 1rem;
   border-bottom: 1px solid #ebedf0;
   -webkit-transform: scaleY(0.5);
   -ms-transform: scaleY(0.5);
@@ -540,10 +540,10 @@ exports[`Cell title-style prop 1`] = `
 }
 
 .c0.mul-cell .mul-cell__label {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #969799;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
 }
 
 .c0.mul-cell .mul-cell__title,
@@ -570,17 +570,17 @@ exports[`Cell title-style prop 1`] = `
 .c0.mul-cell .mul-cell__left-icon,
 .c0.mul-cell .mul-cell__right-icon {
   min-width: 1em;
-  height: 24px;
-  font-size: 16px;
-  line-height: 24px;
+  height: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .c0.mul-cell .mul-cell__left-icon {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 
 .c0.mul-cell .mul-cell__right-icon {
-  margin-left: 4px;
+  margin-left: 0.25rem;
   color: #969799;
 }
 
@@ -598,9 +598,9 @@ exports[`Cell title-style prop 1`] = `
 
 .c0.mul-cell--required::before {
   position: absolute;
-  left: 8px;
+  left: 0.5rem;
   color: #fa220a;
-  font-size: 14px;
+  font-size: 0.875rem;
   content: '*';
 }
 
@@ -612,16 +612,16 @@ exports[`Cell title-style prop 1`] = `
 }
 
 .c0.mul-cell--large {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .c0.mul-cell--large .mul-cell__title {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .c0.mul-cell--large .mul-cell__label {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 <div

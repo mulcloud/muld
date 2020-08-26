@@ -94,24 +94,24 @@ const Panel = styled(DemoSection)`
             /* margin-bottom: ${style.$padding_md}; */
         }
         .swift-panel {
-            height: 100px;
+            height: 6.25rem;
             border: 1px solid #39a9ed;
         
             .swift-block {
-                margin-left: 0px; 
+                margin-left: 0rem; 
             }
         }
 
         .swift-block {
-            font-size: 13px;
-            line-height: 30px;
+            font-size: 0.8125rem;
+            line-height: 1.875rem;
             color: ${style.$white};
             background-color: #39a9ed;
-            padding: 0px 10px;
-            margin-left: 1px;
+            padding: 0px 0.625rem;
+            margin-left: 0.0625rem;
 
             &:first-child {
-                margin-left: 0px;
+                margin-left: 0rem;
             }
         }
     }

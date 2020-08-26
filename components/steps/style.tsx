@@ -6,13 +6,13 @@ export const View = styled.div`
         overflow: hidden;
         background-color: ${$steps.steps_background_color};
         &.mul-steps--horizontal {
-            padding: 10px 10px 0;
+            padding: 0.625rem 0.625rem 0;
 
             .mul-steps__items {
                 position: relative;
                 display: flex;
-                margin: 0 0 10px;
-                padding-bottom: 22px;
+                margin: 0 0 0.625rem;
+                padding-bottom: 1.375rem;
             }
         }
 

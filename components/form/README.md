@@ -27,7 +27,7 @@ import { Form } from '@trillion/muld';
         placeholder="密码"
         rules={[{ required: true, message: 'Password is required' }]}
     />
-    <div style={{ margin: '16px 16px 0' }}>
+    <div style={{ margin: '1rem 1rem 0' }}>
         <Button round block type="info" nativeType="submit">
             提交
         </Button>
@@ -70,7 +70,7 @@ function onFailed(errorInfo: any) {
       placeholder="Use async validator"
       rules={[{ validator: asyncValidator, message: 'Error message' }]}
   />
-  <div style="margin: 16px;">
+  <div style="margin: 1rem;">
     <Button round block type="info" nativeType="submit">
         Submit
     </Button>

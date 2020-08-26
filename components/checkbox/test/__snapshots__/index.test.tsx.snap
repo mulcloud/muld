@@ -62,7 +62,7 @@ exports[`Checkbox prop: iconSize 1`] = `
 
 <div
   class="mul-checkbox__icon mul-checkbox__icon--round"
-  style="font-size: 100px;"
+  style="font-size: 6.25rem;"
 >
   <i
     class="c0 mul-icon mul-icon-success"
@@ -96,7 +96,7 @@ exports[`Checkbox prop: label position 1`] = `
 }
 
 .c0.mul-checkbox--horizontal {
-  margin-right: 12px;
+  margin-right: 0.75rem;
 }
 
 .c0.mul-checkbox .mul-checkbox--label-disabled {
@@ -108,7 +108,7 @@ exports[`Checkbox prop: label position 1`] = `
   -ms-flex: none;
   flex: none;
   height: 1em;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 1em;
   cursor: pointer;
 }
@@ -122,7 +122,7 @@ exports[`Checkbox prop: label position 1`] = `
   font-size: 0.8em;
   line-height: 1.25;
   text-align: center;
-  border: 1px solid #c8c9cc;
+  border: 0.0625rem solid #c8c9cc;
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
   -webkit-transition-property: color,border-color,background-color;
@@ -153,13 +153,13 @@ exports[`Checkbox prop: label position 1`] = `
 }
 
 .c0.mul-checkbox .mul-checkbox__label {
-  margin-left: 8px;
+  margin-left: 0.5rem;
   color: #323233;
-  line-height: 20px;
+  line-height: 1.25rem;
 }
 
 .c0.mul-checkbox .mul-checkbox__label--left {
-  margin: 0 8px 0 0;
+  margin: 0 0.5rem 0 0;
 }
 
 .c0.mul-checkbox .mul-checkbox__label--disabled {
@@ -231,7 +231,7 @@ exports[`Checkbox prop: shape 1`] = `
 }
 
 .c0.mul-checkbox--horizontal {
-  margin-right: 12px;
+  margin-right: 0.75rem;
 }
 
 .c0.mul-checkbox .mul-checkbox--label-disabled {
@@ -243,7 +243,7 @@ exports[`Checkbox prop: shape 1`] = `
   -ms-flex: none;
   flex: none;
   height: 1em;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 1em;
   cursor: pointer;
 }
@@ -257,7 +257,7 @@ exports[`Checkbox prop: shape 1`] = `
   font-size: 0.8em;
   line-height: 1.25;
   text-align: center;
-  border: 1px solid #c8c9cc;
+  border: 0.0625rem solid #c8c9cc;
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
   -webkit-transition-property: color,border-color,background-color;
@@ -288,13 +288,13 @@ exports[`Checkbox prop: shape 1`] = `
 }
 
 .c0.mul-checkbox .mul-checkbox__label {
-  margin-left: 8px;
+  margin-left: 0.5rem;
   color: #323233;
-  line-height: 20px;
+  line-height: 1.25rem;
 }
 
 .c0.mul-checkbox .mul-checkbox__label--left {
-  margin: 0 8px 0 0;
+  margin: 0 0.5rem 0 0;
 }
 
 .c0.mul-checkbox .mul-checkbox__label--disabled {

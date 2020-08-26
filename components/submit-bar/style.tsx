@@ -22,7 +22,7 @@ export const View = styled.div`
         }
 
         .mul-submit-bar__tip-icon {
-            min-width: 18px;
+            min-width: 1.125rem;
             font-size: ${$submit_bar.tip_icon_size};
             vertical-align: middle;
         }
@@ -52,7 +52,7 @@ export const View = styled.div`
         }
 
         .mul-submit-bar__suffix-label {
-            margin-left: 5px;
+            margin-left: 0.3125rem;
             font-weight: ${$font_weight_bold};
         }
 

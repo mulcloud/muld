@@ -99,9 +99,9 @@ const View = styled(DemoSection)`
 
         .page-desc {
             margin: 0;
-            padding: 5px 0;
+            padding: 0.3125rem 0;
             color: ${$gray7};
-            font-size: 14px;
+            font-size: 0.875rem;
             text-align: center;
 
             &--text {
@@ -109,7 +109,7 @@ const View = styled(DemoSection)`
             }
 
             &--option {
-                margin: 12px;
+                margin: 0.75rem;
             }
         }
 

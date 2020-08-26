@@ -19,25 +19,25 @@ export const View = styled.div`
         position: fixed;
         top: 45%;
         left: 50%;
-        width: ${(props: ViewProps): string => props.width || '320px'};
+        width: ${(props: ViewProps): string => props.width || '20rem'};
         overflow: hidden;
         font-size: ${$font_size_lg};
         background-color: ${$white};
-        border-radius: 16px;
+        border-radius: 1rem;
         transform: translate3d(-50%, -50%, 0);
         backface-visibility: hidden; // avoid blurry text after scale animation
         transition: 0.3s;
         transition-property: transform, opacity;
         z-index: 9;
 
-        @media (max-width: 321px) {
+        @media (max-width: 20.0625rem) {
             width: 90%;
         }
 
         .mul-dialog__header {
             padding-top: ${$padding_lg};
             font-weight: ${$font_weight_bold};
-            line-height: 24px;
+            line-height: 1.5rem;
             text-align: center;
 
             &--isolated {

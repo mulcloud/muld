@@ -1,3 +1,4 @@
+export const $font_size_root = 16;
 // Color Palette
 export const $black = '#000';
 export const $white = '#fff';
@@ -30,24 +31,24 @@ export const $background_color_light = '#fafafa';
 export const $textLink_color = '#576b95';
 
 // Padding
-const _padding_base = 4;
-export const $padding_base = `${_padding_base}px`;
-export const $padding_xs = `${_padding_base * 2}px`;
-export const $padding_sm = `${_padding_base * 3}px`;
-export const $padding_md = `${_padding_base * 4}px`;
-export const $padding_lg = `${_padding_base * 6}px`;
-export const $padding_xl = `${_padding_base * 8}px`;
+const _padding_base = 4 / 16;
+export const $padding_base = `${_padding_base}rem`;
+export const $padding_xs = `${_padding_base * 2}rem`;
+export const $padding_sm = `${_padding_base * 3}rem`;
+export const $padding_md = `${_padding_base * 4}rem`;
+export const $padding_lg = `${_padding_base * 6}rem`;
+export const $padding_xl = `${_padding_base * 8}rem`;
 
 // Font
-export const $font_size_xs = '10px';
-export const $font_size_sm = '12px';
-export const $font_size_md = '14px';
-export const $font_size_lg = '16px';
+export const $font_size_xs = '0.625rem';
+export const $font_size_sm = '0.75rem';
+export const $font_size_md = '0.875rem';
+export const $font_size_lg = '1rem';
 export const $font_weight_bold = '500';
-export const $line_height_xs = '14px';
-export const $line_height_sm = '18px';
-export const $line_height_md = '20px';
-export const $line_height_lg = '22px';
+export const $line_height_xs = '0.875rem';
+export const $line_height_sm = '1.125rem';
+export const $line_height_md = '1.25rem';
+export const $line_height_lg = '1.375rem';
 export const $base_font_family = `-apple-system, BlinkMacSystemFont, 'Helvetica Neue',
   Helvetica, Segoe UI, Arial, Roboto, 'PingFang SC', 'Hiragino Sans GB',
   'Microsoft Yahei', sans-serif`;
@@ -63,7 +64,7 @@ export const $animation_timing_function_leave = 'ease-in';
 // ActionSheet
 export const $action_sheet = {
     max_height: '80%',
-    header_height: '48px',
+    header_height: '3rem',
     header_font_size: $font_size_lg,
     description_color: $gray6,
     description_font_size: $font_size_md,
@@ -76,23 +77,23 @@ export const $action_sheet = {
     subname_color: $gray6,
     subname_font_size: $font_size_sm,
     subname_line_height: $line_height_sm,
-    close_icon_size: '22px',
+    close_icon_size: '1.375rem',
     close_icon_color: $gray5,
     close_icon_active_color: $gray6,
     close_icon_padding: `0 ${$padding_md}`,
     cancel_text_color: $gray7,
     cancel_padding_top: $padding_xs,
     cancel_padding_color: $background_color,
-    loading_icon_size: '22px',
+    loading_icon_size: '1.375rem',
 };
 
 // Border
 export const $border_color = $gray3;
-export const $border_width_base = '1px';
-export const $border_radius_sm = '2px';
-export const $border_radius_md = '4px';
-export const $border_radius_lg = '8px';
-export const $border_radius_max = '999px';
+export const $border_width_base = '0.0625rem';
+export const $border_radius_sm = '0.125rem';
+export const $border_radius_md = '0.25rem';
+export const $border_radius_lg = '0.5rem';
+export const $border_radius_max = '62.4375rem';
 
 type CSSProperties = Record<string, string | number>;
 
@@ -101,19 +102,19 @@ export const $loading: CSSProperties = {
     loading_text_color: `${$gray6}`,
     loading_text_font_size: `${$font_size_md}`,
     loading_spinner_color: `${$gray5}`,
-    loading_spinner_size: '30px',
+    loading_spinner_size: '1.875rem',
     loading_spinner_animation_duration: '0.8s',
 };
 
 // Button
 export const $button: CSSProperties = {
-    button_mini_height: '24px',
+    button_mini_height: '1.5rem',
     button_mini_font_size: `${$font_size_xs}`,
-    button_small_height: '32px',
+    button_small_height: '2rem',
     button_small_font_size: `${$font_size_sm}`,
     button_normal_font_size: `${$font_size_md}`,
-    button_large_height: '50px',
-    button_default_height: '44px',
+    button_large_height: '3.125rem',
+    button_default_height: '2.75rem',
     button_default_line_height: '1.2',
     button_default_font_size: `${$font_size_lg}`,
     button_default_color: `${$text_color}`,
@@ -144,9 +145,9 @@ export const $card: CSSProperties = {
     font_size: `${$font_size_sm}`,
     text_color: `${$text_color}`,
     background_color: `${$background_color_light}`,
-    thumb_size: `88px`,
+    thumb_size: `5.5rem`,
     thumb_border_radius: `${$border_radius_lg}`,
-    title_line_height: `16px`,
+    title_line_height: `1rem`,
     desc_color: `${$gray7}`,
     desc_line_height: `${$line_height_md}`,
     price_color: `${$gray8}`,
@@ -161,8 +162,8 @@ export const $card: CSSProperties = {
 // Cell
 export const $cell: CSSProperties = {
     font_size: `${$font_size_md}`,
-    line_height: `24px`,
-    vertical_padding: `10px`,
+    line_height: `1.5rem`,
+    vertical_padding: `0.625rem`,
     horizontal_padding: `${$padding_md}`,
     text_color: `${$text_color}`,
     background_color: `${$white}`,
@@ -174,7 +175,7 @@ export const $cell: CSSProperties = {
     label_line_height: `${$line_height_sm}`,
     label_margin_top: `${$padding_base}`,
     value_color: `${$gray6}`,
-    icon_size: `16px`,
+    icon_size: `1rem`,
     right_icon_color: `${$gray6}`,
     large_vertical_padding: `${$padding_sm}`,
     large_title_font_size: `${$font_size_lg}`,
@@ -187,12 +188,12 @@ export const $cell_group: CSSProperties = {
     title_color: `${$gray6}`,
     title_padding: `${$padding_md} ${$padding_md} ${$padding_xs}`,
     title_font_size: `${$font_size_md}`,
-    title_line_height: `16px`,
+    title_line_height: `1rem`,
 };
 
 // Checkbox
 export const $checkbox: CSSProperties = {
-    size: `20px`,
+    size: `1.25rem`,
     border_color: `${$gray5}`,
     transition_duration: `${$animation_duration_fast}`,
     label_margin: `${$padding_xs}`,
@@ -214,10 +215,10 @@ export const $tab: CSSProperties = {
 // Tabs
 export const $tabs: CSSProperties = {
     $tabs_default_color: $red,
-    $tabs_line_height: '44px',
-    $tabs_card_height: '30px',
+    $tabs_line_height: '2.75rem',
+    $tabs_card_height: '1.875rem',
     $tabs_nav_background_color: $white,
-    $tabs_bottom_bar_height: '3px',
+    $tabs_bottom_bar_height: '0.1875rem',
     $tabs_bottom_bar_color: $red,
 };
 
@@ -226,9 +227,9 @@ export const $tag: CSSProperties = {
     padding: `0 ${$padding_base}`,
     text_color: `${$white}`,
     font_size: `${$font_size_sm}`,
-    border_radius: `2px`,
-    line_height: `16px`,
-    medium_padding: `2px 6px`,
+    border_radius: `0.125rem`,
+    line_height: `1rem`,
+    medium_padding: `0.125rem 0.375rem`,
     large_padding: `${$padding_base} ${$padding_xs}`,
     large_border_radius: `${$border_radius_md}`,
     large_font_size: `${$font_size_md}`,
@@ -245,15 +246,15 @@ export const $image: CSSProperties = {
     placeholder_text_color: `${$gray6}`,
     placeholder_font_size: `${$font_size_md}`,
     placeholder_background_color: `${$background_color}`,
-    loading_icon_size: `22px`,
-    error_icon_size: `22px`,
+    loading_icon_size: `1.375rem`,
+    error_icon_size: `1.375rem`,
 };
 
 // NavBar
 export const $nav_bar: CSSProperties = {
-    height: `46px`,
+    height: `2.875rem`,
     background_color: `${$white}`,
-    arrow_size: `16px`,
+    arrow_size: `1rem`,
     icon_color: `${$blue}`,
     text_color: `${$blue}`,
     title_font_size: `${$font_size_lg}`,
@@ -263,15 +264,15 @@ export const $nav_bar: CSSProperties = {
 
 // NoticeBar
 export const $notice_bar: CSSProperties = {
-    height: '40px',
+    height: '2.5rem',
     padding: `0 ${$padding_md}`,
     wrapable_padding: `${$padding_xs} ${$padding_md}`,
     text_color: `${$orange_dark}`,
     font_size: `${$font_size_md}`,
-    line_height: '24px',
+    line_height: '1.5rem',
     background_color: `${$orange_light}`,
-    icon_size: '16px',
-    icon_min_width: '24px',
+    icon_size: '1rem',
+    icon_min_width: '1.5rem',
 };
 
 // Notify
@@ -289,24 +290,24 @@ export const $notify: CSSProperties = {
 // Empty
 export const $empty = {
     empty_padding: `${$padding_xl} 0`,
-    empty_image_size: '160px',
+    empty_image_size: '10rem',
     empty_description_margin_top: `${$padding_md}`,
-    empty_description_padding: '0 60px',
+    empty_description_padding: '0 3.75rem',
     empty_description_color: `${$gray6}`,
     empty_description_font_size: `${$font_size_md}`,
     empty_description_line_height: `${$line_height_md}`,
-    empty_bottom_margin_top: '24px',
+    empty_bottom_margin_top: '1.5rem',
 };
 
 // Popup
 export const $popup = {
     popup_background_color: `${$white}`,
     popup_transition: `transform ${$animation_duration_base}`,
-    popup_round_border_radius: '20px',
-    popup_close_icon_size: '22px',
+    popup_round_border_radius: '1.25rem',
+    popup_close_icon_size: '1.375rem',
     popup_close_icon_color: `${$gray5}`,
     popup_close_icon_active_color: `${$gray6}`,
-    popup_close_icon_margin: '16px',
+    popup_close_icon_margin: '1rem',
     popup_close_icon_z_index: '1',
 };
 
@@ -319,8 +320,8 @@ export const $step = {
     step_line_color: $border_color,
     step_finish_line_color: $green,
     step_finish_text_color: $text_color,
-    step_icon_size: '12px',
-    step_circle_size: '5px',
+    step_icon_size: '0.75rem',
+    step_circle_size: '0.3125rem',
     step_circle_color: $gray6,
     step_horizontal_title_font_size: $font_size_sm,
 };
@@ -342,8 +343,8 @@ export const $stepper: CSSProperties = {
     stepper_button_disabled_icon_color: $gray5,
     stepper_button_round_theme_color: $red,
     stepper_button_round_color: $white,
-    stepper_input_width: '32px',
-    stepper_input_height: '28px',
+    stepper_input_width: '2rem',
+    stepper_input_height: '1.75rem',
     stepper_input_font_size: $font_size_md,
     stepper_input_line_height: 'normal',
     stepper_input_text_color: $text_color,
@@ -360,18 +361,18 @@ export const $overlay: CSSProperties = {
 
 // List
 export const $list: CSSProperties = {
-    $list_icon_margin_right: '5px',
+    $list_icon_margin_right: '0.3125rem',
     $list_text_color: `${$gray6}`,
     $list_text_font_size: `${$font_size_md}`,
-    $list_text_line_height: '50px',
+    $list_text_line_height: '3.125rem',
 };
 
 // Picker
 export const $picker: CSSProperties = {
     picker_background_color: `${$white}`,
-    picker_toolbar_height: '44px',
+    picker_toolbar_height: '2.75rem',
     picker_title_font_size: `${$font_size_lg}`,
-    picker_title_line_height: '20px',
+    picker_title_line_height: '1.25rem',
     picker_action_padding: `${$padding_md}`,
     picker_action_font_size: `${$font_size_md}`,
     picker_confirm_action_color: `${$textLink_color}`,
@@ -385,8 +386,8 @@ export const $picker: CSSProperties = {
 
 // Sidebar
 export const $sidebar: CSSProperties = {
-    sidebar_width: '80px',
-    sidebar_padding: `20px ${$padding_sm}`,
+    sidebar_width: '5rem',
+    sidebar_padding: `1.25rem ${$padding_sm}`,
     sidebar_text_color: `${$text_color}`,
     sidebar_font_size: `${$font_size_md}`,
     sidebar_line_height: `${$line_height_md}`,
@@ -395,18 +396,18 @@ export const $sidebar: CSSProperties = {
     sidebar_selected_text_color: `${$text_color}`,
     sidebar_selected_font_weight: `${$font_weight_bold}`,
     sidebar_selected_background_color: `${$white}`,
-    sidebar_selected_border_width: `4px`,
-    sidebar_selected_border_height: `16px`,
+    sidebar_selected_border_width: `0.25rem`,
+    sidebar_selected_border_height: `1rem`,
     sidebar_selected_border_color: `${$red}`,
     sidebar_disabled_text_color: `${$gray5}`,
 };
 
 // Progress
 export const $progress: CSSProperties = {
-    height: '4px',
+    height: '0.25rem',
     color: `${$blue}`,
     background_color: `${$gray3}`,
-    pivot_padding: '0 5px',
+    pivot_padding: '0 0.3125rem',
     pivot_text_color: `${$white}`,
     pivot_font_size: `${$font_size_xs}`,
     pivot_line_height: '1.6',
@@ -415,7 +416,7 @@ export const $progress: CSSProperties = {
 
 // Rate
 export const $rate: CSSProperties = {
-    icon_size: `20px`,
+    icon_size: `1.25rem`,
     icon_gutter: `${$padding_base}`,
     icon_void_color: `${$gray5}`,
     icon_full_color: `${$red}`,
@@ -433,43 +434,43 @@ export const $field: CSSProperties = {
     input_disabled_text_color: `${$gray5}`,
     input_error_text_color: `${$red}`,
     clear_icon_color: `${$gray5}`,
-    clear_icon_size: '16px',
-    icon_size: '16px',
+    clear_icon_size: '1rem',
+    icon_size: '1rem',
     right_icon_color: `${$gray6}`,
     error_message_color: `${$red}`,
-    error_message_text_size: '12px',
+    error_message_text_size: '0.75rem',
     word_limit_color: `${$gray7}`,
     word_limit_font_size: `${$font_size_sm}`,
-    word_limit_line_height: '16px',
-    text_area_min_height: '60px',
-    cell_line_height: '24px',
+    word_limit_line_height: '1rem',
+    text_area_min_height: '3.75rem',
+    cell_line_height: '1.5rem',
     cell_border_color: `${$gray3}`,
 };
 
 // Uploader
 export const $uploader: CSSProperties = {
-    size: '80px',
-    icon_size: '24px',
+    size: '5rem',
+    icon_size: '1.5rem',
     icon_color: $gray4,
     text_color: $gray6,
     text_font_size: $font_size_xs,
     upload_background_color: $gray1,
     upload_active_color: $active_color,
     delete_color: $white,
-    delete_icon_size: '14px',
+    delete_icon_size: '0.875rem',
     delete_background_color: 'rgba(0, 0, 0, 0.7)',
     file_background_color: $background_color,
-    file_icon_size: '20px',
+    file_icon_size: '1.25rem',
     file_icon_color: $gray7,
     file_name_padding: `0 ${$padding_base}`,
     file_name_margin_top: $padding_xs,
     file_name_font_size: $font_size_sm,
     file_name_text_color: $gray7,
     mask_background_color: 'rgba(50, 50, 51, 0.88)',
-    mask_icon_size: '22px',
+    mask_icon_size: '1.375rem',
     mask_message_font_size: $font_size_sm,
     mask_message_line_height: $line_height_xs,
-    loading_icon_size: '22px',
+    loading_icon_size: '1.375rem',
     loading_icon_color: $white,
     disabled_opacity: $disabled_opacity,
 };
@@ -477,11 +478,11 @@ export const $uploader: CSSProperties = {
 // Search
 
 export const $search: CSSProperties = {
-    padding: `10px ${$padding_sm}`,
+    padding: `0.625rem ${$padding_sm}`,
     background_color: $white,
     content_background_color: $gray1,
-    input_height: '34px',
-    label_padding: '0 5px',
+    input_height: '2.125rem',
+    label_padding: '0 0.3125rem',
     label_color: $text_color,
     label_font_size: $font_size_md,
     left_icon_color: $gray6,
@@ -493,10 +494,10 @@ export const $search: CSSProperties = {
 // SubmitBar
 
 export const $submit_bar: CSSProperties = {
-    height: '50px',
+    height: '3.125rem',
     z_index: 100,
     background_color: $white,
-    button_width: '110px',
+    button_width: '6.875rem',
     price_color: $red,
     price_font_size: $font_size_md,
     currency_font_size: $font_size_md,
@@ -507,22 +508,22 @@ export const $submit_bar: CSSProperties = {
     tip_line_height: 1.5,
     tip_color: '#f56723',
     tip_background_color: '#fff7cc',
-    tip_icon_size: '12px',
-    button_height: '40px',
+    tip_icon_size: '0.75rem',
+    button_height: '2.5rem',
     padding: `0 ${$padding_md}`,
-    price_integer_font_size: '20px',
+    price_integer_font_size: '1.25rem',
     price_font_family: $price_integer_font_family,
 };
 
 // DropdownMenu
 export const $dropdown_menu: CSSProperties = {
-    height: '48px',
+    height: '3rem',
     background_color: `${$white}`,
     z_index: 10,
     title_disabled_text_color: `${$gray6}`,
     title_padding: `0 ${$padding_xs}`,
     title_text_color: `${$text_color}`,
-    title_font_size: '15px',
+    title_font_size: '0.9375rem',
     title_line_height: `${$line_height_lg}`,
     title_active_text_color: `${$red}`,
     option_active_color: `${$red}`,
@@ -532,17 +533,17 @@ export const $dropdown_menu: CSSProperties = {
 // Coupon
 export const $coupon: CSSProperties = {
     margin: `0 ${$padding_sm} ${$padding_sm}`,
-    content_height: '84px',
-    content_padding: '14px 0',
+    content_height: '5.25rem',
+    content_padding: '0.875rem 0',
     background_color: '#fee9e6',
     disabled_background_color: '#dddddd',
     disabled_color: '#bbbbbb',
     active_background_color: $active_color,
     border_radius: $border_radius_lg,
-    box_shadow: `0 0 4px rgba(0, 0, 0, 0.1)`,
-    head_width: '96px',
+    box_shadow: `0 0 0.25rem rgba(0, 0, 0, 0.1)`,
+    head_width: '6rem',
     amount_color: $red,
-    amount_font_size: '35px',
+    amount_font_size: '2.1875rem',
     currency_font_size: '40%',
     name_font_size: $font_size_md,
     disabled_text_color: $gray6,
@@ -559,10 +560,10 @@ export const $coupon_cell: CSSProperties = {
 // CouponList
 export const $coupon_list: CSSProperties = {
     background_color: $background_color,
-    field_padding: `5px 0 5px ${$padding_md}`,
-    exchange_button_height: '32px',
-    close_button_height: '40px',
-    empty_image_size: '200px',
+    field_padding: `0.3125rem 0 0.3125rem ${$padding_md}`,
+    exchange_button_height: '2rem',
+    close_button_height: '2.5rem',
+    empty_image_size: '12.5rem',
     empty_tip_color: $gray6,
     empty_tip_font_size: $font_size_md,
     empty_tip_line_height: $line_height_md,
@@ -572,7 +573,7 @@ export const $divider: CSSProperties = {
     border_color: $gray3,
     color: $gray6,
     font_size: $font_size_md,
-    line_height: '24px',
+    line_height: '1.5rem',
     margin: `${$padding_md} 0`,
     content_padding: $padding_md,
     content_left_width: '10%',
@@ -581,7 +582,7 @@ export const $divider: CSSProperties = {
 
 // skeleton
 export const $skeleton: CSSProperties = {
-    row_height: '16px',
+    row_height: '1rem',
     row_margin_top: $padding_sm,
     row_background_color: $gray2,
     avatar_background_color: $gray2,
@@ -593,6 +594,6 @@ export const $switch: CSSProperties = {
     width: '2em',
     height: '1em',
     node_size: '1em',
-    font_size: '30px',
-    border: '1px solid rgba(0, 0, 0, 0.1)',
-}
+    font_size: '1.875rem',
+    border: '0.0625rem solid rgba(0, 0, 0, 0.1)',
+};

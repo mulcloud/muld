@@ -44,11 +44,11 @@ export default function SwipeDemo(): React.ReactElement {
 
 const View = styled(DemoSection)`
     .mul-swipe {
-        height: 150px;
+        height: 9.375rem;
         &-item {
             color: #ffffff;
-            font-size: 20px;
-            line-height: 150px;
+            font-size: 1.25rem;
+            line-height: 9.375rem;
             text-align: center;
             &:nth-child(even) {
                 background-color: #39a9ed;

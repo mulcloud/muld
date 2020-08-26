@@ -25,7 +25,7 @@ export default function DividerDemo() {
                     </Divider>
                 </DemoBlock>
                 <DemoBlock title="自定义样式">
-                    <Divider style={{ color: '#1989fa', borderColor: '#1989fa', padding: '16px' }}>
+                    <Divider style={{ color: '#1989fa', borderColor: '#1989fa', padding: '1rem' }}>
                         文本
                     </Divider>
                 </DemoBlock>

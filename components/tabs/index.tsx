@@ -61,7 +61,7 @@ const defaultProps: DefaultProps = {
     offsetTop: 0,
     lazyRender: true,
     swipeThreshold: 4,
-    lineHeight: '3px',
+    lineHeight: '0.1875rem',
     animated: false,
     swipeable: false,
     scrollspy: false,

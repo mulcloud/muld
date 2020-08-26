@@ -225,7 +225,7 @@ function customDemo() {
 | showToolbar | Whether to show the top bar | _boolean_ | `false` |
 | allowHtml | Whether to allow HTML rendering in option content | _boolean_ | `true` |
 | defaultIndex | When single column selection, the index of the default selected item | _number \| string_ | `0` |
-| itemHeight | Option height, support `px` `vw` `rem` unit, default `px` | _number \| string_ | `44` |
+| itemHeight | Option height, default `px` | _number_|  | `44` |
 | visibleItemCount | The number of visible options | _number | string_ | `6` |
 | swipeDuration | The duration of inertial scrolling when swiping quickly, the unit is `ms` | _number \| string_ | `1000` |
 

@@ -21,7 +21,7 @@ export const col = `
     .mul-col {
         float: left;
         box-sizing: border-box;
-        min-height: 1px;
+        min-height: 0.0625rem;
         ${generateCol()}
     }
   `;

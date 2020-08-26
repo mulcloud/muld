@@ -129,7 +129,7 @@ import { Button } from '@trillion/muld';
 | loading | 是否显示为加载状态 | _boolean_ | `false` |
 | loadingText | 加载状态提示文字 | _string_ | - |
 | loadingType | [加载图标类型](#/zh-CN/loading)，可选值为`spinner` | _string_ | `circular` |
-| loadingSize | 加载图标大小 | _string_ | `20px` |
+| loadingSize | 加载图标大小 | _string_ | `1.25rem` |
 
 ### Events
 

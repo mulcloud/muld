@@ -41,7 +41,7 @@ export const View = styled.div`
         }
 
         .mul-skeleton__title + .mul-skeleton__row {
-            margin-top: 20px;
+            margin-top: 1.25rem;
         }
 
         &--animate {

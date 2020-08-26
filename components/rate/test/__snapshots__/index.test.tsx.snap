@@ -41,14 +41,14 @@ exports[`Rate gutter prop 1`] = `
 }
 
 .c0.mul-rate .mul-rate__item:not(:last-child) {
-  padding-right: 4px;
+  padding-right: 0.25rem;
 }
 
 .c0.mul-rate .mul-rate__icon {
   display: block;
   width: 1em;
   color: #c8c9cc;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .c0.mul-rate .mul-rate__icon--half {
@@ -81,46 +81,46 @@ exports[`Rate gutter prop 1`] = `
   >
     <div
       class="mul-rate__item"
-      style="padding-right: 10px;"
+      style="padding-right: 0.625rem;"
     >
       <i
         class="c1 mul-icon mul-icon-star-o mul-rate__icon"
         content="F0C3"
         name="star-o"
-        style="color: rgb(200, 201, 204); font-size: 20px;"
+        style="color: rgb(200, 201, 204); font-size: 1.25rem;"
       />
     </div>
     <div
       class="mul-rate__item"
-      style="padding-right: 10px;"
+      style="padding-right: 0.625rem;"
     >
       <i
         class="c1 mul-icon mul-icon-star-o mul-rate__icon"
         content="F0C3"
         name="star-o"
-        style="color: rgb(200, 201, 204); font-size: 20px;"
+        style="color: rgb(200, 201, 204); font-size: 1.25rem;"
       />
     </div>
     <div
       class="mul-rate__item"
-      style="padding-right: 10px;"
+      style="padding-right: 0.625rem;"
     >
       <i
         class="c1 mul-icon mul-icon-star-o mul-rate__icon"
         content="F0C3"
         name="star-o"
-        style="color: rgb(200, 201, 204); font-size: 20px;"
+        style="color: rgb(200, 201, 204); font-size: 1.25rem;"
       />
     </div>
     <div
       class="mul-rate__item"
-      style="padding-right: 10px;"
+      style="padding-right: 0.625rem;"
     >
       <i
         class="c1 mul-icon mul-icon-star-o mul-rate__icon"
         content="F0C3"
         name="star-o"
-        style="color: rgb(200, 201, 204); font-size: 20px;"
+        style="color: rgb(200, 201, 204); font-size: 1.25rem;"
       />
     </div>
     <div
@@ -130,7 +130,7 @@ exports[`Rate gutter prop 1`] = `
         class="c1 mul-icon mul-icon-star-o mul-rate__icon"
         content="F0C3"
         name="star-o"
-        style="color: rgb(200, 201, 204); font-size: 20px;"
+        style="color: rgb(200, 201, 204); font-size: 1.25rem;"
       />
     </div>
   </div>
@@ -178,14 +178,14 @@ exports[`Rate size prop 1`] = `
 }
 
 .c0.mul-rate .mul-rate__item:not(:last-child) {
-  padding-right: 4px;
+  padding-right: 0.25rem;
 }
 
 .c0.mul-rate .mul-rate__icon {
   display: block;
   width: 1em;
   color: #c8c9cc;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .c0.mul-rate .mul-rate__icon--half {
@@ -218,7 +218,7 @@ exports[`Rate size prop 1`] = `
   >
     <div
       class="mul-rate__item"
-      style="padding-right: 4px;"
+      style="padding-right: 0.25rem;"
     >
       <i
         class="c1 mul-icon mul-icon-star-o mul-rate__icon"
@@ -229,7 +229,7 @@ exports[`Rate size prop 1`] = `
     </div>
     <div
       class="mul-rate__item"
-      style="padding-right: 4px;"
+      style="padding-right: 0.25rem;"
     >
       <i
         class="c1 mul-icon mul-icon-star-o mul-rate__icon"
@@ -240,7 +240,7 @@ exports[`Rate size prop 1`] = `
     </div>
     <div
       class="mul-rate__item"
-      style="padding-right: 4px;"
+      style="padding-right: 0.25rem;"
     >
       <i
         class="c1 mul-icon mul-icon-star-o mul-rate__icon"
@@ -251,7 +251,7 @@ exports[`Rate size prop 1`] = `
     </div>
     <div
       class="mul-rate__item"
-      style="padding-right: 4px;"
+      style="padding-right: 0.25rem;"
     >
       <i
         class="c1 mul-icon mul-icon-star-o mul-rate__icon"

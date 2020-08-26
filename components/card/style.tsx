@@ -50,7 +50,7 @@ export const View = styled.div`
         }
 
         .mul-card__title {
-            max-height: 32px;
+            max-height: 2rem;
             font-weight: $font_weight_bold;
             line-height: ${$card.title_line_height};
         }
@@ -83,7 +83,7 @@ export const View = styled.div`
 
         .mul-card__origin-price {
             display: inline-block;
-            margin-left: 5px;
+            margin-left: 0.3125rem;
             color: ${$card.origin_price_color};
             font-size: ${$card.origin_price_font_size};
             text-decoration: line-through;
@@ -96,7 +96,7 @@ export const View = styled.div`
 
         .mul-card__tag {
             position: absolute;
-            top: 2px;
+            top: 0.125rem;
             left: 0;
         }
 
@@ -105,7 +105,7 @@ export const View = styled.div`
             text-align: right;
 
             .mul-button {
-                margin-left: 5px;
+                margin-left: 0.3125rem;
             }
         }
     }
