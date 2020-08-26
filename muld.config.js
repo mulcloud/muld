@@ -352,10 +352,10 @@ module.exports = {
                             //     path: 'contact-card',
                             //     title: 'Contact 联系人',
                             // },
-                            // {
-                            //     path: 'coupon-list',
-                            //     title: 'Coupon 优惠券',
-                            // },
+                            {
+                                path: 'coupon-list',
+                                title: 'Coupon 优惠券',
+                            },
                             // {
                             //     path: 'goods-action',
                             //     title: 'GoodsAction 商品导航',

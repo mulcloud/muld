@@ -4,11 +4,9 @@ import {
     $gray7,
     $blue,
     $padding_lg,
-    $font_size_md,
     $font_weight_bold,
     $font_size_lg,
     $padding_sm,
-    $line_height_md,
 } from '../style/var';
 
 interface ViewProps {
@@ -51,8 +49,8 @@ export const View = styled.div`
             max-height: 60vh;
             padding: ${$padding_lg};
             overflow-y: auto;
-            font-size: ${$font_size_md};
-            line-height: ${$line_height_md};
+            font-size: $font_size_md;
+            line-height: $line_height_md;
 
             white-space: pre-wrap;
             text-align: center;
