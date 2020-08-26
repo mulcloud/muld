@@ -100,7 +100,7 @@ const Cell: React.FC<React.PropsWithChildren<CellProps>> = (props: CellProps) =>
             return (
                 <Icon
                     className={bem('right-icon')}
-                    name={arrowDirection ? `arrow-${arrowDirection}` : 'arrow'}
+                    name={arrowDirection !== 'right' ? `arrow-${arrowDirection}` : 'arrow'}
                 />
             );
         }

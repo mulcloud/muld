@@ -420,8 +420,6 @@ exports[`Coupon empty-image prop 1`] = `
   display: inline-block;
   box-sizing: border-box;
   height: 44px;
-  margin: 0;
-  padding: 0;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
@@ -650,8 +648,6 @@ exports[`Coupon empty-image prop 1`] = `
   box-sizing: border-box;
   width: 100%;
   min-width: 0;
-  margin: 0;
-  padding: 0;
   color: #323233;
   line-height: inherit;
   text-align: left;
@@ -952,23 +948,7 @@ exports[`Coupon empty-image prop 1`] = `
           class="c6 mul-tab__pane"
           role="tabpanel"
           style="display: none;"
-        >
-          <div
-            class="mul-coupon-list__list mul-coupon-list__list--with-bottom"
-            style="height: 628px;"
-          >
-            <div
-              class="mul-coupon-list__empty"
-            >
-              <img
-                src="https://img.yzcdn.com/xxx.png"
-              />
-              <p>
-                暂无优惠券
-              </p>
-            </div>
-          </div>
-        </div>
+        />
       </div>
     </div>
     <div
@@ -1576,8 +1556,6 @@ exports[`Coupon render coupon list 1`] = `
   display: inline-block;
   box-sizing: border-box;
   height: 44px;
-  margin: 0;
-  padding: 0;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
@@ -1806,8 +1784,6 @@ exports[`Coupon render coupon list 1`] = `
   box-sizing: border-box;
   width: 100%;
   min-width: 0;
-  margin: 0;
-  padding: 0;
   color: #323233;
   line-height: inherit;
   text-align: left;
@@ -2364,103 +2340,7 @@ exports[`Coupon render coupon list 1`] = `
           class="c6 mul-tab__pane"
           role="tabpanel"
           style="display: none;"
-        >
-          <div
-            class="mul-coupon-list__list mul-coupon-list__list--with-bottom"
-            style="height: 628px;"
-          >
-            <div
-              class="c7 mul-coupon mul-coupon--disabled"
-            >
-              <div
-                class="mul-coupon__content"
-              >
-                <div
-                  class="mul-coupon__head"
-                >
-                  <div
-                    class="mul-coupon__title"
-                  >
-                    <h2
-                      class="mul-coupon__amount"
-                    >
-                      <div>
-                        <span>
-                           ¥
-                        </span>
-                         1.5
-                      </div>
-                    </h2>
-                    <p
-                      class="mul-coupon__name"
-                    >
-                      name
-                    </p>
-                  </div>
-                  <p
-                    class="mul-coupon__condition"
-                  />
-                  <p
-                    class="mul-coupon__valid"
-                  >
-                    2017.03.10-2017.12.30
-                  </p>
-                </div>
-                <div
-                  class="mul-coupon__body"
-                  style="border-color: #bbbbbb;"
-                >
-                  已领取
-                </div>
-              </div>
-              <p
-                class="mul-coupon__description"
-              >
-                reason
-              </p>
-            </div>
-            <div
-              class="c7 mul-coupon mul-coupon--disabled"
-            >
-              <div
-                class="mul-coupon__content"
-              >
-                <div
-                  class="mul-coupon__head"
-                >
-                  <div
-                    class="mul-coupon__title"
-                  >
-                    <h2
-                      class="mul-coupon__amount"
-                    >
-                      1折
-                    </h2>
-                    <p
-                      class="mul-coupon__name"
-                    >
-                      name
-                    </p>
-                  </div>
-                  <p
-                    class="mul-coupon__condition"
-                  />
-                  <p
-                    class="mul-coupon__valid"
-                  >
-                    2017.03.10-2017.12.30
-                  </p>
-                </div>
-                <div
-                  class="mul-coupon__body"
-                  style="border-color: #bbbbbb;"
-                >
-                  已领取
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        />
       </div>
     </div>
     <div
@@ -3123,8 +3003,6 @@ exports[`Coupon render empty coupon list 1`] = `
   display: inline-block;
   box-sizing: border-box;
   height: 44px;
-  margin: 0;
-  padding: 0;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
@@ -3353,8 +3231,6 @@ exports[`Coupon render empty coupon list 1`] = `
   box-sizing: border-box;
   width: 100%;
   min-width: 0;
-  margin: 0;
-  padding: 0;
   color: #323233;
   line-height: inherit;
   text-align: left;
@@ -3655,23 +3531,7 @@ exports[`Coupon render empty coupon list 1`] = `
           class="c6 mul-tab__pane"
           role="tabpanel"
           style="display: none;"
-        >
-          <div
-            class="mul-coupon-list__list mul-coupon-list__list--with-bottom"
-            style="height: 628px;"
-          >
-            <div
-              class="mul-coupon-list__empty"
-            >
-              <img
-                src="https://img.yzcdn.cn/vant/coupon-empty.png"
-              />
-              <p>
-                暂无优惠券
-              </p>
-            </div>
-          </div>
-        </div>
+        />
       </div>
     </div>
     <div
