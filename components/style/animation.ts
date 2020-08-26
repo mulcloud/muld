@@ -84,6 +84,12 @@ export const animation = `
         }
     }
 
+    @keyframes mul-skeleton-blink {
+        50% {
+          opacity: 0.6;
+        }
+    }
+
     .mul-fade-enter-active {
         animation: ${$animation_duration_base} mul-fade-in both ${$animation_timing_function_enter};
     }

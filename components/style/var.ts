@@ -433,3 +433,33 @@ export const $uploader: CSSProperties = {
     loading_icon_color: $white,
     disabled_opacity: $disabled_opacity,
 };
+
+// divider
+export const $divider: CSSProperties = {
+    border_color: $gray3,
+    color: $gray6,
+    font_size: $font_size_md,
+    line_height: '24px',
+    margin: `${$padding_md} 0`,
+    content_padding: $padding_md,
+    content_left_width: '10%',
+    content_right_width: '10%',
+};
+
+// skeleton
+export const $skeleton: CSSProperties = {
+    row_height: '16px',
+    row_margin_top: $padding_sm,
+    row_background_color: $gray2,
+    avatar_background_color: $gray2,
+    animation_duration: '1.2s',
+};
+
+// switch
+export const $switch: CSSProperties = {
+    width: '2em',
+    height: '1em',
+    node_size: '1em',
+    font_size: '30px',
+    border: '1px solid rgba(0, 0, 0, 0.1)',
+};

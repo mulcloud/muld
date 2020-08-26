@@ -156,10 +156,10 @@ module.exports = {
                                 path: 'stepper',
                                 title: 'Stepper 步进器',
                             },
-                            // {
-                            //     path: 'switch',
-                            //     title: 'Switch 开关',
-                            // },
+                            {
+                                path: 'switch',
+                                title: 'Switch 开关',
+                            },
                             {
                                 path: 'uploader',
                                 title: 'Uploader 文件上传',
@@ -230,10 +230,10 @@ module.exports = {
                             //     path: 'count-down',
                             //     title: 'CountDown 倒计时',
                             // },
-                            // {
-                            //     path: 'divider',
-                            //     title: 'Divider 分割线',
-                            // },
+                            {
+                                path: 'divider',
+                                title: 'Divider 分割线',
+                            },
                             // {
                             //     path: 'empty',
                             //     title: 'Empty 空状态',
@@ -258,10 +258,10 @@ module.exports = {
                                 path: 'progress',
                                 title: 'Progress 进度条',
                             },
-                            // {
-                            //     path: 'skeleton',
-                            //     title: 'Skeleton 骨架屏',
-                            // },
+                            {
+                                path: 'skeleton',
+                                title: 'Skeleton 骨架屏',
+                            },
                             {
                                 path: 'steps',
                                 title: 'Steps 步骤条',
