@@ -285,6 +285,29 @@ exports[`DropdownMenu & DropdownItem close-on-click-outside 1`] = `
   transform: rotate(135deg);
 }
 
+.c5.mul-icon {
+  position: relative;
+  display: inline-block;
+  font-family: 'muld-icon' !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.c5.mul-icon::before {
+  display: inline-block;
+}
+
+.c5.mul-icon .mul-icon__image {
+  width: 1em;
+  height: 1em;
+  object-fit: contain;
+}
+
+.c5.mul-icon-success::before {
+  content: '\\F0C8';
+}
+
 .c4.mul-cell {
   position: relative;
   display: -webkit-box;
@@ -633,29 +656,6 @@ exports[`DropdownMenu & DropdownItem close-on-click-outside 1`] = `
 .c3 .mul-popup__close-icon--bottom-right {
   right: 16px;
   bottom: 16px;
-}
-
-.c5.mul-icon {
-  position: relative;
-  display: inline-block;
-  font-family: 'muld-icon' !important;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-
-.c5.mul-icon::before {
-  display: inline-block;
-}
-
-.c5.mul-icon .mul-icon__image {
-  width: 1em;
-  height: 1em;
-  object-fit: contain;
-}
-
-.c5.mul-icon-success::before {
-  content: '\\F0C8';
 }
 
 .c1 .mul-dropdown-item {
@@ -1452,6 +1452,29 @@ exports[`DropdownMenu & DropdownItem direction up 2`] = `
   transform: rotate(135deg);
 }
 
+.c5.mul-icon {
+  position: relative;
+  display: inline-block;
+  font-family: 'muld-icon' !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.c5.mul-icon::before {
+  display: inline-block;
+}
+
+.c5.mul-icon .mul-icon__image {
+  width: 1em;
+  height: 1em;
+  object-fit: contain;
+}
+
+.c5.mul-icon-success::before {
+  content: '\\F0C8';
+}
+
 .c4.mul-cell {
   position: relative;
   display: -webkit-box;
@@ -1800,29 +1823,6 @@ exports[`DropdownMenu & DropdownItem direction up 2`] = `
 .c3 .mul-popup__close-icon--bottom-right {
   right: 16px;
   bottom: 16px;
-}
-
-.c5.mul-icon {
-  position: relative;
-  display: inline-block;
-  font-family: 'muld-icon' !important;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-
-.c5.mul-icon::before {
-  display: inline-block;
-}
-
-.c5.mul-icon .mul-icon__image {
-  width: 1em;
-  height: 1em;
-  object-fit: contain;
-}
-
-.c5.mul-icon-success::before {
-  content: '\\F0C8';
 }
 
 .c1 .mul-dropdown-item {
@@ -2061,6 +2061,29 @@ exports[`DropdownMenu & DropdownItem disable close-on-click-outside 1`] = `
   transform: rotate(135deg);
 }
 
+.c5.mul-icon {
+  position: relative;
+  display: inline-block;
+  font-family: 'muld-icon' !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.c5.mul-icon::before {
+  display: inline-block;
+}
+
+.c5.mul-icon .mul-icon__image {
+  width: 1em;
+  height: 1em;
+  object-fit: contain;
+}
+
+.c5.mul-icon-success::before {
+  content: '\\F0C8';
+}
+
 .c4.mul-cell {
   position: relative;
   display: -webkit-box;
@@ -2409,29 +2432,6 @@ exports[`DropdownMenu & DropdownItem disable close-on-click-outside 1`] = `
 .c3 .mul-popup__close-icon--bottom-right {
   right: 16px;
   bottom: 16px;
-}
-
-.c5.mul-icon {
-  position: relative;
-  display: inline-block;
-  font-family: 'muld-icon' !important;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-
-.c5.mul-icon::before {
-  display: inline-block;
-}
-
-.c5.mul-icon .mul-icon__image {
-  width: 1em;
-  height: 1em;
-  object-fit: contain;
-}
-
-.c5.mul-icon-success::before {
-  content: '\\F0C8';
 }
 
 .c1 .mul-dropdown-item {
@@ -3233,29 +3233,6 @@ exports[`DropdownMenu & DropdownItem render option icon 1`] = `
   bottom: 16px;
 }
 
-.c6.mul-icon {
-  position: relative;
-  display: inline-block;
-  font-family: 'muld-icon' !important;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-
-.c6.mul-icon::before {
-  display: inline-block;
-}
-
-.c6.mul-icon .mul-icon__image {
-  width: 1em;
-  height: 1em;
-  object-fit: contain;
-}
-
-.c6.mul-icon-success::before {
-  content: '\\F0C8';
-}
-
 .c1 .mul-dropdown-item {
   position: fixed;
   right: 0;
@@ -3368,7 +3345,7 @@ exports[`DropdownMenu & DropdownItem render option icon 1`] = `
               class="mul-cell__value"
             >
               <i
-                class="c6 mul-icon mul-icon-success mul-dropdown-item__icon"
+                class="c5 mul-icon mul-icon-success mul-dropdown-item__icon"
                 content="F0C8"
                 name="success"
                 style="font-size: 14px;"
@@ -3502,6 +3479,29 @@ exports[`DropdownMenu & DropdownItem show dropdown item 1`] = `
   -webkit-transform: rotate(135deg);
   -ms-transform: rotate(135deg);
   transform: rotate(135deg);
+}
+
+.c5.mul-icon {
+  position: relative;
+  display: inline-block;
+  font-family: 'muld-icon' !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.c5.mul-icon::before {
+  display: inline-block;
+}
+
+.c5.mul-icon .mul-icon__image {
+  width: 1em;
+  height: 1em;
+  object-fit: contain;
+}
+
+.c5.mul-icon-success::before {
+  content: '\\F0C8';
 }
 
 .c4.mul-cell {
@@ -3852,29 +3852,6 @@ exports[`DropdownMenu & DropdownItem show dropdown item 1`] = `
 .c3 .mul-popup__close-icon--bottom-right {
   right: 16px;
   bottom: 16px;
-}
-
-.c5.mul-icon {
-  position: relative;
-  display: inline-block;
-  font-family: 'muld-icon' !important;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-
-.c5.mul-icon::before {
-  display: inline-block;
-}
-
-.c5.mul-icon .mul-icon__image {
-  width: 1em;
-  height: 1em;
-  object-fit: contain;
-}
-
-.c5.mul-icon-success::before {
-  content: '\\F0C8';
 }
 
 .c1 .mul-dropdown-item {
@@ -4113,6 +4090,29 @@ exports[`DropdownMenu & DropdownItem show dropdown item 2`] = `
   transform: rotate(135deg);
 }
 
+.c5.mul-icon {
+  position: relative;
+  display: inline-block;
+  font-family: 'muld-icon' !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.c5.mul-icon::before {
+  display: inline-block;
+}
+
+.c5.mul-icon .mul-icon__image {
+  width: 1em;
+  height: 1em;
+  object-fit: contain;
+}
+
+.c5.mul-icon-success::before {
+  content: '\\F0C8';
+}
+
 .c4.mul-cell {
   position: relative;
   display: -webkit-box;
@@ -4461,29 +4461,6 @@ exports[`DropdownMenu & DropdownItem show dropdown item 2`] = `
 .c3 .mul-popup__close-icon--bottom-right {
   right: 16px;
   bottom: 16px;
-}
-
-.c5.mul-icon {
-  position: relative;
-  display: inline-block;
-  font-family: 'muld-icon' !important;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-
-.c5.mul-icon::before {
-  display: inline-block;
-}
-
-.c5.mul-icon .mul-icon__image {
-  width: 1em;
-  height: 1em;
-  object-fit: contain;
-}
-
-.c5.mul-icon-success::before {
-  content: '\\F0C8';
 }
 
 .c1 .mul-dropdown-item {
