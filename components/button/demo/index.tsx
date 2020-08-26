@@ -43,8 +43,8 @@ export default function ButtonDemo(): React.ReactNode {
             </DemoBlock>
             <DemoBlock title="加载状态">
                 <Button loading type="primary" />
-                <Button loading type="primary" loading-type="spinner" />
-                <Button loading type="info" loading-text="加载中..." />
+                <Button loading type="primary" loadingType="spinner" />
+                <Button loading type="info" loadingText="加载中..." />
             </DemoBlock>
             <DemoBlock title="按钮形状">
                 <Button square type="primary">
