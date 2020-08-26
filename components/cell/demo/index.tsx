@@ -42,7 +42,7 @@ export default function CellDemo() {
             <DemoBlock title="自定义 title">
                 <Cell
                     value="内容"
-                    is-link
+                    isLink
                     title={
                         <React.Fragment>
                             <span className="custom-title">单元格</span>
