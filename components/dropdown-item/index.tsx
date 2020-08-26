@@ -1,7 +1,5 @@
 import * as React from 'react';
-import Cell from '../cell';
-import Icon from '../icon';
-import Popup from '../popup';
+import { Cell, Icon, Popup } from '..';
 import { createNS, isDef } from '../utils';
 import { on, off } from '../utils/dom/event';
 import { View } from './style';
