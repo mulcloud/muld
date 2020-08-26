@@ -268,16 +268,12 @@ exports[`Tab change tabs data 1`] = `
         class="c3 mul-tab__pane"
         role="tabpanel"
         style="display: none;"
-      >
-        内容2
-      </div>
+      />
       <div
         class="c3 mul-tab__pane"
         role="tabpanel"
         style="display: none;"
-      >
-        内容3
-      </div>
+      />
     </div>
   </div>
 </DocumentFragment>
@@ -533,16 +529,12 @@ exports[`Tab change tabs data 2`] = `
         class="c2 mul-tab__pane"
         role="tabpanel"
         style="display: none;"
-      >
-        内容2
-      </div>
+      />
       <div
         class="c2 mul-tab__pane"
         role="tabpanel"
         style="display: none;"
-      >
-        内容3
-      </div>
+      />
     </div>
   </div>
 </DocumentFragment>
@@ -792,9 +784,7 @@ exports[`Tab click to switch tab 1`] = `
         class="c2 mul-tab__pane"
         role="tabpanel"
         style="display: none;"
-      >
-        内容1
-      </div>
+      />
       <div
         class="c2 mul-tab__pane"
         role="tabpanel"
@@ -806,9 +796,7 @@ exports[`Tab click to switch tab 1`] = `
         class="c2 mul-tab__pane"
         role="tabpanel"
         style="display: none;"
-      >
-        内容3
-      </div>
+      />
     </div>
   </div>
 </DocumentFragment>
@@ -1072,9 +1060,7 @@ exports[`Tab click to switch tab 2`] = `
         class="c2 mul-tab__pane"
         role="tabpanel"
         style="display: none;"
-      >
-        内容3
-      </div>
+      />
     </div>
   </div>
 </DocumentFragment>
@@ -1348,16 +1334,12 @@ exports[`Tab lazy render 1`] = `
         class="c3 mul-tab__pane"
         role="tabpanel"
         style="display: none;"
-      >
-        内容2
-      </div>
+      />
       <div
         class="c3 mul-tab__pane"
         role="tabpanel"
         style="display: none;"
-      >
-        内容3
-      </div>
+      />
     </div>
   </div>
 </DocumentFragment>
@@ -1613,16 +1595,12 @@ exports[`Tab lazy render 2`] = `
         class="c2 mul-tab__pane"
         role="tabpanel"
         style="display: none;"
-      >
-        内容2
-      </div>
+      />
       <div
         class="c2 mul-tab__pane"
         role="tabpanel"
         style="display: none;"
-      >
-        内容3
-      </div>
+      />
     </div>
   </div>
 </DocumentFragment>
@@ -1872,23 +1850,17 @@ exports[`Tab name prop 1`] = `
         class="c2 mul-tab__pane"
         role="tabpanel"
         style="display: none;"
-      >
-        内容1
-      </div>
+      />
       <div
         class="c2 mul-tab__pane"
         role="tabpanel"
         style="display: none;"
-      >
-        内容2
-      </div>
+      />
       <div
         class="c2 mul-tab__pane"
         role="tabpanel"
         style="display: none;"
-      >
-        内容3
-      </div>
+      />
     </div>
   </div>
 </DocumentFragment>
@@ -2164,16 +2136,12 @@ exports[`Tab render navLeft & navRight 1`] = `
         class="c3 mul-tab__pane"
         role="tabpanel"
         style="display: none;"
-      >
-        内容2
-      </div>
+      />
       <div
         class="c3 mul-tab__pane"
         role="tabpanel"
         style="display: none;"
-      >
-        内容3
-      </div>
+      />
     </div>
   </div>
 </DocumentFragment>
