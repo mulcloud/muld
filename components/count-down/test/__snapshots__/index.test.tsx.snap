@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Count Down change event 1`] = `
+<DocumentFragment>
+  <div
+    class="mul-count-down"
+  >
+    00:00:00
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Count Down complete format prop 1`] = `
+<DocumentFragment>
+  <div
+    class="mul-count-down"
+  >
+    00-00-00-01-000
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Count Down disable auto-start prop 1`] = `
+<DocumentFragment>
+  <div
+    class="mul-count-down"
+  >
+    00:00:01
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Count Down finish event 1`] = `
+<DocumentFragment>
+  <div
+    class="mul-count-down"
+  >
+    00:00:00
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Count Down incomplate format prop 1`] = `
+<DocumentFragment>
+  <div
+    class="mul-count-down"
+  >
+    00-00-01-000
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Count Down macro task 1`] = `
+<DocumentFragment>
+  <div
+    class="mul-count-down"
+  >
+    00:00:00
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Count Down macro task re-render 1`] = `
+<DocumentFragment>
+  <div
+    class="mul-count-down"
+  >
+    00:00:00
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Count Down micro task 1`] = `
+<DocumentFragment>
+  <div
+    class="mul-count-down"
+  >
+    00:00:00
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Count Down micro task re-render 1`] = `
+<DocumentFragment>
+  <div
+    class="mul-count-down"
+  >
+    000
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Count Down milliseconds format SS 1`] = `
+<DocumentFragment>
+  <div
+    class="mul-count-down"
+  >
+    01-00
+  </div>
+</DocumentFragment>
+`;

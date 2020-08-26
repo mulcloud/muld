@@ -38,3 +38,4 @@ export { default as Tab } from './tab';
 export { default as Tabs } from './tabs';
 export { default as Checkbox } from './checkbox';
 export { default as CheckboxGroup } from './checkbox-group';
+export { default as CountDown } from './count-down';
