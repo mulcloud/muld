@@ -33,8 +33,6 @@ Used to confirm some messages, including a confirm button and a cancel button.
 
 ### Advanced Usage
 
-If you need to render vue components within a dialog, you can use dialog component.
-
 ```html
 <Dialog visible={boolean} title="Title" showCancelButton showConfirmButton>
   Content
@@ -68,6 +66,6 @@ If you need to render vue components within a dialog, you can use dialog compone
 
 | Event   | Description                         | Parameters |
 | ------- | ----------------------------------- | ---------- |
-| confirm | Triggered when click confirm button | -          |
-| cancel  | Triggered when click cancel button  | -          |
+| onConfirm | Triggered when click confirm button | -          |
+| onCancel  | Triggered when click cancel button  | -          |
 

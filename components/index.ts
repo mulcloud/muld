@@ -41,3 +41,5 @@ export { default as CheckboxGroup } from './checkbox-group';
 export { default as CountDown } from './count-down';
 export { default as DropdownMenu } from './dropdown-menu';
 export { default as DropdownItem } from './dropdown-item';
+export { default as Swipe } from './swipe';
+export { default as SwipeItem } from './swipe-item';

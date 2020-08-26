@@ -42,9 +42,7 @@ export const View = styled(Cell as any)`
             display: block;
             box-sizing: border-box;
             width: 100%;
-            min-width: 0; // for flex-shrink in field__button
-            margin: 0;
-            padding: 0;
+            min-width: 0;
             color: ${$field.input_text_color};
             line-height: inherit;
             text-align: left;

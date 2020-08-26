@@ -13,8 +13,6 @@ export const View = styled.button`
         display: inline-block;
         box-sizing: border-box;
         height: ${$button.button_default_height};
-        margin: 0;
-        padding: 0;
         font-size: ${$button.button_default_font_size};
         line-height: ${$button.button_default_line_height};
         text-align: center;
