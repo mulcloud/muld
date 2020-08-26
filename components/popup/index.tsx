@@ -25,7 +25,7 @@ interface Props extends React.HTMLAttributes<HTMLDivElement> {
     overlayClass?: string;
     overlayStyle?: Record<string, unknown>;
     lockScroll?: boolean;
-    getContainer?: string;
+    getContainer?: string | (() => HTMLElement);
     onClick?: React.MouseEventHandler;
     zIndex?: number;
     onOpen?: () => void;
