@@ -51,7 +51,7 @@ const Tab: React.FC<React.PropsWithChildren<TabProps>> = (props: TabProps) => {
         if (isActive) {
             setInited(true);
         }
-    }, [active, currentName]);
+    }, [active, currentName, isActive]);
 
     useEffect(() => {
         handleSetTabs && handleSetTabs(rootRef);
