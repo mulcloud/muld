@@ -76,7 +76,7 @@ export const Skeleton: React.FC<React.PropsWithChildren<SkeletonProps>> = (
         }
         return Rows;
     };
-    const Avatar = (): React.ReactNode => {
+    const skeavatar = (): React.ReactNode => {
         if (avatar) {
             const size = addUnit(avatarSize);
             return (
@@ -87,7 +87,7 @@ export const Skeleton: React.FC<React.PropsWithChildren<SkeletonProps>> = (
     };
     return (
         <View className={bem({ animate, round })}>
-            {Avatar()}
+            {skeavatar()}
             <div className={bem('content')}>
                 {sketitle()}
                 {skerows()}

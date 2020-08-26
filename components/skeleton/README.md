@@ -28,7 +28,7 @@ const [show, setSkeletonState] = React.useState(false);
 
 ```html
 <Switch value={show} onClick={()=>{setSkeletonState(true)}} />
-<Skeleton title avatar row="3" loading={true}>
+<Skeleton title avatar row="3" loading={!show}>
   <div>The actual content</div>
 </Skeleton>
 ```
