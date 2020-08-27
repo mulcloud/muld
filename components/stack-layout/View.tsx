@@ -24,8 +24,8 @@ export const View: React.FC<React.PropsWithChildren<ViewProps>> = (props) => {
 
     if (frame) {
         const { width, height } = frame;
-        style.width = width ? `${width}px` : undefined;
-        style.height = height ? `${height}px` : undefined;
+        style.width = width ? `${width / 16}rem` : undefined;
+        style.height = height ? `${height / 16}rem` : undefined;
     }
 
     if (padding) {
@@ -35,22 +35,22 @@ export const View: React.FC<React.PropsWithChildren<ViewProps>> = (props) => {
             if (padding === 'true') {
                 style.padding = $padding_md;
             } else if (!Number.isNaN(parseInt(padding, 10))) {
-                style.padding = `${parseInt(padding, 10)}px`;
+                style.padding = `${parseInt(padding, 10) / 16}rem`;
             }
         } else {
-            style.padding = `${padding}px`;
+            style.padding = `${padding / 16}rem`;
         }
     }
 
     if (border) {
         const { color, width, cornerRadius } = border;
-        style.border = `${width}px solid ${color}`;
-        style.borderRadius = cornerRadius !== undefined ? `${cornerRadius}px` : undefined;
+        style.border = `${width / 16}rem solid ${color}`;
+        style.borderRadius = cornerRadius !== undefined ? `${cornerRadius / 16}rem` : undefined;
     }
 
     if (shadow !== undefined) {
         const { color, radius, x, y } = shadow;
-        style.boxShadow = `${x}px ${y}px ${radius}px ${color}`;
+        style.boxShadow = `${x / 16}rem ${y / 16}rem ${radius / 16}rem ${color}`;
     }
 
     return React.createElement(
@@ -88,9 +88,9 @@ export const getSpacing = (spacing?: number | true | string) => {
             if (spacing === 'false') {
                 return undefined;
             }
-            return `${parseInt(spacing, 10)}px`;
+            return `${parseInt(spacing, 10) / 16}rem`;
         }
-        return `${spacing}px`;
+        return `${spacing / 16}rem`;
     }
     return undefined;
 };

@@ -37,7 +37,7 @@ export default function StepperDemo() {
                 <Stepper value="1" step="0.2" decimalLength="1" />
             </DemoBlock>
             <DemoBlock title="自定义大小">
-                <Stepper value="1" inputWidth="40px" buttonSize="32px" />
+                <Stepper value="1" inputWidth="40" buttonSize="32" />
             </DemoBlock>
             <DemoBlock title="异步变更">
                 <Stepper value={value} asyncChange onChange={onChange} />
@@ -55,12 +55,12 @@ const View = styled(DemoSection)`
 
         .mul-doc-demo-block {
             display: flex;
-            padding: 10px 1rem;
+            padding: 0.625rem 1rem;
             position: relative;
             justify-content: space-between;
             line-height: 1.75rem;
             &__title {
-                padding: 0px !important;
+                padding: 0rem !important;
                 line-height: 1.75rem;
             }
             &::after {
@@ -71,7 +71,7 @@ const View = styled(DemoSection)`
                 right: 1rem;
                 bottom: 0;
                 left: 1rem;
-                border-bottom: 1px solid #ebedf0;
+                border-bottom: 0.0625rem solid #ebedf0;
                 -webkit-transform: scaleY(0.5);
                 transform: scaleY(0.5);
             }

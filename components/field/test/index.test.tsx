@@ -126,7 +126,7 @@ describe('Field', () => {
 
         const textarea = container.querySelector('.mul-field__control')!;
 
-        expect((textarea as any).style.height).toEqual('50px');
+        expect((textarea as any).style.height).toEqual('3.125rem');
     });
 
     it('maxlength', () => {

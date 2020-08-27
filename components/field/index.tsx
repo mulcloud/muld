@@ -274,7 +274,7 @@ const Field: React.FC<React.PropsWithChildren<Partial<Props>>> = (props) => {
             }
         }
         if (height) {
-            input.style.height = `${height}px`;
+            input.style.height = `${height / 16}rem`;
         }
     };
 

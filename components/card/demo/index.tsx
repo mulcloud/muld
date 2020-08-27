@@ -30,7 +30,7 @@ export default function CardDemo(): React.ReactNode {
                     thumb="https://img.yzcdn.cn/vant/ipad.jpeg"
                     tags={
                         <React.Fragment>
-                            <Tag plain type="danger" style={{ marginRight: '5px' }}>
+                            <Tag plain type="danger" style={{ marginRight: '0.3125rem' }}>
                                 Tag
                             </Tag>
                             <Tag plain type="danger">

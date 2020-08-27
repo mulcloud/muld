@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Using(): React.ReactElement {
     return (
-        <svg width="38px" height="38px" viewBox="0 0 67 67" version="1.1">
+        <svg width="2.375rem" height="2.375rem" viewBox="0 0 67 67" version="1.1">
             <title>Combined Shape</title>
             <desc>Created with Sketch.</desc>
             <g
