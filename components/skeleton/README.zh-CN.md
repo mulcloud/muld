@@ -26,7 +26,7 @@ import { Skeleton } from '@trillion/muld';
 
 ### 展示子组件
 
-将`loading`属性设置成`false`表示内容加载完成，此时会隐藏占位图，并显示`Skeleton`的子组件
+将`loading`属性设置成`false`表示内容加载完成，此时会隐藏占位图，并显示`Skeleton`的子组件.
 
 ```js
 const [show, setSkeletonState] = React.useState(false);
