@@ -1403,10 +1403,10 @@
     eslint-plugin-react-hooks "^4.0.8"
     prettier "^2.0.5"
 
-"@trillion/muld-tools@0.0.2-beta.2":
-  version "0.0.2-beta.2"
-  resolved "https://registry.npmjs.org/@trillion/muld-tools/-/muld-tools-0.0.2-beta.2.tgz#d24aae2b7a69a429a0be9b4a6c9afe034bcc187e"
-  integrity sha512-NYxgHbNHsTOMr4ILCWT/ezp5rJvd19OcQhll1qXDHZvn+vQa6b63x5uQxhJzVTCT5CshrmM1LM6b0KAu2+9U+w==
+"@trillion/muld-tools@0.0.2-beta.3":
+  version "0.0.2-beta.3"
+  resolved "https://registry.npmjs.org/@trillion/muld-tools/-/muld-tools-0.0.2-beta.3.tgz#80e6688dca9cb9ff56ee5e4178d7c625f535f5ce"
+  integrity sha512-LHV5wRD2BSX73NOTZJFDAXC/boI5zaq8rkXruwlm0DYROFb9g2DOhJ8GwRoKh/vevsC+faCkd/lB5jM5X5Xpxw==
   dependencies:
     "@babel/core" "^7.11.1"
     "@babel/plugin-proposal-class-properties" "^7.10.4"
