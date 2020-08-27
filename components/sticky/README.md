@@ -33,7 +33,7 @@ const container = React.useRef(null);
 
 ```html
 <div ref={container}>
-    <Box height="150px" backgroundColor="#fff">
+    <Box height="9.375rem" backgroundColor="#fff">
         <Sticky container={container}>
             <Button type="warning" className="lg">
                 Set Container

@@ -181,7 +181,7 @@ const Tabs: React.FC<React.PropsWithChildren<TabsProps>> = (props: TabsProps) =>
         const lineStyle: Record<string, string | number | undefined> = {
             width: addUnit(width),
             backgroundColor: color,
-            transform: `translateX(${left}px) translateX(-50%)`,
+            transform: `translateX(${left / 16}rem) translateX(-50%)`,
         };
 
         if (shouldAnimate) {

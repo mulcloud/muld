@@ -143,7 +143,7 @@ const CouponList: React.FC<React.PropsWithChildren<CouponListProps>> = (props: C
     );
 
     const listStyle = {
-        height: `${window.innerHeight - (showExchangeBar ? 140 : 94)}px`,
+        height: `${(window.innerHeight - (showExchangeBar ? 140 : 94)) / 16}rem`,
     };
 
     const CouponTab = (

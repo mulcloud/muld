@@ -41,11 +41,11 @@ const Sticky: React.FC<React.PropsWithChildren<Props>> = (props: Props) => {
         }
 
         if (offsetTopPx && fixed) {
-            style.top = `${offsetTopPx}px`;
+            style.top = `${offsetTopPx / 16}rem`;
         }
 
         if (transform) {
-            style.transform = `translate3d(0, ${transform}px, 0)`;
+            style.transform = `translate3d(0, ${transform / 16}rem, 0)`;
         }
 
         return style;
@@ -123,7 +123,7 @@ const Sticky: React.FC<React.PropsWithChildren<Props>> = (props: Props) => {
     }, []);
 
     const style = {
-        height: fixed ? `${height}px` : 'auto',
+        height: fixed ? `${height / 16}rem` : 'auto',
     };
 
     return (
