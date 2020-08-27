@@ -10,7 +10,7 @@ module.exports = {
                 langLabel: '中文',
                 links: [
                     {
-                        logo: 'https://chengfayun.com/static/icon/logo-cn.svg',
+                        logo: 'https://www.chengfayun.com/static/icon/logo-1.svg',
                         url: 'https://github.com/mulcloud/muld',
                     },
                 ],
