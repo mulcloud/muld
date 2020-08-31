@@ -1,0 +1,300 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabbar disable border 1`] = `
+<DocumentFragment>
+  .c0.mul-tabbar {
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: content-box;
+  width: 100%;
+  height: 3.125rem;
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+  background-color: #fff;
+}
+
+.c0.mul-tabbar--fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.c0.mul-tabbar--unfit {
+  padding-bottom: 0;
+}
+
+.c1.mul-tabbar-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #646566;
+  font-size: 0.75rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.c1.mul-tabbar-item .mul-tabbar-item__icon {
+  position: relative;
+  margin-bottom: 0.25rem;
+  font-size: 1.375rem;
+}
+
+.c1.mul-tabbar-item .mul-tabbar-item__icon .mul-icon {
+  display: block;
+  min-width: 1em;
+}
+
+.c1.mul-tabbar-item .mul-tabbar-item__icon img {
+  display: block;
+  height: 1.25rem;
+}
+
+.c1.mul-tabbar-item--active {
+  color: #108ee9;
+}
+
+.c1.mul-tabbar-item .mul-info {
+  margin-top: 0.25rem;
+}
+
+<div
+    class="c0 mul-hairline--top-bottom mul-tabbar mul-tabbar--fixed"
+  >
+    <div
+      class="c1 mul-tabbar-item mul-tabbar-item--active"
+    >
+      <div
+        class="mul-tabbar-item__icon"
+      />
+      <div
+        class="mul-tabbar-item__text"
+      >
+        Tab
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabbar placeholder prop 1`] = `
+<DocumentFragment>
+  .c0.mul-tabbar {
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: content-box;
+  width: 100%;
+  height: 3.125rem;
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+  background-color: #fff;
+}
+
+.c0.mul-tabbar--fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.c0.mul-tabbar--unfit {
+  padding-bottom: 0;
+}
+
+.c1.mul-tabbar-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #646566;
+  font-size: 0.75rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.c1.mul-tabbar-item .mul-tabbar-item__icon {
+  position: relative;
+  margin-bottom: 0.25rem;
+  font-size: 1.375rem;
+}
+
+.c1.mul-tabbar-item .mul-tabbar-item__icon .mul-icon {
+  display: block;
+  min-width: 1em;
+}
+
+.c1.mul-tabbar-item .mul-tabbar-item__icon img {
+  display: block;
+  height: 1.25rem;
+}
+
+.c1.mul-tabbar-item--active {
+  color: #108ee9;
+}
+
+.c1.mul-tabbar-item .mul-info {
+  margin-top: 0.25rem;
+}
+
+<div
+    class="c0 mul-tabbar__placeholder"
+    style="height: 0px;"
+  >
+    <div
+      class="c0 mul-hairline--top-bottom mul-tabbar mul-tabbar--fixed"
+    >
+      <div
+        class="c1 mul-tabbar-item mul-tabbar-item--active"
+      >
+        <div
+          class="mul-tabbar-item__icon"
+        />
+        <div
+          class="mul-tabbar-item__text"
+        >
+          Tab
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tabbar tabbar value 1`] = `
+<DocumentFragment>
+  .c0.mul-tabbar {
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: content-box;
+  width: 100%;
+  height: 3.125rem;
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+  background-color: #fff;
+}
+
+.c0.mul-tabbar--fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.c0.mul-tabbar--unfit {
+  padding-bottom: 0;
+}
+
+.c1.mul-tabbar-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #646566;
+  font-size: 0.75rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.c1.mul-tabbar-item .mul-tabbar-item__icon {
+  position: relative;
+  margin-bottom: 0.25rem;
+  font-size: 1.375rem;
+}
+
+.c1.mul-tabbar-item .mul-tabbar-item__icon .mul-icon {
+  display: block;
+  min-width: 1em;
+}
+
+.c1.mul-tabbar-item .mul-tabbar-item__icon img {
+  display: block;
+  height: 1.25rem;
+}
+
+.c1.mul-tabbar-item--active {
+  color: #108ee9;
+}
+
+.c1.mul-tabbar-item .mul-info {
+  margin-top: 0.25rem;
+}
+
+<div
+    class="c0 mul-hairline--top-bottom mul-tabbar mul-tabbar--fixed"
+  >
+    <div
+      class="c1 mul-tabbar-item mul-tabbar-item--active"
+    >
+      <div
+        class="mul-tabbar-item__icon"
+      />
+      <div
+        class="mul-tabbar-item__text"
+      >
+        Tab
+      </div>
+    </div>
+    <div
+      class="c1 mul-tabbar-item"
+    >
+      <div
+        class="mul-tabbar-item__icon"
+      />
+      <div
+        class="mul-tabbar-item__text"
+      >
+        Tab
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
