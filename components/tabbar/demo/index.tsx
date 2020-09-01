@@ -76,9 +76,7 @@ export default function TabbartDemo() {
             <DemoBlock title="自定义图标">
                 <Tabbar active={active3} onChange={switchImg}>
                     <TabbarItem
-                        icon={
-                            <img src={imgActive ? icon.active : icon.inactive} />
-                        }
+                        icon={<img src={imgActive ? icon.active : icon.inactive} />}
                         badge="3"
                     >
                         <span>自定义</span>

@@ -594,7 +594,7 @@ export const $switch: CSSProperties = {
     node_size: '1em',
     font_size: '1.875rem',
     border: '0.0625rem solid rgba(0, 0, 0, 0.1)',
-}
+};
 
 // TabbarItem
 export const $tabbar_item: CSSProperties = {
