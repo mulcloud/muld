@@ -87,26 +87,49 @@ import { HStack, Spacer, VStack } from '@trillion/muld';
 
 | 参数 | 说明 | 类型 | 默认值 |
 | --- | --- | --- | --- |
+| tag | 自定义元素标签 | _string_ | `div` |
 | alignX | x轴方向的对齐方式 | _string_ | `left` |
 | alignY | y轴方向的对齐方式 | _string_ | `center` |
-| tag | 自定义元素标签 | _string_ | `div` |
 | spacing | 子元素间隔 | _boolean \| number \| string_ | - |
-| padding | 填充间距 | _boolean \| number \| string_ | - |
-| frame | width、height | {width: number, height: number} | - |
-| border | border | { color: string; width: number; cornerRadius?: number } | - |
-| shadow | shadow | { color: string; radius: number; x: number; y: number } | - |
-
+| padding | 容器填充间距 | _boolean \| number \| string_ | - |
+| frame | 容器宽高 | _object_ | - |
+| border | border | _object_ | - |
+| shadow | shadow | _object_ | - |
 
 
 ### VStack Props
 
 | 参数 | 说明 | 类型 | 默认值 |
 | --- | --- | --- | --- |
+| tag | 自定义元素标签 | _string_ | `div` |
 | alignX | x轴方向的对齐方式 | _string_ | `left` |
 | alignY | y轴方向的对齐方式 | _string_ | `center` |
-| tag | 自定义元素标签 | _string_ | `div` |
 | spacing | 子元素间隔 | _boolean \| number \| string_ | - |
-| padding | 填充间距 | _boolean \| number \| string_ | - |
-| frame | width、height | {width: number, height: number} | - |
-| border | border | { color: string; width: number; cornerRadius?: number } | - |
-| shadow | shadow | { color: string; radius: number; x: number; y: number } | - |
+| padding | 容器填充间距 | _boolean \| number \| string_ | - |
+| frame | 容器宽高 | _object_ | - |
+| border | border | _object_ | - |
+| shadow | shadow | _object_ | - |
+
+### frame
+
+| 参数 | 说明 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| width | 容器宽度 | _number_ | - |
+| height | 容器高度 | _number_ | - |
+
+### border
+
+| 参数 | 说明 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| color | 边框的颜色 | _string_ | - |
+| width | 边框的宽度 | _number_ | - |
+| radius | 圆角边框 | _number_ | - |
+
+### shadow
+
+| 参数 | 说明 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| x | 水平阴影的位置 | _string_ | - |
+| y | 垂直阴影的位置 | _number_ | - |
+| blur | 模糊距离 | _number_ | - |
+| color | 阴影的颜色 | _number_ | - |
