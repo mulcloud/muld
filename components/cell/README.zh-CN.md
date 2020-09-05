@@ -142,10 +142,3 @@ import { Cell, CellGroup } from '@trillion/muld';
 | 事件名 | 说明             | 回调参数       |
 | ------ | ---------------- | -------------- |
 | onClick  | 点击单元格时触发 | _event: Event_ |
-
-### CellGroup Slots
-
-| 名称    | 说明           |
-| ------- | -------------- |
-| default | 默认插槽       |
-| title   | 自定义分组标题 |
