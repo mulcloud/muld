@@ -254,7 +254,6 @@ const [value, setValue] = useState<any[]>(['a']);
 | name | 复选框标识符, 必传 | _string[]_ | - |
 | label | 复选框的label的显示文字 | _string\| React.ReactNode_ | - |
 | disabled | 是否禁用复选框 | _boolean_ | - |
-| onChange | 变化时的回调函数 | _(checked: boolean) => void_ | - |
 
 ### Checkbox Events
 
@@ -267,4 +266,4 @@ const [value, setValue] = useState<any[]>(['a']);
 
 | 事件名 | 说明                     | 回调参数       |
 | ------ | ------------------------ | -------------- |
-| onChange | 变化时的回调函数 | _names: string[]_ |
+| onChange | 变化时的回调函数 | _(checkedList: Array<any>) => void_ | - |
