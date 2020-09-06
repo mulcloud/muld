@@ -71,17 +71,21 @@ const [customCount, setCustomCount] = React.useState(3);
 
 | Attribute | Description | Type | Default |
 | --- | --- | --- | --- |
-| value | Current rate | number | - |
-| count | Count | number | 5 |
-| size | Icon size | number | 20px |
-| gutter | Icon gutter | number | 4px |
-| color | Selected color | string | `#ee0a24` |
-| voidColor | Void color | string | `#c8c9cc` |
-| disabledColor | Disabled color | string | `#c8c9cc` |
-| icon | Selected icon | string | star |
-| voidIcon | Void icon | string | star-0 |
-| allowHalf | Weather to allow half star | boolean | false |
-| readonly | Weather to be readonly | boolean | false |
-| disabled | Weather to disable rate | boolean | false |
-| touchable | Weather to allow select rate by touch gesture | boolean | true |
-| onChange | Triggered when rate changed | (event) => void |
+| value | Current rate | _number_ | - |
+| count | Count | _number_ | 5 |
+| size | Icon size | _number_ | 20px |
+| gutter | Icon gutter | _number_ | 4px |
+| color | Selected color | _string_ | `#ee0a24` |
+| voidColor | Void color | _string_ | `#c8c9cc` |
+| disabledColor | Disabled color | _string_ | `#c8c9cc` |
+| icon | Selected icon | _string_ | star |
+| voidIcon | Void icon | _string_ | star-0 |
+| allowHalf | Weather to allow half star | _boolean_ | false |
+| readonly | Weather to be readonly | _boolean_ | false |
+| disabled | Weather to disable rate | _boolean_ | false |
+| touchable | Weather to allow select rate by touch gesture | _boolean_ | true |
+
+
+| Event  | Description                 | Parameters   |
+| ------ | --------------------------- | ------------ |
+| onChange | Triggered when rate changed | current rate |
