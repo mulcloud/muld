@@ -59,9 +59,3 @@ import { Loading } from '@trillion/muld';
 | size      | 加载图标大小，默认单位为`px` | _number \| string_ | `1.875rem`     |
 | text-size | 文字大小，默认单位为`px`     | _number \| string_ | `0.875rem`     |
 | vertical  | 是否垂直排列图标和文字内容   | _boolean_          | `false`    |
-
-### Slots
-
-| 名称    | 说明     |
-| ------- | -------- |
-| default | 加载文案 |

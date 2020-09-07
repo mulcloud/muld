@@ -49,9 +49,3 @@ import { Loading } from '@trillion/muld';
 | size | Icon size | _number \| string_ | `1.875rem` |
 | text-size | Text font size | _number \| string_ | `0.875rem` |
 | vertical | Whether to arrange icons and text content vertically | _boolean_ | `false` |
-
-### Slots
-
-| Name    | Description  |
-| ------- | ------------ |
-| default | Loading text |
