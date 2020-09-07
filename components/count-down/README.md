@@ -154,12 +154,6 @@ const onReset = () => {
 | onFinish          | Triggered when count down finished | -                    |
 | onChange          | Triggered when count down changed  | _timeData: TimeData_ |
 
-### Slots
-
-| Name    | Description    | SlotProps            |
-| ------- | -------------- | -------------------- |
-| default | Custom Content | _timeData: TimeData_ |
-
 ### TimeData Structure
 
 | Name         | Description         | Type     |

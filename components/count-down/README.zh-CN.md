@@ -168,12 +168,6 @@ const onReset = () => {
 | onFinish          | 倒计时结束时触发 | -                    |
 | onChange | 倒计时变化时触发 | _value: string_ 与显示一样 |
 
-### Slots
-
-| 名称    | 说明       | Slot name           |
-| ------- | ---------- | -------------------- |
-| default | 自定义内容 | _timeData: TimeData_ |
-
 ### TimeData 格式
 
 | 名称         | 说明     | 类型     |
