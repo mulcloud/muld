@@ -107,9 +107,9 @@ const renderData = (): React.ReactNodeArray => {
 | finished | Whether loading is finished，the `onLoad` event will not be triggered when finished | _boolean_ | `false` |
 | error | Whether loading is error，the `onLoad` event will be triggered only when error text clicked, the `sync` modifier is needed | _boolean_ | `false` |
 | offset | The onLoad event will be triggered when the distance between the scrollbar and the bottom is less than offset | _number \| string_ | `300` |
-| loadingText | Loading text | _string_ \| React.ReactNode \| `Loading...` |
-| finishedText | Finished text | _string_ \| React.ReactNode \| - |
-| errorText | Error loaded text | _string_ \| React.ReactNode \| - |
+| loadingText | Loading text | _string \| ReactNode_ | `Loading...` |
+| finishedText | Finished text | _string \| ReactNode_ | - |
+| errorText | Error loaded text | _string \| ReactNode_ | - |
 | immediateCheck | Whether to check loading position immediately after mounted | _boolean_ | `true` |
 | direction | Scroll direction，can be set to `up` | _string_ | `down` |
-| onLoad | Triggered when the distance between the scrollbar and the bottom is less than offset | - |
+| onLoad | Triggered when the distance between the scrollbar and the bottom is less than offset | () => void | - |
