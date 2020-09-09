@@ -82,7 +82,7 @@ import { Card } from '@trillion/muld';
 | lazyLoad(TODO) | 是否开启图片懒加载，须配合 [Lazyload](#/zh-CN/lazyload) 组件使用 | _boolean_ | `false` |
 | priceTop    | 自定义价格上方区域 | _React.ReactNode_ | - |
 | bottom       | 自定义价格下方区域 | _React.ReactNode_ | - |
-| tags         | 自定义描述下方标签区域 |_ React.ReactNod_e | - |
+| tags         | 自定义描述下方标签区域 | _React.ReactNode_ | - |
 | footer       | 自定义右下角内容   | _React.ReactNode_ | - |
 
 ### Events
