@@ -111,7 +111,7 @@ const Tabs = styled(DemoSection)`
         width: 25%;
         display: inline-block;
         text-align: center;
-        margin-bottom: ${$padding_sm};
+        padding: ${$padding_sm} 0 ${$padding_sm} 0;
     }
 `;
 
