@@ -113,7 +113,6 @@ const Image: React.FC<ImageProps> = (props: ImageProps) => {
         if (loading && showLoading) {
             return (
                 <div className={bem('loading')}>
-                    {/* TODO: use Icon */}
                     {renderLoading || <Icon name={loadingIcon} classPrefix={bem('loading-icon')} />}
                 </div>
             );
@@ -122,7 +121,6 @@ const Image: React.FC<ImageProps> = (props: ImageProps) => {
         if (error && showError) {
             return (
                 <div className={bem('error')}>
-                    {/* TODO: use Icon */}
                     {renderError || <Icon name={errorIcon} classPrefix={bem('error-icon')} />}
                 </div>
             );

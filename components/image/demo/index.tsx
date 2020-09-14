@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import DemoSection from '@trillion/muld-tools/site/mobile/layout/DemoSection';
 import DemoBlock from '@trillion/muld-tools/site/mobile/layout/DemoBlock';
 import Image from '..';
+import Loading from '../../loading';
 import { $white, $padding_md, $gray7 } from '../../style/var';
 
 export default function ImageDemo(): React.ReactNode {
@@ -28,8 +29,7 @@ export default function ImageDemo(): React.ReactNode {
                 />
             </DemoBlock>
             <DemoBlock title="加载中提示">
-                <Image width="100%" height="27vw" />
-                {/* <Image loading={<Loading type="spinner" size="20" />} /> */}
+                <Image width="100%" height="27vw" loading={<Loading type="spinner" size="20" />} />
             </DemoBlock>
             <DemoBlock title="加载失败提示">
                 <Image src="x" error="加载失败" width="100%" height="27vw" />
