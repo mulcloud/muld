@@ -14,7 +14,7 @@ import {
     $font_size_md,
     $font_weight_bold,
     $font_size_xs,
-    $border_radius_lg,
+    $border_color,
 } from '../../style/var';
 
 export default function IconDemo(): React.ReactElement {
@@ -133,9 +133,8 @@ const TabTitles = styled.div`
 const TabBody = styled.div`
     display: flex;
     flex-wrap: wrap;
-    margin: 1.25rem;
     background: ${$white};
-    border-radius: ${$border_radius_lg};
+    border-top: 1px solid ${$border_color};
     .icons {
         width: 25%;
         text-align: center;
