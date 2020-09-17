@@ -106,14 +106,6 @@ const View = styled(DemoSection)`
             }
         }
 
-        .mul-doc-demo-block {
-            padding: 0 ${$padding_md};
-        }
-
-        .mul-doc-demo-block__title {
-            padding-left: 0;
-        }
-
         .demo-button-row {
             margin-bottom: ${$padding_sm};
         }
