@@ -78,15 +78,6 @@ export default function ColDemo() {
 const View = styled(DemoSection)`
     &.demo-col {
         background: ${style.$white};
-
-        .mul-doc-demo-block {
-            padding: 0 ${style.$padding_md};
-        }
-
-        .mul-doc-demo-block__title {
-            padding-left: 0;
-        }
-
         .mul-col {
             margin-bottom: 0.625rem;
             color: ${style.$white};
