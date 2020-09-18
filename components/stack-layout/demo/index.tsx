@@ -82,23 +82,12 @@ const Panel = styled(DemoSection)`
     &.demo-stack-layout {
         background: ${style.$white};
 
-        .mul-doc-demo-block {
-            padding: 0 ${style.$padding_md};
-        }
-
-        .mul-doc-demo-block__title {
-            padding-left: 0;
-        }
-
-        .mul-hstack {
-            /* margin-bottom: ${style.$padding_md}; */
-        }
         .swift-panel {
             height: 6.25rem;
             border: 1px solid #39a9ed;
-        
+
             .swift-block {
-                margin-left: 0rem; 
+                margin-left: 0rem;
             }
         }
 
