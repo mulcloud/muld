@@ -38,7 +38,6 @@ export default function BoxDemo(): React.ReactNode {
 
 const View = styled(DemoSection)`
     &.demo-box {
-        padding: 1.25rem;
         background-color: ${$white};
     }
 `;
