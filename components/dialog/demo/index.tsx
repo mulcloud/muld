@@ -121,5 +121,9 @@ export default function DialogDemo(): React.ReactNode {
 const View = styled(DemoSection)`
     .mul-button {
         margin-left: 1rem;
+
+        &:first-child {
+            margin-left: 0;
+        }
     }
 `;
