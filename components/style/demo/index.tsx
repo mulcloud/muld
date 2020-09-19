@@ -44,8 +44,6 @@ export default function StyleDemo() {
 const View = styled(DemoSection)`
     &.demo-style {
         background-color: ${$white};
-        padding: 1.25rem;
-
         .mul-ellipsis,
         .mul-multi-ellipsis--l2 {
             max-width: 18.75rem;
