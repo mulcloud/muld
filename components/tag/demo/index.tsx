@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import DemoSection from '@trillion/muld-tools/site/mobile/layout/DemoSection';
 import DemoBlock from '@trillion/muld-tools/site/mobile/layout/DemoBlock';
 import Tag from '..';
-import { $white, $padding_md, $padding_xs } from '../../style/var';
+import { $white, $padding_xs } from '../../style/var';
 
 export default function TagDemo(): React.ReactNode {
     return (
@@ -105,12 +105,6 @@ export default function TagDemo(): React.ReactNode {
 const View = styled(DemoSection)`
     &.demo-tag {
         background-color: ${$white};
-
-        .mul-tag {
-            &:first-of-type {
-                margin-left: ${$padding_md};
-            }
-        }
 
         .mul-tag + .mul-tag {
             margin-left: ${$padding_xs};
