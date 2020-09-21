@@ -47,6 +47,10 @@ const View = styled(DemoSection)`
         padding-bottom: 1.25rem;
         background-color: ${style.$white};
 
+        .mul-doc-demo-block__card {
+            margin: 0;
+        }
+
         .mul-switch {
             margin: 0 ${style.$padding_md} ${style.$padding_xs};
         }
