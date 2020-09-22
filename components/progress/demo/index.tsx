@@ -40,10 +40,6 @@ const View = styled(DemoSection)`
 
         .mul-progress {
             margin: 1.25rem;
-
-            &:first-of-type {
-                margin-top: 0.3125rem;
-            }
         }
     }
 `;
