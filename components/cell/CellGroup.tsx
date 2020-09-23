@@ -9,13 +9,15 @@ import { $cell_group } from '../style/var';
 const View = styled.div`
     &.mul-cell-group {
         background-color: ${$cell_group.background_color};
+    }
+`;
 
-        .mul-cell-group__title {
-            padding: ${$cell_group.title_padding};
-            color: ${$cell_group.title_color};
-            font-size: ${$cell_group.title_font_size};
-            line-height: ${$cell_group.title_line_height};
-        }
+const Title = styled.div`
+    &.mul-cell-group__title {
+        padding: ${$cell_group.title_padding};
+        color: ${$cell_group.title_color};
+        font-size: ${$cell_group.title_font_size};
+        line-height: ${$cell_group.title_line_height};
     }
 `;
 
@@ -40,7 +42,7 @@ const CellGroup: React.FC<React.PropsWithChildren<CellGroupProps>> = (props: Cel
     if (title) {
         return (
             <div>
-                <div className={classnames(className, bem('title'))}>{title}</div>
+                <Title className={classnames(className, bem('title'))}>{title}</Title>
                 {Group}
             </div>
         );
