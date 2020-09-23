@@ -9,7 +9,7 @@ import CellGroup from '../CellGroup';
 
 export default function CellDemo() {
     return (
-        <View className="demo-button">
+        <View className="demo-cell">
             <DemoBlock title="基础用法">
                 <CellGroup>
                     <Cell title="单元格" value="内容" />
@@ -67,6 +67,10 @@ const View = styled(DemoSection)`
         .custom-title {
             margin-right: 0.25rem;
             vertical-align: middle;
+        }
+
+        .mul-doc-demo-block__card {
+            margin: 0;
         }
 
         .search-icon {
