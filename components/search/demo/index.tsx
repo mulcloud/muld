@@ -74,5 +74,6 @@ export default function SearchDemo() {
 
 const View = styled(DemoSection)`
     &.demo-search {
+        background-color: #fff;
     }
 `;
