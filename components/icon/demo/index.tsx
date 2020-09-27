@@ -107,6 +107,7 @@ export default function IconDemo(): React.ReactElement {
 
 const Tabs = styled(DemoSection)`
     width: 100%;
+    background-color: #fff;
     .mul-icons {
         width: 25%;
         display: inline-block;
