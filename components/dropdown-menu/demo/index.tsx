@@ -1,4 +1,5 @@
 import * as React from 'react';
+import styled from 'styled-components';
 import DemoSection from '@trillion/muld-tools/site/mobile/layout/DemoSection';
 import DemoBlock from '@trillion/muld-tools/site/mobile/layout/DemoBlock';
 import DropdownMenu from '..';
@@ -28,7 +29,7 @@ export default function DropdownMenuDemo(): React.ReactNode {
     }
 
     return (
-        <DemoSection>
+        <View className="demo-dropdown-menu">
             <DemoBlock title="基础用法">
                 <DropdownMenu>
                     <DropdownItem value={0} options={option1} />
@@ -66,6 +67,14 @@ export default function DropdownMenuDemo(): React.ReactNode {
                     <DropdownItem value="a" options={option2} disabled />
                 </DropdownMenu>
             </DemoBlock>
-        </DemoSection>
+        </View>
     );
 }
+
+const View = styled(DemoSection)`
+    &.demo-dropdown-menu {
+        .mul-doc-demo-block__card {
+            margin: 0;
+        }
+    }
+`;
