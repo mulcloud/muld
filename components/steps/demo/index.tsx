@@ -123,7 +123,7 @@ const View = styled(DemoSection)`
         }
 
         .mul-button {
-            margin: ${$padding_md} 0 0 ${$padding_md};
+            margin: ${$padding_md} 0 0 0;
         }
 
         p,
