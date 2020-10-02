@@ -200,5 +200,9 @@ const View = styled.div`
         .mul-doc-demo-block__title {
             margin-top: -0.5rem;
         }
+
+        .mul-doc-demo-block__card {
+            margin: 0;
+        }
     }
 `;
