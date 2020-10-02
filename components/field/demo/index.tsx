@@ -39,7 +39,9 @@ const View = styled(DemoSection)`
         .mul-doc-demo-block__title {
             padding-left: ${$padding_md};
         }
-
+        .mul-doc-demo-block__card {
+            margin: 0;
+        }
         .demo-button-row {
             margin-bottom: ${$padding_sm};
         }
