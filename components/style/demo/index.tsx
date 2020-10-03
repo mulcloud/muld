@@ -84,5 +84,8 @@ const View = styled(DemoSection)`
             padding: 0.625rem;
             margin: 0rem 0rem 0.625rem 1.25rem;
         }
+        .mul-doc-demo-block__card {
+            margin: 0;
+        }
     }
 `;
