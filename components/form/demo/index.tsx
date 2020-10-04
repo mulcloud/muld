@@ -17,5 +17,8 @@ export default function FormDemo(): React.ReactNode {
 
 const View = styled(DemoSection)`
     &.demo-form {
+        .mul-doc-demo-block__card {
+            margin: 0;
+        }
     }
 `;
