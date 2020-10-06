@@ -70,6 +70,7 @@ export default function RateDemo(): React.ReactNode {
 
 const View = styled(DemoSection)`
     &.demo-rate {
+        background-color: #fff;
         .mul-doc-demo-block {
             padding: 0 ${$padding_md};
         }
