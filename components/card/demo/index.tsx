@@ -31,17 +31,21 @@ export default function CardDemo(): React.ReactNode {
                     tags={
                         <React.Fragment>
                             <Tag plain type="danger" style={{ marginRight: '0.3125rem' }}>
-                                Tag
+                                标签一
                             </Tag>
                             <Tag plain type="danger">
-                                Tag
+                                标签二
                             </Tag>
                         </React.Fragment>
                     }
                     footer={
                         <React.Fragment>
-                            <Button size="mini">Button</Button>
-                            <Button size="mini">Button</Button>
+                            <Button round size="mini">
+                                Button
+                            </Button>
+                            <Button round size="mini">
+                                Button
+                            </Button>
                         </React.Fragment>
                     }
                 ></Card>
