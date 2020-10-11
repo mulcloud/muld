@@ -117,5 +117,8 @@ const View = styled(DemoSection)`
             position: relative;
             padding-bottom: 0;
         }
+        .mul-doc-demo-block__card {
+            margin: 0%;
+        }
     }
 `;
