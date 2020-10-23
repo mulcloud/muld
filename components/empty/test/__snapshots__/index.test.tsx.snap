@@ -3,7 +3,7 @@
 exports[`Empty bottom slot 1`] = `
 <DocumentFragment>
   <div
-    class="sc-AxjAm jFUrlW undefined mul-empty"
+    class="sc-bdnylx jHXWfT undefined mul-empty"
   >
     <div
       class="mul-empty__image"
@@ -20,7 +20,7 @@ exports[`Empty bottom slot 1`] = `
 exports[`Empty description slot 1`] = `
 <DocumentFragment>
   <div
-    class="sc-AxjAm jFUrlW undefined mul-empty"
+    class="sc-bdnylx jHXWfT undefined mul-empty"
   >
     <div
       class="mul-empty__image"
@@ -42,7 +42,7 @@ exports[`Empty description slot 1`] = `
 exports[`Empty image slot 1`] = `
 <DocumentFragment>
   <div
-    class="sc-AxjAm jFUrlW undefined mul-empty"
+    class="sc-bdnylx jHXWfT undefined mul-empty"
   >
     <div
       class="mul-empty__image"
@@ -59,7 +59,7 @@ exports[`Empty image slot 1`] = `
 exports[`Empty render svg when image is error 1`] = `
 <DocumentFragment>
   <div
-    class="sc-AxjAm jFUrlW undefined mul-empty"
+    class="sc-bdnylx jHXWfT undefined mul-empty"
   >
     <div
       class="mul-empty__image"
@@ -76,7 +76,7 @@ exports[`Empty render svg when image is error 1`] = `
 exports[`Empty render svg when image is network 1`] = `
 <DocumentFragment>
   <div
-    class="sc-AxjAm jFUrlW undefined mul-empty"
+    class="sc-bdnylx jHXWfT undefined mul-empty"
   >
     <div
       class="mul-empty__image"
@@ -322,7 +322,7 @@ exports[`Empty render svg when image is network 1`] = `
 exports[`Empty render svg when image is search 1`] = `
 <DocumentFragment>
   <div
-    class="sc-AxjAm jFUrlW undefined mul-empty"
+    class="sc-bdnylx jHXWfT undefined mul-empty"
   >
     <div
       class="mul-empty__image"

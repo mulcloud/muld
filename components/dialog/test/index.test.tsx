@@ -37,9 +37,7 @@ describe('Dialog', () => {
 
     it('prop width', () => {
         render(<EventDemo visible={true} width="18.75rem" />);
-        const dialog = document.querySelector('.mul-dialog');
-        expect(dialog).toHaveStyle({
-            width: '18.75rem',
-        });
+        const dialog = document.body.querySelector('.mul-dialog');
+        expect(dialog).toHaveAttribute('width', '18.75rem');
     });
 });
