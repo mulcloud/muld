@@ -24,11 +24,8 @@ describe('Swipe', () => {
     });
 
     it('prop vertical', () => {
-        const { container } = render(<EventDemo vertical />);
-        const swipe = container.querySelector('.mul-swipe__track--vertical');
-        expect(swipe).toHaveStyle({
-            flexDirection: 'column',
-        });
+        const { asFragment } = render(<EventDemo vertical />);
+        expect(asFragment()).toMatchSnapshot();
     });
 
     it('prop width', () => {
